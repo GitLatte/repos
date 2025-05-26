@@ -19,7 +19,8 @@
         "internalName": "AniworldMC",
         "description": "Aniworld plugin from Hexated Repository from Github.",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/AniworldMC.cs3",
-        "name": "AniworldMC"
+        "name": "AniworldMC",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
@@ -39,7 +40,8 @@
         "internalName": "DaddyLive",
         "description": "DaddyLive Spor kanalları ve mümkün olduğunca VPN olmadan izletmek için 💪🏻💥",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DaddyLive.cs3",
-        "name": "DaddyLive"
+        "name": "DaddyLive",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive-events.png",
@@ -59,7 +61,8 @@
         "internalName": "DaddyLiveEvents",
         "description": "DaddyLive Events içerikşerini ve mümkün olduğunca VPN olmadan izletmek için 💪🏻💥",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DaddyLiveEvents.cs3",
-        "name": "DaddyLiveEvents"
+        "name": "DaddyLiveEvents",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive-vpn.png",
@@ -79,7 +82,8 @@
         "internalName": "DaddyLiveVPN",
         "description": "DaddyLive Spor kanallarını VPN ile izleyebilmek için",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DaddyLiveVPN.cs3",
-        "name": "DaddyLiveVPN"
+        "name": "DaddyLiveVPN",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=ddizi.im&sz=%size%",
@@ -99,7 +103,8 @@
         "internalName": "DDizi",
         "description": "Ddizi, dizi izle, dizi seyret, ddizi.im - Güncel ve eski dizileri en iyi görüntü kalitesiyle bulabileceğiniz dizi izleme sitesi.",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DDizi.cs3",
-        "name": "DDizi"
+        "name": "DDizi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=dizifun3.com&sz=%size%",
@@ -120,7 +125,8 @@
         "internalName": "DiziFun",
         "description": "Dizifun, yabancı dizi - film, yerli dizi - film , türkçe dublaj , türkçe altyazılı ve anime dizi - film izlemeniz için sizinledir.",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DiziFun.cs3",
-        "name": "DiziFun"
+        "name": "DiziFun",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=kick.com&sz=%size%",
@@ -141,7 +147,8 @@
         "internalName": "KickTR",
         "description": "Kick'teki Türkçe canlı yayınlar ve popüler yayıncıları canlı izleyin. Arayın, bulun  ve izlemeye devam edin.",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/KickTR.cs3",
-        "name": "KickTR"
+        "name": "KickTR",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -163,7 +170,8 @@
         "internalName": "mywayTV",
         "description": "Sinetech.tr Forum myway canlı tv listesi",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/mywayTV.cs3",
-        "name": "mywayTV"
+        "name": "mywayTV",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/powerdizi/powerdizi.png",
@@ -184,7 +192,8 @@
         "internalName": "powerDizi",
         "description": "powerboard`un yabancı dizi arşivi",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/powerDizi.cs3",
-        "name": "powerDizi"
+        "name": "powerDizi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/powersinema/powersinema.png",
@@ -205,7 +214,8 @@
         "internalName": "powerSinema",
         "description": "powerboard`un sinema arşivi",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/powerSinema.cs3",
-        "name": "powerSinema"
+        "name": "powerSinema",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
@@ -225,7 +235,8 @@
         "internalName": "TOGrup",
         "description": "TO Grubu spor kanallarını içerir: Vavoo.to, Huhu.to, Kool.to, Oha.to",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/TOGrup.cs3",
-        "name": "TOGrup"
+        "name": "TOGrup",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/tvbahcesi/bahcesitv.png",
@@ -246,7 +257,8 @@
         "internalName": "TvBahcesi",
         "description": "TvGarden televizyon listesi. @keyiflerolsun Canlı TV eklentisinden yararlanılmıştır.",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/TvBahcesi.cs3",
-        "name": "TvBahcesi"
+        "name": "TvBahcesi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=webdramaturkey.org/&sz=%size%",
@@ -266,7 +278,8 @@
         "internalName": "WebDramaTurkey",
         "description": "Kore, Çin ve Japon yapımı filmleri Web Drama Turkey üzerinden Türkçe altyazılı olarak izleyebilirsiniz. Kore filmi izle, Çin filmi izle, Asya filmleri izle.",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/WebDramaTurkey.cs3",
-        "name": "WebDramaTurkey"
+        "name": "WebDramaTurkey",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=youtube.com&sz=%size%",
@@ -286,7 +299,8 @@
         "internalName": "YTCanliTV",
         "description": "Youtube üzerinden canlı yayın yapan kanalları izleyebilirsiniz.",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/YTCanliTV.cs3",
-        "name": "YTCanliTV"
+        "name": "YTCanliTV",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=youtube.com&sz=%size%",
@@ -306,7 +320,8 @@
         "internalName": "YTEglence",
         "description": "Youtube üzerindeki kullanıcı tercihleriyle eklenen eğlence kanallarının içeriklerini izleyebilirsiniz.",
         "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/YTEglence.cs3",
-        "name": "YTEglence"
+        "name": "YTEglence",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.4kfilmizlesene.org&sz=%size%",
@@ -325,7 +340,8 @@
         "internalName": "4KFilmIzlesene",
         "description": "En yeni ve sorunsuz ⚡  Full HD Film izle keyfi her yerde sizinle ! 4K ve 1080p online film izleme farkıyla 4KFilmizlesene&amp;#039;nin Tadını Çıkart.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/4KFilmIzlesene.cs3",
-        "name": "4KFilmIzlesene"
+        "name": "4KFilmIzlesene",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=animecix.net&sz=%size%",
@@ -347,7 +363,8 @@
         "internalName": "AnimeciX",
         "description": "AnimeciX, animeleri keşfedebileceğiniz ve animeler hakkında her şeyi öğrenebileceğiniz bir paylaşım platformudur.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/AnimeciX.cs3",
-        "name": "AnimeciX"
+        "name": "AnimeciX",
+        "lastUpdated": "2025-04-18T05:28:36Z"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=asyawatch.com&sz=%size%",
@@ -366,7 +383,8 @@
         "internalName": "AsyaWatch",
         "description": "Asyawatch",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/AsyaWatch.cs3",
-        "name": "AsyaWatch"
+        "name": "AsyaWatch",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=belgeselx.com&sz=%size%",
@@ -387,7 +405,8 @@
         "internalName": "BelgeselX",
         "description": "En yeni belgeseller, türkçe altyazılı yada dublaj olarak 1080p kalitesinde HD belgesel izle.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/BelgeselX.cs3",
-        "name": "BelgeselX"
+        "name": "BelgeselX",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -408,7 +427,8 @@
         "internalName": "CanliTV",
         "description": "Canlı TV",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/CanliTV.cs3",
-        "name": "CanliTV"
+        "name": "CanliTV",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=cizgimax.online&sz=%size%",
@@ -428,7 +448,8 @@
         "internalName": "CizgiMax",
         "description": "ÇizgiMax ile Çizgi Film izlemek artık daha kolay, donmadan full hd ve reklamsız bir sitedir, içerisinde 700 den fazla çizgi film olan, Bu site bu işi profesyonelce yapıyor.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/CizgiMax.cs3",
-        "name": "CizgiMax"
+        "name": "CizgiMax",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=ddizi.im&sz=%size%",
@@ -449,7 +470,8 @@
         "internalName": "DDizi",
         "description": "Ddizi, dizi izle, dizi seyret, ddizi.im - Güncel ve eski dizileri en iyi görüntü kalitesiyle bulabileceğiniz dizi izleme sitesi.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DDizi.cs3",
-        "name": "DDizi"
+        "name": "DDizi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizibox.de&sz=%size%",
@@ -469,7 +491,8 @@
         "internalName": "DiziBox",
         "description": "Yabancı Dizi izle, Tüm yabancı dizilerin yeni ve eski sezonlarını full hd izleyebileceğiniz elit site.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziBox.cs3",
-        "name": "DiziBox"
+        "name": "DiziBox",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=dizigom1.co&sz=%size%",
@@ -488,7 +511,8 @@
         "internalName": "DiziGom",
         "description": "Türkçe altyazılı yabancı dizi izle, Tüm yabancı, kore, netflix dizilerin yeni ve eski sezonlarını orijinal dilinde dizigom1 alt yazılı film izleyebilir, sadece türkçe altyazılı en iyi yabancı diziler ve filmler hakkında yorum yapabilirsiniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziGom.cs3",
-        "name": "DiziGom"
+        "name": "DiziGom",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizikorea.vip&sz=%size%",
@@ -508,7 +532,8 @@
         "internalName": "DiziKorea",
         "description": "En Güncel Kore Dizileri izleme Sitesi",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziKorea.cs3",
-        "name": "DiziKorea"
+        "name": "DiziKorea",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=dizilla.club&sz=%size%",
@@ -528,7 +553,8 @@
         "internalName": "Dizilla",
         "description": "Dizilla tüm yabancı dizileri ücretsiz olarak Türkçe Dublaj ve altyazılı seçenekleri ile 1080P kalite izleyebileceğiniz yeni nesil yabancı dizi izleme siteniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/Dizilla.cs3",
-        "name": "Dizilla"
+        "name": "Dizilla",
+        "lastUpdated": "2025-04-07T12:17:26Z"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=dizimag.net&sz=%size%",
@@ -547,7 +573,8 @@
         "internalName": "DiziMag",
         "description": "En son çıkan yabancı dizi ve filmleri DiziMag farkıyla full hd 1080p kalitede izle. Dizimag Geniş ve güncel arşiviyle dizi ve filmlerin tadını çıkartın.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziMag.cs3",
-        "name": "DiziMag"
+        "name": "DiziMag",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizimom.tv&sz=%size%",
@@ -567,7 +594,8 @@
         "internalName": "DiziMom",
         "description": "Binlerce yerli yabancı dizi arşivi, tüm sezonlar, kesintisiz bölümler. Sadece dizi izle, Dizimom heryerde seninle!",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziMom.cs3",
-        "name": "DiziMom"
+        "name": "DiziMom",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizipal683.com&sz=%size%",
@@ -588,7 +616,8 @@
         "internalName": "DiziPal",
         "description": "en yeni dizileri güvenli ve hızlı şekilde sunar.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziPal.cs3",
-        "name": "DiziPal"
+        "name": "DiziPal",
+        "lastUpdated": "2025-04-18T05:28:44Z"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.diziyou.co&sz=%size%",
@@ -608,7 +637,8 @@
         "internalName": "DiziYou",
         "description": "Diziyou en kaliteli Türkçe dublaj ve altyazılı yabancı dizi izleme sitesidir. Güncel ve efsanevi dizileri 1080p Full HD kalitede izlemek için hemen tıkla!",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziYou.cs3",
-        "name": "DiziYou"
+        "name": "DiziYou",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.dmax.com.tr/favicon.ico",
@@ -627,7 +657,8 @@
         "internalName": "DMax",
         "description": "DMAX dizi ve programlarını takip etmek için ziyaret edin. DMAX dizi ve programlarını tek parça ve hd kalitesiyle izleyin.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DMax.cs3",
-        "name": "DMax"
+        "name": "DMax",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=filmizlesene.plus&sz=%size%",
@@ -646,7 +677,8 @@
         "internalName": "Filmİzlesene",
         "description": "Filmizlesene ile hızlı film izleme fırsatını yakala, en yeni ve iyi filmleri Full HD 1080p kalitesiyle online ve bedava izle",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/Filmİzlesene.cs3",
-        "name": "Filmİzlesene"
+        "name": "Filmİzlesene",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=filmkovasi.tv&sz=%size%",
@@ -665,7 +697,8 @@
         "internalName": "FilmKovasi",
         "description": "Film Kovasi ⚡ ile en güncel ve sorunsuz Full HD Film izle keyfi her yerde seninle! 1080p online film izleme ayrıcalığıyla Film Kovası'nın Tadını Çıkarın.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FilmKovasi.cs3",
-        "name": "FilmKovasi"
+        "name": "FilmKovasi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=filmmakinesi.film&sz=%size%",
@@ -686,7 +719,8 @@
         "internalName": "FilmMakinesi",
         "description": "Film Makinesi, en yeni ve en güncel filmleri sitemizde full HD kalite farkı ile izleyebilirsiniz. HD film izle denildiğinde akla gelen en kaliteli film izleme sitesi.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FilmMakinesi.cs3",
-        "name": "FilmMakinesi"
+        "name": "FilmMakinesi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.filmmodu17.com&sz=%size%",
@@ -706,7 +740,8 @@
         "internalName": "FilmModu",
         "description": "Film modun geldiyse yüksek kalitede en yeni filmleri izle, 1080p izleyebileceğiniz reklamsiz film sitesi.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FilmModu.cs3",
-        "name": "FilmModu"
+        "name": "FilmModu",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilm.pro&sz=%size%",
@@ -726,7 +761,8 @@
         "internalName": "FullHDFilm",
         "description": "Fullhdfilm ile en yeni vizyon filmler Full HD ve kesintisiz film sizlerle. Özgün film arşivimizle en üstün kaliteli film izle keyfini sunuyoruz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FullHDFilm.cs3",
-        "name": "FullHDFilm"
+        "name": "FullHDFilm",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilmizlede.net&sz=%size%",
@@ -745,7 +781,8 @@
         "internalName": "FullHDFilmİzlede",
         "description": "En güncel ve popüler filmleri Full HD kalitesinde, Türkçe altyazılı veya Türkçe dublaj seçenekleriyle izleyebileceğiniz tek adres! Sinema tutkunları için en özel film deneyimini yaşamak için fullhdfilmizlede.net",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FullHDFilmİzlede.cs3",
-        "name": "FullHDFilmİzlede"
+        "name": "FullHDFilmİzlede",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.fullhdfilmizlesene.de&sz=%size%",
@@ -765,7 +802,8 @@
         "internalName": "FullHDFilmizlesene",
         "description": "Sinema zevkini evinize kadar getirdik. Türkiye'nin lider Film sitesinde, en yeni filmleri Full HD izleyin.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FullHDFilmizlesene.cs3",
-        "name": "FullHDFilmizlesene"
+        "name": "FullHDFilmizlesene",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=fullporner.com&sz=%size%",
@@ -785,7 +823,8 @@
         "internalName": "FullPorner",
         "description": "(VPN) FullPorner is the best free full length porn video site. Choose from millions of hardcore videos that stream quickly and in high quality and only full length",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FullPorner.cs3",
-        "name": "FullPorner"
+        "name": "FullPorner",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=%size%",
@@ -807,7 +846,8 @@
         "internalName": "HDFilmCehennemi",
         "description": "Türkiye'nin en hızlı hd film izleme sitesi",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmCehennemi.cs3",
-        "name": "HDFilmCehennemi"
+        "name": "HDFilmCehennemi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.hdfilmcehennemi2.nl&sz=%size%",
@@ -826,7 +866,8 @@
         "internalName": "HDFilmCehennemi2",
         "description": "Full hd film izleme keyfini hdfilmcehennemi2 ile yaşayın. Türkiyenin en güncel yüksek hd kalitede film izleme sitesi.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmCehennemi2.cs3",
-        "name": "HDFilmCehennemi2"
+        "name": "HDFilmCehennemi2",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmizle.to&sz=%size%",
@@ -846,7 +887,8 @@
         "internalName": "HDFilmIzle",
         "description": "HDFilmizle ile Full HD izle, 1080p kalitede Yerli ve Yabancı filmlerle Türkçe dublaj veya Altyazı olarak kesintisiz film izlemenin tadını çıkarın.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmIzle.cs3",
-        "name": "HDFilmIzle"
+        "name": "HDFilmIzle",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmsitesi.net&sz=%size%",
@@ -865,7 +907,8 @@
         "internalName": "HDFilmSitesi",
         "description": "Film izle, Hdfilmsitesi ile Online 1080p ve 4K kalite Full HD Filmlere Türkçe Dublaj ve Altyazılı olarak Reklamsız Kesintisiz HD Film izle.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmSitesi.cs3",
-        "name": "HDFilmSitesi"
+        "name": "HDFilmSitesi",
+        "lastUpdated": "2025-03-18T11:17:18Z"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=hqporner.com&sz=%size%",
@@ -885,7 +928,8 @@
         "internalName": "HQPorner",
         "description": "Truly high definition porn videos and truly for free! We're sure you'll like our best collection containing thousands of 4K, 60FPS and 1080p free HD porn videos with the hottest girls ever!",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HQPorner.cs3",
-        "name": "HQPorner"
+        "name": "HQPorner",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3vCp6N1K4bECoYRQD-cisJF2_6V_Hk01ZhDmoPR2JuM8O5qr4MqrPO1munM9cRlleBBSK6odYhLtDBWv4E3vhPhynlmS5hVVtJZShHoGA5REQ8_3v8SIlccTEqzVQu2UJyNYQdJNrKIfWy66RQeT0D-CcmFCbHPz5023H6p2v5fv4NVloZ5Rqo_yGrIY/s320/iNat-Box-App.png",
@@ -907,7 +951,8 @@
         "internalName": "InatBox",
         "description": "İnatBox cloudstream eklentisidir. Sevdiğiniz yayın platformlarını ve canlı maçları burada bulabilirsiniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/InatBox.cs3",
-        "name": "InatBox"
+        "name": "InatBox",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://jetfilmizle.de&sz=%size%",
@@ -927,7 +972,8 @@
         "internalName": "JetFilmizle",
         "description": "Binlerce Film İzleme Seçeneğiyle En İyi Film İzleme Sitesi",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/JetFilmizle.cs3",
-        "name": "JetFilmizle"
+        "name": "JetFilmizle",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.koreanturk.com&sz=%size%",
@@ -946,7 +992,8 @@
         "internalName": "KoreanTurk",
         "description": "Güney Kore sevdalılarının vazgeçemediği ve Türkiye'nin en çok ziyaret edilen Güney Kore Portalı; Koreantürk'e hoşgeldiniz!",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/KoreanTurk.cs3",
-        "name": "KoreanTurk"
+        "name": "KoreanTurk",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=kultfilmler.com&sz=%size%",
@@ -967,7 +1014,8 @@
         "internalName": "KultFilmler",
         "description": "Kült Filmler özenle en iyi filmleri derler ve iyi bir altyazılı film izleme deneyimi sunmayı amaçlar",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/KultFilmler.cs3",
-        "name": "KultFilmler"
+        "name": "KultFilmler",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://netfree2.cc/mobile/img/nf2/icon_x192.png",
@@ -989,7 +1037,8 @@
         "internalName": "NetflixMirror",
         "description": "Netflix, PrimeVideo Content in Multiple Languages",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/NetflixMirror.cs3",
-        "name": "NetflixMirror"
+        "name": "NetflixMirror",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://cdn1.iconfinder.com/data/icons/nsfw-1/64/tv-adult-content-porn-512.png",
@@ -1010,7 +1059,8 @@
         "internalName": "OxAx",
         "description": "(VPN) ОХ-АХ.ТВ - сайт для просмотра взрослых ТВ онлайн без каких либо регистраций. Смотрите бесплатно на мобильных устройствах iPad, iPhone и Android.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/OxAx.cs3",
-        "name": "OxAx"
+        "name": "OxAx",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=pornhub.com&sz=%size%",
@@ -1030,7 +1080,8 @@
         "internalName": "PornHub",
         "description": "(VPN) Pornhub is the world’s leading free porn site. Choose from millions of hardcore videos that stream quickly and in high quality, including amazing VR Porn. The largest adult site on the Internet just keeps getting better. We have more pornstars and real amateurs than anyone else. It’s fast, it’s free, it’s Pornhub!",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/PornHub.cs3",
-        "name": "PornHub"
+        "name": "PornHub",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -1049,7 +1100,8 @@
         "internalName": "powerDizi",
         "description": "powerDizi",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/powerDizi.cs3",
-        "name": "powerDizi"
+        "name": "powerDizi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -1068,7 +1120,8 @@
         "internalName": "powerSinema",
         "description": "powerSinema",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/powerSinema.cs3",
-        "name": "powerSinema"
+        "name": "powerSinema",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=rarefilmm.com&sz=%size%",
@@ -1088,7 +1141,8 @@
         "internalName": "RareFilmm",
         "description": "The Cave of Forgotten Films",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/RareFilmm.cs3",
-        "name": "RareFilmm"
+        "name": "RareFilmm",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://rectvapk.cc/wp-content/uploads/2023/02/Rec-TV.webp",
@@ -1113,7 +1167,8 @@
         "internalName": "RecTV",
         "description": "RecTv APK, Türkiye’deki en popüler Çevrimiçi Medya Akış platformlarından biridir. Filmlerin, Canlı Sporların, Web Dizilerinin ve çok daha fazlasının keyfini ücretsiz çıkarın.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/RecTV.cs3",
-        "name": "RecTV"
+        "name": "RecTV",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=roketdizi.co&sz=%size%",
@@ -1132,7 +1187,8 @@
         "internalName": "RoketDizi",
         "description": "Türkiye'nin en tatlış yabancı dizi izleme sitesi. Türkçe dublaj, altyazılı, eski ve yeni yabancı dizilerin yanı sıra kore (asya) dizileri izleyebilirsiniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/RoketDizi.cs3",
-        "name": "RoketDizi"
+        "name": "RoketDizi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=selcukflix.com&sz=%size%",
@@ -1151,7 +1207,8 @@
         "internalName": "SelcukFlix",
         "description": "Selcukflix'te her türden en yeni ve en popüler dizi ve filmleri izlemenin keyfini çıkarın. Aksiyondan romantiğe, bilim kurgudan dramaya, geniş kütüphanemizde herkes için bir şey var.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SelcukFlix.cs3",
-        "name": "SelcukFlix"
+        "name": "SelcukFlix",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.setfilmizle.de&sz=%size%",
@@ -1171,7 +1228,8 @@
         "internalName": "SetFilmIzle",
         "description": "Setfilmizle sitemizde, donma yaşamadan Türkçe dublaj ve altyazılı filmleri ile dizileri muhteşem 1080p full HD kalitesinde izleyebilirsiniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SetFilmIzle.cs3",
-        "name": "SetFilmIzle"
+        "name": "SetFilmIzle",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=sezonlukdizi6.com&sz=%size%",
@@ -1192,7 +1250,8 @@
         "internalName": "SezonlukDizi",
         "description": "Güncel ve eski dizileri en iyi görüntü kalitesiyle bulabileceğiniz yabancı dizi izleme siteniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SezonlukDizi.cs3",
-        "name": "SezonlukDizi"
+        "name": "SezonlukDizi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.sinema.cx&sz=%size%",
@@ -1212,7 +1271,8 @@
         "internalName": "SinemaCX",
         "description": "Güncel ve en iyi yabancı filmleri yüksek görüntü kalitesinde, Türkçe dublaj ve altyazı seçenekleriyle filmleri full izleyin.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SinemaCX.cs3",
-        "name": "SinemaCX"
+        "name": "SinemaCX",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=spankbang.com&sz=%size%",
@@ -1233,7 +1293,8 @@
         "internalName": "SpankBang",
         "description": "(VPN) SpankBang is the hottest free porn site in the world! Cum like never before and explore millions of fresh and free porn videos! Get lit on SpankBang!",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SpankBang.cs3",
-        "name": "SpankBang"
+        "name": "SpankBang",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.superfilmgeldi.biz&sz=%size%",
@@ -1253,7 +1314,8 @@
         "internalName": "SuperFilmGeldi",
         "description": "Hd film izliyerek arkadaşlarınızla ve sevdiklerinizle iyi bir vakit geçirmek istiyorsanız açın bir film eğlenmeye bakın. Bilim kurgu filmleri, aşk drama vahşet aşk romantik sıradışı korku filmlerini izle.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SuperFilmGeldi.cs3",
-        "name": "SuperFilmGeldi"
+        "name": "SuperFilmGeldi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=tafdi.info&sz=%size%",
@@ -1272,7 +1334,8 @@
         "internalName": "Tafdi",
         "description": "Türkçe altyazılı film izle, full hd olarak film izlemenin keyfini çıkarın. Türkiyenin en büyük film izleme platformu tafdi kalitesiyle sizlerle.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/Tafdi.cs3",
-        "name": "Tafdi"
+        "name": "Tafdi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.tlctv.com.tr/favicon.ico",
@@ -1291,7 +1354,8 @@
         "internalName": "TLC",
         "description": "TLC TV dizi ve programlarını takip etmek için ziyaret edin. TLC TV dizi ve programlarını tek parça ve hd kalitesiyle izleyin.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/TLC.cs3",
-        "name": "TLC"
+        "name": "TLC",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=trgoalsgiris.xyz/&sz=%size%",
@@ -1310,7 +1374,8 @@
         "internalName": "TRGoals",
         "description": "TRGoals",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/TRGoals.cs3",
-        "name": "TRGoals"
+        "name": "TRGoals",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.turkanime.co&sz=%size%",
@@ -1329,7 +1394,8 @@
         "internalName": "TurkAnime",
         "description": "Türk Anime TV - Türkiye'nin Online Anime izleme sitesi.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/TurkAnime.cs3",
-        "name": "TurkAnime"
+        "name": "TurkAnime",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=tvdiziler.cc&sz=%size%",
@@ -1348,7 +1414,8 @@
         "internalName": "TvDiziler",
         "description": "Ücretsiz yerli dizi izleme sitesi en popüler dizileri tek parça hd kalitesiyle ve reklamsız bedava olarak buradan tv dizileri izleyin.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/TvDiziler.cs3",
-        "name": "TvDiziler"
+        "name": "TvDiziler",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=ugurfilm7.com&sz=%size%",
@@ -1368,7 +1435,8 @@
         "internalName": "UgurFilm",
         "description": "Yabancı film izle, Türkçe dublaj ve Türkçe altyazılı film seçenekleriyle 720p ve 1080p HD kalitesinde film izle - Uğur Film full hd film izle.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/UgurFilm.cs3",
-        "name": "UgurFilm"
+        "name": "UgurFilm",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=uncutmaza.cc&sz=%size%",
@@ -1387,7 +1455,8 @@
         "internalName": "UncutMaza",
         "description": "(VPN) We Provide Huge Colocation of Hindi Porn (Uncut) Web Series",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/UncutMaza.cs3",
-        "name": "UncutMaza"
+        "name": "UncutMaza",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=vavoo.to&sz=%size%",
@@ -1406,7 +1475,8 @@
         "internalName": "Vavoo",
         "description": "Vavoo Kanalları",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/Vavoo.cs3",
-        "name": "Vavoo"
+        "name": "Vavoo",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -1425,7 +1495,8 @@
         "internalName": "vavooSpor",
         "description": "vavooSpor",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/vavooSpor.cs3",
-        "name": "vavooSpor"
+        "name": "vavooSpor",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=watch2movies.net&sz=%size%",
@@ -1444,7 +1515,8 @@
         "internalName": "Watch2Movies",
         "description": "!!! YAPIM AŞAMASINDA !!! Watch2Movies is a Free Movies streaming site with zero ads. We let you watch movies online without having to register or paying, with over 10000 movies and TV-Series. You can also Download full movies from Watch2Movies and watch it later if you want.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/Watch2Movies.cs3",
-        "name": "Watch2Movies"
+        "name": "Watch2Movies",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
@@ -1464,7 +1536,8 @@
         "internalName": "WebteIzle",
         "description": "Her türlü filmi ister dublaj ister altyazılı, en kaliteli bir şekilde izleyebileceğiniz arşivi en geniş gerçek film izleme siteniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WebteIzle.cs3",
-        "name": "WebteIzle"
+        "name": "WebteIzle",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=wfilmizle.my&sz=%size%",
@@ -1483,7 +1556,8 @@
         "internalName": "WFilmİzle",
         "description": "Aile Filmleri izle, Yerli ve yabancı en yeni Aile filmlerini Full HD 1080p görüntü kalitesiyle Türkçe Dublaj ve Türkçe Altyazı seçenekleriyle izleyin.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WFilmİzle.cs3",
-        "name": "WFilmİzle"
+        "name": "WFilmİzle",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=xhamster.com&sz=%size%",
@@ -1502,7 +1576,8 @@
         "internalName": "xHamster",
         "description": "(VPN) 5 milyondan fazla Porno Videosunu ücretsiz izleyin.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/xHamster.cs3",
-        "name": "xHamster"
+        "name": "xHamster",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=xprime.tv&sz=%size%",
@@ -1521,7 +1596,8 @@
         "internalName": "XPrime",
         "description": "XPrime.Tv",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/XPrime.cs3",
-        "name": "XPrime"
+        "name": "XPrime",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=yabancidizi.tv&sz=%size%",
@@ -1540,7 +1616,8 @@
         "internalName": "YabanciDizi",
         "description": "Son çıkan yabancı dizi ve filmleri yabancidizi' de izle. En yeni yabancı film ve diziler, türkçe altyazılı yada dublaj olarak 1080p kalitesinde hd izle.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/YabanciDizi.cs3",
-        "name": "YabanciDizi"
+        "name": "YabanciDizi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://anm.cx/favicon.ico",
@@ -1561,7 +1638,8 @@
         "internalName": "AnimeciX",
         "description": "AnimeciX, animeleri keşfedebileceğiniz ve animeler hakkında her şeyi öğrenebileceğiniz bir paylaşım platformudur.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/AnimeciX.cs3",
-        "name": "AnimeciX"
+        "name": "AnimeciX",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=belgeselx.com&sz=%size%",
@@ -1581,7 +1659,8 @@
         "internalName": "BelgeselX",
         "description": "En yeni belgeseller, türkçe altyazılı yada dublaj olarak 1080p kalitesinde HD belgesel izle.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/BelgeselX.cs3",
-        "name": "BelgeselX"
+        "name": "BelgeselX",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -1601,7 +1680,8 @@
         "internalName": "CanliTV",
         "description": "Canlı TV",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/CanliTV.cs3",
-        "name": "CanliTV"
+        "name": "CanliTV",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=cizgimax.online&sz=%size%",
@@ -1620,7 +1700,8 @@
         "internalName": "CizgiMax",
         "description": "ÇizgiMax ile Çizgi Film izlemek artık daha kolay, donmadan full hd ve reklamsız bir sitedir, içerisinde 700 den fazla çizgi film olan, Bu site bu işi profesyonelce yapıyor.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/CizgiMax.cs3",
-        "name": "CizgiMax"
+        "name": "CizgiMax",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.ddizi.im/favicon.ico",
@@ -1639,7 +1720,8 @@
         "internalName": "Ddizi",
         "description": "DDizi.im için Cloudstream eklentisi",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/Ddizi.cs3",
-        "name": "Ddizi"
+        "name": "Ddizi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizibox.live&sz=%size%",
@@ -1658,7 +1740,8 @@
         "internalName": "DiziBox",
         "description": "Yabancı Dizi izle, Tüm yabancı dizilerin yeni ve eski sezonlarını full hd izleyebileceğiniz elit site.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/DiziBox.cs3",
-        "name": "DiziBox"
+        "name": "DiziBox",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizikorea.vip&sz=%size%",
@@ -1677,7 +1760,8 @@
         "internalName": "DiziKorea",
         "description": "En Güncel Kore Dizileri izleme Sitesi",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/DiziKorea.cs3",
-        "name": "DiziKorea"
+        "name": "DiziKorea",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=dizilla.club&sz=%size%",
@@ -1696,7 +1780,8 @@
         "internalName": "Dizilla",
         "description": "Dizilla tüm yabancı dizileri ücretsiz olarak Türkçe Dublaj ve altyazılı seçenekleri ile 1080P kalite izleyebileceğiniz yeni nesil yabancı dizi izleme siteniz.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/Dizilla.cs3",
-        "name": "Dizilla"
+        "name": "Dizilla",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizimom.plus&sz=%size%",
@@ -1715,7 +1800,8 @@
         "internalName": "DiziMom",
         "description": "Binlerce yerli yabancı dizi arşivi, tüm sezonlar, kesintisiz bölümler. Sadece dizi izle, Dizimom heryerde seninle!",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/DiziMom.cs3",
-        "name": "DiziMom"
+        "name": "DiziMom",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizipal952.com&sz=%size%",
@@ -1736,7 +1822,8 @@
         "internalName": "DiziPal",
         "description": "en yeni dizileri güvenli ve hızlı şekilde sunar.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/DiziPal.cs3",
-        "name": "DiziPal"
+        "name": "DiziPal",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://cdn.diziyou6.com/wp-content/uploads/2020/04/diziyou-favicon.png",
@@ -1755,7 +1842,8 @@
         "internalName": "DiziYou",
         "description": "Diziyou en kaliteli Türkçe dublaj ve altyazılı yabancı dizi izleme sitesidir. Güncel ve efsanevi dizileri 1080p Full HD kalitede izlemek için hemen tıkla!",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/DiziYou.cs3",
-        "name": "DiziYou"
+        "name": "DiziYou",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://raw.githubusercontent.com/Kohi-den/extensions-source/927f9c68fd64ce52f6212ae633d0f0585eca3545/src/en/donghuastream/res/mipmap-xxxhdpi/ic_launcher.png",
@@ -1774,7 +1862,8 @@
         "internalName": "Donghuastream",
         "description": "Contains SeaTV (Chinese)",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/Donghuastream.cs3",
-        "name": "Donghuastream"
+        "name": "Donghuastream",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://filmbip.com/uploads/favicon/original/favicon.webp",
@@ -1793,7 +1882,8 @@
         "internalName": "FilmBip",
         "description": "Binlerce yerli yabancı dizi arşivi, tüm sezonlar, kesintisiz bölümler. Filmbip heryerde seninle!",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/FilmBip.cs3",
-        "name": "FilmBip"
+        "name": "FilmBip",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=filmmakinesi.film&sz=%size%",
@@ -1813,7 +1903,8 @@
         "internalName": "FilmMakinesi",
         "description": "Film Makinesi, en yeni ve en güncel filmleri sitemizde full HD kalite farkı ile izleyebilirsiniz. HD film izle denildiğinde akla gelen en kaliteli film izleme sitesi.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/FilmMakinesi.cs3",
-        "name": "FilmMakinesi"
+        "name": "FilmMakinesi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.filmmodu17.com&sz=%size%",
@@ -1832,7 +1923,8 @@
         "internalName": "FilmModu",
         "description": "Film modun geldiyse yüksek kalitede en yeni filmleri izle, 1080p izleyebileceğiniz reklamsiz film sitesi.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/FilmModu.cs3",
-        "name": "FilmModu"
+        "name": "FilmModu",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilm.us&sz=%size%",
@@ -1852,7 +1944,8 @@
         "internalName": "FullHDFilm",
         "description": "Fullhdfilm ile en yeni vizyon filmler Full HD ve kesintisiz film sizlerle. Özgün film arşivimizle en üstün kaliteli film izle keyfini sunuyoruz.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/FullHDFilm.cs3",
-        "name": "FullHDFilm"
+        "name": "FullHDFilm",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.fullhdfilmizlesene.de&sz=%size%",
@@ -1871,7 +1964,8 @@
         "internalName": "FullHDFilmizlesene",
         "description": "Sinema zevkini evinize kadar getirdik. Türkiye'nin lider Film sitesinde, en yeni filmleri Full HD izleyin.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/FullHDFilmizlesene.cs3",
-        "name": "FullHDFilmizlesene"
+        "name": "FullHDFilmizlesene",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=%size%",
@@ -1892,7 +1986,8 @@
         "internalName": "HDFilmCehennemi",
         "description": "Türkiye'nin en hızlı hd film izleme sitesi",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/HDFilmCehennemi.cs3",
-        "name": "HDFilmCehennemi"
+        "name": "HDFilmCehennemi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3vCp6N1K4bECoYRQD-cisJF2_6V_Hk01ZhDmoPR2JuM8O5qr4MqrPO1munM9cRlleBBSK6odYhLtDBWv4E3vhPhynlmS5hVVtJZShHoGA5REQ8_3v8SIlccTEqzVQu2UJyNYQdJNrKIfWy66RQeT0D-CcmFCbHPz5023H6p2v5fv4NVloZ5Rqo_yGrIY/s320/iNat-Box-App.png",
@@ -1914,7 +2009,8 @@
         "internalName": "InatBox",
         "description": "İnatBox cloudstream eklentisidir. Sevdiğiniz yayın platformlarını ve canlı maçları burada bulabilirsiniz.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/InatBox.cs3",
-        "name": "InatBox"
+        "name": "InatBox",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://jetfilmizle.de&sz=%size%",
@@ -1933,7 +2029,8 @@
         "internalName": "JetFilmizle",
         "description": "Binlerce Film İzleme Seçeneğiyle En İyi Film İzleme Sitesi",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/JetFilmizle.cs3",
-        "name": "JetFilmizle"
+        "name": "JetFilmizle",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=koreanturk.com&sz=%size%",
@@ -1952,7 +2049,8 @@
         "internalName": "KoreanTurk",
         "description": "Güney Kore sevdalılarının vazgeçemediği ve Türkiye'nin en çok ziyaret edilen Güney Kore Portalı; Koreantürk'e hoşgeldiniz!",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/KoreanTurk.cs3",
-        "name": "KoreanTurk"
+        "name": "KoreanTurk",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=kultfilmler.net&sz=%size%",
@@ -1972,7 +2070,8 @@
         "internalName": "KultFilmler",
         "description": "Kült Filmler özenle en iyi filmleri derler ve iyi bir altyazılı film izleme deneyimi sunmayı amaçlar",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/KultFilmler.cs3",
-        "name": "KultFilmler"
+        "name": "KultFilmler",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://netfree2.cc/mobile/img/nf2/icon_x192.png",
@@ -1993,7 +2092,8 @@
         "internalName": "NetflixMirror",
         "description": "Netflix, PrimeVideo Content in Multiple Languages",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/NetflixMirror.cs3",
-        "name": "NetflixMirror"
+        "name": "NetflixMirror",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=rarefilmm.com&sz=%size%",
@@ -2012,7 +2112,8 @@
         "internalName": "RareFilmm",
         "description": "The Cave of Forgotten Films",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/RareFilmm.cs3",
-        "name": "RareFilmm"
+        "name": "RareFilmm",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://rectvapp.com.tr/wp-content/uploads/2024/08/cropped-cropped-Screenshot_2023-08-31_at_11.02.55_PM-removebg-preview-32x32.webp",
@@ -2036,7 +2137,8 @@
         "internalName": "RecTV",
         "description": "RecTv APK, Türkiye’deki en popüler Çevrimiçi Medya Akış platformlarından biridir. Filmlerin, Canlı Sporların, Web Dizilerinin ve çok daha fazlasının keyfini ücretsiz çıkarın.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/RecTV.cs3",
-        "name": "RecTV"
+        "name": "RecTV",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.setfilmizle.nl&sz=%size%",
@@ -2056,7 +2158,8 @@
         "internalName": "SetFilmIzle",
         "description": "Setfilmizle sitemizde, donma yaşamadan Türkçe dublaj ve altyazılı filmleri ile dizileri muhteşem 1080p full HD kalitesinde izleyebilirsiniz.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/SetFilmIzle.cs3",
-        "name": "SetFilmIzle"
+        "name": "SetFilmIzle",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=sezonlukdizi6.com&sz=%size%",
@@ -2076,7 +2179,8 @@
         "internalName": "SezonlukDizi",
         "description": "Güncel ve eski dizileri en iyi görüntü kalitesiyle bulabileceğiniz yabancı dizi izleme siteniz.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/SezonlukDizi.cs3",
-        "name": "SezonlukDizi"
+        "name": "SezonlukDizi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.sinema.cx&sz=%size%",
@@ -2095,7 +2199,8 @@
         "internalName": "SinemaCX",
         "description": "Güncel ve en iyi yabancı filmleri yüksek görüntü kalitesinde, Türkçe dublaj ve altyazı seçenekleriyle filmleri full izleyin.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/SinemaCX.cs3",
-        "name": "SinemaCX"
+        "name": "SinemaCX",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.superfilmgeldi.info&sz=%size%",
@@ -2114,7 +2219,8 @@
         "internalName": "SuperFilmGeldi",
         "description": "Hd film izliyerek arkadaşlarınızla ve sevdiklerinizle iyi bir vakit geçirmek istiyorsanız açın bir film eğlenmeye bakın. Bilim kurgu filmleri, aşk drama vahşet aşk romantik sıradışı korku filmlerini izle.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/SuperFilmGeldi.cs3",
-        "name": "SuperFilmGeldi"
+        "name": "SuperFilmGeldi",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.tlctv.com.tr&sz=%size%",
@@ -2133,7 +2239,8 @@
         "internalName": "TLCtr",
         "description": "TLC tr",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/TLCtr.cs3",
-        "name": "TLCtr"
+        "name": "TLCtr",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=tranimaci.com&sz=%size%",
@@ -2152,7 +2259,8 @@
         "internalName": "TRanimaci",
         "description": "TRanimeci - Türkiye'nin Online Anime izleme sitesi.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/TRanimaci.cs3",
-        "name": "TRanimaci"
+        "name": "TRanimaci",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=asyalog.com&sz=%size%",
@@ -2171,7 +2279,8 @@
         "internalName": "TRasyalog",
         "description": "TRasyalog izleme sitesi.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/TRasyalog.cs3",
-        "name": "TRasyalog"
+        "name": "TRasyalog",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.turkanime.co&sz=%size%",
@@ -2190,7 +2299,8 @@
         "internalName": "TurkAnime",
         "description": "Türk Anime TV - Türkiye'nin Online Anime izleme sitesi.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/TurkAnime.cs3",
-        "name": "TurkAnime"
+        "name": "TurkAnime",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=ugurfilm7.com&sz=%size%",
@@ -2209,7 +2319,8 @@
         "internalName": "UgurFilm",
         "description": "Yabancı film izle, Türkçe dublaj ve Türkçe altyazılı film seçenekleriyle 720p ve 1080p HD kalitesinde film izle - Uğur Film full hd film izle.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/UgurFilm.cs3",
-        "name": "UgurFilm"
+        "name": "UgurFilm",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=watch2movies.net&sz=%size%",
@@ -2228,7 +2339,8 @@
         "internalName": "Watch2Movies",
         "description": "!!! YAPIM AŞAMASINDA !!! Watch2Movies is a Free Movies streaming site with zero ads. We let you watch movies online without having to register or paying, with over 10000 movies and TV-Series. You can also Download full movies from Watch2Movies and watch it later if you want.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/Watch2Movies.cs3",
-        "name": "Watch2Movies"
+        "name": "Watch2Movies",
+        "lastUpdated": "Bilinmiyor"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
@@ -2247,6 +2359,7 @@
         "internalName": "WebteIzle",
         "description": "Her türlü filmi ister dublaj ister altyazılı, en kaliteli bir şekilde izleyebileceğiniz arşivi en geniş gerçek film izleme siteniz.",
         "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/WebteIzle.cs3",
-        "name": "WebteIzle"
+        "name": "WebteIzle",
+        "lastUpdated": "Bilinmiyor"
     }
 ]
