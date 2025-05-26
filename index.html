@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Eklenti Listesi</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+    <h2>CloudStream Eklenti Listesi</h2>
+    <table id="pluginTable">
+        <thead>
+            <tr>
+                <th>İkon</th>
+                <th>Ad</th>
+                <th>Versiyon</th>
+                <th>Dil</th>
+                <th>Repo</th>
+                <th>Tür</th>
+                <th>İndir</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script>
+        fetch("https://GitLatte.github.io/repos/data.json") // JSON dosyanın URL'sini kullan
+        .then(response => response.json())
+        .then(data => {
+            const tableBody = document.querySelector("#pluginTable tbody");
+            data.forEach(plugin => {
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="32"></td>
+                    <td>${plugin.name}</td>
+                    <td>${plugin.version}</td>
+                    <td>${plugin.language}</td>
+                    <td><a href="${plugin.repositoryUrl}" target="_blank">Repo</a></td>
+                    <td>${plugin.tvTypes.join(", ")}</td>
+                    <td><a href="${plugin.url}" target="_blank">İndir</a></td>
+                `;
+                tableBody.appendChild(row);
+            });
+        })
+        .catch(error => console.error("JSON verisi yüklenemedi:", error));
+    </script>
+</body>
+</html>
