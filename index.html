@@ -20,11 +20,10 @@
 <body>
     <h2>CloudStream Eklenti Listesi</h2>
 
-    <div class="stats">
+    <div class="stats" id="statsContainer">
         <span id="totalPlugins">Toplam Eklenti: 0</span> | 
-        <span id="totalRepos">Toplam Depo: 0</span> | 
-        <span id="selectedRepoCount">Seçilen Depoda Eklenti: 0</span>
-    </div>
+        <span id="totalRepos">Toplam Depo: 0</span>
+    </div>    
 
     <div class="filter-container">
         <label for="filterSelect">Medya Türü Seç:</label>
@@ -72,12 +71,26 @@
             .catch(error => console.error("JSON verisi yüklenemedi:", error));
         }
 
-        function updateStats() {
-            const totalPlugins = window.pluginData.length;
-            const totalRepos = new Set(window.pluginData.map(plugin => plugin.repositoryUrl)).size;
-            document.getElementById("totalPlugins").textContent = `Toplam Eklenti: ${totalPlugins}`;
-            document.getElementById("totalRepos").textContent = `Toplam Depo: ${totalRepos}`;
+        function updateStats(selectedRepo) {
+         const totalPlugins = window.pluginData.length;
+         const totalRepos = new Set(window.pluginData.map(plugin => plugin.repositoryUrl)).size;
+    
+         let selectedRepoCount = 0;
+
+         if (selectedRepo !== "all") {
+         selectedRepoCount = window.pluginData.filter(plugin => plugin.repositoryUrl === selectedRepo).length;
+         document.getElementById("statsContainer").innerHTML = `
+            <span style="font-weight: bold;">Depo: ${selectedRepo.split("/").pop()}</span> | 
+            <span style="font-weight: bold;">Bu Depodaki Eklenti Sayısı: ${selectedRepoCount}</span>
+        `;
+          } else {
+         document.getElementById("statsContainer").innerHTML = `
+            <span id="totalPlugins">Toplam Eklenti: ${totalPlugins}</span> | 
+            <span id="totalRepos">Toplam Depo: ${totalRepos}</span>
+        `;
+          }
         }
+
 
         function updateFilterOptions() {
             const filterSelect = document.getElementById("filterSelect");
