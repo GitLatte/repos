@@ -1,0 +1,33 @@
+name: Günlük Eklenti Güncellemesi
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Her gün 00:00'da çalıştır
+  workflow_dispatch:  # Manuel tetiklemeyi destekle
+
+jobs:
+  update_plugins:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo'yu çek
+        uses: actions/checkout@v3
+
+      - name: Python'u kur
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+
+      - name: Gereksinimleri yükle
+        run: pip install requests
+
+      - name: Eklenti verisini güncelle
+        run: python .github/scripts/fetch_plugins.py
+
+      - name: Güncellenen JSON dosyasını commitle
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add data.json
+          git commit -m "🚀 Eklenti listesi güncellendi [ci skip]" || echo "✅ Değişiklik yok!"
+          git push
