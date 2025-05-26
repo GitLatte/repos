@@ -23,7 +23,7 @@
     <div class="stats" id="statsContainer">
         <span id="totalPlugins">Toplam Eklenti: 0</span> | 
         <span id="totalRepos">Toplam Depo: 0</span>
-    </div>    
+    </div>
 
     <div class="filter-container">
         <label for="filterSelect">Medya Türü Seç:</label>
@@ -71,29 +71,43 @@
             .catch(error => console.error("JSON verisi yüklenemedi:", error));
         }
 
-        function updateStats(selectedRepo) {
-            const totalPlugins = window.pluginData.length;
-            const totalRepos = new Set(window.pluginData.map(plugin => plugin.repositoryUrl)).size;
+        function updateTable(filterType, repoFilter, searchQuery) {
+            const tableBody = document.querySelector("#pluginTable tbody");
+            tableBody.innerHTML = "";
 
-            let selectedRepoCount = 0;
-            if (selectedRepo !== "all") {
-                selectedRepoCount = window.pluginData.filter(plugin => plugin.repositoryUrl === selectedRepo).length;
-                document.getElementById("statsContainer").innerHTML = `
-                    <span style="font-weight: bold;">Depo: ${selectedRepo.split("/").pop()}</span> | 
-                    <span style="font-weight: bold;">Bu Depodaki Eklenti Sayısı: ${selectedRepoCount}</span>
+            let pluginMap = {};
+            window.pluginData.forEach(plugin => {
+                if (!pluginMap[plugin.name]) {
+                    pluginMap[plugin.name] = {
+                        versions: new Set(),
+                        repositories: new Set(),
+                        tvTypes: new Set(),
+                        language: plugin.language,
+                        iconUrl: plugin.iconUrl,
+                        lastUpdated: plugin.lastUpdated
+                    };
+                }
+
+                pluginMap[plugin.name].versions.add(plugin.version);
+                pluginMap[plugin.name].repositories.add(plugin.repositoryUrl);
+                pluginMap[plugin.name].tvTypes.add(...plugin.tvTypes);
+            });
+
+            Object.keys(pluginMap).forEach(name => {
+                const plugin = pluginMap[name];
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="32"></td>
+                    <td>${name}</td>
+                    <td>${[...plugin.versions].join(", ")}</td>
+                    <td>${plugin.language}</td>
+                    <td>${[...plugin.repositories].map(repo => `<a href="${repo}" target="_blank">${repo.split("/").pop()}</a>`).join(", ")}</td>
+                    <td>${[...plugin.tvTypes].join(", ")}</td>
+                    <td>${plugin.lastUpdated}</td>
                 `;
-            } else {
-                document.getElementById("statsContainer").innerHTML = `
-                    <span>Toplam Eklenti: ${totalPlugins}</span> | 
-                    <span>Toplam Depo: ${totalRepos}</span>
-                `;
-            }
+                tableBody.appendChild(row);
+            });
         }
-
-        document.getElementById("repoFilterSelect").addEventListener("change", function() {
-            updateStats(this.value);
-            updateTable(document.getElementById("filterSelect").value, this.value, document.getElementById("searchInput").value);
-        });
 
         fetchPlugins();
     </script>

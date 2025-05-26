@@ -47,7 +47,7 @@ for repo in repos:
     except Exception as e:
         print(f"⚠️ {repo} işlenirken hata oluştu: {e}")
 
-# Sonuçları `data.json` dosyasına kaydet
+# JSON dosyasına yaz
 with open("data.json", "w", encoding="utf-8") as f:
     json.dump(all_plugins, f, ensure_ascii=False, indent=4)
 
