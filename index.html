@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <title>CloudStream Eklenti Listesi</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
-        h2 { text-align: center; color: #333; }
-        .filter-container { text-align: center; margin-bottom: 15px; }
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; text-align: center; }
+        h2 { color: #333; }
+        .stats { font-size: 18px; font-weight: bold; margin-bottom: 15px; }
+        .filter-container { margin-bottom: 15px; }
         select, input { padding: 8px; font-size: 16px; border-radius: 5px; border: 1px solid #ccc; margin: 5px; }
         button { padding: 8px; font-size: 16px; border-radius: 5px; background: #007BFF; color: white; border: none; cursor: pointer; }
         button:hover { background: #0056b3; }
@@ -18,7 +19,13 @@
 </head>
 <body>
     <h2>CloudStream Eklenti Listesi</h2>
-    
+
+    <div class="stats">
+        <span id="totalPlugins">Toplam Eklenti: 0</span> | 
+        <span id="totalRepos">Toplam Depo: 0</span> | 
+        <span id="selectedRepoCount">Seçilen Depoda Eklenti: 0</span>
+    </div>
+
     <div class="filter-container">
         <label for="filterSelect">Medya Türü Seç:</label>
         <select id="filterSelect">
@@ -45,6 +52,7 @@
                 <th>Dil</th>
                 <th>Repo</th>
                 <th>Tür</th>
+                <th>Son Güncelleme</th>
             </tr>
         </thead>
         <tbody></tbody>
@@ -52,15 +60,23 @@
 
     <script>
         function fetchPlugins() {
-            fetch("https://GitLatte.github.io/repos/data.json")
+            fetch("https://GitLatte.github.io/repos/data.json") // JSON URL
             .then(response => response.json())
             .then(data => {
                 window.pluginData = data;
-                updateFilterOptions();
-                updateRepoOptions();
-                updateTable("all", "all", "");
+                updateStats();  // Toplam eklenti & depo sayısını güncelle
+                updateFilterOptions(); // Medya türlerini ekle
+                updateRepoOptions(); // Depoları ekle
+                updateTable("all", "all", ""); // Tüm eklentileri listele
             })
             .catch(error => console.error("JSON verisi yüklenemedi:", error));
+        }
+
+        function updateStats() {
+            const totalPlugins = window.pluginData.length;
+            const totalRepos = new Set(window.pluginData.map(plugin => plugin.repositoryUrl)).size;
+            document.getElementById("totalPlugins").textContent = `Toplam Eklenti: ${totalPlugins}`;
+            document.getElementById("totalRepos").textContent = `Toplam Depo: ${totalRepos}`;
         }
 
         function updateFilterOptions() {
@@ -94,6 +110,8 @@
             tableBody.innerHTML = "";
 
             let pluginMap = {};
+            let filteredCount = 0;
+
             window.pluginData.forEach(plugin => {
                 if (!pluginMap[plugin.name]) {
                     pluginMap[plugin.name] = {
@@ -101,7 +119,8 @@
                         repositories: new Set(),
                         tvTypes: new Set(),
                         language: plugin.language,
-                        iconUrl: plugin.iconUrl
+                        iconUrl: plugin.iconUrl,
+                        lastUpdated: plugin.lastUpdated
                     };
                 }
 
@@ -117,6 +136,8 @@
                 if (repoFilter !== "all" && !plugin.repositories.has(repoFilter)) return;
                 if (searchQuery && !name.toLowerCase().includes(searchQuery.toLowerCase())) return;
 
+                filteredCount++;
+
                 const row = document.createElement("tr");
                 row.innerHTML = `
                     <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="32"></td>
@@ -125,9 +146,12 @@
                     <td>${plugin.language}</td>
                     <td>${[...plugin.repositories].map(repo => `<a href="${repo}" target="_blank">${repo.split("/").pop()}</a>`).join(", ")}</td>
                     <td>${[...plugin.tvTypes].join(", ")}</td>
+                    <td>${plugin.lastUpdated}</td>
                 `;
                 tableBody.appendChild(row);
             });
+
+            document.getElementById("selectedRepoCount").textContent = `Seçilen Depoda Eklenti: ${filteredCount}`;
         }
 
         document.getElementById("filterSelect").addEventListener("change", function() {
