@@ -8,7 +8,7 @@ repos = [
     "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/plugins.json"
 ]
 
-# GitHub API üzerinden commit tarihini almak için fonksiyon
+# GitHub API'den commit tarihini almak için fonksiyon
 def get_last_updated(repo_owner, repo_name, file_path):
     url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/commits?path={file_path}&per_page=1"
     headers = {"Accept": "application/vnd.github.v3+json"}
@@ -30,16 +30,15 @@ for repo in repos:
             
             for plugin in plugins:
                 url_parts = plugin["url"].split("/")
+                if len(url_parts) < 7:
+                    plugin["lastUpdated"] = "Bilinmiyor"
+                    continue
+                
                 repo_owner = url_parts[3]  # GitHub Kullanıcı adı
                 repo_name = url_parts[4]   # Repo adı
-                file_path = "/".join(url_parts[6:])  # Dosya yolu (builds/EKLENTI_ADI.cs3 gibi)
+                file_path = "/".join(url_parts[6:])  # Dosya yolu
 
-                # API isteğini güvenli yapmak için
-                if file_path.endswith(".cs3"):
-                    last_updated = get_last_updated(repo_owner, repo_name, file_path)
-                else:
-                    last_updated = "Bilinmiyor"
-
+                last_updated = get_last_updated(repo_owner, repo_name, file_path)
                 plugin["lastUpdated"] = last_updated
 
             all_plugins.extend(plugins)
