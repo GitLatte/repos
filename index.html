@@ -2,16 +2,30 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Eklenti Listesi</title>
+    <title>CloudStream Eklenti Listesi</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
-        table { width: 100%; border-collapse: collapse; }
+        h2, h3 { text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
         th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
         th { background-color: #f4f4f4; }
+        select { padding: 5px; margin-bottom: 15px; }
     </style>
 </head>
 <body>
     <h2>CloudStream Eklenti Listesi</h2>
+    
+    <h3>Filtreleme Seçenekleri:</h3>
+    <div style="text-align: center;">
+        <select id="filterSelect">
+            <option value="all">Tüm Eklentiler</option>
+            <option value="Anime">Anime</option>
+            <option value="Movie">Film</option>
+            <option value="Live">Canlı TV</option>
+            <option value="TvSeries">Dizi</option>
+        </select>
+    </div>
+
     <table id="pluginTable">
         <thead>
             <tr>
@@ -21,7 +35,6 @@
                 <th>Dil</th>
                 <th>Repo</th>
                 <th>Tür</th>
-                <th>İndir</th>
             </tr>
         </thead>
         <tbody></tbody>
@@ -29,50 +42,61 @@
 
     <script>
         function fetchPlugins() {
-            fetch("https://GitLatte.github.io/repos/data.json") // JSON dosyanın URL'si
+            fetch("https://GitLatte.github.io/repos/data.json") // JSON URL
             .then(response => response.json())
             .then(data => {
-                const tableBody = document.querySelector("#pluginTable tbody");
-                tableBody.innerHTML = ""; // Önce eski içeriği temizle
-    
-                let pluginMap = {}; // Eklentileri ve ait oldukları depoları saklamak için
-    
-                data.forEach(plugin => {
-                    if (!pluginMap[plugin.name]) {
-                        pluginMap[plugin.name] = {
-                            versions: new Set(), // Farklı versiyonları saklamak için
-                            repositories: new Set(), // Farklı repoları saklamak için
-                            tvTypes: new Set(), // Kategorileri saklamak için
-                            language: plugin.language,
-                            iconUrl: plugin.iconUrl,
-                            description: plugin.description
-                        };
-                    }
-    
-                    pluginMap[plugin.name].versions.add(plugin.version);
-                    pluginMap[plugin.name].repositories.add(plugin.repositoryUrl);
-                    pluginMap[plugin.name].tvTypes.add(...plugin.tvTypes);
-                });
-    
-                Object.keys(pluginMap).forEach(name => {
-                    const plugin = pluginMap[name];
-                    const row = document.createElement("tr");
-                    row.innerHTML = `
-                        <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="32"></td>
-                        <td>${name}</td>
-                        <td>${[...plugin.versions].join(", ")}</td>
-                        <td>${plugin.language}</td>
-                        <td>${[...plugin.repositories].map(repo => `<a href="${repo}" target="_blank">${repo.split("/").pop()}</a>`).join(", ")}</td>
-                        <td>${[...plugin.tvTypes].join(", ")}</td>
-                    `;
-                    tableBody.appendChild(row);
-                });
+                window.pluginData = data; // Veriyi global değişkende sakla
+                updateTable("all"); // İlk başta tüm eklentileri göster
             })
             .catch(error => console.error("JSON verisi yüklenemedi:", error));
         }
-    
+
+        function updateTable(filterType) {
+            const tableBody = document.querySelector("#pluginTable tbody");
+            tableBody.innerHTML = ""; // Önce eski içeriği temizle
+
+            let pluginMap = {};
+
+            window.pluginData.forEach(plugin => {
+                if (!pluginMap[plugin.name]) {
+                    pluginMap[plugin.name] = {
+                        versions: new Set(),
+                        repositories: new Set(),
+                        tvTypes: new Set(),
+                        language: plugin.language,
+                        iconUrl: plugin.iconUrl,
+                        description: plugin.description
+                    };
+                }
+
+                pluginMap[plugin.name].versions.add(plugin.version);
+                pluginMap[plugin.name].repositories.add(plugin.repositoryUrl);
+                pluginMap[plugin.name].tvTypes.add(...plugin.tvTypes);
+            });
+
+            Object.keys(pluginMap).forEach(name => {
+                const plugin = pluginMap[name];
+
+                if (filterType !== "all" && !plugin.tvTypes.has(filterType)) return;
+
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="32"></td>
+                    <td>${name}</td>
+                    <td>${[...plugin.versions].join(", ")}</td>
+                    <td>${plugin.language}</td>
+                    <td>${[...plugin.repositories].map(repo => `<a href="${repo}" target="_blank">${repo.split("/").pop()}</a>`).join(", ")}</td>
+                    <td>${[...plugin.tvTypes].join(", ")}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+        }
+
+        document.getElementById("filterSelect").addEventListener("change", function() {
+            updateTable(this.value);
+        });
+
         fetchPlugins();
     </script>
-    
 </body>
 </html>
