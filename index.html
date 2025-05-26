@@ -7,7 +7,9 @@
         body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
         h2 { text-align: center; color: #333; }
         .filter-container { text-align: center; margin-bottom: 15px; }
-        select { padding: 8px; font-size: 16px; border-radius: 5px; border: 1px solid #ccc; }
+        select, input { padding: 8px; font-size: 16px; border-radius: 5px; border: 1px solid #ccc; margin: 5px; }
+        button { padding: 8px; font-size: 16px; border-radius: 5px; background: #007BFF; color: white; border: none; cursor: pointer; }
+        button:hover { background: #0056b3; }
         table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; border-radius: 8px; overflow: hidden; }
         th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
         th { background-color: #007BFF; color: white; }
@@ -22,6 +24,16 @@
         <select id="filterSelect">
             <option value="all">Tüm Eklentiler</option>
         </select>
+
+        <label for="repoFilterSelect">Depo Seç:</label>
+        <select id="repoFilterSelect">
+            <option value="all">Tüm Depolar</option>
+        </select>
+    </div>
+
+    <div class="filter-container">
+        <input type="text" id="searchInput" placeholder="Eklenti Ara...">
+        <button id="clearSearch">Temizle</button>
     </div>
 
     <table id="pluginTable">
@@ -40,12 +52,13 @@
 
     <script>
         function fetchPlugins() {
-            fetch("https://GitLatte.github.io/repos/data.json") // JSON URL
+            fetch("https://GitLatte.github.io/repos/data.json")
             .then(response => response.json())
             .then(data => {
                 window.pluginData = data;
-                updateFilterOptions(); // Tüm medya türlerini filtreye ekle
-                updateTable("all"); // İlk başta tüm eklentileri göster
+                updateFilterOptions();
+                updateRepoOptions();
+                updateTable("all", "all", "");
             })
             .catch(error => console.error("JSON verisi yüklenemedi:", error));
         }
@@ -53,10 +66,7 @@
         function updateFilterOptions() {
             const filterSelect = document.getElementById("filterSelect");
             let mediaTypes = new Set();
-
-            window.pluginData.forEach(plugin => {
-                plugin.tvTypes.forEach(type => mediaTypes.add(type));
-            });
+            window.pluginData.forEach(plugin => plugin.tvTypes.forEach(type => mediaTypes.add(type)));
 
             mediaTypes.forEach(type => {
                 let option = document.createElement("option");
@@ -66,12 +76,24 @@
             });
         }
 
-        function updateTable(filterType) {
+        function updateRepoOptions() {
+            const repoFilterSelect = document.getElementById("repoFilterSelect");
+            let repositories = new Set();
+            window.pluginData.forEach(plugin => repositories.add(plugin.repositoryUrl));
+
+            repositories.forEach(repo => {
+                let option = document.createElement("option");
+                option.value = repo;
+                option.textContent = repo.split("/").pop(); 
+                repoFilterSelect.appendChild(option);
+            });
+        }
+
+        function updateTable(filterType, repoFilter, searchQuery) {
             const tableBody = document.querySelector("#pluginTable tbody");
-            tableBody.innerHTML = ""; 
+            tableBody.innerHTML = "";
 
             let pluginMap = {};
-
             window.pluginData.forEach(plugin => {
                 if (!pluginMap[plugin.name]) {
                     pluginMap[plugin.name] = {
@@ -92,6 +114,8 @@
                 const plugin = pluginMap[name];
 
                 if (filterType !== "all" && !plugin.tvTypes.has(filterType)) return;
+                if (repoFilter !== "all" && !plugin.repositories.has(repoFilter)) return;
+                if (searchQuery && !name.toLowerCase().includes(searchQuery.toLowerCase())) return;
 
                 const row = document.createElement("tr");
                 row.innerHTML = `
@@ -107,7 +131,20 @@
         }
 
         document.getElementById("filterSelect").addEventListener("change", function() {
-            updateTable(this.value);
+            updateTable(this.value, document.getElementById("repoFilterSelect").value, document.getElementById("searchInput").value);
+        });
+
+        document.getElementById("repoFilterSelect").addEventListener("change", function() {
+            updateTable(document.getElementById("filterSelect").value, this.value, document.getElementById("searchInput").value);
+        });
+
+        document.getElementById("searchInput").addEventListener("input", function() {
+            updateTable(document.getElementById("filterSelect").value, document.getElementById("repoFilterSelect").value, this.value);
+        });
+
+        document.getElementById("clearSearch").addEventListener("click", function() {
+            document.getElementById("searchInput").value = "";
+            updateTable(document.getElementById("filterSelect").value, document.getElementById("repoFilterSelect").value, "");
         });
 
         fetchPlugins();
