@@ -28,25 +28,51 @@
     </table>
 
     <script>
-        fetch("https://GitLatte.github.io/repos/data.json") // JSON dosyanın URL'sini kullan
-        .then(response => response.json())
-        .then(data => {
-            const tableBody = document.querySelector("#pluginTable tbody");
-            data.forEach(plugin => {
-                const row = document.createElement("tr");
-                row.innerHTML = `
-                    <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="32"></td>
-                    <td>${plugin.name}</td>
-                    <td>${plugin.version}</td>
-                    <td>${plugin.language}</td>
-                    <td><a href="${plugin.repositoryUrl}" target="_blank">Repo</a></td>
-                    <td>${plugin.tvTypes.join(", ")}</td>
-                    <td><a href="${plugin.url}" target="_blank">İndir</a></td>
-                `;
-                tableBody.appendChild(row);
-            });
-        })
-        .catch(error => console.error("JSON verisi yüklenemedi:", error));
+        function fetchPlugins() {
+            fetch("https://GitLatte.github.io/repos/data.json") // JSON dosyanın URL'si
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = document.querySelector("#pluginTable tbody");
+                tableBody.innerHTML = ""; // Önce eski içeriği temizle
+    
+                let pluginMap = {}; // Eklentileri ve ait oldukları depoları saklamak için
+    
+                data.forEach(plugin => {
+                    if (!pluginMap[plugin.name]) {
+                        pluginMap[plugin.name] = {
+                            versions: new Set(), // Farklı versiyonları saklamak için
+                            repositories: new Set(), // Farklı repoları saklamak için
+                            tvTypes: new Set(), // Kategorileri saklamak için
+                            language: plugin.language,
+                            iconUrl: plugin.iconUrl,
+                            description: plugin.description
+                        };
+                    }
+    
+                    pluginMap[plugin.name].versions.add(plugin.version);
+                    pluginMap[plugin.name].repositories.add(plugin.repositoryUrl);
+                    pluginMap[plugin.name].tvTypes.add(...plugin.tvTypes);
+                });
+    
+                Object.keys(pluginMap).forEach(name => {
+                    const plugin = pluginMap[name];
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                        <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="32"></td>
+                        <td>${name}</td>
+                        <td>${[...plugin.versions].join(", ")}</td>
+                        <td>${plugin.language}</td>
+                        <td>${[...plugin.repositories].map(repo => `<a href="${repo}" target="_blank">${repo.split("/").pop()}</a>`).join(", ")}</td>
+                        <td>${[...plugin.tvTypes].join(", ")}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error("JSON verisi yüklenemedi:", error));
+        }
+    
+        fetchPlugins();
     </script>
+    
 </body>
 </html>
