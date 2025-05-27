@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-05-27T14:21:10.728498Z",
+    "timestamp": "2025-05-27T15:23:48.802088Z",
     "plugins": [
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=aniworld.to&sz=%size%",
@@ -2846,7 +2846,7 @@
             "iconUrl": "https://hdfilm.cx/apple-touch-icon.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 25814,
+            "fileSize": 25817,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -2855,7 +2855,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 3,
+            "version": 4,
             "internalName": "HDFilm",
             "description": "Hdfilm.cx ile HD Film izle, Türkiye'nin binlerce filmlik orijinal arşiviyle Full HD 1080p kalite Türkçe Dublaj ve Altyazılı Film izleme keyfini yaşayın.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/HDFilm.cs3",
