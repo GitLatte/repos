@@ -128,10 +128,10 @@
         }
 
         function updateTable(filterType, repoFilter, searchQuery) {
-         const tableBody = document.querySelector("#pluginTable tbody");
-         tableBody.innerHTML = "";
+    const tableBody = document.querySelector("#pluginTable tbody");
+    tableBody.innerHTML = "";
 
-        window.pluginData.forEach(plugin => {
+    window.pluginData.forEach(plugin => {
         if (filterType !== "all" && !plugin.tvTypes.includes(filterType)) return;
         if (repoFilter !== "all" && !plugin.repoCodes.includes(repoFilter)) return;
         if (searchQuery && !plugin.name.toLowerCase().includes(searchQuery.toLowerCase())) return;
@@ -147,8 +147,9 @@
             <td>${plugin.description || "Açıklama Yok"}</td>
         `;
         tableBody.appendChild(row);
-          });
-        }
+    });
+}
+
 
 
         // Event Listener'ları ekleyelim

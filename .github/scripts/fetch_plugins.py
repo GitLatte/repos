@@ -23,12 +23,12 @@ for repo_url, repo_code in repos.items():
             for plugin in plugins:
                 plugin_name = plugin["name"]
                 
-                # Eğer eklenti daha önce eklendiyse, repo kodunu ekleyelim
+                # Eğer eklenti zaten varsa, sadece depo kodunu ekle
                 if plugin_name in plugin_dict:
                     plugin_dict[plugin_name]["repoCodes"].append(repo_code)
                 else:
                     plugin_dict[plugin_name] = plugin
-                    plugin_dict[plugin_name]["repoCodes"] = [repo_code]  # Yeni repo kodu listesi oluştur
+                    plugin_dict[plugin_name]["repoCodes"] = [repo_code]  # Yeni depo listesi oluştur
                 
             print(f"✅ {repo_url} başarıyla işlendi!")
         else:
@@ -40,4 +40,4 @@ for repo_url, repo_code in repos.items():
 with open("data.json", "w", encoding="utf-8") as f:
     json.dump(list(plugin_dict.values()), f, ensure_ascii=False, indent=4)
 
-print("✅ Güncelleme tamamlandı! Artık aynı eklenti birden fazla depoda varsa repo kodları birleşiyor.")
+print("✅ Güncelleme tamamlandı! Artık aynı eklentiler tek satırda depo kodlarıyla görünecek.")
