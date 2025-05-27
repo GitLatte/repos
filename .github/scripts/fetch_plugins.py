@@ -18,9 +18,6 @@ def get_api_headers():
 
 def get_last_updated(repo_url, file_path, headers):
     try:
-        # API rate limit aşımını önlemek için her istekten önce 2 saniye bekle
-        time.sleep(2)
-        
         # GitHub API URL'sini oluştur
         api_url = repo_url.replace('raw.githubusercontent.com', 'api.github.com/repos')
         if '/builds/' in api_url:
