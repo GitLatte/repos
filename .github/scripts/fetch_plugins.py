@@ -65,26 +65,27 @@ for repo_url, repo_code in repos.items():
             plugins = response.json()
             
             for plugin in plugins:
-                plugin_name = plugin["name"]
-                
-                # Eğer eklenti zaten varsa, sadece depo kodunu ekle
-                if plugin_name in plugin_dict:
-                   plugin_dict[plugin_name]["repoCodes"].append(repo_code)
-                 # Repo bazında güncelleme zamanı
-                if "repoTimestamps" not in plugin_dict[plugin_name]:
-                plugin_dict[plugin_name]["repoTimestamps"] = {}
-                if timestamp:
-                plugin_dict[plugin_name]["repoTimestamps"][repo_code] = timestamp
-                # createdAt varsa dokunma, yoksa ekle
-                if "createdAt" not in plugin_dict[plugin_name]:
-                plugin_dict[plugin_name]["createdAt"] = datetime.utcnow().isoformat() + "Z"
-                else:
-                plugin_dict[plugin_name] = plugin
-                plugin_dict[plugin_name]["repoCodes"] = [repo_code]
-                plugin_dict[plugin_name]["repoTimestamps"] = {}
-                if timestamp:
-                plugin_dict[plugin_name]["repoTimestamps"][repo_code] = timestamp
-                plugin_dict[plugin_name]["createdAt"] = datetime.utcnow().isoformat() + "Z"
+    plugin_name = plugin["name"]
+    file_path = plugin["url"].split('/builds/')[-1] if '/builds/' in plugin["url"] else plugin["url"].split('/refs/heads/builds/')[-1]
+    timestamp = get_last_updated(repo_url, file_path, api_headers)
+
+    if plugin_name in plugin_dict:
+        # Eğer bu repo daha önce eklenmediyse ekle
+        if repo_code not in plugin_dict[plugin_name]["repoCodes"]:
+            plugin_dict[plugin_name]["repoCodes"].append(repo_code)
+        # repoTimestamps dict'i yoksa oluştur
+        if "repoTimestamps" not in plugin_dict[plugin_name]:
+            plugin_dict[plugin_name]["repoTimestamps"] = {}
+        if timestamp:
+            plugin_dict[plugin_name]["repoTimestamps"][repo_code] = timestamp
+        # createdAt zaten varsa dokunma
+    else:
+        plugin_dict[plugin_name] = plugin
+        plugin_dict[plugin_name]["repoCodes"] = [repo_code]
+        plugin_dict[plugin_name]["repoTimestamps"] = {}
+        if timestamp:
+            plugin_dict[plugin_name]["repoTimestamps"][repo_code] = timestamp
+        plugin_dict[plugin_name]["createdAt"] = datetime.utcnow().isoformat() + "Z"
                 
             print(f"✅ {repo_url} başarıyla işlendi!")
         else:
