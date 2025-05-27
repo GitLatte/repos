@@ -4,18 +4,95 @@
     <meta charset="UTF-8">
     <title>CloudStream Eklenti Listesi</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; text-align: center; }
-        h2 { color: #333; }
-        .stats { font-size: 18px; font-weight: bold; margin-bottom: 15px; }
-        .filter-container { margin-bottom: 15px; }
-        select, input { padding: 8px; font-size: 16px; border-radius: 5px; border: 1px solid #ccc; margin: 5px; }
-        button { padding: 8px; font-size: 16px; border-radius: 5px; background: #007BFF; color: white; border: none; cursor: pointer; }
-        button:hover { background: #0056b3; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; border-radius: 8px; overflow: hidden; }
-        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
-        th { background-color: #007BFF; color: white; }
-        tr:hover { background-color: #f1f1f1; }
-    </style>
+        body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+    background-color: #f5f5f5; 
+    text-align: center; 
+}
+h2 { color: #333; }
+
+.stats { 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+
+.filter-container { margin-bottom: 10px; }
+select, input { 
+    padding: 6px; 
+    font-size: 14px; 
+    border-radius: 4px; 
+    border: 1px solid #ccc; 
+    margin: 4px; 
+}
+button { 
+    padding: 6px; 
+    font-size: 14px; 
+    border-radius: 4px; 
+    background: #007BFF; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    transition: 0.3s ease; 
+}
+button:hover { background: #0056b3; }
+
+/* Tablo için şık ve modern tasarım */
+table { 
+    width: 95%; 
+    border-collapse: separate; 
+    border-spacing: 0; 
+    margin: auto; 
+    background: white; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    border: 2px solid #007BFF; /* Tablo kenarlığını belirginleştirdik */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge ekledik */
+}
+
+th, td { 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    text-align: left; 
+    font-size: 14px; 
+}
+th { 
+    background-color: #007BFF; 
+    color: white; 
+    font-size: 15px; 
+    border-bottom: 2px solid #0056b3; /* Daha belirgin alt kenar */
+}
+tr:hover { 
+    background-color: #f9f9f9; /* Hover efekti biraz daha yumuşak */
+    transition: 0.2s ease-in-out;
+}
+
+.bold { font-weight: bold; }
+.desc { font-size: 12px; color: #555; }
+
+/* Depo kodları için renkli badge */
+.repo-badge {
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    margin-right: 4px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+}
+
+/* Her repo için özel renkler */
+.repo-sinetech { background-color: #FF5733; }  /* Turuncu */
+.repo-nikstream { background-color: #33B5E5; } /* Mavi */
+.repo-feroxxcs3 { background-color: #FF9800; } /* Açık Turuncu */
+.repo-makoto { background-color: #4CAF50; }  /* Yeşil */
+.repo-kekikdevam { background-color: #673AB7; } /* Mor */
+.repo-kekikan { background-color: #E91E63; } /* Pembe */
+.repo-sarapcanagii { background-color: #607D8B; } /* Gri */
+
+    </style>    
 </head>
 <body>
     <h2>CloudStream Eklenti Listesi</h2>
@@ -72,25 +149,32 @@
         .catch(error => console.error("JSON verisi yüklenemedi:", error));
          }
 
-        function updateStats(selectedRepo) {
-            const totalPlugins = window.pluginData.length;
-            const totalRepos = new Set(window.pluginData.map(plugin => plugin.repositoryUrl)).size;
-            let selectedRepoCount = 0;
+         function updateStats(selectedRepo = "all") {
+    const totalPlugins = window.pluginData.length;
+    const totalRepos = new Set(window.pluginData.map(plugin => plugin.repositoryUrl)).size;
+    let selectedRepoCount = 0;
+    let selectedRepoName = "Bilinmiyor"; 
 
-            if (selectedRepo !== "all") {
-                const selectedPlugin = window.pluginData.find(plugin => plugin.repositoryUrl === selectedRepo);
-                selectedRepoCount = window.pluginData.filter(plugin => plugin.repositoryUrl === selectedRepo).length;
-                document.getElementById("statsContainer").innerHTML = `
-                    <span style="font-weight: bold;">Depo Kodu: ${selectedPlugin?.repoCode || "Bilinmiyor"}</span> | 
-                    <span style="font-weight: bold;">Bu Depodaki Eklenti Sayısı: ${selectedRepoCount}</span>
-                `;
-            } else {
-                document.getElementById("statsContainer").innerHTML = `
-                    <span>Toplam Eklenti: ${totalPlugins}</span> | 
-                    <span>Toplam Depo: ${totalRepos}</span>
-                `;
-            }
+    if (selectedRepo !== "all") {
+        const selectedPlugins = window.pluginData.filter(plugin => plugin.repoCodes.includes(selectedRepo));
+        selectedRepoCount = selectedPlugins.length;
+
+        if (selectedPlugins.length > 0) {
+            selectedRepoName = selectedRepo === "sinetech" ? "Latte veya sinetech" : selectedRepo;  
         }
+
+        document.getElementById("statsContainer").innerHTML = `
+            <span style="font-weight: bold;">Depo Kodu: ${selectedRepoName}</span> | 
+            <span style="font-weight: bold;">Bu Depodaki Eklenti Sayısı: ${selectedRepoCount}</span>
+        `;
+    } else {
+        document.getElementById("statsContainer").innerHTML = `
+            <span>Toplam Eklenti: ${totalPlugins}</span> | 
+            <span>Toplam Depo: ${totalRepos}</span>
+        `;
+    }
+}
+
 
         function updateFilterOptions() {
             const filterSelect = document.getElementById("filterSelect");
@@ -107,53 +191,82 @@
         }
 
         function updateRepoOptions() {
-            const repoFilterSelect = document.getElementById("repoFilterSelect");
-            let repositories = new Set();
-            let repoNames = new Map();
-            
-            window.pluginData.forEach(plugin => {
-                repositories.add(plugin.repositoryUrl);
-                if (plugin.repoCode) {
-                    repoNames.set(plugin.repositoryUrl, plugin.repoCode);
-                }
-            });
-
-            repoFilterSelect.innerHTML = '<option value="all">Tüm Depolar</option>';
-            repositories.forEach(repo => {
-                let option = document.createElement("option");
-                option.value = repo;
-                option.textContent = repoNames.get(repo) || "Bilinmiyor";
-                repoFilterSelect.appendChild(option);
+    const repoFilterSelect = document.getElementById("repoFilterSelect");
+    let repositories = new Set();
+    let repoNames = new Map();
+    
+    window.pluginData.forEach(plugin => {
+        if (plugin.repoCodes) {
+            plugin.repoCodes.forEach(repo => {
+                repositories.add(repo);
+                repoNames.set(repo, repo === "sinetech" ? "Latte / sinetech" : repo);
             });
         }
+    });
 
-        function updateTable(filterType, repoFilter, searchQuery) {
+    repoFilterSelect.innerHTML = '<option value="all">Tüm Depolar</option>';
+    repositories.forEach(repo => {
+        let option = document.createElement("option");
+        option.value = repo;
+        option.textContent = repoNames.get(repo) || "Bilinmiyor";
+        repoFilterSelect.appendChild(option);
+    });
+}
+
+
+function updateTable(filterType, repoFilter, searchQuery) {
     const tableBody = document.querySelector("#pluginTable tbody");
     tableBody.innerHTML = "";
+
+    // CloudStream medya türlerini Türkçeleştirme tablosu
+    const mediaTypeTranslations = {
+        "podcast": "Podcast",
+        "tvseries": "Dizi",
+        "anime": "Anime",
+        "ova": "OVA (Özel Video Animasyon)",
+        "cartoon": "Çizgi Film",
+        "documentary": "Belgesel",
+        "short": "Kısa Film",
+        "music": "Müzik",
+        "live": "Canlı Yayın",
+        "nsfw": "Yetişkin İçeriği",
+        "others": "Diğer",
+        "asiandrama": "Asya Dizisi",
+        "animemovie": "Anime Filmi",
+        "animeova": "Anime",
+        "movie": "Film"
+    };
 
     window.pluginData.forEach(plugin => {
         if (filterType !== "all" && !plugin.tvTypes.includes(filterType)) return;
         if (repoFilter !== "all" && !plugin.repoCodes.includes(repoFilter)) return;
         if (searchQuery && !plugin.name.toLowerCase().includes(searchQuery.toLowerCase())) return;
 
-        // Eğer repoCodes tanımlı değilse boş bir dizi ata
-        const repoCodesFormatted = (plugin.repoCodes && plugin.repoCodes.length) ? plugin.repoCodes.join(" / ") : "Bilinmiyor";
+        // Harf duyarlılığını kaldırarak medya türlerini Türkçeleştirelim
+        const translatedTypes = plugin.tvTypes.map(type => mediaTypeTranslations[type.toLowerCase()] || type).join(", ");
+
+        // Repo kodlarını şık badge formatında gösterelim
+        const repoBadges = plugin.repoCodes.map(repo => `<span class="repo-badge repo-${repo}">${repo}</span>`).join(" ");
+
+        // Eğer eklenti NSFW ise ismi sansürle
+        const pluginNameFormatted = plugin.tvTypes.includes("NSFW") ? "****" : plugin.name;
+
+        // Eğer eklenti NSFW ise açıklama sabit yazı olacak
+        const pluginDescriptionFormatted = plugin.tvTypes.includes("NSFW") ? "Kullandığınız depo içerisinden kontrol ediniz" : (plugin.description || "Açıklama Yok");
 
         const row = document.createElement("tr");
         row.innerHTML = `
-            <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="32"></td>
-            <td>${plugin.name}</td>
+            <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="28"></td>
+            <td class="bold">${pluginNameFormatted}</td>
             <td>${plugin.version}</td>
             <td>${plugin.language}</td>
-            <td>${repoCodesFormatted}</td> <!-- Depo kodlarını birleştirme -->
-            <td>${plugin.tvTypes.join(", ")}</td>
-            <td>${plugin.description || "Açıklama Yok"}</td>
+            <td>${repoBadges}</td>
+            <td>${translatedTypes}</td> <!-- Kesintisiz çeviri! -->
+            <td class="desc">${pluginDescriptionFormatted}</td>
         `;
         tableBody.appendChild(row);
     });
 }
-
-
 
         // Event Listener'ları ekleyelim
         document.getElementById("filterSelect").addEventListener("change", function() {
@@ -163,11 +276,13 @@
         });
 
         document.getElementById("repoFilterSelect").addEventListener("change", function() {
-            const filterType = document.getElementById("filterSelect").value;
-            const searchQuery = document.getElementById("searchInput").value;
-            updateStats(this.value);
-            updateTable(filterType, this.value, searchQuery);
-        });
+    const selectedRepo = this.value; // Seçilen depo değerini al
+    updateStats(selectedRepo);       // Hatasız şekilde fonksiyona gönder
+    const filterType = document.getElementById("filterSelect").value;
+    const searchQuery = document.getElementById("searchInput").value;
+    updateTable(filterType, selectedRepo, searchQuery);
+});
+
 
         document.getElementById("searchInput").addEventListener("input", function() {
             const filterType = document.getElementById("filterSelect").value;
