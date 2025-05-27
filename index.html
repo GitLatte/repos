@@ -51,18 +51,13 @@
                 <th>Dil</th>
                 <th>Depo Kodu</th>
                 <th>Tür</th>
-                <th>Son Güncelleme</th>
+                <th>Açıklama</th>
             </tr>
         </thead>
         <tbody></tbody>
     </table>
 
     <script>
-        function formatDate(isoString) {
-            if (!isoString || isoString === "Bilinmiyor") return "Bilinmiyor";
-            const date = new Date(isoString);
-            return `${date.getUTCDate().toString().padStart(2, '0')}/${(date.getUTCMonth() + 1).toString().padStart(2, '0')}/${date.getUTCFullYear()} ${date.getUTCHours().toString().padStart(2, '0')}:${date.getUTCMinutes().toString().padStart(2, '0')}`;
-        }
 
         function fetchPlugins() {
         fetch("https://GitLatte.github.io/repos/data.json") // Eski sistem geri döndü!
@@ -76,8 +71,6 @@
          })
         .catch(error => console.error("JSON verisi yüklenemedi:", error));
          }
-
-
 
         function updateStats(selectedRepo) {
             const totalPlugins = window.pluginData.length;
@@ -136,25 +129,25 @@
 
         function updateTable(filterType, repoFilter, searchQuery) {
             const tableBody = document.querySelector("#pluginTable tbody");
-            tableBody.innerHTML = "";
+                  tableBody.innerHTML = "";
 
-            window.pluginData.forEach(plugin => {
-                if (filterType !== "all" && !plugin.tvTypes.includes(filterType)) return;
-                if (repoFilter !== "all" && plugin.repositoryUrl !== repoFilter) return;
-                if (searchQuery && !plugin.name.toLowerCase().includes(searchQuery.toLowerCase())) return;
+        window.pluginData.forEach(plugin => {
+        if (filterType !== "all" && !plugin.tvTypes.includes(filterType)) return;
+        if (repoFilter !== "all" && plugin.repositoryUrl !== repoFilter) return;
+        if (searchQuery && !plugin.name.toLowerCase().includes(searchQuery.toLowerCase())) return;
 
-                const row = document.createElement("tr");
-                row.innerHTML = `
-                    <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="32"></td>
-                    <td>${plugin.name}</td>
-                    <td>${plugin.version}</td>
-                    <td>${plugin.language}</td>
-                    <td>${plugin.repoCode || "Bilinmiyor"}</td>
-                    <td>${plugin.tvTypes.join(", ")}</td>
-                    <td>${formatDate(plugin.lastUpdated)}</td>
-                `;
+        const row = document.createElement("tr");
+        row.innerHTML = `
+            <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="32"></td>
+            <td>${plugin.name}</td>
+            <td>${plugin.version}</td>
+            <td>${plugin.language}</td>
+            <td>${plugin.repoCode || "Bilinmiyor"}</td>
+            <td>${plugin.tvTypes.join(", ")}</td>
+            <td>${plugin.description || "Açıklama Yok"}</td> <!-- Açıklama sütunu -->
+        `;
                 tableBody.appendChild(row);
-            });
+          });
         }
 
         // Event Listener'ları ekleyelim

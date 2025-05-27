@@ -22,7 +22,8 @@ for repo_url, repo_code in repos.items():
             
             for plugin in plugins:
                 plugin["repoCode"] = repo_code  # Depo ekleme kodu ekleme
-            
+                plugin["description"] = plugin.get("description", "Açıklama Yok")  # Açıklama ekle
+                
             all_plugins.extend(plugins)
         else:
             print(f"⚠️ {repo_url} için veri alınamadı (Hata: {response.status_code})")
@@ -33,4 +34,4 @@ for repo_url, repo_code in repos.items():
 with open("data.json", "w", encoding="utf-8") as f:
     json.dump(all_plugins, f, ensure_ascii=False, indent=4)
 
-print("✅ Güncelleme tamamlandı! Artık sadece `data.json` oluşturuluyor.")
+print("✅ Güncelleme tamamlandı! Artık eklenti açıklamaları data.json içinde yer alıyor.")
