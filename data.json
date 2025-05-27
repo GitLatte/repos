@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-05-27T21:33:20.217309Z",
+    "timestamp": "2025-05-27T22:21:07.919712Z",
     "plugins": [
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=aniworld.to&sz=%size%",
@@ -9,8 +9,8 @@
             "status": 1,
             "language": "de",
             "authors": [
-                "Hexated",
-                "GitLatte"
+                "GitLatte",
+                "Hexated"
             ],
             "tvTypes": [
                 "AnimeMovie",
@@ -19,7 +19,7 @@
             ],
             "version": 1,
             "internalName": "AniworldMC",
-            "description": "Aniworld plugin from Hexated Repository from Github.",
+            "description": "Aniworld eklentisinin Hexated isimli depodan alınıp güncellenmiş halidir. Altyazılı veya dublajlı olarak anime izleyebilirsiniz. Türkçe içerikler yoktur.",
             "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/AniworldMC.cs3",
             "name": "AniworldMC",
             "repoCodes": [
