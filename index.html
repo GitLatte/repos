@@ -175,22 +175,81 @@ tr:hover {
 
     <script>
 
-        function fetchPlugins() {
-        fetch("https://GitLatte.github.io/repos/data.json") // Eski sistem geri döndü!
-        .then(response => response.json())
+function fetchPlugins() {
+        fetch("https://GitLatte.github.io/repos/data.json")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP hatası: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
-        window.pluginData = data; // Güncellenmiş veriyi sakla
-        updateStats("all");       // Toplam eklenti ve depo bilgilerini güncelle
-        updateFilterOptions();    // Medya türü seçeneklerini güncelle
-        updateRepoOptions();      // Depo seçeneklerini güncelle
-        updateTable("all", "all", ""); // Tabloyu güncellenmiş verilerle yenile
-         })
-        .catch(error => console.error("JSON verisi yüklenemedi:", error));
+            console.log("Çekilen Veri:", data); // Hata ayıklama için burayı kontrol edin
+
+            let pluginList = null;
+            let lastUpdatedTimestamp = null;
+
+            // 1. Senaryo: Veri { "timestamp": ..., "plugins": [...] } formatında bir obje
+            if (data && Array.isArray(data.plugins)) {
+                pluginList = data.plugins;
+                lastUpdatedTimestamp = data.timestamp;
+                console.log("Veri obje formatında algılandı.");
+
+            // 2. Senaryo: Veri doğrudan bir dizi [...] formatında
+            } else if (Array.isArray(data)) {
+                pluginList = data;
+                // Bu senaryoda timestamp bilgisi doğrudan JSON'da yok,
+                // bu nedenle 'Bilinmiyor' olarak kalabilir veya farklı bir varsayılan atanabilir.
+                 lastUpdatedTimestamp = null; // Veya data.timestamp varsa al (pek olası değil bu senaryoda)
+                console.log("Veri dizi formatında algılandı.");
+
+            } else {
+                 // Beklenmeyen format
+                 console.error("Hata: Çekilen veri beklenen formatta değil.", data);
+                 // Hata durumunda tabloyu ve istatistikleri temizle
+                 document.getElementById("totalPlugins").textContent = "Veri yüklenemedi.";
+                 document.getElementById("totalRepos").textContent = "";
+                 document.getElementById("lastUpdated").textContent = "Son Güncelleme: Hata";
+                 document.getElementById("filterSelect").innerHTML = '<option value="all">Veri Yok</option>';
+                 document.getElementById("repoFilterSelect").innerHTML = '<option value="all">Veri Yok</option>';
+                 document.querySelector("#pluginTable tbody").innerHTML = '<tr><td colspan="7">Eklenti verisi yüklenemedi veya formatı yanlış.</td></tr>';
+                 window.pluginData = { plugins: [], timestamp: null }; // Hata durumunda pluginData'yı boş dizi olarak ayarla
+                 return; // İşlemi durdur
+            }
+
+            // pluginList başarıyla belirlendiğinde devam et
+            if (pluginList !== null) {
+                window.pluginData = { // window.pluginData'yı tutarlı bir obje formatında sakla
+                    plugins: pluginList,
+                    timestamp: lastUpdatedTimestamp
+                };
+
+                updateStats("all");       // window.pluginData.plugins kullanacak
+                updateFilterOptions();    // window.pluginData.plugins kullanacak
+                updateRepoOptions();      // window.pluginData.plugins kullanacak
+                updateTable("all", "all", ""); // window.pluginData.plugins kullanacak
+                updateLastUpdated();      // window.pluginData.timestamp kullanacak
+
+            } // else durumu yukarıdaki hata bloğunda ele alınıyor
+
+        })
+        .catch(error => {
+            console.error("JSON verisi yüklenemedi:", error);
+            // Hata durumunda tabloyu ve istatistikleri temizle
+            document.getElementById("totalPlugins").textContent = "Veri yüklenemedi.";
+            document.getElementById("totalRepos").textContent = "";
+            document.getElementById("lastUpdated").textContent = "Son Güncelleme: Hata";
+            document.getElementById("filterSelect").innerHTML = '<option value="all">Veri Yok</option>';
+            document.getElementById("repoFilterSelect").innerHTML = '<option value="all">Veri Yok</option>';
+            document.querySelector("#pluginTable tbody").innerHTML = '<tr><td colspan="7">Eklenti verisi yüklenemedi veya formatı yanlış.</td></tr>';
+             window.pluginData = { plugins: [], timestamp: null }; // Hata durumunda pluginData'yı boş dizi olarak ayarla
+        });
          }
 
          function updateLastUpdated() {
     const lastUpdatedElement = document.getElementById("lastUpdated");
-    if (!window.pluginData.timestamp) {
+    // window.pluginData artık tüm objeyi tutuyor, timestamp ona ait
+    if (!window.pluginData || !window.pluginData.timestamp) {
         lastUpdatedElement.textContent = "Son Güncelleme: Bilinmiyor";
         return;
     }
@@ -201,46 +260,71 @@ tr:hover {
 
     let displayText = "";
     if (timeDifference < 1) {
-        displayText = "Eklenti listesi az önce güncellendi!";
+        displayText = "Az önce güncellendi"; // Daha kısa ifade
     } else if (timeDifference < 60) {
-        displayText = `Eklenti listesi en son ${timeDifference} dakika önce güncellendi`;
+        displayText = `${timeDifference} dakika önce`; // Daha kısa ifade
     } else {
         const hours = Math.floor(timeDifference / 60);
-        displayText = `Eklenti listesi en son ${hours} saat önce güncellendi`;
+        const minutes = timeDifference % 60;
+        // Saat ve dakika olarak gösterme
+         if (minutes === 0) {
+             displayText = `${hours} saat önce`;
+         } else {
+             displayText = `${hours} saat ${minutes} dakika önce`;
+         }
     }
 
-    lastUpdatedElement.textContent = displayText;
+    lastUpdatedElement.textContent = `Son Güncelleme: ${displayText}`;
 }
 
          function updateStats(selectedRepo = "all") {
-    if (!window.pluginData || !window.pluginData.plugins) return; // Eğer veri yoksa, hata verme!
+    // Veriye artık window.pluginData.plugins üzerinden erişiyoruz
+    if (!window.pluginData || !Array.isArray(window.pluginData.plugins)) return; // Eğer veri yoksa, hata verme!
 
     const totalPlugins = window.pluginData.plugins.length;
-    const totalRepos = new Set(window.pluginData.plugins.map(plugin => plugin.repositoryUrl)).size;
+    // Hata düzeltildi: window.pluginData.plugins.map çağrılıyor
+    // Ayrıca repositoryUrl yerine repoCodes listesindeki her bir kodu alıp birleştirmek gerekiyor
+    let allRepoCodes = new Set();
+    window.pluginData.plugins.forEach(plugin => {
+        if (plugin.repoCodes && Array.isArray(plugin.repoCodes)) {
+            plugin.repoCodes.forEach(code => allRepoCodes.add(code));
+        }
+    });
+    const totalRepos = allRepoCodes.size;
+
     let selectedRepoCount = 0;
     let selectedRepoDisplay = "Bilinmiyor";
 
     if (selectedRepo !== "all") {
-        const selectedPlugins = window.pluginData.plugins.filter(plugin => plugin.repoCodes.includes(selectedRepo));
+        const selectedPlugins = window.pluginData.plugins.filter(plugin => plugin.repoCodes && plugin.repoCodes.includes(selectedRepo));
         selectedRepoCount = selectedPlugins.length;
-        selectedRepoDisplay = selectedRepo === "sinetech" ? "Sinetech" : selectedRepo;
+        // İstatistik kartında sadece repo kodunu gösterelim
+        selectedRepoDisplay = selectedRepo; // selectedRepoName artık kullanılmıyor burada
     }
 
-    document.getElementById("totalPlugins").textContent = selectedRepo === "all" ? `Toplam Eklenti: ${totalPlugins}` : `Bu Depodaki Eklenti Sayısı: ${selectedRepoCount}`;
+    // HTML'de stats-card divleri ayrı olduğu için içlerini ayrı ayrı güncelleyelim
+    document.getElementById("totalPlugins").textContent = selectedRepo === "all" ? `Toplam Eklenti: ${totalPlugins}` : `Eklenti Sayısı: ${selectedRepoCount}`;
     document.getElementById("totalRepos").textContent = selectedRepo === "all" ? `Toplam Depo: ${totalRepos}` : `Depo Kodu: ${selectedRepoDisplay}`;
+    // Son güncelleme tarihi bu fonksiyonda değil, updateLastUpdated'da güncelleniyor
 }
 
 
 
 
 function updateFilterOptions() {
-    if (!window.pluginData || !window.pluginData.plugins) return; // Eğer veri yoksa hata vermeyi önle!
+    // Veriye artık window.pluginData.plugins üzerinden erişiyoruz
+    if (!window.pluginData || !Array.isArray(window.pluginData.plugins)) return; // Eğer veri yoksa hata vermeyi önle!
 
     const filterSelect = document.getElementById("filterSelect");
     filterSelect.innerHTML = '<option value="all">Tüm Eklentiler</option>'; // Varsayılan seçenek
 
     let mediaTypes = new Set();
-    window.pluginData.plugins.forEach(plugin => plugin.tvTypes.forEach(type => mediaTypes.add(type))); // Hata düzeltildi!
+    // Hata düzeltildi: window.pluginData.plugins.forEach çağrılıyor
+    window.pluginData.plugins.forEach(plugin => {
+        if (plugin.tvTypes && Array.isArray(plugin.tvTypes)) {
+            plugin.tvTypes.forEach(type => mediaTypes.add(type));
+        }
+    });
 
     mediaTypes.forEach(type => {
         let option = document.createElement("option");
@@ -252,12 +336,16 @@ function updateFilterOptions() {
 
 
         function updateRepoOptions() {
+    // Veriye artık window.pluginData.plugins üzerinden erişiyoruz
+    if (!window.pluginData || !Array.isArray(window.pluginData.plugins)) return; // Eğer veri yoksa hata vermeyi önle!
+
     const repoFilterSelect = document.getElementById("repoFilterSelect");
     let repositories = new Set();
     let repoNames = new Map();
-    
-    window.pluginData.forEach(plugin => {
-        if (plugin.repoCodes) {
+
+    // Hata düzeltildi: window.pluginData.plugins.forEach çağrılıyor
+    window.pluginData.plugins.forEach(plugin => {
+        if (plugin.repoCodes && Array.isArray(plugin.repoCodes)) {
             plugin.repoCodes.forEach(repo => {
                 repositories.add(repo);
                 repoNames.set(repo, repo === "sinetech" ? "Latte / sinetech" : repo);
@@ -266,7 +354,9 @@ function updateFilterOptions() {
     });
 
     repoFilterSelect.innerHTML = '<option value="all">Tüm Depolar</option>';
-    repositories.forEach(repo => {
+    // Depo kodlarını sıralayarak listeleme (isteğe bağlı)
+    const sortedRepos = Array.from(repositories).sort();
+    sortedRepos.forEach(repo => {
         let option = document.createElement("option");
         option.value = repo;
         option.textContent = repoNames.get(repo) || "Bilinmiyor";
@@ -276,6 +366,13 @@ function updateFilterOptions() {
 
 
 function updateTable(filterType, repoFilter, searchQuery) {
+    // Veriye artık window.pluginData.plugins üzerinden erişiyoruz
+    if (!window.pluginData || !Array.isArray(window.pluginData.plugins)) {
+         const tableBody = document.querySelector("#pluginTable tbody");
+         tableBody.innerHTML = '<tr><td colspan="7">Eklenti verisi yüklenemedi veya formatı yanlış.</td></tr>';
+         return; // Eğer veri yoksa, tabloyu boşalt ve dur
+    }
+
     const tableBody = document.querySelector("#pluginTable tbody");
     tableBody.innerHTML = "";
 
@@ -298,57 +395,71 @@ function updateTable(filterType, repoFilter, searchQuery) {
         "movie": "Film"
     };
 
-    window.pluginData.forEach(plugin => {
-        if (filterType !== "all" && !plugin.tvTypes.includes(filterType)) return;
-        if (repoFilter !== "all" && !plugin.repoCodes.includes(repoFilter)) return;
-        if (searchQuery && !plugin.name.toLowerCase().includes(searchQuery.toLowerCase())) return;
+    // Filtreleme ve arama işlemlerini window.pluginData.plugins üzerinde yapıyoruz
+    window.pluginData.plugins.forEach(plugin => {
+        // Hata düzeltildi: plugin.tvTypes'ın array olduğundan emin ol
+        const pluginTvTypes = Array.isArray(plugin.tvTypes) ? plugin.tvTypes : [];
+        // Hata düzeltildi: plugin.repoCodes'ın array olduğundan emin ol
+        const pluginRepoCodes = Array.isArray(plugin.repoCodes) ? plugin.repoCodes : [];
+
+        if (filterType !== "all" && !pluginTvTypes.includes(filterType)) return;
+        if (repoFilter !== "all" && !pluginRepoCodes.includes(repoFilter)) return;
+        if (searchQuery && !(plugin.name || "").toLowerCase().includes(searchQuery.toLowerCase())) return; // Eklenti adı olmayabilirse hata vermemesi için kontrol ekledik
+
 
         // Harf duyarlılığını kaldırarak medya türlerini Türkçeleştirelim
-        const translatedTypes = plugin.tvTypes.map(type => mediaTypeTranslations[type.toLowerCase()] || type).join(", ");
+        const translatedTypes = pluginTvTypes.map(type => mediaTypeTranslations[type.toLowerCase()] || type).join(", ");
 
         // Repo kodlarını şık badge formatında gösterelim
-        const repoBadges = plugin.repoCodes.map(repo => `<span class="repo-badge repo-${repo}">${repo}</span>`).join(" ");
+        const repoBadges = pluginRepoCodes.map(repo => `<span class="repo-badge repo-${repo}">${repo}</span>`).join(" ");
 
-        // Eğer eklenti NSFW ise ismi sansürle
-        const pluginNameFormatted = plugin.tvTypes.includes("NSFW") ? "****" : plugin.name;
-
-        // Eğer eklenti NSFW ise açıklama sabit yazı olacak
-        const pluginDescriptionFormatted = plugin.tvTypes.includes("NSFW") ? "Kullandığınız depo içerisinden kontrol ediniz" : (plugin.description || "Açıklama Yok");
+        // Eğer eklenti NSFW ise ismi sansürle ve açıklamayı değiştir
+        const isNSFW = pluginTvTypes.includes("NSFW");
+        const pluginNameFormatted = isNSFW ? "****" : (plugin.name || "Ad Yok");
+        const pluginDescriptionFormatted = isNSFW ? "Kullandığınız depo içerisinden kontrol ediniz" : (plugin.description || "Açıklama Yok");
+        const pluginLanguageFormatted = plugin.language || "Bilinmiyor"; // Dil olmayabilirse
 
         const row = document.createElement("tr");
         row.innerHTML = `
-            <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="28"></td>
+            <td><img src="${(plugin.iconUrl || '').replace('%size%', '64')}" width="28" onerror="this.onerror=null; this.src='placeholder-icon.png';"></td> <!-- İkon URL'si olmayabilirse veya hata verirse placeholder ekledik -->
             <td class="bold">${pluginNameFormatted}</td>
             <td>${repoBadges}</td>
-            <td>${translatedTypes}</td> 
+            <td>${translatedTypes}</td>
             <td class="desc">${pluginDescriptionFormatted}</td>
-            <td>${plugin.language}</td>
-            <td>${plugin.version}</td>
+            <td>${pluginLanguageFormatted}</td>
+            <td>${plugin.version || 'Bilinmiyor'}</td> <!-- Versiyon olmayabilirse -->
         `;
         tableBody.appendChild(row);
     });
 }
-        
-        // Event Listener'ları ekleyelim
+
+        // Event Listener'ları ekleyelim (fetchPlugins tamamlandıktan sonra)
+        // DOMContentLoaded yerine fetchPlugins içinde çağrılmaları daha güvenli
+        // Çünkü event listener'lar window.pluginData yüklendikten sonra
+        // updateTable/Stats/Filter fonksiyonlarını doğru şekilde tetiklemeli.
+
         document.getElementById("filterSelect").addEventListener("change", function() {
             const repoFilter = document.getElementById("repoFilterSelect").value;
             const searchQuery = document.getElementById("searchInput").value;
             updateTable(this.value, repoFilter, searchQuery);
+             updateLastUpdated(); // Filtreleme değişince tarih sabit kalmalı, tekrar güncellemiyoruz
         });
 
         document.getElementById("repoFilterSelect").addEventListener("change", function() {
-    const selectedRepo = this.value; // Seçilen depo değerini al
-    updateStats(selectedRepo);       // Hatasız şekilde fonksiyona gönder
-    const filterType = document.getElementById("filterSelect").value;
-    const searchQuery = document.getElementById("searchInput").value;
-    updateTable(filterType, selectedRepo, searchQuery);
-});
+            const selectedRepo = this.value;
+            updateStats(selectedRepo); // Sadece istatistikleri günceller
+            const filterType = document.getElementById("filterSelect").value;
+            const searchQuery = document.getElementById("searchInput").value;
+            updateTable(filterType, selectedRepo, searchQuery); // Tabloyu günceller
+            updateLastUpdated(); // Depo değişince tarih sabit kalmalı, tekrar güncellemiyoruz
+        });
 
 
         document.getElementById("searchInput").addEventListener("input", function() {
             const filterType = document.getElementById("filterSelect").value;
             const repoFilter = document.getElementById("repoFilterSelect").value;
             updateTable(filterType, repoFilter, this.value);
+             updateLastUpdated(); // Arama değişince tarih sabit kalmalı, tekrar güncellemiyoruz
         });
 
         document.getElementById("clearSearch").addEventListener("click", function() {
@@ -356,9 +467,14 @@ function updateTable(filterType, repoFilter, searchQuery) {
             const filterType = document.getElementById("filterSelect").value;
             const repoFilter = document.getElementById("repoFilterSelect").value;
             updateTable(filterType, repoFilter, "");
+             updateLastUpdated(); // Arama temizlenince tarih sabit kalmalı, tekrar güncellemiyoruz
         });
 
+
+        // Sayfa yüklendiğinde veriyi çek
         fetchPlugins();
+        // updateLastUpdated(); // İlk çağrı fetchPlugins içinde yapılıyor
+
     </script>
 </body>
 </html>
