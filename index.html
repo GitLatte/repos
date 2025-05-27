@@ -133,13 +133,13 @@ tr:hover {
     </style>    
 </head>
 <body>
-    <h2 class="header-title">CloudStream TR Eklenti Listesi</h2>
+    <h2 class="header-title">CloudStream Eklenti Listesi</h2>
 
-    <div class="stats-container">
-        <div class="stats-card"><span id="totalPlugins">Toplam Eklenti: 0</span></div>
-        <div class="stats-card"><span id="totalRepos">Toplam Depo: 0</span></div>
-        <div class="stats-card"><span id="lastUpdated">Son Güncelleme: Bilinmiyor</span></div>
-    </div>
+<div class="stats-container">
+    <div class="stats-card"><span id="totalPlugins">Eklenti Sayısı: 0</span></div>
+    <div class="stats-card"><span id="totalRepos">Depo Sayısı: 0</span></div>
+</div>
+
 
     <div class="filter-container">
         <label for="filterSelect">Medya Türü Seç:</label>
@@ -188,31 +188,6 @@ tr:hover {
         .catch(error => console.error("JSON verisi yüklenemedi:", error));
          }
 
-         function updateLastUpdated() {
-    const lastUpdatedElement = document.getElementById("lastUpdated");
-    if (!window.pluginData.timestamp) {
-        lastUpdatedElement.textContent = "Son Güncelleme: Bilinmiyor";
-        return;
-    }
-
-    const lastUpdatedTime = new Date(window.pluginData.timestamp);
-    const currentTime = new Date();
-    const timeDifference = Math.floor((currentTime - lastUpdatedTime) / (1000 * 60)); // Dakika hesaplama
-
-    let displayText = "";
-    if (timeDifference < 1) {
-        displayText = "Eklenti listesi az önce güncellendi!";
-    } else if (timeDifference < 60) {
-        displayText = `Eklenti listesi en son ${timeDifference} dakika önce güncellendi`;
-    } else {
-        const hours = Math.floor(timeDifference / 60);
-        displayText = `Eklenti listesi en son ${hours} saat önce güncellendi`;
-    }
-
-    lastUpdatedElement.textContent = displayText;
-}
-
-         
          function updateStats(selectedRepo = "all") {
     const totalPlugins = window.pluginData.length;
     const totalRepos = new Set(window.pluginData.map(plugin => plugin.repositoryUrl)).size;
