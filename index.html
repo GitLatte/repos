@@ -136,13 +136,16 @@
         if (repoFilter !== "all" && !plugin.repoCodes.includes(repoFilter)) return;
         if (searchQuery && !plugin.name.toLowerCase().includes(searchQuery.toLowerCase())) return;
 
+        // Eğer repoCodes tanımlı değilse boş bir dizi ata
+        const repoCodesFormatted = (plugin.repoCodes && plugin.repoCodes.length) ? plugin.repoCodes.join(" / ") : "Bilinmiyor";
+
         const row = document.createElement("tr");
         row.innerHTML = `
             <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="32"></td>
             <td>${plugin.name}</td>
             <td>${plugin.version}</td>
             <td>${plugin.language}</td>
-            <td>${plugin.repoCodes.join(" / ")}</td> <!-- Depo kodlarını birleştirme -->
+            <td>${repoCodesFormatted}</td> <!-- Depo kodlarını birleştirme -->
             <td>${plugin.tvTypes.join(", ")}</td>
             <td>${plugin.description || "Açıklama Yok"}</td>
         `;
