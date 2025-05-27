@@ -1,6 +1,48 @@
 import requests
 import json
 from datetime import datetime
+import time
+import re
+import os
+
+# GitHub API için başlıklar
+def get_api_headers():
+    github_token = os.getenv('GITHUB_TOKEN')
+    headers = {'Accept': 'application/vnd.github.v3+json'}
+    if github_token:
+        headers['Authorization'] = f'token {github_token}'
+        print(f"✓ GitHub token bulundu: {github_token[:4]}...")
+    else:
+        print("⚠️ GitHub token bulunamadı! API istekleri sınırlı olacak.")
+    return headers
+
+def get_last_updated(repo_url, file_path, headers):
+    try:
+        # API rate limit aşımını önlemek için her istekten önce 2 saniye bekle
+        time.sleep(2)
+        
+        # GitHub API URL'sini oluştur
+        api_url = repo_url.replace('raw.githubusercontent.com', 'api.github.com/repos')
+        if '/builds/' in api_url:
+            api_url = re.sub(r'/builds/.*', '', api_url) + '/commits'
+        elif '/refs/heads/builds/' in api_url:
+            api_url = re.sub(r'/refs/heads/builds/.*', '', api_url) + '/commits'
+        
+        params = {'path': file_path, 'per_page': 1}
+        response = requests.get(api_url, headers=headers, params=params)
+        
+        if response.status_code in [403, 429]:
+            print(f"⚠️ GitHub API rate limit aşıldı. 60 saniye bekleniyor... (Hata: {response.status_code})")
+            time.sleep(60)
+            response = requests.get(api_url, headers=headers, params=params)
+        
+        if response.status_code == 200:
+            commits = response.json()
+            if commits and len(commits) > 0:
+                return commits[0]['commit']['committer']['date']
+    except Exception as e:
+        print(f"⚠️ Son güncelleme tarihi alınamadı: {e}")
+    return None
 
 # Depo linkleri ve kısa kodlar
 repos = {
@@ -14,6 +56,7 @@ repos = {
 }
 
 plugin_dict = {}
+api_headers = get_api_headers()
 
 for repo_url, repo_code in repos.items():
     try:
@@ -30,6 +73,12 @@ for repo_url, repo_code in repos.items():
                 else:
                     plugin_dict[plugin_name] = plugin
                     plugin_dict[plugin_name]["repoCodes"] = [repo_code]  # Yeni depo listesi oluştur
+                    
+                    # Eklentinin son güncelleme tarihini al
+                    file_path = plugin["url"].split('/builds/')[-1] if '/builds/' in plugin["url"] else plugin["url"].split('/refs/heads/builds/')[-1]
+                    timestamp = get_last_updated(repo_url, file_path, api_headers)
+                    if timestamp:
+                        plugin_dict[plugin_name]["timestamp"] = timestamp
                 
             print(f"✅ {repo_url} başarıyla işlendi!")
         else:
