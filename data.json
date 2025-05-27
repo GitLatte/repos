@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-05-27T13:33:41.484218Z",
+    "timestamp": "2025-05-27T14:21:10.728498Z",
     "plugins": [
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=aniworld.to&sz=%size%",
@@ -2714,7 +2714,7 @@
             "iconUrl": "https://www.4kfilmizleme.net/wp-content/uploads/2022/09/4kfilmizlemefavicon-1.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 26019,
+            "fileSize": 11676,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -2723,7 +2723,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 6,
+            "version": 8,
             "internalName": "4KFilmIzleme",
             "description": "Film izle, ⚡ En yeni çıkan yabancı vizyon filmleri 4KFilmizleme ile Online 1080p kalite veya Ultra Full HD 4K Film izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/4KFilmIzleme.cs3",
@@ -2745,7 +2745,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 1,
+            "version": 2,
             "internalName": "AsyaFanatiklerim",
             "description": "Asya Fanatikleri, asya dizilerini izleme imkanı sunar. Kore dizileri izle, asyafanatikleri kore dizileri, tayvan dizileri izle, çin dizileri izle, anime izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/AsyaFanatiklerim.cs3",
@@ -2767,7 +2767,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 4,
+            "version": 5,
             "internalName": "DiziKral",
             "description": "DiziKRAL - ücretsiz yabancı dizi izle, film izle, anime izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziKral.cs3",
@@ -2811,7 +2811,7 @@
             "tvTypes": [
                 "Movie, TvSeries"
             ],
-            "version": 4,
+            "version": 5,
             "internalName": "FilmHane",
             "description": "Son çıkan en yeni filmleri türkçe dublaj ve türkçe altyazılı dil seçenekleriyle Full HD (1080p) kalitelerinde film izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/FilmHane.cs3",
@@ -2833,7 +2833,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 2,
+            "version": 3,
             "internalName": "FilmIzleCx",
             "description": "Filmizle ile Full HD Film izle. Yerli ve yabancı filmleri Türkçe dublaj veya Alt yazılı seçeneğiyle kesintisiz ve sorunsuz en hızlı film sitesi.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/FilmIzleCx.cs3",
@@ -2846,7 +2846,7 @@
             "iconUrl": "https://hdfilm.cx/apple-touch-icon.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 11927,
+            "fileSize": 25814,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -2855,7 +2855,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 1,
+            "version": 3,
             "internalName": "HDFilm",
             "description": "Hdfilm.cx ile HD Film izle, Türkiye'nin binlerce filmlik orijinal arşiviyle Full HD 1080p kalite Türkçe Dublaj ve Altyazılı Film izleme keyfini yaşayın.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/HDFilm.cs3",
@@ -2877,7 +2877,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 8,
+            "version": 9,
             "internalName": "HdFilmCehennemi2",
             "description": "Full hd film izleme keyfini hdfilmcehennemi2 ile yaşayın. Türkiye'nin en güncel yüksek hd kalitede film izleme sitesi.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/HdFilmCehennemi2.cs3",
