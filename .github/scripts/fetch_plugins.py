@@ -29,9 +29,8 @@ def get_last_updated(repo_url, file_path, headers):
         response = requests.get(api_url, headers=headers, params=params)
 
         if response.status_code in [403, 429]:
-            print(f"⚠️ GitHub API rate limit aşıldı. 60 saniye bekleniyor... (Hata: {response.status_code})")
-            time.sleep(60)
-            response = requests.get(api_url, headers=headers, params=params)
+            print(f"⚠️ Rate limit aşıldı, bu eklenti atlanıyor. (Hata: {response.status_code})")
+            return None
 
         if response.status_code == 200:
             commits = response.json()
