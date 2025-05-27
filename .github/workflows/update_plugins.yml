@@ -2,8 +2,8 @@ name: Günlük Eklenti Güncellemesi
 
 on:
   schedule:
-    - cron: '0 */1 * * *'  # saat başı güncelle
-  workflow_dispatch:  # Manuel tetiklemeyi destekle
+    - cron: '0 */1 * * *'
+  workflow_dispatch:
 
 jobs:
   update_plugins:
@@ -13,7 +13,7 @@ jobs:
       - name: Repo'yu çek
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0   # Tam geçmişi çek, rebase için şart
+          fetch-depth: 0
 
       - name: Python'u kur
         uses: actions/setup-python@v3
@@ -26,16 +26,18 @@ jobs:
       - name: Eklenti verisini güncelle
         run: python .github/scripts/fetch_plugins.py
 
-      - name: Değişiklikleri çek (rebase ile)
+      - name: Güncellenen JSON dosyasını commitle
         run: |
           git config --global user.name "ActionHelper"
           git config --global user.email "212895703+ActionHelper@users.noreply.github.com"
-          git pull --rebase origin main
+          git add data.json
+          git commit -m "🚀 Eklenti listesi güncellendi [ci skip]" || echo "✅ Değişiklik yok!"
 
-      - name: Güncellenen JSON dosyasını commitle ve pushla
+      - name: Gerekirse rebase yap
+        run: git pull --rebase origin main || echo "⚠️ Rebase sırasında hata oluştu, değişiklik yok veya çözülmesi gereken bir çatışma olabilir."
+
+      - name: Pushla
         env:
           GITHUB_TOKEN: ${{ secrets.ACTIONHELPER }}
         run: |
-          git add data.json
-          git commit -m "🚀 Eklenti listesi güncellendi [ci skip]" || echo "✅ Değişiklik yok!"
-          git push https://x-access-token:${{ secrets.ACTIONHELPER }}@github.com/GitLatte/repos.git main
+          git push https://x-access-token:${{ secrets.ACTIONHELPER }}@github.com/GitLatte/repos.git main || echo "⚠️ Push sırasında hata oluştu."
