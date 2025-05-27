@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Repo'yu çek
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0   # Tam geçmişi çek, rebase için şart
 
       - name: Python'u kur
         uses: actions/setup-python@v3
@@ -24,12 +26,16 @@ jobs:
       - name: Eklenti verisini güncelle
         run: python .github/scripts/fetch_plugins.py
 
+      - name: Değişiklikleri çek (rebase ile)
+        run: |
+          git config --global user.name "ActionHelper"
+          git config --global user.email "212895703+ActionHelper@users.noreply.github.com"
+          git pull --rebase origin main
+
       - name: Güncellenen JSON dosyasını commitle ve pushla
         env:
           GITHUB_TOKEN: ${{ secrets.ACTIONHELPER }}
         run: |
-          git config --global user.name "ActionHelper"
-          git config --global user.email "212895703+ActionHelper@users.noreply.github.com"
           git add data.json
-          git commit -m "🚀 Eklenti listesi güncellendi" || echo "✅ Değişiklik yok!"
+          git commit -m "🚀 Eklenti listesi güncellendi [ci skip]" || echo "✅ Değişiklik yok!"
           git push https://x-access-token:${{ secrets.ACTIONHELPER }}@github.com/GitLatte/repos.git main
