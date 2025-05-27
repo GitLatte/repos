@@ -19,7 +19,7 @@ jobs:
           python-version: '3.x'
 
       - name: Gereksinimleri yükle
-        run: pip install requests beautifulsoup4
+        run: pip install requests
 
       - name: Eklenti verisini güncelle
         run: python .github/scripts/fetch_plugins.py
