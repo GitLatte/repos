@@ -12,7 +12,7 @@ repos = {
     "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/builds/plugins.json": "sarapcanagii"
 }
 
-all_plugins = []
+plugin_dict = {}
 
 for repo_url, repo_code in repos.items():
     try:
@@ -21,10 +21,16 @@ for repo_url, repo_code in repos.items():
             plugins = response.json()
             
             for plugin in plugins:
-                plugin["repoCode"] = repo_code  # Depo ekleme kodu ekleme
-                plugin["description"] = plugin.get("description", "Açıklama Yok")  # Açıklama ekle
+                plugin_name = plugin["name"]
                 
-            all_plugins.extend(plugins)
+                # Eğer eklenti daha önce eklendiyse, repo kodunu ekleyelim
+                if plugin_name in plugin_dict:
+                    plugin_dict[plugin_name]["repoCodes"].append(repo_code)
+                else:
+                    plugin_dict[plugin_name] = plugin
+                    plugin_dict[plugin_name]["repoCodes"] = [repo_code]  # Yeni repo kodu listesi oluştur
+                
+            print(f"✅ {repo_url} başarıyla işlendi!")
         else:
             print(f"⚠️ {repo_url} için veri alınamadı (Hata: {response.status_code})")
     except Exception as e:
@@ -32,6 +38,6 @@ for repo_url, repo_code in repos.items():
 
 # Sonuçları `data.json` dosyasına kaydet
 with open("data.json", "w", encoding="utf-8") as f:
-    json.dump(all_plugins, f, ensure_ascii=False, indent=4)
+    json.dump(list(plugin_dict.values()), f, ensure_ascii=False, indent=4)
 
-print("✅ Güncelleme tamamlandı! Artık eklenti açıklamaları data.json içinde yer alıyor.")
+print("✅ Güncelleme tamamlandı! Artık aynı eklenti birden fazla depoda varsa repo kodları birleşiyor.")

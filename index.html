@@ -128,12 +128,12 @@
         }
 
         function updateTable(filterType, repoFilter, searchQuery) {
-            const tableBody = document.querySelector("#pluginTable tbody");
-                  tableBody.innerHTML = "";
+         const tableBody = document.querySelector("#pluginTable tbody");
+         tableBody.innerHTML = "";
 
         window.pluginData.forEach(plugin => {
         if (filterType !== "all" && !plugin.tvTypes.includes(filterType)) return;
-        if (repoFilter !== "all" && plugin.repositoryUrl !== repoFilter) return;
+        if (repoFilter !== "all" && !plugin.repoCodes.includes(repoFilter)) return;
         if (searchQuery && !plugin.name.toLowerCase().includes(searchQuery.toLowerCase())) return;
 
         const row = document.createElement("tr");
@@ -142,13 +142,14 @@
             <td>${plugin.name}</td>
             <td>${plugin.version}</td>
             <td>${plugin.language}</td>
-            <td>${plugin.repoCode || "Bilinmiyor"}</td>
+            <td>${plugin.repoCodes.join(" / ")}</td> <!-- Depo kodlarını birleştirme -->
             <td>${plugin.tvTypes.join(", ")}</td>
-            <td>${plugin.description || "Açıklama Yok"}</td> <!-- Açıklama sütunu -->
+            <td>${plugin.description || "Açıklama Yok"}</td>
         `;
-                tableBody.appendChild(row);
+        tableBody.appendChild(row);
           });
         }
+
 
         // Event Listener'ları ekleyelim
         document.getElementById("filterSelect").addEventListener("change", function() {
