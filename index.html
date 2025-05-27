@@ -233,19 +233,23 @@ tr:hover {
 
 
 
-        function updateFilterOptions() {
-            const filterSelect = document.getElementById("filterSelect");
-            let mediaTypes = new Set();
-            window.pluginData.forEach(plugin => plugin.tvTypes.forEach(type => mediaTypes.add(type)));
+function updateFilterOptions() {
+    if (!window.pluginData || !window.pluginData.plugins) return; // Eğer veri yoksa hata vermeyi önle!
 
-            filterSelect.innerHTML = '<option value="all">Tüm Eklentiler</option>';
-            mediaTypes.forEach(type => {
-                let option = document.createElement("option");
-                option.value = type;
-                option.textContent = type;
-                filterSelect.appendChild(option);
-            });
-        }
+    const filterSelect = document.getElementById("filterSelect");
+    filterSelect.innerHTML = '<option value="all">Tüm Eklentiler</option>'; // Varsayılan seçenek
+
+    let mediaTypes = new Set();
+    window.pluginData.plugins.forEach(plugin => plugin.tvTypes.forEach(type => mediaTypes.add(type))); // Hata düzeltildi!
+
+    mediaTypes.forEach(type => {
+        let option = document.createElement("option");
+        option.value = type;
+        option.textContent = type;
+        filterSelect.appendChild(option);
+    });
+}
+
 
         function updateRepoOptions() {
     const repoFilterSelect = document.getElementById("repoFilterSelect");
