@@ -2,7 +2,7 @@ name: Günlük Eklenti Güncellemesi
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Her gün 00:00'da çalıştır
+    - cron: '0 */1 * * *'  # saat başı güncelle
   workflow_dispatch:  # Manuel tetiklemeyi destekle
 
 jobs:
