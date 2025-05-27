@@ -124,11 +124,11 @@ tr:hover {
             <tr>
                 <th>İkon</th>
                 <th>Ad</th>
-                <th>Versiyon</th>
-                <th>Dil</th>
                 <th>Depo Kodu</th>
                 <th>Tür</th>
                 <th>Açıklama</th>
+                <th>Dil</th>
+                <th>Ver.</th>
             </tr>
         </thead>
         <tbody></tbody>
@@ -258,11 +258,11 @@ function updateTable(filterType, repoFilter, searchQuery) {
         row.innerHTML = `
             <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="28"></td>
             <td class="bold">${pluginNameFormatted}</td>
-            <td>${plugin.version}</td>
-            <td>${plugin.language}</td>
             <td>${repoBadges}</td>
-            <td>${translatedTypes}</td> <!-- Kesintisiz çeviri! -->
+            <td>${translatedTypes}</td> 
             <td class="desc">${pluginDescriptionFormatted}</td>
+            <td>${plugin.language}</td>
+            <td>${plugin.version}</td>
         `;
         tableBody.appendChild(row);
     });
