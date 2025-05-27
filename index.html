@@ -49,7 +49,7 @@
                 <th>Ad</th>
                 <th>Versiyon</th>
                 <th>Dil</th>
-                <th>Repo</th>
+                <th>Depo Kodu</th>
                 <th>Tür</th>
                 <th>Son Güncelleme</th>
             </tr>
@@ -58,6 +58,27 @@
     </table>
 
     <script>
+        const repoMapping = {
+            "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/plugins.json": "sinetech",
+            "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/plugins.json": "nikstream",
+            "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/plugins.json": "feroxxcs3",
+            "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/refs/heads/main/plugins.json": "makoto",
+            "https://raw.githubusercontent.com/maarrem/cs-Kekik/refs/heads/builds/plugins.json": "kekikdevam",
+            "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/refs/heads/builds/plugins.json": "kekikan",
+            "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/builds/plugins.json": "sarapcanagii"
+        };
+
+        function formatDate(isoString) {
+            if (!isoString || isoString === "Bilinmiyor") return "Bilinmiyor";
+            const date = new Date(isoString);
+            const day = String(date.getUTCDate()).padStart(2, '0');
+            const month = String(date.getUTCMonth() + 1).padStart(2, '0');
+            const year = date.getUTCFullYear();
+            const hours = String(date.getUTCHours()).padStart(2, '0');
+            const minutes = String(date.getUTCMinutes()).padStart(2, '0');
+            return `${day}/${month}/${year} ${hours}:${minutes}`;
+        }
+
         function fetchPlugins() {
             fetch("https://GitLatte.github.io/repos/data.json")
             .then(response => response.json())
@@ -69,55 +90,6 @@
                 updateTable("all", "all", "");
             })
             .catch(error => console.error("JSON verisi yüklenemedi:", error));
-        }
-
-        function updateStats(selectedRepo) {
-            const totalPlugins = window.pluginData.length;
-            const totalRepos = new Set(window.pluginData.map(plugin => plugin.repositoryUrl)).size;
-
-            let selectedRepoCount = 0;
-            if (selectedRepo !== "all") {
-                selectedRepoCount = window.pluginData.filter(plugin => plugin.repositoryUrl === selectedRepo).length;
-                document.getElementById("statsContainer").innerHTML = `
-                    <span style="font-weight: bold;">Depo: ${selectedRepo.split("/").pop()}</span> | 
-                    <span style="font-weight: bold;">Bu Depodaki Eklenti Sayısı: ${selectedRepoCount}</span>
-                `;
-            } else {
-                document.getElementById("statsContainer").innerHTML = `
-                    <span>Toplam Eklenti: ${totalPlugins}</span> | 
-                    <span>Toplam Depo: ${totalRepos}</span>
-                `;
-            }
-        }
-
-        function updateFilterOptions() {
-            const filterSelect = document.getElementById("filterSelect");
-            let mediaTypes = new Set();
-
-            window.pluginData.forEach(plugin => plugin.tvTypes.forEach(type => mediaTypes.add(type)));
-
-            filterSelect.innerHTML = '<option value="all">Tüm Eklentiler</option>';
-            mediaTypes.forEach(type => {
-                let option = document.createElement("option");
-                option.value = type;
-                option.textContent = type;
-                filterSelect.appendChild(option);
-            });
-        }
-
-        function updateRepoOptions() {
-            const repoFilterSelect = document.getElementById("repoFilterSelect");
-            let repositories = new Set();
-
-            window.pluginData.forEach(plugin => repositories.add(plugin.repositoryUrl));
-
-            repoFilterSelect.innerHTML = '<option value="all">Tüm Depolar</option>';
-            repositories.forEach(repo => {
-                let option = document.createElement("option");
-                option.value = repo;
-                option.textContent = repo.split("/").pop();
-                repoFilterSelect.appendChild(option);
-            });
         }
 
         function updateTable(filterType, repoFilter, searchQuery) {
@@ -135,26 +107,13 @@
                     <td>${plugin.name}</td>
                     <td>${plugin.version}</td>
                     <td>${plugin.language}</td>
-                    <td><a href="${plugin.repositoryUrl}" target="_blank">${plugin.repositoryUrl.split("/").pop()}</a></td>
+                    <td>${repoMapping[plugin.repositoryUrl] || "Bilinmiyor"}</td>
                     <td>${plugin.tvTypes.join(", ")}</td>
-                    <td>${plugin.lastUpdated}</td>
+                    <td>${formatDate(plugin.lastUpdated)}</td>
                 `;
                 tableBody.appendChild(row);
             });
         }
-
-        document.getElementById("filterSelect").addEventListener("change", function() {
-            updateTable(this.value, document.getElementById("repoFilterSelect").value, document.getElementById("searchInput").value);
-        });
-
-        document.getElementById("repoFilterSelect").addEventListener("change", function() {
-            updateStats(this.value);
-            updateTable(document.getElementById("filterSelect").value, this.value, document.getElementById("searchInput").value);
-        });
-
-        document.getElementById("searchInput").addEventListener("input", function() {
-            updateTable(document.getElementById("filterSelect").value, document.getElementById("repoFilterSelect").value, this.value);
-        });
 
         fetchPlugins();
     </script>
