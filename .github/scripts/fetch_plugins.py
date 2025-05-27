@@ -30,14 +30,24 @@ repos = {
 def get_last_updated(repo_owner, repo_name, file_path):
     # GitHub API URL'ini düzelt
     api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/commits"
+    
+    # builds/file.cs3 formatındaki dosya yolunu düzelt
+    clean_path = file_path.replace('builds/', '')
+    if 'refs/heads/builds/' in file_path:
+        clean_path = file_path.replace('refs/heads/builds/', '')
+    
     params = {
-        "path": file_path.lstrip("/"),  # Başındaki / karakterini kaldır
+        "path": f"builds/{clean_path}",  # Doğru dosya yolu formatı
         "per_page": 1
     }
     
+    headers = {
+        "Accept": "application/vnd.github.v3+json"
+    }
+    
     try:
-        print(f"🔍 Tarih alınıyor: {repo_owner}/{repo_name} - {file_path}")
-        response = requests.get(api_url, params=params, headers=api_headers)
+        print(f"🔍 Tarih alınıyor: {repo_owner}/{repo_name} - builds/{clean_path}")
+        response = requests.get(api_url, params=params, headers=headers)
         
         if response.status_code == 200:
             data = response.json()
@@ -46,7 +56,7 @@ def get_last_updated(repo_owner, repo_name, file_path):
                 print(f"✅ Tarih alındı: {commit_date}")
                 return commit_date
             else:
-                print(f"⚠️ Commit bulunamadı: {repo_owner}/{repo_name}")
+                print(f"⚠️ Commit bulunamadı: {repo_owner}/{repo_name} - builds/{clean_path}")
         else:
             print(f"⚠️ API Hatası ({response.status_code}): {response.text}")
     except Exception as e:
@@ -81,15 +91,30 @@ for repo_url, repo_code in repos.items():
                     # GitHub raw URL'sini parse et
                     if "raw.githubusercontent.com" in url:
                         parts = url.split("/")
-                        if len(parts) >= 4:  # En az 4 parça olmalı: ['https:', '', 'raw.githubusercontent.com', 'owner', 'repo', ...]                            
+                        if len(parts) >= 4:
                             repo_owner = parts[3]
                             repo_name = parts[4]
-                            file_path = "/".join(parts[5:])
                             
-                            print(f"📄 Dosya bilgileri:\n  Repo: {repo_owner}/{repo_name}\n  Yol: {file_path}")
+                            # Dosya yolunu bul
+                            file_parts = []
+                            found_builds = False
+                            for part in parts[5:]:
+                                if part == "builds" or part == "refs" or part == "heads":
+                                    if part == "builds":
+                                        found_builds = True
+                                    continue
+                                if found_builds:
+                                    file_parts.append(part)
                             
-                            last_updated = get_last_updated(repo_owner, repo_name, file_path)
-                            plugin["lastUpdated"] = format_date(last_updated)
+                            if file_parts:
+                                file_path = "/".join(file_parts)
+                                print(f"📄 Dosya bilgileri:\n  Repo: {repo_owner}/{repo_name}\n  Yol: builds/{file_path}")
+                                
+                                last_updated = get_last_updated(repo_owner, repo_name, file_path)
+                                plugin["lastUpdated"] = format_date(last_updated)
+                            else:
+                                print(f"⚠️ Builds dizini bulunamadı: {url}")
+                                plugin["lastUpdated"] = "Bilinmiyor"
                         else:
                             print(f"⚠️ Geçersiz URL formatı: {url}")
                             plugin["lastUpdated"] = "Bilinmiyor"
