@@ -87,52 +87,26 @@
             .catch(error => console.error("JSON verisi yüklenemedi:", error));
         }
 
-        function updateStats(selectedRepo) {
-            const totalPlugins = window.pluginData.length;
-            const totalRepos = new Set(window.pluginData.map(plugin => plugin.repositoryUrl)).size;
-            let selectedRepoCount = 0;
+        function updateTable(filterType, repoFilter, searchQuery) {
+            const tableBody = document.querySelector("#pluginTable tbody");
+            tableBody.innerHTML = "";
 
-            if (selectedRepo !== "all") {
-                selectedRepoCount = window.pluginData.filter(plugin => plugin.repositoryUrl === selectedRepo).length;
-                document.getElementById("statsContainer").innerHTML = `
-                    <span style="font-weight: bold;">Depo Kodu: ${repoMapping[selectedRepo] || "Bilinmiyor"}</span> | 
-                    <span style="font-weight: bold;">Bu Depodaki Eklenti Sayısı: ${selectedRepoCount}</span>
+            window.pluginData.forEach(plugin => {
+                if (filterType !== "all" && !plugin.tvTypes.includes(filterType)) return;
+                if (repoFilter !== "all" && plugin.repositoryUrl !== repoFilter) return;
+                if (searchQuery && !plugin.name.toLowerCase().includes(searchQuery.toLowerCase())) return;
+
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td><img src="${plugin.iconUrl.replace('%size%', '64')}" width="32"></td>
+                    <td>${plugin.name}</td>
+                    <td>${plugin.version}</td>
+                    <td>${plugin.language}</td>
+                    <td>${repoMapping[plugin.repositoryUrl] || "Bilinmiyor"}</td>
+                    <td>${plugin.tvTypes.join(", ")}</td>
+                    <td>${formatDate(plugin.lastUpdated)}</td>
                 `;
-            } else {
-                document.getElementById("statsContainer").innerHTML = `
-                    <span>Toplam Eklenti: ${totalPlugins}</span> | 
-                    <span>Toplam Depo: ${totalRepos}</span>
-                `;
-            }
-        }
-
-        function updateFilterOptions() {
-            const filterSelect = document.getElementById("filterSelect");
-            let mediaTypes = new Set();
-
-            window.pluginData.forEach(plugin => plugin.tvTypes.forEach(type => mediaTypes.add(type)));
-
-            filterSelect.innerHTML = '<option value="all">Tüm Eklentiler</option>';
-            mediaTypes.forEach(type => {
-                let option = document.createElement("option");
-                option.value = type;
-                option.textContent = type;
-                filterSelect.appendChild(option);
-            });
-        }
-
-        function updateRepoOptions() {
-            const repoFilterSelect = document.getElementById("repoFilterSelect");
-            let repositories = new Set();
-
-            window.pluginData.forEach(plugin => repositories.add(plugin.repositoryUrl));
-
-            repoFilterSelect.innerHTML = '<option value="all">Tüm Depolar</option>';
-            repositories.forEach(repo => {
-                let option = document.createElement("option");
-                option.value = repo;
-                option.textContent = repoMapping[repo] || "Bilinmiyor";
-                repoFilterSelect.appendChild(option);
+                tableBody.appendChild(row);
             });
         }
 
