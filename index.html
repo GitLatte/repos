@@ -87,6 +87,25 @@
             .catch(error => console.error("JSON verisi yüklenemedi:", error));
         }
 
+        function updateStats(selectedRepo) {
+            const totalPlugins = window.pluginData.length;
+            const totalRepos = new Set(window.pluginData.map(plugin => plugin.repositoryUrl)).size;
+            let selectedRepoCount = 0;
+
+            if (selectedRepo !== "all") {
+                selectedRepoCount = window.pluginData.filter(plugin => plugin.repositoryUrl === selectedRepo).length;
+                document.getElementById("statsContainer").innerHTML = `
+                    <span style="font-weight: bold;">Depo Kodu: ${repoMapping[selectedRepo] || "Bilinmiyor"}</span> | 
+                    <span style="font-weight: bold;">Bu Depodaki Eklenti Sayısı: ${selectedRepoCount}</span>
+                `;
+            } else {
+                document.getElementById("statsContainer").innerHTML = `
+                    <span>Toplam Eklenti: ${totalPlugins}</span> | 
+                    <span>Toplam Depo: ${totalRepos}</span>
+                `;
+            }
+        }
+
         function updateFilterOptions() {
             const filterSelect = document.getElementById("filterSelect");
             let mediaTypes = new Set();
