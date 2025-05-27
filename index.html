@@ -58,16 +58,6 @@
     </table>
 
     <script>
-        const repoMapping = {
-            "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/plugins.json": "sinetech",
-            "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/plugins.json": "nikstream",
-            "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/plugins.json": "feroxxcs3",
-            "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/refs/heads/main/plugins.json": "makoto",
-            "https://raw.githubusercontent.com/maarrem/cs-Kekik/refs/heads/builds/plugins.json": "kekikdevam",
-            "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/refs/heads/builds/plugins.json": "kekikan",
-            "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/builds/plugins.json": "sarapcanagii"
-        };
-
         function formatDate(isoString) {
             if (!isoString || isoString === "Bilinmiyor") return "Bilinmiyor";
             const date = new Date(isoString);
@@ -93,9 +83,10 @@
             let selectedRepoCount = 0;
 
             if (selectedRepo !== "all") {
+                const selectedPlugin = window.pluginData.find(plugin => plugin.repositoryUrl === selectedRepo);
                 selectedRepoCount = window.pluginData.filter(plugin => plugin.repositoryUrl === selectedRepo).length;
                 document.getElementById("statsContainer").innerHTML = `
-                    <span style="font-weight: bold;">Depo Kodu: ${repoMapping[selectedRepo] || "Bilinmiyor"}</span> | 
+                    <span style="font-weight: bold;">Depo Kodu: ${selectedPlugin?.repoCode || "Bilinmiyor"}</span> | 
                     <span style="font-weight: bold;">Bu Depodaki Eklenti Sayısı: ${selectedRepoCount}</span>
                 `;
             } else {
@@ -123,13 +114,20 @@
         function updateRepoOptions() {
             const repoFilterSelect = document.getElementById("repoFilterSelect");
             let repositories = new Set();
-            window.pluginData.forEach(plugin => repositories.add(plugin.repositoryUrl));
+            let repoNames = new Map();
+            
+            window.pluginData.forEach(plugin => {
+                repositories.add(plugin.repositoryUrl);
+                if (plugin.repoCode) {
+                    repoNames.set(plugin.repositoryUrl, plugin.repoCode);
+                }
+            });
 
             repoFilterSelect.innerHTML = '<option value="all">Tüm Depolar</option>';
             repositories.forEach(repo => {
                 let option = document.createElement("option");
                 option.value = repo;
-                option.textContent = repoMapping[repo] || "Bilinmiyor";
+                option.textContent = repoNames.get(repo) || "Bilinmiyor";
                 repoFilterSelect.appendChild(option);
             });
         }
@@ -149,13 +147,40 @@
                     <td>${plugin.name}</td>
                     <td>${plugin.version}</td>
                     <td>${plugin.language}</td>
-                    <td>${repoMapping[plugin.repositoryUrl] || "Bilinmiyor"}</td>
+                    <td>${plugin.repoCode || "Bilinmiyor"}</td>
                     <td>${plugin.tvTypes.join(", ")}</td>
                     <td>${formatDate(plugin.lastUpdated)}</td>
                 `;
                 tableBody.appendChild(row);
             });
         }
+
+        // Event Listener'ları ekleyelim
+        document.getElementById("filterSelect").addEventListener("change", function() {
+            const repoFilter = document.getElementById("repoFilterSelect").value;
+            const searchQuery = document.getElementById("searchInput").value;
+            updateTable(this.value, repoFilter, searchQuery);
+        });
+
+        document.getElementById("repoFilterSelect").addEventListener("change", function() {
+            const filterType = document.getElementById("filterSelect").value;
+            const searchQuery = document.getElementById("searchInput").value;
+            updateStats(this.value);
+            updateTable(filterType, this.value, searchQuery);
+        });
+
+        document.getElementById("searchInput").addEventListener("input", function() {
+            const filterType = document.getElementById("filterSelect").value;
+            const repoFilter = document.getElementById("repoFilterSelect").value;
+            updateTable(filterType, repoFilter, this.value);
+        });
+
+        document.getElementById("clearSearch").addEventListener("click", function() {
+            document.getElementById("searchInput").value = "";
+            const filterType = document.getElementById("filterSelect").value;
+            const repoFilter = document.getElementById("repoFilterSelect").value;
+            updateTable(filterType, repoFilter, "");
+        });
 
         fetchPlugins();
     </script>
