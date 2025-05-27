@@ -22,9 +22,6 @@ for repo_url, repo_code in repos.items():
             
             for plugin in plugins:
                 plugin["repoCode"] = repo_code  # Depo ekleme kodu ekleme
-
-                # Buradan önce GitHub kaynak kodunu okuma işlemi yapılıyordu.
-                # Artık bu iş Cloudflare Worker tarafından yapıldığı için kaldırıldı.
             
             all_plugins.extend(plugins)
         else:
@@ -36,4 +33,4 @@ for repo_url, repo_code in repos.items():
 with open("data.json", "w", encoding="utf-8") as f:
     json.dump(all_plugins, f, ensure_ascii=False, indent=4)
 
-print("✅ Güncelleme tamamlandı! Artık Cloudflare Worker son güncelleme tarihlerini alıyor.")
+print("✅ Güncelleme tamamlandı! Artık sadece `data.json` oluşturuluyor.")
