@@ -260,17 +260,33 @@ tr:hover {
                 oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
                 
                 pluginList.forEach(plugin => {
-                    if (plugin.timestamp) {
-                        const pluginDate = new Date(plugin.timestamp);
-                        plugin.isNew = pluginDate > oneWeekAgo;
-                    }
+    // --- YENİ EKLENTİ (createdAt alanı varsa ve 48 saatten küçükse) ---
+    plugin.isNew = false;
+    if (plugin.createdAt) {
+        const createdAtDate = new Date(plugin.createdAt);
+        const now = new Date();
+        if ((now - createdAtDate) < 1000 * 60 * 60 * 48) { // 48 saat
+            plugin.isNew = true;
+        }
+    }
 
-                    // Yetişkin içerik kontrolü ve sansürleme
-                    if (plugin.tvTypes && plugin.tvTypes.some(type => type.toLowerCase() === 'nsfw')) {
-                        plugin.name = '[Yetişkin İçeriği]';
-                        plugin.description = '[Yetişkin İçeriği]';
-                    }
-                });
+    // --- HER REPO İÇİN GÜNCELLEME BAYRAĞI (repoTimestamps varsa) ---
+    // repoUpdated = {repoKodu: true/false, ...}
+    plugin.repoUpdated = {};
+    if (plugin.repoTimestamps) {
+        const now = new Date();
+        for (const repo in plugin.repoTimestamps) {
+            const ts = new Date(plugin.repoTimestamps[repo]);
+            plugin.repoUpdated[repo] = ((now - ts) < 1000 * 60 * 60 * 48); // 48 saat
+        }
+    }
+
+    // Yetişkin içerik kontrolü ve sansürleme (varsa)
+    if (plugin.tvTypes && plugin.tvTypes.some(type => type.toLowerCase() === 'nsfw')) {
+        plugin.name = '[Yetişkin İçeriği]';
+        plugin.description = '[Yetişkin İçeriği]';
+    }
+});
 
                 window.pluginData = {
                     plugins: pluginList,
@@ -619,9 +635,14 @@ tr:hover {
             }
 
             // Diğer hücreler
-            repoCell.innerHTML = (plugin.repoCodes || []).map(repo => 
-                `<span class="repo-badge repo-${repo.toLowerCase()}">${repo}</span>`
-            ).join(" ");
+            repoCell.innerHTML = (plugin.repoCodes || []).map(repo => {
+    // Güncellendi simgesi ekle
+    let updatedIcon = "";
+    if (plugin.repoUpdated && plugin.repoUpdated[repo]) {
+        updatedIcon = '<span title="Bu depoda güncellendi" style="margin-left:4px;color:#28a745;font-weight:bold;">&#8635;</span>'; // Güncelleme simgesi
+    }
+    return `<span class="repo-badge repo-${repo.toLowerCase()}">${repo}${updatedIcon}</span>`;
+}).join(" ");
 
             typeCell.textContent = (plugin.tvTypes || []).map(type => 
                 mediaTypeTranslations[type.toLowerCase()] || type
