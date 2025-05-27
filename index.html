@@ -65,17 +65,18 @@
         }
 
         function fetchPlugins() {
-            fetch("https://GitLatte.github.io/repos/data.json")
-            .then(response => response.json())
-            .then(data => {
-                window.pluginData = data;
-                updateStats("all");
-                updateFilterOptions();
-                updateRepoOptions();
-                updateTable("all", "all", "");
-            })
-            .catch(error => console.error("JSON verisi yüklenemedi:", error));
+        fetch("https://nettv.gitlatte.workers.dev/")
+         .then(response => response.json())
+         .then(data => {
+        window.pluginData = data; // Güncellenmiş veriyi sakla
+        updateStats("all");       // Toplam eklenti ve depo bilgilerini güncelle
+        updateFilterOptions();    // Medya türü seçeneklerini güncelle
+        updateRepoOptions();      // Depo seçeneklerini güncelle
+        updateTable("all", "all", ""); // Tabloyu güncellenmiş verilerle yenile
+         })
+         .catch(error => console.error("Cloudflare verisi yüklenemedi:", error));
         }
+
 
         function updateStats(selectedRepo) {
             const totalPlugins = window.pluginData.length;
