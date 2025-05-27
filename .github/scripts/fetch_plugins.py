@@ -24,14 +24,15 @@ def get_last_updated(repo_url, file_path, headers):
             api_url = re.sub(r'/builds/.*', '', api_url) + '/commits'
         elif '/refs/heads/builds/' in api_url:
             api_url = re.sub(r'/refs/heads/builds/.*', '', api_url) + '/commits'
-
+        
         params = {'path': file_path, 'per_page': 1}
         response = requests.get(api_url, headers=headers, params=params)
-
+        
         if response.status_code in [403, 429]:
-            print(f"⚠️ Rate limit aşıldı, bu eklenti atlanıyor. (Hata: {response.status_code})")
-            return None
-
+            print(f"⚠️ GitHub API rate limit aşıldı. 60 saniye bekleniyor... (Hata: {response.status_code})")
+            time.sleep(60)
+            response = requests.get(api_url, headers=headers, params=params)
+        
         if response.status_code == 200:
             commits = response.json()
             if commits and len(commits) > 0:
@@ -59,36 +60,28 @@ for repo_url, repo_code in repos.items():
         response = requests.get(repo_url)
         if response.status_code == 200:
             plugins = response.json()
-
+            
             for plugin in plugins:
                 plugin_name = plugin["name"]
-                # Dosya yolunu bul
-                if '/builds/' in plugin["url"]:
-                    file_path = plugin["url"].split('/builds/')[-1]
-                elif '/refs/heads/builds/' in plugin["url"]:
-                    file_path = plugin["url"].split('/refs/heads/builds/')[-1]
-                else:
-                    file_path = plugin["url"]  # fallback
 
+                # Eklentinin dosya yolunu ve commit zamanını al
+                file_path = plugin["url"].split('/builds/')[-1] if '/builds/' in plugin["url"] else plugin["url"].split('/refs/heads/builds/')[-1]
                 timestamp = get_last_updated(repo_url, file_path, api_headers)
 
                 if plugin_name in plugin_dict:
-                    # Depo kodunu tekrar eklememek için kontrol et
+                    # Aynı isim varsa repo kodunu ekle (tekrarsız)
                     if repo_code not in plugin_dict[plugin_name]["repoCodes"]:
                         plugin_dict[plugin_name]["repoCodes"].append(repo_code)
-                    # repoTimestamps dict'i yoksa oluştur
-                    if "repoTimestamps" not in plugin_dict[plugin_name]:
-                        plugin_dict[plugin_name]["repoTimestamps"] = {}
-                    if timestamp:
-                        plugin_dict[plugin_name]["repoTimestamps"][repo_code] = timestamp
-                    # createdAt zaten varsa dokunma
                 else:
+                    # Yeni eklenti kaydı
                     plugin_dict[plugin_name] = plugin
                     plugin_dict[plugin_name]["repoCodes"] = [repo_code]
+
+                # Her eklentiye repoTimestamps alanını ekle/güncelle
+                if "repoTimestamps" not in plugin_dict[plugin_name]:
                     plugin_dict[plugin_name]["repoTimestamps"] = {}
-                    if timestamp:
-                        plugin_dict[plugin_name]["repoTimestamps"][repo_code] = timestamp
-                    plugin_dict[plugin_name]["createdAt"] = datetime.utcnow().isoformat() + "Z"
+                if timestamp:
+                    plugin_dict[plugin_name]["repoTimestamps"][repo_code] = timestamp
 
             print(f"✅ {repo_url} başarıyla işlendi!")
         else:
