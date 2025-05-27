@@ -37,10 +37,13 @@ for repo_url, repo_code in repos.items():
             for plugin in plugins:
                 plugin["repoCode"] = repo_code  # Depo ekleme kodu ekleme
 
-                # Son güncelleme tarihini GitHub sayfasından al
-                last_updated = get_last_updated_from_github(plugin["url"])
-                plugin["lastUpdated"] = last_updated
-
+                # Eğer plugin içinde 'url' alanı varsa, bu dosyanın son güncelleme tarihini al
+                if "url" in plugin:
+                    last_updated = get_last_updated_from_github(plugin["url"])
+                    plugin["lastUpdated"] = last_updated
+                else:
+                    plugin["lastUpdated"] = "Bilinmiyor"  # Eğer `url` yoksa bilinmiyor olarak işaretle
+                
             all_plugins.extend(plugins)
         else:
             print(f"⚠️ {repo_url} için veri alınamadı (Hata: {response.status_code})")
@@ -51,4 +54,4 @@ for repo_url, repo_code in repos.items():
 with open("data.json", "w", encoding="utf-8") as f:
     json.dump(all_plugins, f, ensure_ascii=False, indent=4)
 
-print("✅ Güncelleme tamamlandı! Son güncelleme tarihleri artık HTML kaynağından alınıyor.")
+print("✅ Güncelleme tamamlandı! Son güncelleme tarihleri artık doğru şekilde JSON içinde yer alıyor.")
