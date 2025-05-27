@@ -1,6 +1,5 @@
 import requests
 import json
-from datetime import datetime
 
 # Depo linkleri ve kısa kodlar
 repos = {
@@ -37,16 +36,8 @@ for repo_url, repo_code in repos.items():
     except Exception as e:
         print(f"⚠️ {repo_url} işlenirken hata oluştu: {e}")
 
-# Güncelleme zamanını ekleyelim (ISO 8601 formatı)
-current_time = datetime.utcnow().isoformat() + "Z"
-
 # Sonuçları `data.json` dosyasına kaydet
-data_output = {
-    "timestamp": current_time,
-    "plugins": list(plugin_dict.values())
-}
-
 with open("data.json", "w", encoding="utf-8") as f:
-    json.dump(data_output, f, ensure_ascii=False, indent=4)
+    json.dump(list(plugin_dict.values()), f, ensure_ascii=False, indent=4)
 
-print(f"✅ Güncelleme tamamlandı! Son güncelleme zamanı: {current_time}")
+print("✅ Güncelleme tamamlandı! Artık aynı eklentiler tek satırda depo kodlarıyla görünecek.")
