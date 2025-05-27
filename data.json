@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-05-27T19:23:06.040808Z",
+    "timestamp": "2025-05-27T19:35:35.600453Z",
     "plugins": [
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=aniworld.to&sz=%size%",
@@ -298,7 +298,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=webdramaturkey.org/&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/GitLatte/Sinetech",
-            "fileSize": 31945,
+            "fileSize": 31946,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -306,9 +306,12 @@
                 "patr0nq"
             ],
             "tvTypes": [
-                "Movie, Podcast, AsianDrama, Anime"
+                "Movie",
+                "Podcast",
+                "AsianDrama",
+                "Anime"
             ],
-            "version": 1,
+            "version": 2,
             "internalName": "WebDramaTurkey",
             "description": "Kore, Çin ve Japon yapımı filmleri Web Drama Turkey üzerinden Türkçe altyazılı olarak izleyebilirsiniz. Kore filmi izle, Çin filmi izle, Asya filmleri izle.",
             "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/WebDramaTurkey.cs3",
@@ -353,7 +356,8 @@
                 "patr0nq"
             ],
             "tvTypes": [
-                "Others, Live"
+                "Others",
+                "Live"
             ],
             "version": 1,
             "internalName": "YTEglence",
