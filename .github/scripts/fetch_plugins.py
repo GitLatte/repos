@@ -61,8 +61,13 @@ for repo_url, repo_code in repos.items():
             plugins = response.json()
 
             for plugin in plugins:
-                plugin_name = plugin["name"]
+                # Eklentinin status durumunu kontrol et
+                # Eğer status 0 ise, bu eklentiyi atla
+                if plugin.get("status") == 0:
+                    print(f"⚠️ Eklenti '{plugin.get('name', 'Bilinmeyen Eklenti')}' devre dışı (status: 0), atlanıyor.")
+                    continue
 
+                plugin_name = plugin["name"]
                 # Eklentinin dosya yolunu ve commit zamanını al
                 if '/builds/' in plugin["url"]:
                     file_path = plugin["url"].split('/builds/')[-1]
