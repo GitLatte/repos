@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-05-28T11:18:49.551602Z",
+    "timestamp": "2025-05-28T12:45:31.134935Z",
     "plugins": [
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=aniworld.to&sz=%size%",
@@ -2939,9 +2939,10 @@
                 "kraptor"
             ],
             "tvTypes": [
-                "Movie, TvSeries"
+                "Movie",
+                "TvSeries"
             ],
-            "version": 5,
+            "version": 6,
             "internalName": "FilmHane",
             "description": "Son çıkan en yeni filmleri türkçe dublaj ve türkçe altyazılı dil seçenekleriyle Full HD (1080p) kalitelerinde film izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/FilmHane.cs3",
