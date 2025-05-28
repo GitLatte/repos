@@ -1,8 +1,5 @@
 [
-    {
-        "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/main/repo.json",
-        "verified": true
-    },
+    "https://raw.githubusercontent.com/GitLatte/Sinetech/main/repo.json",
     "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/master/repo.json",
     "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/repo.json",
     "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/refs/heads/main/repo.json",
