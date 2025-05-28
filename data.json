@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-05-28T07:21:29.580532Z",
+    "timestamp": "2025-05-28T08:29:28.050197Z",
     "plugins": [
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=aniworld.to&sz=%size%",
@@ -451,9 +451,10 @@
                 "nikyokki"
             ],
             "tvTypes": [
-                "Movie, TvSeries"
+                "Movie",
+                "TvSeries"
             ],
-            "version": 2,
+            "version": 3,
             "internalName": "AsyaWatch",
             "description": "Asyawatch",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/AsyaWatch.cs3",
@@ -1416,9 +1417,10 @@
                 "nikyokki"
             ],
             "tvTypes": [
-                "Movie, TvSeries"
+                "Movie",
+                "TvSeries"
             ],
-            "version": 2,
+            "version": 3,
             "internalName": "SelcukFlix",
             "description": "Selcukflix'te her türden en yeni ve en popüler dizi ve filmleri izlemenin keyfini çıkarın. Aksiyondan romantiğe, bilim kurgudan dramaya, geniş kütüphanemizde herkes için bir şey var.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SelcukFlix.cs3",
@@ -1488,7 +1490,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.sinema.cx&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 14356,
+            "fileSize": 14361,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1498,7 +1500,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 6,
+            "version": 7,
             "internalName": "SinemaCX",
             "description": "Güncel ve en iyi yabancı filmleri yüksek görüntü kalitesinde, Türkçe dublaj ve altyazı seçenekleriyle filmleri full izleyin.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SinemaCX.cs3",
@@ -1842,7 +1844,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=wfilmizle.my&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 15334,
+            "fileSize": 15331,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1851,7 +1853,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 3,
+            "version": 4,
             "internalName": "WFilmİzle",
             "description": "Aile Filmleri izle, Yerli ve yabancı en yeni Aile filmlerini Full HD 1080p görüntü kalitesiyle Türkçe Dublaj ve Türkçe Altyazı seçenekleriyle izleyin.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WFilmİzle.cs3",
