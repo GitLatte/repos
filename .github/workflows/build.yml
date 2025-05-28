@@ -13,8 +13,6 @@ on:
       - '*.md'
       - '.github/scripts/fetch_plugins.py'
       - '.github/workflows/update_plugins.yml'
-      - 'go/index.html'
-      - 'go/redirect.js'
       - 'data.json'
       - 'index.html'
       - 'README.md'
