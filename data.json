@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-05-29T00:50:24.632651Z",
+    "timestamp": "2025-05-29T00:56:30.822895Z",
     "plugins": [
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=aniworld.to&sz=%size%",
@@ -25,7 +25,9 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
@@ -49,7 +51,9 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive-events.png",
@@ -73,7 +77,9 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive-vpn.png",
@@ -97,7 +103,9 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=ddizi.im&sz=%size%",
@@ -122,7 +130,9 @@
                 "sinetech",
                 "nikstream"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizifun3.com&sz=%size%",
@@ -149,7 +159,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=kick.com&sz=%size%",
@@ -174,7 +186,9 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
@@ -198,7 +212,9 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -224,7 +240,9 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/powerdizi/powerdizi.png",
@@ -251,7 +269,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/powersinema/powersinema.png",
@@ -279,7 +299,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
@@ -303,7 +325,9 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/tvbahcesi/bahcesitv.png",
@@ -328,7 +352,9 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=webdramaturkey.org/&sz=%size%",
@@ -355,7 +381,9 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=youtube.com&sz=%size%",
@@ -379,7 +407,9 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=youtube.com&sz=%size%",
@@ -404,7 +434,9 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.4kfilmizlesene.org&sz=%size%",
@@ -429,7 +461,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=animecix.net&sz=%size%",
@@ -460,7 +494,9 @@
             ],
             "repoTimestamps": {
                 "nikstream": "2025-04-18T05:28:36Z"
-            }
+            },
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=asyawatch.com&sz=%size%",
@@ -485,7 +521,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=belgeselx.com&sz=%size%",
@@ -513,7 +551,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -540,7 +580,9 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=cizgimax.online&sz=%size%",
@@ -567,7 +609,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizibox.de&sz=%size%",
@@ -594,7 +638,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizigom1.co&sz=%size%",
@@ -619,7 +665,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizikorea.vip&sz=%size%",
@@ -646,7 +694,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizilla.club&sz=%size%",
@@ -675,7 +725,9 @@
             ],
             "repoTimestamps": {
                 "nikstream": "2025-04-07T12:17:26Z"
-            }
+            },
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizimag.net&sz=%size%",
@@ -700,7 +752,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizimom.tv&sz=%size%",
@@ -727,7 +781,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizipal683.com&sz=%size%",
@@ -758,7 +814,9 @@
             ],
             "repoTimestamps": {
                 "nikstream": "2025-04-18T05:28:44Z"
-            }
+            },
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.diziyou.co&sz=%size%",
@@ -785,7 +843,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.dmax.com.tr/favicon.ico",
@@ -809,7 +869,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=filmizlesene.plus&sz=%size%",
@@ -833,7 +895,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=filmkovasi.tv&sz=%size%",
@@ -858,7 +922,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=filmmakinesi.film&sz=%size%",
@@ -886,7 +952,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.filmmodu17.com&sz=%size%",
@@ -913,7 +981,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilm.pro&sz=%size%",
@@ -940,7 +1010,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilmizlede.net&sz=%size%",
@@ -965,7 +1037,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.fullhdfilmizlesene.de&sz=%size%",
@@ -992,7 +1066,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=fullporner.com&sz=%size%",
@@ -1017,7 +1093,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=%size%",
@@ -1046,7 +1124,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.hdfilmcehennemi2.nl&sz=%size%",
@@ -1070,7 +1150,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmizle.to&sz=%size%",
@@ -1096,7 +1178,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmsitesi.net&sz=%size%",
@@ -1123,7 +1207,9 @@
             ],
             "repoTimestamps": {
                 "nikstream": "2025-03-18T11:17:18Z"
-            }
+            },
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=hqporner.com&sz=%size%",
@@ -1148,7 +1234,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3vCp6N1K4bECoYRQD-cisJF2_6V_Hk01ZhDmoPR2JuM8O5qr4MqrPO1munM9cRlleBBSK6odYhLtDBWv4E3vhPhynlmS5hVVtJZShHoGA5REQ8_3v8SIlccTEqzVQu2UJyNYQdJNrKIfWy66RQeT0D-CcmFCbHPz5023H6p2v5fv4NVloZ5Rqo_yGrIY/s320/iNat-Box-App.png",
@@ -1177,7 +1265,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://jetfilmizle.de&sz=%size%",
@@ -1204,7 +1294,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.koreanturk.com&sz=%size%",
@@ -1230,7 +1322,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=kultfilmler.com&sz=%size%",
@@ -1258,7 +1352,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://netfree2.cc/mobile/img/nf2/icon_x192.png",
@@ -1286,7 +1382,9 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://cdn1.iconfinder.com/data/icons/nsfw-1/64/tv-adult-content-porn-512.png",
@@ -1312,7 +1410,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=pornhub.com&sz=%size%",
@@ -1337,7 +1437,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=rarefilmm.com&sz=%size%",
@@ -1364,7 +1466,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://rectvapk.cc/wp-content/uploads/2023/02/Rec-TV.webp",
@@ -1396,7 +1500,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=roketdizi.co&sz=%size%",
@@ -1421,7 +1527,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=selcukflix.com&sz=%size%",
@@ -1446,7 +1554,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.setfilmizle.de&sz=%size%",
@@ -1473,7 +1583,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=sezonlukdizi6.com&sz=%size%",
@@ -1501,7 +1613,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.sinema.cx&sz=%size%",
@@ -1528,7 +1642,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=spankbang.com&sz=%size%",
@@ -1554,7 +1670,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.superfilmgeldi.biz&sz=%size%",
@@ -1581,7 +1699,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tafdi.info&sz=%size%",
@@ -1606,7 +1726,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.tlctv.com.tr/favicon.ico",
@@ -1629,7 +1751,9 @@
             "repoCodes": [
                 "nikstream"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=trgoalsgiris.xyz/&sz=%size%",
@@ -1652,7 +1776,9 @@
             "repoCodes": [
                 "nikstream"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.turkanime.co&sz=%size%",
@@ -1678,7 +1804,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tvdiziler.cc&sz=%size%",
@@ -1702,7 +1830,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=ugurfilm7.com&sz=%size%",
@@ -1729,7 +1859,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=uncutmaza.cc&sz=%size%",
@@ -1753,7 +1885,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=vavoo.to&sz=%size%",
@@ -1777,7 +1911,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -1802,7 +1938,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=watch2movies.net&sz=%size%",
@@ -1828,7 +1966,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
@@ -1855,7 +1995,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=wfilmizle.my&sz=%size%",
@@ -1880,7 +2022,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=xhamster.com&sz=%size%",
@@ -1904,7 +2048,9 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=xprime.tv&sz=%size%",
@@ -1927,7 +2073,9 @@
             "repoCodes": [
                 "nikstream"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=yabancidizi.tv&sz=%size%",
@@ -1952,7 +2100,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.ddizi.im/favicon.ico",
@@ -1976,7 +2126,9 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/Kohi-den/extensions-source/927f9c68fd64ce52f6212ae633d0f0585eca3545/src/en/donghuastream/res/mipmap-xxxhdpi/ic_launcher.png",
@@ -2000,7 +2152,9 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://filmbip.com/uploads/favicon/original/favicon.webp",
@@ -2024,7 +2178,9 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.tlctv.com.tr&sz=%size%",
@@ -2048,7 +2204,9 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tranimaci.com&sz=%size%",
@@ -2072,7 +2230,9 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=asyalog.com&sz=%size%",
@@ -2096,7 +2256,9 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.animeizlesene.com/public/assets/img/favicon-32x32.png",
@@ -2122,7 +2284,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://animeler.me/wp-content/uploads/cropped-animelerpw-48x48.png",
@@ -2146,7 +2310,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://animex.tr/wp-content/uploads/2024/06/favicon.ico",
@@ -2170,7 +2336,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://anizm.net/upload/assets/favicon.ico",
@@ -2194,7 +2362,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://asyaanimeleri.top/wp-content/uploads/2021/08/Asya-animeleri-12-e1629130525708.png",
@@ -2218,7 +2388,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -2244,7 +2416,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://cizgivedizi.com/Logo.png",
@@ -2268,7 +2442,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "view-source:https://dizimore.com/wp-content/uploads/2024/03/morefav.png",
@@ -2292,7 +2468,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.diziyo.de/wp-content/uploads/2019/11/favicon-150x150.ico",
@@ -2318,7 +2496,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -2341,7 +2521,9 @@
             "repoCodes": [
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.giniko.com/images/favicon.ico",
@@ -2365,7 +2547,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://iptvplay.stream/favicon.ico",
@@ -2389,7 +2573,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -2413,7 +2599,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://sinefy3.com/assets/img/sinefy/icon-144x144.png",
@@ -2437,7 +2625,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://play-lh.googleusercontent.com/brwGNmr7IjA_MKk_TTPs0va10hdKE_bD_a1lnKoiMuCayW98EHpRv55edA6aEoJlmwfX",
@@ -2464,7 +2654,9 @@
             "repoCodes": [
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.trdiziizle.vip/fawn.png",
@@ -2488,7 +2680,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://img.watch32.sx/xxrz/400x400/100/a9/5e/a95e15a880a9df3c045f6a5224daf576/a95e15a880a9df3c045f6a5224daf576.png",
@@ -2513,7 +2707,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=youtube.com&sz=%size%",
@@ -2537,7 +2733,9 @@
             "repoCodes": [
                 "kekikdevam"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/yts.png",
@@ -2564,7 +2762,9 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.4kfilmizleme.net/wp-content/uploads/2022/09/4kfilmizlemefavicon-1.png",
@@ -2587,7 +2787,9 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://asyafanatiklerim.com/wp-content/uploads/2018/08/md_5aaeb1de75bea.png",
@@ -2610,7 +2812,9 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://dizikral.nl/mofy/img/192x192_.png",
@@ -2633,7 +2837,9 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://filmekseni.net/favicon.ico",
@@ -2656,7 +2862,9 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://filmhane.net/uploads/logo/original/logo-7349.webp",
@@ -2680,7 +2888,9 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://filmizle.cx/favicon.ico",
@@ -2703,7 +2913,9 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://hdfilm.cx/apple-touch-icon.png",
@@ -2726,7 +2938,9 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://hdfilmcehennemi2.rip/wp-content/uploads/2023/07/favi.png",
@@ -2749,7 +2963,9 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=colorhunt.co&sz=%size%",
@@ -2772,7 +2988,9 @@
             "repoCodes": [
                 "sarapcanagii"
             ],
-            "repoTimestamps": {}
+            "repoTimestamps": {},
+            "isNew": false,
+            "isUpdated": false
         }
     ]
 }
