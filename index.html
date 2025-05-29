@@ -526,65 +526,72 @@ th.sortable.desc::after {
 
         function sortPlugins(plugins) {
             return plugins.sort((a, b) => {
-                if (a.isNew !== b.isNew) {
-                    return b.isNew ? -1 : 1;
+               
+                if (a.isNew && !b.isNew) {
+                    return -1;
+                }
+                if (!a.isNew && b.isNew) {
+                    return 1; 
                 }
 
-                if (currentSort.column) {
-                    let aVal = a[currentSort.column];
-                    let bVal = b[currentSort.column];
+                if (a.isNew === b.isNew) {
 
-                    if (currentSort.column === 'repoCodesDisplay') {
-                        aVal = (aVal || []).join(',');
-                        bVal = (bVal || []).join(',');
-                    }
-                    else if (currentSort.column === 'tvTypes') {
-                        const mediaTypeTranslations = { /* ... (çeviriler) ... */ };
-                        aVal = aVal ? aVal.map(t => mediaTypeTranslations[t.toLowerCase()] || t).join(',') : '';
-                        bVal = bVal ? bVal.map(t => mediaTypeTranslations[t.toLowerCase()] || t).join(',') : '';
-                    }
-                    else if (currentSort.column === 'version') {
-                        aVal = parseFloat(aVal) || 0;
-                        bVal = parseFloat(bVal) || 0;
-                        if (aVal < bVal) return currentSort.direction === 'asc' ? -1 : 1;
-                        if (aVal > bVal) return currentSort.direction === 'asc' ? 1 : -1;
-                        return 0;
-                    }
-                    else if (currentSort.column === 'name') {
-                        const nameComparison = (aVal || '').localeCompare(bVal || '');
-                        if (nameComparison !== 0) {
-                            return currentSort.direction === 'asc' ? nameComparison : -nameComparison;
+                    if (currentSort.column) {
+                        let aVal = a[currentSort.column];
+                        let bVal = b[currentSort.column];
+
+                        if (currentSort.column === 'repoCodesDisplay') {
+                            aVal = (aVal || []).join(',');
+                            bVal = (bVal || []).join(',');
                         }
-                        const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
-                        const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
-                        return currentSort.direction === 'asc' ? aRepo.localeCompare(bRepo) : -bRepo.localeCompare(aRepo);
-                    }
-                    else {
-                         if (aVal === bVal) return 0;
-                         const comparison = String(aVal || '').localeCompare(String(bVal || ''));
-                         return currentSort.direction === 'asc' ? comparison : -comparison;
-                    }
+                        else if (currentSort.column === 'tvTypes') {
+                            const mediaTypeTranslations = { /* ... (çeviriler) ... */ };
+                            aVal = aVal ? aVal.map(t => mediaTypeTranslations[t.toLowerCase()] || t).join(',') : '';
+                            bVal = bVal ? bVal.map(t => mediaTypeTranslations[t.toLowerCase()] || t).join(',') : '';
+                        }
+                        else if (currentSort.column === 'version') {
+                            aVal = parseFloat(aVal) || 0;
+                            bVal = parseFloat(bVal) || 0;
+                            if (aVal < bVal) return currentSort.direction === 'asc' ? -1 : 1;
+                            if (aVal > bVal) return currentSort.direction === 'asc' ? 1 : -1;
+                            return 0;
+                        }
+                        else if (currentSort.column === 'name') {
+                            const nameComparison = (aVal || '').localeCompare(bVal || '');
+                            if (nameComparison !== 0) {
+                                return currentSort.direction === 'asc' ? nameComparison : -nameComparison;
+                            }
+                            const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
+                            const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
+                            return currentSort.direction === 'asc' ? aRepo.localeCompare(bRepo) : -bRepo.localeCompare(aRepo);
+                        }
+                        else {
+                             if (aVal === bVal) return 0;
+                             const comparison = String(aVal || '').localeCompare(String(bVal || ''));
+                             return currentSort.direction === 'asc' ? comparison : -comparison;
+                        }
 
-                     if (aVal === bVal) {
-                         const nameComparison = (a.name || '').localeCompare(b.name || '');
-                         if (nameComparison !== 0) {
-                             return nameComparison;
+                         if (aVal === bVal) {
+                             const nameComparison = (a.name || '').localeCompare(b.name || '');
+                             if (nameComparison !== 0) {
+                                 return nameComparison;
+                             }
+                             const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
+                             const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
+                             return aRepo.localeCompare(bRepo);
                          }
-                         const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
-                         const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
-                         return aRepo.localeCompare(bRepo);
-                     }
-                      return 0;
+                          return 0;
 
-                }
+                    }
 
-                const nameComparison = (a.name || '').localeCompare(b.name || '');
-                if (nameComparison !== 0) {
-                    return nameComparison;
+                    const nameComparison = (a.name || '').localeCompare(b.name || '');
+                    if (nameComparison !== 0) {
+                        return nameComparison;
+                    }
+                    const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
+                    const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
+                    return aRepo.localeCompare(bRepo);
                 }
-                const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
-                const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
-                return aRepo.localeCompare(bRepo);
             });
         }
 
@@ -672,7 +679,7 @@ th.sortable.desc::after {
 
             if (showNewBadge) {
                 const newBadge = document.createElement("span");
-                newBadge.textContent = "Yeni";
+                newBadge.textContent = "Yeni Eklenti! 🖤";
                 newBadge.className = "plugin-status-badge new-plugin-badge";
                 nameCell.appendChild(newBadge);
             } else if (showUpdatedBadge) {
