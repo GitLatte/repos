@@ -4,6 +4,28 @@ from datetime import datetime
 import time
 import re
 import os
+import subprocess # Git komutlarını çalıştırmak için eklendi
+
+def run_command(command):
+    try:
+        print(f"Çalıştırılıyor: {command}")
+        result = subprocess.run(command, shell=True, check=True, capture_output=True, text=True)
+        print("✓ Başarılı.")
+        print(result.stdout)
+        if result.stderr:
+            print("Stderr:")
+            print(result.stderr)
+        return True
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Hata oluştu: {e}")
+        print("Stderr:")
+        print(e.stderr)
+        print("Stdout:")
+        print(e.stdout)
+        return False
+    except FileNotFoundError:
+        print(f"❌ Komut bulunamadı: {command.split()[0]}")
+        return False
 
 def get_api_headers():
     github_token = os.getenv('ACTIONHELPER')
@@ -15,22 +37,13 @@ def get_api_headers():
         print("⚠️ GitHub token bulunamadı! API istekleri sınırlı olacak.")
     return headers
 
-def get_last_updated(repo_url, file_path, headers):
-    try:
-        api_url = repo_url.replace('raw.githubusercontent.com', 'api.github.com/repos')
-        if '/builds/' in api_url:
-            api_url = re.sub(r'/builds/.*', '', api_url) + '/commits'
-        elif '/refs/heads/builds/' in api_url:
-            api_url = re.sub(r'/refs/heads/builds/.*', '', api_url) + '/commits'
-        elif '/refs/heads/main/' in api_url:
-             api_url = re.sub(r'/refs/heads/main/.*', '', api_url) + '/commits'
-
-
+def get_last_updated_by_api(api_commit_url_base, file_path, headers):
+     try:
         params = {'path': file_path, 'per_page': 1}
-        response = requests.get(api_url, headers=headers, params=params)
+        response = requests.get(api_commit_url_base, headers=headers, params=params)
 
         if response.status_code in [403, 429]:
-            print(f"⚠️ GitHub API rate limit aşıldı, bu eklenti için zaman atlanıyor. (Hata: {response.status_code})")
+            print(f"⚠️ GitHub API rate limit aşıldı, commit zamanı atlanıyor. (Hata: {response.status_code})")
             return None
 
         if response.status_code == 200:
@@ -38,11 +51,12 @@ def get_last_updated(repo_url, file_path, headers):
             if commits and len(commits) > 0:
                 return commits[0]['commit']['committer']['date']
         else:
-             print(f"⚠️ {api_url} adresinden commit bilgisi alınamadı (Hata: {response.status_code})")
+             print(f"⚠️ {api_commit_url_base} adresinden commit bilgisi alınamadı (Hata: {response.status_code})")
 
-    except Exception as e:
-        print(f"⚠️ Son güncelleme tarihi alınırken hata oluştu: {e}")
-    return None
+     except Exception as e:
+         print(f"⚠️ Commit zamanı alınırken hata oluştu: {e}")
+     return None
+
 
 # Depo linkleri ve kısa kodlar
 repos = {
@@ -58,84 +72,6 @@ repos = {
 plugin_dict = {}
 api_headers = get_api_headers()
 
-for repo_url, repo_code in repos.items():
-    try:
-        response = requests.get(repo_url)
-        if response.status_code == 200:
-            plugins = response.json()
-            if isinstance(plugins, dict) and 'plugins' in plugins:
-                plugins = plugins['plugins']
-            elif not isinstance(plugins, list):
-                 print(f"⚠️ {repo_url} beklenmeyen JSON formatı algılandı (liste değil). Atlanıyor.")
-                 continue
-
-
-            for plugin in plugins:
-                plugin_identifier = plugin.get("pluginId", plugin.get("name"))
-                if not plugin_identifier:
-                     print("⚠️ Eklenti adı veya pluginId eksik, atlanıyor.")
-                     continue
-                plugin_file_url = plugin.get("url")
-                file_path = None
-                if plugin_file_url:
-                    if '/builds/' in plugin_file_url:
-                        file_path = plugin_file_url.split('/builds/')[-1]
-                    elif '/refs/heads/builds/' in plugin_file_url:
-                        file_path = plugin_file_url.split('/refs/heads/builds/')[-1]
-                    elif '/refs/heads/main/' in plugin_file_url:
-                         file_path = plugin_file_url.split('/refs/heads/main/')[-1]
-                    elif 'raw.githubusercontent.com/' in plugin_file_url:
-                         parts = plugin_file_url.split('raw.githubusercontent.com/')
-                         if len(parts) > 1:
-                             repo_and_path = parts[1]
-                             path_parts = repo_and_path.split('/', 3)
-                             if len(path_parts) > 3:
-                                 file_path = path_parts[3]
-
-
-                timestamp = None
-                if file_path:
-                    timestamp = get_last_updated(repo_url, file_path, api_headers)
-                else:
-                     print(f"⚠️ Eklenti '{plugin_identifier}' için dosya yolu belirlenemedi, commit zamanı atlanıyor.")
-
-                if plugin_identifier in plugin_dict:
-                    existing_plugin = plugin_dict[plugin_identifier]
-
-                    if 'repoCodes' not in existing_plugin:
-                        existing_plugin["repoCodes"] = []
-                    if repo_code not in existing_plugin["repoCodes"]:
-                        existing_plugin["repoCodes"].append(repo_code)
-
-                    if "repoTimestamps" not in existing_plugin:
-                        existing_plugin["repoTimestamps"] = {}
-                    if timestamp:
-                        existing_plugin["repoTimestamps"][repo_code] = timestamp
-                        
-                    pass
-
-                else:
-                    plugin_dict[plugin_identifier] = plugin
-                    plugin_dict[plugin_identifier]["repoCodes"] = [repo_code]
-                    plugin_dict[plugin_identifier]["repoTimestamps"] = {}
-                    if timestamp:
-                        plugin_dict[plugin_identifier]["repoTimestamps"][repo_code] = timestamp
-
-
-            print(f"✅ {repo_url} başarıyla işlendi!")
-        else:
-            print(f"⚠️ {repo_url} için veri alınamadı (Hata: {response.status_code})")
-    except Exception as e:
-        print(f"⚠️ {repo_url} işlenirken hata oluştu: {e}")
-
-plugins_by_id = {}
-for plugin_identifier, plugin_data in plugin_dict.items():
-    plugin_id = plugin_data.get("pluginId", plugin_identifier)
-    if not plugin_id:
-         print(f"⚠️ Eklenti '{plugin_identifier}' için pluginId eksik, gruplandırılamıyor.")
-         continue
-    if plugin_id not in plugins_by_id:
-        plugins_by_id[plugin_id] = []
 all_plugins_raw = []
 plugins_by_id = {}
 
@@ -149,8 +85,6 @@ for repo_url, repo_code in repos.items():
             elif not isinstance(plugins, list):
                  print(f"⚠️ {repo_url} beklenmeyen JSON formatı algılandı (liste değil). Atlanıyor.")
                  continue
-
-            repo_timestamp = None
 
             for plugin in plugins:
                 if plugin.get("status") == 0:
@@ -200,7 +134,6 @@ for repo_url, repo_code in repos.items():
 
                 all_plugins_raw.append(plugin)
 
-
             print(f"✅ {repo_url} başarıyla işlendi!")
         else:
             print(f"⚠️ {repo_url} için veri alınamadı (Hata: {response.status_code})")
@@ -223,7 +156,7 @@ for plugin in all_plugins_raw:
 datas_dir = "datas"
 os.makedirs(datas_dir, exist_ok=True)
 
-plugin_status_temp = {} # {(plugin_id, repo_code): {'isNew': bool, 'isUpdated': bool}}
+plugin_status_temp = {}
 
 for repo_url, repo_code in repos.items():
     repo_data_dir = os.path.join(datas_dir, repo_code.replace('/', '_'))
@@ -306,7 +239,6 @@ for plugin in all_plugins_raw:
 
     final_plugins_list.append(plugin)
 
-
 current_time_iso = datetime.utcnow().isoformat() + "Z"
 data_output = {
     "timestamp": current_time_iso,
@@ -318,22 +250,15 @@ with open("data.json", "w", encoding="utf-8") as f:
 
 print(f"✅ Güncelleme tamamlandı! Son güncelleme zamanı: {current_time_iso}")
 
-def get_last_updated_by_api(api_commit_url_base, file_path, headers):
-     try:
-        params = {'path': file_path, 'per_page': 1}
-        response = requests.get(api_commit_url_base, headers=headers, params=params)
+print("Git değişiklikleri ekliyor ve commit ediyor...")
+if run_command("git add data.json datas/"):
+    commit_message = f"Otomatik güncelleme: data.json ve datas/ ({datetime.now().strftime('%Y-%m-%d %H:%M')})"
+    run_command("git config user.name 'ActionHelper[bot]'")
+    run_command("git config user.email '212895703+ActionHelper@users.noreply.github.com'")
 
-        if response.status_code in [403, 429]:
-            print(f"⚠️ GitHub API rate limit aşıldı, commit zamanı atlanıyor. (Hata: {response.status_code})")
-            return None
-
-        if response.status_code == 200:
-            commits = response.json()
-            if commits and len(commits) > 0:
-                return commits[0]['commit']['committer']['date']
-        else:
-             print(f"⚠️ {api_commit_url_base} adresinden commit bilgisi alınamadı (Hata: {response.status_code})")
-
-     except Exception as e:
-         print(f"⚠️ Commit zamanı alınırken hata oluştu: {e}")
-     return None
+    if run_command(f'git commit -m "{commit_message}"'):
+        print("Değişiklikler commit edildi.")
+    else:
+        print("❌ Commit işlemi başarısız. Değişiklik yok olabilir.") # Commit atılacak değişiklik yoksa hata verebilir
+else:
+    print("❌ Git add işlemi başarısız.")
