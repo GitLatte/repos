@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-05-29T01:11:51.795952Z",
+    "timestamp": "2025-05-29T01:48:07.596858Z",
     "plugins": [
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=aniworld.to&sz=%size%",
@@ -25,9 +25,7 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
@@ -51,9 +49,7 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive-events.png",
@@ -77,9 +73,7 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive-vpn.png",
@@ -103,9 +97,7 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=ddizi.im&sz=%size%",
@@ -130,9 +122,7 @@
                 "sinetech",
                 "nikstream"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizifun3.com&sz=%size%",
@@ -159,9 +149,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=kick.com&sz=%size%",
@@ -186,35 +174,7 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
-        },
-        {
-            "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
-            "fileSize": 22117,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "GitLatte",
-                "patr0nq"
-            ],
-            "tvTypes": [
-                "Live"
-            ],
-            "version": 2,
-            "internalName": "MuzikKanallari",
-            "description": "Müzik Kanallarına özel canlı tv eklentisidir.",
-            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/MuzikKanallari.cs3",
-            "name": "MuzikKanallari",
-            "repoCodes": [
-                "sinetech"
-            ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -240,9 +200,7 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/powerdizi/powerdizi.png",
@@ -269,9 +227,7 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/powersinema/powersinema.png",
@@ -299,9 +255,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
@@ -325,9 +279,7 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/tvbahcesi/bahcesitv.png",
@@ -352,9 +304,7 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=webdramaturkey.org/&sz=%size%",
@@ -379,11 +329,10 @@
             "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/WebDramaTurkey.cs3",
             "name": "WebDramaTurkey",
             "repoCodes": [
-                "sinetech"
+                "sinetech",
+                "makoto"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=youtube.com&sz=%size%",
@@ -407,9 +356,7 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=youtube.com&sz=%size%",
@@ -434,9 +381,7 @@
             "repoCodes": [
                 "sinetech"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.4kfilmizlesene.org&sz=%size%",
@@ -461,9 +406,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=animecix.net&sz=%size%",
@@ -489,14 +432,13 @@
             "repoCodes": [
                 "nikstream",
                 "feroxxcs3",
+                "makoto",
                 "kekikdevam",
                 "kekikan"
             ],
             "repoTimestamps": {
                 "nikstream": "2025-04-18T05:28:36Z"
-            },
-            "isNew": false,
-            "isUpdated": false
+            }
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=asyawatch.com&sz=%size%",
@@ -519,11 +461,10 @@
             "name": "AsyaWatch",
             "repoCodes": [
                 "nikstream",
+                "makoto",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=belgeselx.com&sz=%size%",
@@ -551,9 +492,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -580,9 +519,7 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=cizgimax.online&sz=%size%",
@@ -609,9 +546,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizibox.de&sz=%size%",
@@ -638,9 +573,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizigom1.co&sz=%size%",
@@ -665,9 +598,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizikorea.vip&sz=%size%",
@@ -694,9 +625,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizilla.club&sz=%size%",
@@ -720,14 +649,13 @@
             "repoCodes": [
                 "nikstream",
                 "feroxxcs3",
+                "makoto",
                 "kekikdevam",
                 "kekikan"
             ],
             "repoTimestamps": {
                 "nikstream": "2025-04-07T12:17:26Z"
-            },
-            "isNew": false,
-            "isUpdated": false
+            }
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizimag.net&sz=%size%",
@@ -752,9 +680,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizimom.tv&sz=%size%",
@@ -781,9 +707,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizipal683.com&sz=%size%",
@@ -814,9 +738,7 @@
             ],
             "repoTimestamps": {
                 "nikstream": "2025-04-18T05:28:44Z"
-            },
-            "isNew": false,
-            "isUpdated": false
+            }
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.diziyou.co&sz=%size%",
@@ -843,9 +765,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.dmax.com.tr/favicon.ico",
@@ -869,9 +789,7 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=filmizlesene.plus&sz=%size%",
@@ -893,11 +811,10 @@
             "name": "Filmİzlesene",
             "repoCodes": [
                 "nikstream",
-                "kekikdevam"
+                "kekikdevam",
+                "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=filmkovasi.tv&sz=%size%",
@@ -922,9 +839,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=filmmakinesi.film&sz=%size%",
@@ -952,9 +867,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.filmmodu17.com&sz=%size%",
@@ -981,9 +894,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilm.pro&sz=%size%",
@@ -1010,9 +921,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilmizlede.net&sz=%size%",
@@ -1037,9 +946,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.fullhdfilmizlesene.de&sz=%size%",
@@ -1066,9 +973,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=fullporner.com&sz=%size%",
@@ -1093,9 +998,7 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=%size%",
@@ -1124,9 +1027,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.hdfilmcehennemi2.nl&sz=%size%",
@@ -1150,9 +1051,7 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmizle.to&sz=%size%",
@@ -1178,9 +1077,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmsitesi.net&sz=%size%",
@@ -1207,9 +1104,7 @@
             ],
             "repoTimestamps": {
                 "nikstream": "2025-03-18T11:17:18Z"
-            },
-            "isNew": false,
-            "isUpdated": false
+            }
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=hqporner.com&sz=%size%",
@@ -1234,9 +1129,7 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3vCp6N1K4bECoYRQD-cisJF2_6V_Hk01ZhDmoPR2JuM8O5qr4MqrPO1munM9cRlleBBSK6odYhLtDBWv4E3vhPhynlmS5hVVtJZShHoGA5REQ8_3v8SIlccTEqzVQu2UJyNYQdJNrKIfWy66RQeT0D-CcmFCbHPz5023H6p2v5fv4NVloZ5Rqo_yGrIY/s320/iNat-Box-App.png",
@@ -1262,12 +1155,11 @@
             "repoCodes": [
                 "nikstream",
                 "feroxxcs3",
+                "makoto",
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://jetfilmizle.de&sz=%size%",
@@ -1294,9 +1186,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.koreanturk.com&sz=%size%",
@@ -1322,9 +1212,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=kultfilmler.com&sz=%size%",
@@ -1352,9 +1240,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://netfree2.cc/mobile/img/nf2/icon_x192.png",
@@ -1382,9 +1268,7 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://cdn1.iconfinder.com/data/icons/nsfw-1/64/tv-adult-content-porn-512.png",
@@ -1410,9 +1294,7 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=pornhub.com&sz=%size%",
@@ -1437,9 +1319,7 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=rarefilmm.com&sz=%size%",
@@ -1466,9 +1346,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://rectvapk.cc/wp-content/uploads/2023/02/Rec-TV.webp",
@@ -1497,12 +1375,11 @@
             "repoCodes": [
                 "nikstream",
                 "feroxxcs3",
+                "makoto",
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=roketdizi.co&sz=%size%",
@@ -1527,9 +1404,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=selcukflix.com&sz=%size%",
@@ -1554,9 +1429,7 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.setfilmizle.de&sz=%size%",
@@ -1583,9 +1456,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=sezonlukdizi6.com&sz=%size%",
@@ -1613,9 +1484,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.sinema.cx&sz=%size%",
@@ -1642,9 +1511,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=spankbang.com&sz=%size%",
@@ -1670,9 +1537,7 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.superfilmgeldi.biz&sz=%size%",
@@ -1699,9 +1564,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tafdi.info&sz=%size%",
@@ -1726,9 +1589,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.tlctv.com.tr/favicon.ico",
@@ -1751,9 +1612,7 @@
             "repoCodes": [
                 "nikstream"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=trgoalsgiris.xyz/&sz=%size%",
@@ -1776,9 +1635,7 @@
             "repoCodes": [
                 "nikstream"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.turkanime.co&sz=%size%",
@@ -1804,9 +1661,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tvdiziler.cc&sz=%size%",
@@ -1830,9 +1685,7 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=ugurfilm7.com&sz=%size%",
@@ -1859,9 +1712,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=uncutmaza.cc&sz=%size%",
@@ -1885,9 +1736,7 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=vavoo.to&sz=%size%",
@@ -1911,9 +1760,7 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -1938,9 +1785,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=watch2movies.net&sz=%size%",
@@ -1966,9 +1811,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
@@ -1995,9 +1838,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=wfilmizle.my&sz=%size%",
@@ -2022,9 +1863,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=xhamster.com&sz=%size%",
@@ -2048,9 +1887,7 @@
                 "nikstream",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=xprime.tv&sz=%size%",
@@ -2073,9 +1910,7 @@
             "repoCodes": [
                 "nikstream"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=yabancidizi.tv&sz=%size%",
@@ -2100,9 +1935,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.ddizi.im/favicon.ico",
@@ -2126,9 +1959,7 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/Kohi-den/extensions-source/927f9c68fd64ce52f6212ae633d0f0585eca3545/src/en/donghuastream/res/mipmap-xxxhdpi/ic_launcher.png",
@@ -2152,9 +1983,7 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://filmbip.com/uploads/favicon/original/favicon.webp",
@@ -2178,9 +2007,7 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.tlctv.com.tr&sz=%size%",
@@ -2204,9 +2031,7 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tranimaci.com&sz=%size%",
@@ -2230,9 +2055,7 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=asyalog.com&sz=%size%",
@@ -2256,9 +2079,345 @@
                 "feroxxcs3",
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://www.apkdelisi.net/wp-content/uploads/2022/03/golge-tv-reklamsiz-mod-apk-canli-tv-apkdelisi-0.jpg",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "Live"
+            ],
+            "version": 14,
+            "internalName": "GolgeTV",
+            "description": "GolgeTV cloudstream eklentisidir. Sevdiğiniz yayın platformlarını ve canlı maçları burada bulabilirsiniz.",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/GolgeTV.cs3",
+            "name": "GolgeTV",
+            "repoCodes": [
+                "makoto"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://play-lh.googleusercontent.com/brwGNmr7IjA_MKk_TTPs0va10hdKE_bD_a1lnKoiMuCayW98EHpRv55edA6aEoJlmwfX",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "Movie",
+                "TvSeries",
+                "Anime"
+            ],
+            "version": 16,
+            "internalName": "SineWix",
+            "description": "Sinewix | Ücretsiz Film - Dizi - Anime İzleme Uygulaması.",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/SineWix.cs3",
+            "name": "SineWix",
+            "repoCodes": [
+                "makoto",
+                "kekikdevam"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://png.pngtree.com/png-clipart/20220823/ourmid/pngtree-turkey-country-flag-pin-icon-png-image_6120061.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "fileSize": 13525,
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "Tv Series"
+            ],
+            "version": 14,
+            "internalName": "YerelDiziler",
+            "description": "Bu eklentide yerel dizileri güncel şekilde bulabilirsiniz",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/YerelDiziler.cs3",
+            "name": "YerelDiziler",
+            "repoCodes": [
+                "makoto"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://seeklogo.com/images/T/tabii-logo-60B8BC0D5D-seeklogo.com.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "Movie",
+                "TvSeries"
+            ],
+            "version": 9,
+            "internalName": "Tabii",
+            "description": "Tabii içeriklerine bu eklenti sayesinde erişebilirsiniz",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/Tabii.cs3",
+            "name": "Tabii",
+            "repoCodes": [
+                "makoto"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://cizgivedizi.com/Logo.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "Cartoon, TvSeries"
+            ],
+            "version": 3,
+            "internalName": "CizgiVeDizi",
+            "description": "Popüler çizgi film ve dizilerin Türkçe güncel kaynağı.",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/CizgiVeDizi.cs3",
+            "name": "CizgiVeDizi",
+            "repoCodes": [
+                "makoto"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://img.freepik.com/premium-vector/tv-television-logo-live-streaming-design_332533-53.jpg",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "Live"
+            ],
+            "version": 4,
+            "internalName": "CanliTv",
+            "description": "Ulusal kanalları bu eklentide izleyebilirsiniz.",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/CanliTv.cs3",
+            "name": "CanliTv",
+            "repoCodes": [
+                "makoto"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/New_qBittorrent_Logo.svg/2048px-New_qBittorrent_Logo.svg.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "Movie",
+                "Torrent"
+            ],
+            "version": 2,
+            "internalName": "TorrentFilm",
+            "description": "Türkçe altyazılı torrentleri buradan 4K kalitesinde izleyebilirsiniz.",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/TorrentFilm.cs3",
+            "name": "TorrentFilm",
+            "repoCodes": [
+                "makoto"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://png.pngtree.com/png-clipart/20220823/ourmid/pngtree-turkey-country-flag-pin-icon-png-image_6120061.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "Tv Series"
+            ],
+            "version": 1,
+            "internalName": "YerelProgramlar",
+            "description": "Yerel programları güncel şekilde bulabilirsiniz",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/YerelProgramlar.cs3",
+            "name": "YerelProgramlar",
+            "repoCodes": [
+                "makoto"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://www.turksatkablo.com.tr/images/icerik/ssportplus.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "Live"
+            ],
+            "version": 8,
+            "internalName": "SSportPlus",
+            "description": "SSport+ canlı yayınları ve arşiv içerikleri",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/SSportPlus.cs3",
+            "name": "SSportPlus",
+            "repoCodes": [
+                "makoto"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://asyaanimeleri.top/wp-content/uploads/2021/08/Asya-animeleri-12-e1629130525708.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "Anime"
+            ],
+            "version": 2,
+            "internalName": "AsyaAnimeleri",
+            "description": "AsyaAnimeleri.top",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/AsyaAnimeleri.cs3",
+            "name": "AsyaAnimeleri",
+            "repoCodes": [
+                "makoto",
+                "kekikdevam",
+                "kekikan"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://turkey.mom-rsf.org/uploads/tx_lfrogmom/media/241-101_import.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "TvSeries"
+            ],
+            "version": 1,
+            "internalName": "Kanal 7",
+            "description": "Hint, Pakistan ve Türk dizilerinin adresi",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/Kanal 7.cs3",
+            "name": "Kanal 7",
+            "repoCodes": [
+                "makoto"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLIcV2dIah9UvEIUZvpzRA4K6OgsW7waPBMw&s",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "TvSeries"
+            ],
+            "version": 3,
+            "internalName": "Exxen",
+            "description": "Exxen Full",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/Exxen.cs3",
+            "name": "Exxen",
+            "repoCodes": [
+                "makoto"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/c3/b7/35c3b7b0-4a84-cceb-d3e2-349e19712b07/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "Movie,TvSeries"
+            ],
+            "version": 1,
+            "internalName": "Puhu",
+            "description": "Puhu",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/Puhu.cs3",
+            "name": "Puhu",
+            "repoCodes": [
+                "makoto"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://asyafilmizlesene.org/wp-content/uploads/2022/09/rsm.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "Movie"
+            ],
+            "version": 2,
+            "internalName": "AsyaFilmIzlesene",
+            "description": "Hint, Kore Filmleri",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/AsyaFilmIzlesene.cs3",
+            "name": "AsyaFilmIzlesene",
+            "repoCodes": [
+                "makoto"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://blog.r10.net/storage/uploads/post/2022/03/gain-1648729106.jpg",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "status": 0,
+            "language": "tr",
+            "authors": [
+                "Makoto Tokioki"
+            ],
+            "tvTypes": [
+                "Movie"
+            ],
+            "version": 1,
+            "internalName": "Gain",
+            "description": "Gain içerikleri",
+            "url": "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/main/Gain.cs3",
+            "name": "Gain",
+            "repoCodes": [
+                "makoto"
+            ],
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.animeizlesene.com/public/assets/img/favicon-32x32.png",
@@ -2284,9 +2443,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://animeler.me/wp-content/uploads/cropped-animelerpw-48x48.png",
@@ -2310,9 +2467,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://animex.tr/wp-content/uploads/2024/06/favicon.ico",
@@ -2336,9 +2491,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://anizm.net/upload/assets/favicon.ico",
@@ -2362,35 +2515,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
-        },
-        {
-            "iconUrl": "https://asyaanimeleri.top/wp-content/uploads/2021/08/Asya-animeleri-12-e1629130525708.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 14347,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kraptor"
-            ],
-            "tvTypes": [
-                "Anime"
-            ],
-            "version": 1,
-            "internalName": "AsyaAnimeleri",
-            "description": "Asya Animeleri – Anime izle | Donghua izle | Animeler | Donghuantr | Türkanime | Donghua Anime, Türkçe Altyazılı Anime izle , Türkçe Anime, animeizle.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/AsyaAnimeleri.cs3",
-            "name": "AsyaAnimeleri",
-            "repoCodes": [
-                "kekikdevam",
-                "kekikan"
-            ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -2416,9 +2541,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://cizgivedizi.com/Logo.png",
@@ -2442,9 +2565,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "view-source:https://dizimore.com/wp-content/uploads/2024/03/morefav.png",
@@ -2468,9 +2589,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.diziyo.de/wp-content/uploads/2019/11/favicon-150x150.ico",
@@ -2496,9 +2615,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -2521,9 +2638,7 @@
             "repoCodes": [
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.giniko.com/images/favicon.ico",
@@ -2547,9 +2662,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://iptvplay.stream/favicon.ico",
@@ -2573,9 +2686,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -2599,9 +2710,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://sinefy3.com/assets/img/sinefy/icon-144x144.png",
@@ -2625,38 +2734,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
-        },
-        {
-            "iconUrl": "https://play-lh.googleusercontent.com/brwGNmr7IjA_MKk_TTPs0va10hdKE_bD_a1lnKoiMuCayW98EHpRv55edA6aEoJlmwfX",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 25307,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "keyiflerolsun",
-                "yusiqo",
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie",
-                "TvSeries",
-                "Anime"
-            ],
-            "version": 12,
-            "internalName": "SineWix",
-            "description": "Sinewix | Ücretsiz Film - Dizi - Anime İzleme Uygulaması.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/SineWix.cs3",
-            "name": "SineWix",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.trdiziizle.vip/fawn.png",
@@ -2680,9 +2758,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://img.watch32.sx/xxrz/400x400/100/a9/5e/a95e15a880a9df3c045f6a5224daf576/a95e15a880a9df3c045f6a5224daf576.png",
@@ -2707,9 +2783,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=youtube.com&sz=%size%",
@@ -2733,9 +2807,7 @@
             "repoCodes": [
                 "kekikdevam"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/yts.png",
@@ -2762,9 +2834,7 @@
                 "kekikdevam",
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.4kfilmizleme.net/wp-content/uploads/2022/09/4kfilmizlemefavicon-1.png",
@@ -2787,9 +2857,7 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://asyafanatiklerim.com/wp-content/uploads/2018/08/md_5aaeb1de75bea.png",
@@ -2812,9 +2880,7 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://dizikral.nl/mofy/img/192x192_.png",
@@ -2837,9 +2903,7 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://filmekseni.net/favicon.ico",
@@ -2862,9 +2926,7 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://filmhane.net/uploads/logo/original/logo-7349.webp",
@@ -2888,9 +2950,7 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://filmizle.cx/favicon.ico",
@@ -2913,9 +2973,7 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://hdfilm.cx/apple-touch-icon.png",
@@ -2938,9 +2996,7 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://hdfilmcehennemi2.rip/wp-content/uploads/2023/07/favi.png",
@@ -2963,9 +3019,7 @@
             "repoCodes": [
                 "kekikan"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=colorhunt.co&sz=%size%",
@@ -2988,9 +3042,7 @@
             "repoCodes": [
                 "sarapcanagii"
             ],
-            "repoTimestamps": {},
-            "isNew": false,
-            "isUpdated": false
+            "repoTimestamps": {}
         }
     ]
 }
