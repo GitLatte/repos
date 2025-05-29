@@ -102,7 +102,7 @@ for repo_url, repo_codes_list in repos.items():
                          path_match = re.search(r'raw.githubusercontent.com/[^/]+/[^/]+/[^/]+/(.+)', plugin_file_url)
                          if path_match:
                              file_path = path_match.group(1)
-                     except Exception as e:
+                    except Exception as e:
                          print(f"⚠️ Eklenti URL işlenirken hata oluştu: {e}")
 
                 timestamp = None
@@ -221,7 +221,7 @@ for repo_code in all_unique_repo_codes:
                   if code == repo_code:
                        plugin_status_temp[(plugin_id_or_name, code)] = {'isNew': is_new, 'isUpdated': is_updated}
 
-    plugins_for_this_repo = [p for p in all_plugins_raw if p.get("repoCodes") and repo_code in p["repoCodes"]]
+    plugins_for_this_repo = [p for p in all_plugins_raw if p.get("repoCodes") and repo_code in plugin["repoCodes"]]
 
     if not os.path.exists(existing_file_path):
         with open(existing_file_path, "w", encoding="utf-8") as dest_f:
