@@ -241,7 +241,6 @@ th.sortable.desc::after {
         </table>
     </div>
 
-    <!-- Depo Seçim Modalı -->
     <div id="repoSelectModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7); z-index: 1000;">
         <div style="background-color: white; margin: 10% auto; padding: 20px; width: 80%; max-width: 400px; border-radius: 10px; position: relative;">
             <span id="closeModalButton" style="position: absolute; top: 10px; right: 10px; cursor: pointer; font-size: 20px;">×</span>
@@ -258,18 +257,15 @@ th.sortable.desc::after {
 
 
     <script>
-        // Her depo kısa koduna karşılık gelen repo.json URL parçası (raw.githubusercontent.com/...)
-        // Bu objeyi manuel olarak doldurmanız gerekecektir.
         const repoJsonUrlParts = {
-             "Latte": "raw.githubusercontent.com/GitLatte/Sinetech/builds/repo.json",
+             "Latte": "raw.githubusercontent.com/GitLatte/Sinetech/main/repo.json",
              "nikstream": "raw.githubusercontent.com/nikyokki/nik-cloudstream/master/repo.json", 
-             "feroxxcs3": "raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/repo.json",
+             "feroxxcs3": "raw.githubusercontent.com/feroxx/Kekik-cloudstream/master/repo.json",
              "makoto": "raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/refs/heads/main/repo.json", 
-             "kekikdevam": "raw.githubusercontent.com/maarrem/cs-Kekik/refs/heads/builds/repo.json",
-             "kekikan": "raw.githubusercontent.com/Kraptor123/cs-kekikanime/refs/heads/builds/repo.json",
-             "sarapcanagii": "raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/builds/repo.json"
+             "kekikdevam": "raw.githubusercontent.com/maarrem/cs-Kekik/master/repo.json",
+             "kekikan": "raw.githubusercontent.com/Kraptor123/cs-kekikanime/master/repo.json",
+             "sarapcanagii": "raw.githubusercontent.com/sarapcanagii/Pitipitii/master/repo.json"
         };
-
 
     function fetchPlugins() {
         fetch("https://GitLatte.github.io/repos/data.json")
@@ -691,7 +687,6 @@ th.sortable.desc::after {
                 return `<span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}" title="Bu depoyu filtrele">${displayRepoName}${updatedIcon}</span>`;
             }).join(" ");
 
-            // Repo badge'lerine tıklama olayı (filtreleme)
             repoCell.querySelectorAll('.repo-badge').forEach(badge => {
                 badge.addEventListener('click', (event) => {
                     event.stopPropagation();
@@ -732,31 +727,19 @@ th.sortable.desc::after {
 
                          const displayRepoName = (repo === "Latte") ? "Latte/sinetech" : repo;
                          const cssSafeRepo = repo.toLowerCase().replace(/[^a-z0-9]/g, '');
-                         // Ortak depo badge'lerine click olayı - Yönlendirme yapacak
-                         return `<span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}" title="Bu eklentinin ${displayRepoName} deposunu CloudStream'e ekle">${displayRepoName}${updatedIcon}</span>`;
+                         // Ortak depo badge'lerine click olayı - Sadece filtreleme yapacak
+                         return `<span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}" title="Bu eklentinin ${displayRepoName} deposuna göre filtrele">${displayRepoName}${updatedIcon}</span>`;
                      }).join(" ");
 
                      commonReposCell.querySelectorAll('.repo-badge').forEach(badge => {
                          badge.addEventListener('click', (event) => {
                              event.stopPropagation();
                              const selectedRepo = badge.dataset.repo;
-
-                             // Depo koduna karşılık gelen repo.json URL parçasını bul
-                             const repoJsonUrlPart = getRepoJsonUrlPartByRepoCode(selectedRepo);
-
-                             if (repoJsonUrlPart) {
-                                 const cloudstreamRepoUrl = `cloudstreamrepo://${encodeURIComponent(repoJsonUrlPart)}`;
-                                 const githubPagesBaseUrl = "https://GitLatte.github.io/repos/"; // Kendi GitHub Pages URL'niz
-                                 const redirectLink = `${githubPagesBaseUrl}redirect/?r=${encodeURIComponent(cloudstreamRepoUrl)}`;
-                                 window.location.href = redirectLink; // Yönlendirme yap
-                             } else {
-                                  // URL bulunamazsa filtrele (veya hata göster)
-                                 document.getElementById('repoFilterSelect').value = selectedRepo;
-                                 const filterType = document.getElementById('filterSelect').value;
-                                 const searchQuery = document.getElementById('searchInput').value;
-                                 updateTable(filterType, selectedRepo, searchQuery);
-                                 updateStats();
-                             }
+                             document.getElementById('repoFilterSelect').value = selectedRepo;
+                             const filterType = document.getElementById('filterSelect').value;
+                             const searchQuery = document.getElementById('searchInput').value;
+                             updateTable(filterType, selectedRepo, searchQuery);
+                             updateStats();
                          });
                      });
 
@@ -768,30 +751,18 @@ th.sortable.desc::after {
                       const repo = plugin.repoCodesDisplay[0];
                       const displayRepoName = (repo === "Latte") ? "Latte/sinetech" : repo;
                       const cssSafeRepo = repo.toLowerCase().replace(/[^a-z0-9]/g, '');
-                       // Tek depo badge'ine click olayı - Yönlendirme yapacak
-                      commonReposCell.innerHTML = `✨ <span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}" title="Bu depoyu CloudStream'e ekle">${displayRepoName}</span>`;
+                       // Tek depo badge'ine click olayı - Sadece filtreleme yapacak
+                      commonReposCell.innerHTML = `✨ <span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}" title="Bu depoya göre filtrele">${displayRepoName}</span>`;
 
                       commonReposCell.querySelectorAll('.repo-badge').forEach(badge => {
                          badge.addEventListener('click', (event) => {
                              event.stopPropagation();
                              const selectedRepo = badge.dataset.repo;
-
-                              // Depo koduna karşılık gelen repo.json URL parçasını bul
-                             const repoJsonUrlPart = getRepoJsonUrlPartByRepoCode(selectedRepo);
-
-                             if (repoJsonUrlPart) {
-                                 const cloudstreamRepoUrl = `cloudstreamrepo://${encodeURIComponent(repoJsonUrlPart)}`;
-                                 const githubPagesBaseUrl = "https://GitLatte.github.io/repos/";
-                                 const redirectLink = `${githubPagesBaseUrl}redirect/?r=${encodeURIComponent(cloudstreamRepoUrl)}`;
-                                 window.location.href = redirectLink; // Yönlendirme yap
-                             } else {
-                                  // URL bulunamazsa filtrele (veya hata göster)
-                                 document.getElementById('repoFilterSelect').value = selectedRepo;
-                                 const filterType = document.getElementById('filterSelect').value;
-                                 const searchQuery = document.getElementById('searchInput').value;
-                                 updateTable(filterType, selectedRepo, searchQuery);
-                                 updateStats();
-                             }
+                             document.getElementById('repoFilterSelect').value = selectedRepo;
+                             const filterType = document.getElementById('filterSelect').value;
+                             const searchQuery = document.getElementById('searchInput').value;
+                             updateTable(filterType, selectedRepo, searchQuery);
+                             updateStats();
                          });
                      });
 
@@ -817,7 +788,6 @@ th.sortable.desc::after {
     document.addEventListener('DOMContentLoaded', () => {
         // Her depo kısa koduna karşılık gelen repo.json URL parçası (raw.githubusercontent.com/...)
         // Bu objeyi manuel olarak doldurmanız gerekecektir.
-        // Python betiği plugins.json URL'ini çekiyor, bu yüzden manuel olarak repo.json URL'ini yazıyoruz.
         const repoJsonUrlParts = {
              "Latte": "raw.githubusercontent.com/GitLatte/Sinetech/builds/repo.json",
              "nikstream": "raw.githubusercontent.com/nikyokki/nik-cloudstream/master/repo.json", 
@@ -888,17 +858,16 @@ th.sortable.desc::after {
             const selectedRepoCode = availableReposSelect.value;
             if (selectedRepoCode) {
                 const repoJsonUrlPart = getRepoJsonUrlPartByRepoCode(selectedRepoCode);
-
                 if (repoJsonUrlPart) {
-                    const cloudstreamRepoUrl = `cloudstreamrepo://${encodeURIComponent(repoJsonUrlPart)}`;
+                    // CloudStream URL'ini oluştur (sadece URL parçası encode ediliyor)
+                    const cloudstreamRepoUrl = `cloudstreamrepo://${encodeURIComponent(repoJsonUrlPart)}`; 
+                    
+                    // redirect linkini oluştur (sadece URL parçası 'r' parametresine ekleniyor)
                     const githubPagesBaseUrl = "https://GitLatte.github.io/repos/"; // Kendi GitHub Pages URL'niz
-                    const redirectLink = `${githubPagesBaseUrl}redirect/?r=${encodeURIComponent(cloudstreamRepoUrl)}`;
+                    const redirectLink = `${githubPagesBaseUrl}redirect/index.html?r=cloudstreamrepo:${encodeURIComponent(repoJsonUrlPart)}`;
 
-                    repoSelectModal.style.display = 'none';
-                    availableReposSelect.value = "";
-                    confirmAddRepoButton.disabled = true;
-
-                    window.location.href = redirectLink;
+                    // !!! YÖNLENDİRME SATIRI EKLENDİ !!!
+                    window.location.href = redirectLink; 
 
                 } else {
                      alert(`Hata: '${selectedRepoCode}' deposu için repo.json URL parçası bulunamadı.`);
