@@ -100,15 +100,58 @@ for repo_url, repo_code in repos.items():
         print(f"⚠️ {repo_url} işlenirken hata oluştu: {e}")
 
 # Güncelleme zamanını ekleyelim (ISO 8601 formatı)
-current_time = datetime.utcnow().isoformat() + "Z"
+current_time = datetime.utcnow()
+
+# Mevcut data.json dosyasını yükle (varsa)
+existing_plugins = {}
+try:
+    with open("data.json", "r", encoding="utf-8") as f:
+        existing_data = json.load(f)
+        for p in existing_data.get("plugins", []):
+            existing_plugins[p["name"]] = p
+except FileNotFoundError:
+    pass # Dosya yoksa sorun değil
+except json.JSONDecodeError:
+    print("⚠️ data.json dosyası bozuk, yeniden oluşturuluyor.")
+    pass
+
+# Eklentilere 'isNew' ve 'isUpdated' özelliklerini ekle
+for plugin_name, plugin_data in plugin_dict.items():
+    is_new = False
+    is_updated = False
+
+    # Eklenti daha önce mevcut muydu?
+    if plugin_name not in existing_plugins:
+        is_new = True # Daha önce yoksa yeni kabul et
+    else:
+        # Eğer eklenti daha önce varsa, güncellenip güncellenmediğini kontrol et
+        existing_plugin_data = existing_plugins[plugin_name]
+        if "repoTimestamps" in plugin_data and "repoTimestamps" in existing_plugin_data:
+            for repo_code, timestamp_str in plugin_data["repoTimestamps"].items():
+                try:
+                    current_timestamp = datetime.fromisoformat(timestamp_str.replace('Z', '+00:00'))
+                    existing_timestamp_str = existing_plugin_data["repoTimestamps"].get(repo_code)
+                    if existing_timestamp_str:
+                        existing_timestamp = datetime.fromisoformat(existing_timestamp_str.replace('Z', '+00:00'))
+                        if current_timestamp > existing_timestamp:
+                            is_updated = True
+                            break # Bir repo güncellendiyse yeterli
+                except ValueError:
+                    print(f"⚠️ Geçersiz zaman damgası formatı: {timestamp_str}")
+                    continue
+
+    plugin_dict[plugin_name]["isNew"] = is_new
+    plugin_dict[plugin_name]["isUpdated"] = is_updated
+
+current_time_iso = current_time.isoformat() + "Z"
 
 # Sonuçları `data.json` dosyasına kaydet
 data_output = {
-    "timestamp": current_time,
+    "timestamp": current_time_iso,
     "plugins": list(plugin_dict.values())
 }
 
 with open("data.json", "w", encoding="utf-8") as f:
     json.dump(data_output, f, ensure_ascii=False, indent=4)
 
-print(f"✅ Güncelleme tamamlandı! Son güncelleme zamanı: {current_time}")
+print(f"✅ Güncelleme tamamlandı! Son güncelleme zamanı: {current_time_iso}")

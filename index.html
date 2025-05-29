@@ -10,6 +10,26 @@
     background-color: #f5f5f5; 
     text-align: center; 
 }
+
+.plugin-status-badge {
+    display: inline-block;
+    font-size: 10px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.new-plugin-badge {
+    background-color: #28a745; /* Yeşil */
+}
+
+.updated-plugin-badge {
+    background-color: #ffc107; /* Sarı */
+    color: #333; /* Sarı üzerinde daha iyi görünmesi için koyu yazı */
+}
 h2 { color: #333; }
 
 .stats { 
@@ -616,8 +636,13 @@ tr:hover {
             if (plugin.isNew) {
                 const newBadge = document.createElement("span");
                 newBadge.textContent = "Yeni";
-                newBadge.className = "new-plugin-badge";
+                newBadge.className = "plugin-status-badge new-plugin-badge";
                 nameCell.appendChild(newBadge);
+            } else if (plugin.isUpdated) {
+                const updatedBadge = document.createElement("span");
+                updatedBadge.textContent = "Güncellendi";
+                updatedBadge.className = "plugin-status-badge updated-plugin-badge";
+                nameCell.appendChild(updatedBadge);
             }
 
             // Yetişkin içerik kontrolü
