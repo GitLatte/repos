@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-05-28T23:20:25.486934Z",
+    "timestamp": "2025-05-29T00:50:24.632651Z",
     "plugins": [
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=aniworld.to&sz=%size%",
@@ -171,6 +171,30 @@
             "description": "Kick'teki Türkçe canlı yayınlar ve popüler yayıncıları canlı izleyin. Arayın, bulun  ve izlemeye devam edin.",
             "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/KickTR.cs3",
             "name": "KickTR",
+            "repoCodes": [
+                "sinetech"
+            ],
+            "repoTimestamps": {}
+        },
+        {
+            "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 22117,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq"
+            ],
+            "tvTypes": [
+                "Live"
+            ],
+            "version": 1,
+            "internalName": "MuzikKanallari",
+            "description": "Müzik Kanallarına özel canlı tv eklentisidir.",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/MuzikKanallari.cs3",
+            "name": "MuzikKanallari",
             "repoCodes": [
                 "sinetech"
             ],
