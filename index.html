@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>CloudStream Eklenti Listesi</title>
     <style>
-        /* CSS KODLARI BURADA (Değişiklik Yapılmadı) */
         body { 
     font-family: Arial, sans-serif; 
     margin: 20px; 
@@ -104,12 +103,13 @@ tr:hover {
 }
 
 .repo-latte { background-color: #fe4d01; }
-.repo-nikstream { background-color: #0077cc; } /* Daha koyu mavi */
-.repo-feroxxcs3 { background-color: #d35400; } /* Daha koyu turuncu */
-.repo-makoto { background-color: #388e3c; } /* Daha koyu yeşil */
-.repo-kekikdevam { background-color: #512da8; } /* Daha koyu mor */
-.repo-kekikan { background-color: #c2185b; } /* Daha koyu pembe */
-.repo-sarapcanagii { background-color: #455a64; } /* Daha koyu gri-mavi */
+.repo-nikstream { background-color: #0077cc; }
+.repo-feroxxcs3 { background-color: #d35400; }
+.repo-makoto { background-color: #388e3c; }
+.repo-kekikdevam { background-color: #512da8; }
+.repo-kekikan { background-color: #c2185b; }
+.repo-sarapcanagii { background-color: #455a64; }
+
 
 .header-title {
     font-size: 28px;
@@ -224,7 +224,7 @@ th.sortable.desc::after {
                 <th class="sortable" data-sort="description">Açıklama</th>
                 <th class="sortable" data-sort="language">Dil</th>
                 <th class="sortable" data-sort="version">Ver.</th>
-                <th>Ortak Eklentiler</th>
+                <th>Bulunduğu Depolar</th>
             </tr>
         </thead>
         <tbody></tbody>
@@ -240,28 +240,23 @@ th.sortable.desc::after {
             return response.json();
         })
         .then(data => {
-            console.log("Çekilen Veri:", data); // Adım 1: Çekilen veriyi kontrol edin
-
             let pluginList = null;
             let lastUpdatedTimestamp = null;
 
             if (data && Array.isArray(data.plugins)) {
                 pluginList = data.plugins;
                 lastUpdatedTimestamp = data.timestamp;
-                console.log("Veri obje formatında algılandı.");
             } else if (Array.isArray(data)) {
                 pluginList = data;
                 lastUpdatedTimestamp = null;
-                console.log("Veri dizi formatında algılandı.");
             } else {
-                console.error("Hata: Çekilen veri beklenen formatta değil.", data);
                 document.getElementById("totalPlugins").textContent = "Veri yüklenemedi.";
                 document.getElementById("totalRepos").textContent = "";
                 document.getElementById("lastUpdated").textContent = "Son Güncelleme: Hata";
                 document.getElementById("filterSelect").innerHTML = '<option value="all">Veri Yok</option>';
                 document.getElementById("repoFilterSelect").innerHTML = '<option value="all">Veri Yok</option>';
                 document.querySelector("#pluginTable tbody").innerHTML = '<tr><td colspan="8">Eklenti verisi yüklenemedi veya formatı yanlış.</td></tr>';
-                window.pluginData = { plugins: [], timestamp: null, pluginsById: {} };
+                window.pluginData = { plugins: [], timestamp: null, pluginsByName: {} };
                 return;
             }
 
@@ -269,15 +264,19 @@ th.sortable.desc::after {
                 const oneWeekAgo = new Date();
                 oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
 
-                const pluginsById = {};
-
+                const pluginsByName = {};
                 pluginList.forEach(plugin => {
-                    // Adım 2: repoCodes alanının varlığını ve içeriğini burada kontrol edin
-                    console.log("Eklenti işleniyor:", plugin.name, "repoCodes:", plugin.repoCodes);
-                    plugin.repoCodesDisplay = plugin.repoCodes && Array.isArray(plugin.repoCodes) && plugin.repoCodes.length > 0
+                    plugin.repoCodesDisplay = (plugin.repoCodes && Array.isArray(plugin.repoCodes) && plugin.repoCodes.length > 0)
                         ? plugin.repoCodes
-                        : ["Bilinmeyen Depo"]; // Eğer repoCodes yoksa, dizi değilse veya boşsa "Bilinmeyen Depo" kullan
+                        : ["Bilinmeyen Depo"];
 
+                    const pluginName = plugin.name;
+                    if (pluginName) {
+                        if (!pluginsByName[pluginName]) {
+                            pluginsByName[pluginName] = [];
+                        }
+                        pluginsByName[pluginName].push(plugin);
+                    }
 
                     plugin.repoUpdated = {};
                     if (plugin.repoTimestamps) {
@@ -290,44 +289,12 @@ th.sortable.desc::after {
                             plugin.repoUpdated[repo] = ((now - ts) < recentThresholdMs);
                         }
                     }
-
-                    if (plugin.tvTypes && plugin.tvTypes.some(type => type.toLowerCase() === 'nsfw')) {
-                        plugin.name = '[Yetişkin İçeriği]';
-                        plugin.description = '[Yetişkin İçeriği]';
-                    }
-
-                    if (plugin.pluginId) {
-                        if (!pluginsById[plugin.pluginId]) {
-                            pluginsById[plugin.pluginId] = [];
-                        }
-                        pluginsById[plugin.pluginId].push(plugin);
-                    } else {
-                        // pluginId olmayan eklentiler için de gruplandırma yapılabilir
-                        // Ancak Ortak Eklenti özelliği pluginId'ye dayanır.
-                        // Şimdilik pluginId olmayanı gruplamaya dahil etmiyoruz.
-                    }
                 });
-
-                 // Adım 3: Ortak depo kodlarını belirleyin
-                 pluginList.forEach(plugin => {
-                     if (plugin.pluginId && pluginsById[plugin.pluginId] && pluginsById[plugin.pluginId].length > 1) {
-                         const commonPlugins = pluginsById[plugin.pluginId];
-                         const commonRepos = commonPlugins
-                             .filter(p => p !== plugin)
-                             .flatMap(p => p.repoCodesDisplay || []); // repoCodesDisplay'i kullanıyoruz
-
-                         const uniqueCommonRepos = Array.from(new Set(commonRepos));
-                         plugin.commonRepoCodes = uniqueCommonRepos;
-                     } else {
-                         plugin.commonRepoCodes = [];
-                     }
-                 });
-
 
                 window.pluginData = {
                     plugins: pluginList,
                     timestamp: lastUpdatedTimestamp,
-                    pluginsById: pluginsById
+                    pluginsByName: pluginsByName
                 };
 
                 updateStats();
@@ -345,7 +312,7 @@ th.sortable.desc::after {
             document.getElementById("filterSelect").innerHTML = '<option value="all">Veri Yok</option>';
             document.getElementById("repoFilterSelect").innerHTML = '<option value="all">Veri Yok</option>';
             document.querySelector("#pluginTable tbody").innerHTML = '<tr><td colspan="8">Eklenti verisi yüklenemedi veya formatı yanlış.</td></tr>';
-            window.pluginData = { plugins: [], timestamp: null, pluginsById: {} };
+            window.pluginData = { plugins: [], timestamp: null, pluginsByName: {} };
         });
     }
 
@@ -414,7 +381,6 @@ th.sortable.desc::after {
 
         const repoCounts = {};
         window.pluginData.plugins.forEach(plugin => {
-            // Adım 4: repoCodesDisplay'i kullanın
             if (plugin.repoCodesDisplay) {
                 plugin.repoCodesDisplay.forEach(repo => {
                     repoCounts[repo] = (repoCounts[repo] || 0) + 1;
@@ -426,7 +392,8 @@ th.sortable.desc::after {
 
         let options = '<option value="all">Tüm Depolar</option>';
         uniqueRepos.forEach(repo => {
-            options += `<option value="${repo}">${repo} (${repoCounts[repo]})</option>`;
+             const displayRepoName = (repo === "Latte") ? "Latte/sinetech" : repo; // Latte istisnası gösterim
+            options += `<option value="${repo}">${displayRepoName} (${repoCounts[repo]})</option>`;
         });
 
         document.getElementById("repoFilterSelect").innerHTML = options;
@@ -444,7 +411,6 @@ th.sortable.desc::after {
 
         const uniqueReposInTotal = new Set();
         window.pluginData.plugins.forEach(plugin => {
-             // Adım 5: repoCodesDisplay'i kullanın
             if (plugin.repoCodesDisplay) {
                 plugin.repoCodesDisplay.forEach(repo => uniqueReposInTotal.add(repo));
             }
@@ -524,43 +490,55 @@ th.sortable.desc::after {
 
         function sortPlugins(plugins) {
             return plugins.sort((a, b) => {
+                // En yeni eklentiler (isNew true olanlar) her zaman en üstte olsun
                 if (a.isNew !== b.isNew) {
                     return b.isNew ? -1 : 1;
                 }
 
-                if (currentSort.column) {
-                    let aVal = a[currentSort.column];
-                    let bVal = b[currentSort.column];
-
-                     // Adım 6: repoCodesDisplay'i kullanın
-                    if (currentSort.column === 'repoCodesDisplay') {
-                        aVal = (aVal || []).join(',');
-                        bVal = (bVal || []).join(',');
-                    } else if (currentSort.column === 'tvTypes') {
-                        aVal = aVal ? aVal.map(t => mediaTypeTranslations[t.toLowerCase()] || t).join(',') : '';
-                        bVal = bVal ? bVal.map(t => mediaTypeTranslations[t.toLowerCase()] || t).join(',') : '';
-                    } else if (currentSort.column === 'version') {
-                        aVal = parseFloat(aVal) || 0;
-                        bVal = parseFloat(bVal) || 0;
-                    } else if (currentSort.column === 'name') {
-                        const nameComparison = aVal.localeCompare(bVal);
-                        if (nameComparison !== 0) {
-                            return currentSort.direction === 'asc' ? nameComparison : -nameComparison;
-                        }
-                        // Adım 7: repoCodesDisplay'i kullanın
-                        const aRepo = (a.repoCodesDisplay || []).join(',');
-                        const bRepo = (b.repoCodesDisplay || []).join(',');
-                        return currentSort.direction === 'asc' ? aRepo.localeCompare(bRepo) : -bRepo.localeCompare(aRepo);
-                    }
-
-                    if (aVal === bVal) return 0;
-
-                    const comparison = String(aVal).localeCompare(String(bVal));
-                    return currentSort.direction === 'asc' ? comparison : -comparison;
+                // Eğer belirli bir sütuna tıklanmadıysa varsayılan sıralama (Ada göre, sonra depoya göre)
+                if (!currentSort.column) {
+                     const nameComparison = (a.name || '').localeCompare(b.name || '');
+                     if (nameComparison !== 0) {
+                         return nameComparison;
+                     }
+                     // İsimler aynıysa depo koduna göre sırala (Latte istisnası olmadan gerçek kısa kod)
+                     const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
+                     const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
+                     return aRepo.localeCompare(bRepo);
                 }
-                return 0;
+
+                // Belirli bir sütuna göre sıralama
+                let aVal = a[currentSort.column];
+                let bVal = b[currentSort.column];
+
+                if (currentSort.column === 'repoCodesDisplay') {
+                    aVal = (aVal || []).join(',');
+                    bVal = (bVal || []).join(',');
+                } else if (currentSort.column === 'tvTypes') {
+                    aVal = aVal ? aVal.map(t => mediaTypeTranslations[t.toLowerCase()] || t).join(',') : '';
+                    bVal = bVal ? bVal.map(t => mediaTypeTranslations[t.toLowerCase()] || t).join(',') : '';
+                } else if (currentSort.column === 'version') {
+                    aVal = parseFloat(aVal) || 0;
+                    bVal = parseFloat(bVal) || 0;
+                } else if (currentSort.column === 'name') {
+                     // İsim sıralaması (yukarıdaki varsayılan sıralama ile uyumlu)
+                    const nameComparison = (aVal || '').localeCompare(bVal || '');
+                    if (nameComparison !== 0) {
+                        return currentSort.direction === 'asc' ? nameComparison : -nameComparison;
+                    }
+                    // İsimler aynıysa depo koduna göre sırala (Latte istisnası olmadan gerçek kısa kod)
+                    const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
+                    const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
+                    return currentSort.direction === 'asc' ? aRepo.localeCompare(bRepo) : -bRepo.localeCompare(aRepo);
+                }
+
+                if (aVal === bVal) return 0;
+
+                const comparison = String(aVal).localeCompare(String(bVal));
+                return currentSort.direction === 'asc' ? comparison : -comparison;
             });
         }
+
 
         let filteredPlugins = window.pluginData.plugins
             .filter(plugin => {
@@ -570,7 +548,6 @@ th.sortable.desc::after {
                     if (!plugin.tvTypes.some(type => normalizeMediaType(type) === normalizedFilterType)) return false;
                 }
 
-                // Adım 8: repoCodesDisplay'i kullanın
                 if (repoFilter !== "all" && (!plugin.repoCodesDisplay || !plugin.repoCodesDisplay.includes(repoFilter))) return false;
 
                 if (searchQuery && !plugin.name.toLowerCase().includes(searchQuery.toLowerCase())) return false;
@@ -609,14 +586,12 @@ th.sortable.desc::after {
             }
             let showUpdatedBadge = false;
             if (plugin.repoTimestamps) {
-                for (const repo in plugin.repoTimestamps) {
-                    const ts = new Date(plugin.repoTimestamps[repo]);
-                    if ((now - ts) < RECENT_THRESHOLD_DAYS_FOR_BADGE * 24 * 60 * 60 * 1000) {
-                        showUpdatedBadge = true;
-                        break;
-                    }
+                // repoUpdated alanındaki herhangi bir true değerini kontrol et
+                if (Object.values(plugin.repoUpdated || {}).some(status => status === true)) {
+                    showUpdatedBadge = true;
                 }
             }
+
 
             if (showNewBadge) {
                 const newBadge = document.createElement("span");
@@ -642,15 +617,14 @@ th.sortable.desc::after {
                 });
             }
 
-            // Adım 9: repoCodesDisplay'i kullanın
             repoCell.innerHTML = (plugin.repoCodesDisplay || []).map(repo => {
                  let updatedIcon = "";
                  if (plugin.repoUpdated && plugin.repoUpdated[repo]) {
                      updatedIcon = '<span title="Bu depoda güncellendi" style="margin-left:4px;color:#28a745;font-weight:bold;">↻</span>';
                  }
-                // CSS sınıfı oluştururken özel karakterleri temizleyin
+                 const displayRepoName = (repo === "Latte") ? "Latte/sinetech" : repo; // Latte istisnası gösterim
                 const cssSafeRepo = repo.toLowerCase().replace(/[^a-z0-9]/g, '');
-                return `<span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}">${repo}${updatedIcon}</span>`;
+                return `<span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}">${displayRepoName}${updatedIcon}</span>`;
             }).join(" ");
 
             repoCell.querySelectorAll('.repo-badge').forEach(badge => {
@@ -674,54 +648,68 @@ th.sortable.desc::after {
             langCell.textContent = plugin.language || "";
             verCell.textContent = plugin.version || "";
 
-            // Adım 10: commonRepoCodes'u kullanın
-            if (plugin.commonRepoCodes && plugin.commonRepoCodes.length > 0) {
-                commonReposCell.innerHTML = plugin.commonRepoCodes.map(repo => {
-                     let updatedIcon = "";
-                     // Ortak eklentilerdeki repo için güncelleme simgesi (pluginsById'deki eklentiyi bularak)
-                     const commonPluginInRepo = window.pluginData.pluginsById[plugin.pluginId]?.find(p => p.repoCodesDisplay && p.repoCodesDisplay.includes(repo));
-                     if (commonPluginInRepo && commonPluginInRepo.repoUpdated && commonPluginInRepo.repoUpdated[repo]) {
-                         updatedIcon = '<span title="Bu depoda güncellendi" style="margin-left:4px;color:#28a745;font-weight:bold;">↻</span>';
-                     }
-                    // CSS sınıfı oluştururken özel karakterleri temizleyin
-                    const cssSafeRepo = repo.toLowerCase().replace(/[^a-z0-9]/g, '');
-                    return `<span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}" data-plugin-id="${plugin.pluginId}" title="Bu eklentinin ${repo} deposundaki versiyonunu göster">${repo}${updatedIcon}</span>`;
-                }).join(" ");
+            // Ortak eklentileri isme göre bul ve görüntüle
+            const pluginsWithSameName = window.pluginData.pluginsByName[plugin.name] || [];
+            if (pluginsWithSameName.length > 1) {
+                const commonRepos = pluginsWithSameName
+                    .filter(p => p !== plugin) // Kendisini hariç tut
+                    .flatMap(p => p.repoCodesDisplay || []); // Diğer kopyaların depolarını topla
 
-                commonReposCell.querySelectorAll('.repo-badge').forEach(badge => {
-                    badge.addEventListener('click', (event) => {
-                        event.stopPropagation();
-                        const selectedRepo = badge.dataset.repo;
-                        document.getElementById('repoFilterSelect').value = selectedRepo;
-                        const filterType = document.getElementById('filterSelect').value;
-                        const searchQuery = document.getElementById('searchInput').value;
-                        updateTable(filterType, selectedRepo, searchQuery);
-                        updateStats();
-                    });
-                });
+                const uniqueCommonRepos = Array.from(new Set(commonRepos)); // Tekrarları kaldır
 
+                if (uniqueCommonRepos.length > 0) {
+                     commonReposCell.innerHTML = uniqueCommonRepos.map(repo => {
+                         let updatedIcon = "";
+                         // Ortak eklentilerdeki repo için güncelleme simgesi (O repodaki kopyayı bulup updated durumunu kontrol et)
+                         const commonPluginInRepo = pluginsWithSameName.find(p => p.repoCodesDisplay && p.repoCodesDisplay.includes(repo));
+                         if (commonPluginInRepo && commonPluginInRepo.repoUpdated && commonPluginInRepo.repoUpdated[repo]) {
+                             updatedIcon = '<span title="Bu depoda güncellendi" style="margin-left:4px;color:#28a745;font-weight:bold;">↻</span>';
+                         }
+
+                         const displayRepoName = (repo === "Latte") ? "Latte/sinetech" : repo; // Latte istisnası gösterim
+                         const cssSafeRepo = repo.toLowerCase().replace(/[^a-z0-9]/g, '');
+                         return `<span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}" title="Bu eklentinin ${displayRepoName} deposundaki versiyonunu göster">${displayRepoName}${updatedIcon}</span>`;
+                     }).join(" ");
+
+                     // Ortak depo badge'lerine tıklama olayı ekle
+                     commonReposCell.querySelectorAll('.repo-badge').forEach(badge => {
+                         badge.addEventListener('click', (event) => {
+                             event.stopPropagation();
+                             const selectedRepo = badge.dataset.repo;
+                             document.getElementById('repoFilterSelect').value = selectedRepo;
+                             const filterType = document.getElementById('filterSelect').value;
+                             const searchQuery = document.getElementById('searchInput').value;
+                             updateTable(filterType, selectedRepo, searchQuery);
+                             updateStats();
+                         });
+                     });
+
+                } else {
+                    // Aynı isimde başka eklenti var ama repo kodu yoksa
+                     commonReposCell.textContent = "Ortak değil";
+                }
             } else {
-                 // Adım 11: commonRepoCodes boşsa kendi deposunu göster
-                 if (plugin.repoCodesDisplay && plugin.repoCodesDisplay.length === 1) {
+                 // Aynı isimde başka eklenti yoksa (Tek Depo veya sadece o isimden bir tane var)
+                 if (plugin.repoCodesDisplay && plugin.repoCodesDisplay.length === 1 && plugin.repoCodesDisplay[0] !== "Bilinmeyen Depo") {
                       const repo = plugin.repoCodesDisplay[0];
+                      const displayRepoName = (repo === "Latte") ? "Latte/sinetech" : repo; // Latte istisnası gösterim
                       const cssSafeRepo = repo.toLowerCase().replace(/[^a-z0-9]/g, '');
-                      commonReposCell.innerHTML = `Sadece <span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}">${repo}</span>`;
+                      commonReposCell.innerHTML = `Sadece <span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}">${displayRepoName}</span>`;
 
                       commonReposCell.querySelectorAll('.repo-badge').forEach(badge => {
-                            badge.addEventListener('click', (event) => {
-                                event.stopPropagation();
-                                const selectedRepo = badge.dataset.repo;
-                                document.getElementById('repoFilterSelect').value = selectedRepo;
-                                const filterType = document.getElementById('filterSelect').value;
-                                const searchQuery = document.getElementById('searchInput').value;
-                                updateTable(filterType, selectedRepo, searchQuery);
-                                updateStats();
-                            });
-                        });
+                         badge.addEventListener('click', (event) => {
+                             event.stopPropagation();
+                             const selectedRepo = badge.dataset.repo;
+                             document.getElementById('repoFilterSelect').value = selectedRepo;
+                             const filterType = document.getElementById('filterSelect').value;
+                             const searchQuery = document.getElementById('searchInput').value;
+                             updateTable(filterType, selectedRepo, searchQuery);
+                             updateStats();
+                         });
+                     });
+
                  } else {
-                      // Hem commonRepoCodes boş hem de repoCodesDisplay'de birden fazla depo var (bu durum olmamalıydı eğer pluginId doğru çalışıyorsa)
-                      // veya hem commonRepoCodes boş hem de repoCodesDisplay boşsa (ilk atamada Bilinmeyen Depo olur)
-                      commonReposCell.textContent = "Tek Depo";
+                      commonReposCell.textContent = "Tek Depo"; // Belki repoCodesDisplay "Bilinmeyen Depo" veya birden fazla (ama ortak değil)
                  }
             }
 

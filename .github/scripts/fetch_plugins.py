@@ -57,6 +57,7 @@ def get_last_updated_by_api(api_commit_url_base, file_path, headers):
          print(f"⚠️ Commit zamanı alınırken hata oluştu: {e}")
      return None
 
+
 repos = {
     "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/plugins.json": "Latte",
     "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/plugins.json": "nikstream",
@@ -197,7 +198,7 @@ for repo_code in all_unique_repo_codes:
 
         plugin_status_temp[status_key] = {'isNew': is_new, 'isUpdated': is_updated}
 
-    plugins_for_this_repo = [p for p in all_plugins_raw if p.get("repoCodes") and plugin.get("repoCodes")[0] == repo_code]
+    plugins_for_this_repo = [p for p in all_plugins_raw if p.get("repoCodes") and p.get("repoCodes")[0] == repo_code]
 
     if not os.path.exists(existing_file_path):
         with open(existing_file_path, "w", encoding="utf-8") as dest_f:
@@ -254,7 +255,7 @@ print(f"\n✅ Ana data.json dosyası oluşturuldu! Son güncelleme zamanı: {cur
 print("\nGit değişiklikleri ekliyor ve commit ediyor...")
 if run_command("git add data.json datas/"):
     commit_message = f"Otomatik güncelleme: data.json ve datas/ ({datetime.now().strftime('%Y-%m-%d %H:%M')})"
-    run_command("git config user.name 'ActionHelper'")
+    run_command("git config user.name 'ActionHelper[bot]'")
     run_command("git config user.email '212895703+ActionHelper@users.noreply.github.com'")
 
     if run_command(f'git commit -m "{commit_message}"'):
