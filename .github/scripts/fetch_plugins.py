@@ -202,7 +202,6 @@ for repo_code in all_unique_repo_codes:
         is_new = (now - added_at_dt) < timedelta(hours=YENI_BEKLEME_SAATI)
         # --- isNew Bitti ---
 
-        # isUpdated (mevcut kodunla aynı)
         is_updated = False
         if status_key not in existing_repo_plugins:
             is_updated = False
