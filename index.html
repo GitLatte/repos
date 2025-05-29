@@ -622,23 +622,28 @@ th.sortable.desc::after {
             icon.height = 32;
             iconCell.appendChild(icon);
 
+            // !!! YETİŞKİN İÇERİK KONTROLÜ VE SANSÜRLEME !!!
             const isNSFW = plugin.tvTypes && plugin.tvTypes.some(type => type.toLowerCase() === 'nsfw');
 
             if (isNSFW) {
-                nameCell.textContent = '[Sansürlenmiştir!]';
-                descCell.textContent = 'Sadece eklendiği depo üzerinden detaylar görüntülenebilir.';
-                icon.style.filter = 'blur(15px)';
-                nameCell.style.filter = 'blur(5px)';
-                descCell.style.filter = 'blur(5px)'; 
+                // Sansürlü gösterim
+                nameCell.textContent = '[Sansürlenmiştir!]'; // Adı sansürle
+                descCell.textContent = 'Sadece eklendiği depo üzerinden detaylar görüntülenebilir.'; // Açıklamayı sansürle
+                icon.style.filter = 'blur(15px)'; // İkonu bulanıklaştır
+                nameCell.style.filter = 'blur(5px)'; // Adı bulanıklaştır
+                descCell.style.filter = 'blur(5px)'; // Açıklamayı bulanıklaştır
 
+                 // Hover ile bulanıklığı kaldır
                  [icon, nameCell, descCell].forEach(element => {
                      element.addEventListener('mouseover', () => element.style.filter = 'none');
                      element.addEventListener('mouseout', () => element.style.filter = 'blur(5px)');
                  });
 
             } else {
+                // Normal gösterim
                 nameCell.textContent = plugin.name;
                 descCell.textContent = plugin.description || "";
+                // Yetişkin olmayan eklentiler için blur efekti yok
                 icon.style.filter = 'none';
                 nameCell.style.filter = 'none';
                 descCell.style.filter = 'none';
@@ -687,6 +692,7 @@ th.sortable.desc::after {
                 return `<span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}" title="Bu depoyu filtrele">${displayRepoName}${updatedIcon}</span>`;
             }).join(" ");
 
+            // Repo badge'lerine tıklama olayı (filtreleme)
             repoCell.querySelectorAll('.repo-badge').forEach(badge => {
                 badge.addEventListener('click', (event) => {
                     event.stopPropagation();
@@ -704,7 +710,7 @@ th.sortable.desc::after {
                 mediaTypeTranslations[type.toLowerCase()] || type
             ).join(", ");
 
-            descCell.textContent = plugin.description || "";
+            // descCell zaten yukarıda ayarlandı (sansürlü veya normal)
 
             langCell.textContent = plugin.language || "";
             verCell.textContent = plugin.version || "";
