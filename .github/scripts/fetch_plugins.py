@@ -4,7 +4,7 @@ from datetime import datetime
 import time
 import re
 import os
-import subprocess
+import subprocess # Git komutlarını çalıştırmak için eklendi
 
 def run_command(command):
     try:
@@ -57,27 +57,25 @@ def get_last_updated_by_api(api_commit_url_base, file_path, headers):
          print(f"⚠️ Commit zamanı alınırken hata oluştu: {e}")
      return None
 
+
+# Depo linkleri ve kısa kodlar
 repos = {
-    "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/plugins.json": ["Latte"],
-    "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/plugins.json": ["nikstream"],
-    "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/plugins.json": ["feroxxcs3"],
-    "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/refs/heads/main/plugins.json": ["makoto"],
-    "https://raw.githubusercontent.com/maarrem/cs-Kekik/refs/heads/builds/plugins.json": ["kekikdevam"],
-    "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/refs/heads/builds/plugins.json": ["kekikan"],
-    "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/builds/plugins.json": ["sarapcanagii"]
+    "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/plugins.json": "Latte",
+    "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/plugins.json": "nikstream",
+    "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/plugins.json": "feroxxcs3",
+    "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/refs/heads/main/plugins.json": "makoto",
+    "https://raw.githubusercontent.com/maarrem/cs-Kekik/refs/heads/builds/plugins.json": "kekikdevam",
+    "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/refs/heads/builds/plugins.json": "kekikan",
+    "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/builds/plugins.json": "sarapcanagii"
 }
 
+plugin_dict = {}
 api_headers = get_api_headers()
 
 all_plugins_raw = []
+plugins_by_id = {}
 
-print("Eklentiler repolardan çekiliyor...")
-for repo_url, repo_codes_list in repos.items():
-    if not isinstance(repo_codes_list, list):
-         repo_codes_list = [repo_codes_list]
-
-    current_repo_main_code = repo_codes_list[0]
-
+for repo_url, repo_code in repos.items():
     try:
         response = requests.get(repo_url)
         if response.status_code == 200:
@@ -90,11 +88,10 @@ for repo_url, repo_codes_list in repos.items():
 
             for plugin in plugins:
                 if plugin.get("status") == 0:
-                    print(f"⚠️ Eklenti '{plugin.get('name', 'Bilinmeyen Eklenti')}' ({current_repo_main_code}) devre dışı (status: 0), atlanıyor.")
+                    print(f"⚠️ Eklenti '{plugin.get('name', 'Bilinmeyen Eklenti')}' ({repo_code}) devre dışı (status: 0), atlanıyor.")
                     continue
 
-                plugin["repoCodes"] = list(set(plugin.get("repoCodes", []) + repo_codes_list))
-
+                plugin["repoCodes"] = [repo_code]
                 plugin_file_url = plugin.get("url")
                 file_path = None
                 if plugin_file_url:
@@ -102,8 +99,12 @@ for repo_url, repo_codes_list in repos.items():
                          path_match = re.search(r'raw.githubusercontent.com/[^/]+/[^/]+/[^/]+/(.+)', plugin_file_url)
                          if path_match:
                              file_path = path_match.group(1)
+                         else:
+                             print(f"⚠️ Eklenti URL formatı tanınmadı: {plugin_file_url}")
+
                     except Exception as e:
                          print(f"⚠️ Eklenti URL işlenirken hata oluştu: {e}")
+
 
                 timestamp = None
                 if file_path:
@@ -120,58 +121,44 @@ for repo_url, repo_codes_list in repos.items():
                      except Exception as e:
                           print(f"⚠️ Eklentinin commit zamanı alınırken hata oluştu: {e}")
                 else:
-                     print(f"⚠️ Eklenti '{plugin.get('name', 'Bilinmeyen Eklenti')}' ({current_repo_main_code}) için dosya yolu yok, commit zamanı atlanıyor.")
+                     print(f"⚠️ Eklenti '{plugin.get('name', 'Bilinmeyen Eklenti')}' ({repo_code}) için dosya yolu yok, commit zamanı atlanıyor.")
 
-                if "repoTimestamps" not in plugin:
-                     plugin["repoTimestamps"] = {}
-                for code in repo_codes_list:
-                     plugin["repoTimestamps"][code] = timestamp if timestamp else datetime.utcnow().isoformat() + "Z"
+
+                plugin["repoTimestamps"] = {repo_code: timestamp if timestamp else datetime.utcnow().isoformat() + "Z"}
+
+                plugin_id = plugin.get("pluginId")
+                if plugin_id:
+                    if plugin_id not in plugins_by_id:
+                        plugins_by_id[plugin_id] = []
+                    plugins_by_id[plugin_id].append(plugin)
 
                 all_plugins_raw.append(plugin)
 
-            print(f"✅ {repo_url} ({', '.join(repo_codes_list)}) başarıyla işlendi!")
+            print(f"✅ {repo_url} başarıyla işlendi!")
         else:
-            print(f"⚠️ {repo_url} ({', '.join(repo_codes_list)}) için veri alınamadı (Hata: {response.status_code})")
+            print(f"⚠️ {repo_url} için veri alınamadı (Hata: {response.status_code})")
     except Exception as e:
-        print(f"⚠️ {repo_url} ({', '.join(repo_codes_list)}) işlenirken hata oluştu: {e}")
+        print(f"⚠️ {repo_url} işlenirken hata oluştu: {e}")
 
-plugins_by_id = {}
 for plugin in all_plugins_raw:
     plugin_id = plugin.get("pluginId")
-    if plugin_id:
-        if plugin_id not in plugins_by_id:
-            plugins_by_id[plugin_id] = []
-        plugins_by_id[plugin_id].append(plugin)
-
-print("\nEklentiler pluginId'ye göre gruplandırıldı.")
-
-print("\ncommonRepoCodes hesaplanıyor...")
-for plugin in all_plugins_raw:
-    plugin_id = plugin.get("pluginId")
-
-    if plugin_id and plugin_id in plugins_by_id and len(plugins_by_id[plugin_id]) > 1:
-        common_repos_raw = []
+    if plugin_id and plugin_id in plugins_by_id:
+        common_repos = []
         for common_plugin_copy in plugins_by_id[plugin_id]:
              if common_plugin_copy.get("repoCodes"):
-                 common_repos_raw.extend(common_plugin_copy["repoCodes"])
+                 common_repos.extend(common_plugin_copy["repoCodes"])
 
-        plugin_repos = plugin.get("repoCodes", [])
-        common_repos_filtered = [repo for repo in common_repos_raw if repo not in plugin_repos]
-        plugin["commonRepoCodes"] = list(set(common_repos_filtered))
+        common_repos = [repo for repo in common_repos if repo not in plugin.get("repoCodes", [])]
+        plugin["commonRepoCodes"] = list(set(common_repos))
     else:
         plugin["commonRepoCodes"] = []
-
-print("commonRepoCodes hesaplama tamamlandı.")
 
 datas_dir = "datas"
 os.makedirs(datas_dir, exist_ok=True)
 
 plugin_status_temp = {}
 
-print("\nDepo özelindeki dosyalar (mevcut/yeni) oluşturuluyor...")
-all_unique_repo_codes = list(set([code for codes_list in repos.values() for code in (codes_list if isinstance(codes_list, list) else [codes_list])]))
-
-for repo_code in all_unique_repo_codes:
+for repo_url, repo_code in repos.items():
     repo_data_dir = os.path.join(datas_dir, repo_code.replace('/', '_'))
     os.makedirs(repo_data_dir, exist_ok=True)
 
@@ -188,21 +175,22 @@ for repo_code in all_unique_repo_codes:
                     for p in existing_plugins_list
                     if p.get("pluginId") or p.get("name")
                 }
+
             except json.JSONDecodeError:
                 print(f"⚠️ {existing_file_path} dosyası bozuk, yeniden oluşturuluyor.")
                 existing_repo_plugins = {}
 
-    current_repo_plugins_indexed = {}
-    for plugin in all_plugins_raw:
-        if plugin.get("repoCodes") and repo_code in plugin["repoCodes"]:
-             plugin_id_or_name = plugin.get("pluginId", plugin.get("name"))
-             plugin_repos_tuple = tuple(plugin.get("repoCodes", []))
-             if plugin_id_or_name:
-                 current_repo_plugins_indexed[(plugin_id_or_name, plugin_repos_tuple)] = plugin
+
+    current_repo_plugins_indexed = {
+         (p.get("pluginId", p.get("name")), tuple(p.get("repoCodes", []))): p
+         for p in all_plugins_raw
+         if p.get("repoCodes") and p.get("repoCodes")[0] == repo_code
+         and (p.get("pluginId") or p.get("name"))
+    }
 
     for plugin_identifier_tuple, plugin_data in current_repo_plugins_indexed.items():
         plugin_id_or_name = plugin_identifier_tuple[0]
-        plugin_repos_tuple = plugin_identifier_tuple[1]
+        repo_code_tuple = plugin_identifier_tuple[1]
 
         is_new = False
         is_updated = False
@@ -216,13 +204,9 @@ for repo_code in all_unique_repo_codes:
                plugin_data.get("url") != existing_plugin_data.get("url"):
                 is_updated = True
 
-        if plugin_data.get("repoCodes"):
-             for code in plugin_data["repoCodes"]:
-                  if code == repo_code:
-                       plugin_status_temp[(plugin_id_or_name, code)] = {'isNew': is_new, 'isUpdated': is_updated}
+        plugin_status_temp[(plugin_id_or_name, repo_code)] = {'isNew': is_new, 'isUpdated': is_updated}
 
-    plugins_for_this_repo = [p for p in all_plugins_raw if p.get("repoCodes") and repo_code in plugin["repoCodes"]]
-
+    plugins_for_this_repo = [p for p in all_plugins_raw if p.get("repoCodes") and p.get("repoCodes")[0] == repo_code]
     if not os.path.exists(existing_file_path):
         with open(existing_file_path, "w", encoding="utf-8") as dest_f:
             json.dump({"plugins": plugins_for_this_repo}, dest_f, ensure_ascii=False, indent=4)
@@ -235,36 +219,23 @@ for repo_code in all_unique_repo_codes:
     with open(existing_file_path, "w", encoding="utf-8") as dest_f:
         dest_f.write(new_content)
 
-print("Depo özelindeki dosyalar tamamlandı.")
-
-print("\nFinal data.json listesi oluşturuluyor...")
 final_plugins_list = []
 for plugin in all_plugins_raw:
     plugin_id_or_name = plugin.get("pluginId", plugin.get("name"))
-    plugin_repos = plugin.get("repoCodes", [])
+    repo_code = plugin.get("repoCodes")[0] if plugin.get("repoCodes") else None
 
-    overall_is_new = False
-    overall_is_updated = False
+    if plugin_id_or_name and repo_code:
+        status_key = (plugin_id_or_name, repo_code)
+        if status_key in plugin_status_temp:
+            plugin["isNew"] = plugin_status_temp[status_key]['isNew']
+            plugin["isUpdated"] = plugin_status_temp[status_key]['isUpdated']
+        else:
+             plugin["isNew"] = False
+             plugin["isUpdated"] = False
 
-    if plugin_id_or_name:
-         for repo_code in plugin_repos:
-              status_key = (plugin_id_or_name, repo_code)
-              if status_key in plugin_status_temp:
-                   if plugin_status_temp[status_key]['isNew']:
-                       overall_is_new = True
-                   if plugin_status_temp[status_key]['isUpdated']:
-                       overall_is_updated = True
-                   if overall_is_new: overall_is_updated = False
-
-    plugin["isNew"] = overall_is_new
-    plugin["isUpdated"] = overall_is_updated
-
-    plugin["repoUpdated"] = {}
-    if plugin_id_or_name:
-         for repo_code in plugin_repos:
-              status_key = (plugin_id_or_name, repo_code)
-              if status_key in plugin_status_temp:
-                   plugin["repoUpdated"][repo_code] = plugin_status_temp[status_key]['isUpdated']
+    else:
+         plugin["isNew"] = False
+         plugin["isUpdated"] = False
 
     final_plugins_list.append(plugin)
 
@@ -277,18 +248,17 @@ data_output = {
 with open("data.json", "w", encoding="utf-8") as f:
     json.dump(data_output, f, ensure_ascii=False, indent=4)
 
-print(f"\n✅ Ana data.json dosyası oluşturuldu! Son güncelleme zamanı: {current_time_iso}")
+print(f"✅ Güncelleme tamamlandı! Son güncelleme zamanı: {current_time_iso}")
 
-print("\nGit değişiklikleri ekliyor ve commit ediyor...")
+print("Git değişiklikleri ekliyor ve commit ediyor...")
 if run_command("git add data.json datas/"):
     commit_message = f"Otomatik güncelleme: data.json ve datas/ ({datetime.now().strftime('%Y-%m-%d %H:%M')})"
-    run_command("git config user.name 'ActionHelper'")
+    run_command("git config user.name 'ActionHelper[bot]'")
     run_command("git config user.email '212895703+ActionHelper@users.noreply.github.com'")
 
     if run_command(f'git commit -m "{commit_message}"'):
         print("Değişiklikler commit edildi.")
     else:
-        print("ℹ️ Commit edilecek değişiklik yok veya commit işlemi başarısız.")
-
+        print("❌ Commit işlemi başarısız. Değişiklik yok olabilir.") # Commit atılacak değişiklik yoksa hata verebilir
 else:
     print("❌ Git add işlemi başarısız.")
