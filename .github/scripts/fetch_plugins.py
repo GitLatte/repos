@@ -253,7 +253,7 @@ print(f"✅ Güncelleme tamamlandı! Son güncelleme zamanı: {current_time_iso}
 print("Git değişiklikleri ekliyor ve commit ediyor...")
 if run_command("git add data.json datas/"):
     commit_message = f"Otomatik güncelleme: data.json ve datas/ ({datetime.now().strftime('%Y-%m-%d %H:%M')})"
-    run_command("git config user.name 'ActionHelper[bot]'")
+    run_command("git config user.name 'ActionHelper'")
     run_command("git config user.email '212895703+ActionHelper@users.noreply.github.com'")
 
     if run_command(f'git commit -m "{commit_message}"'):
