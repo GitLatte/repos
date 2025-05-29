@@ -1,0 +1,422 @@
+{
+    "plugins": [
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=aniworld.to&sz=%size%",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 18432,
+            "status": 1,
+            "language": "de",
+            "authors": [
+                "GitLatte",
+                "Hexated"
+            ],
+            "tvTypes": [
+                "AnimeMovie",
+                "Anime",
+                "OVA"
+            ],
+            "version": 1,
+            "internalName": "AniworldMC",
+            "description": "Aniworld eklentisinin Hexated isimli depodan alınıp güncellenmiş halidir. Altyazılı veya dublajlı olarak anime izleyebilirsiniz. Türkçe içerikler yoktur.",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/AniworldMC.cs3",
+            "name": "AniworldMC",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:31.675084Z"
+            },
+            "commonRepoCodes": []
+        },
+        {
+            "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 22097,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq"
+            ],
+            "tvTypes": [
+                "Live"
+            ],
+            "version": 3,
+            "internalName": "DaddyLive",
+            "description": "DaddyLive Spor kanalları ve mümkün olduğunca VPN olmadan izletmek için 💪🏻💥",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DaddyLive.cs3",
+            "name": "DaddyLive",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:31.764753Z"
+            },
+            "commonRepoCodes": []
+        },
+        {
+            "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive-events.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 22094,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq"
+            ],
+            "tvTypes": [
+                "Live"
+            ],
+            "version": 2,
+            "internalName": "DaddyLiveEvents",
+            "description": "DaddyLive Events içerikşerini ve mümkün olduğunca VPN olmadan izletmek için 💪🏻💥",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DaddyLiveEvents.cs3",
+            "name": "DaddyLiveEvents",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:31.853061Z"
+            },
+            "commonRepoCodes": []
+        },
+        {
+            "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive-vpn.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 22094,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq"
+            ],
+            "tvTypes": [
+                "Live"
+            ],
+            "version": 1,
+            "internalName": "DaddyLiveVPN",
+            "description": "DaddyLive Spor kanallarını VPN ile izleyebilmek için",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DaddyLiveVPN.cs3",
+            "name": "DaddyLiveVPN",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:31.940996Z"
+            },
+            "commonRepoCodes": []
+        },
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=ddizi.im&sz=%size%",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 22798,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq"
+            ],
+            "tvTypes": [
+                "TvSeries"
+            ],
+            "version": 1,
+            "internalName": "DDizi",
+            "description": "Ddizi, dizi izle, dizi seyret, ddizi.im - Güncel ve eski dizileri en iyi görüntü kalitesiyle bulabileceğiniz dizi izleme sitesi.",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DDizi.cs3",
+            "name": "DDizi",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:32.041294Z"
+            },
+            "commonRepoCodes": []
+        },
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=dizifun3.com&sz=%size%",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 23100,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq"
+            ],
+            "tvTypes": [
+                "TvSeries",
+                "Movie"
+            ],
+            "version": 3,
+            "internalName": "DiziFun",
+            "description": "Dizifun, yabancı dizi - film, yerli dizi - film , türkçe dublaj , türkçe altyazılı ve anime dizi - film izlemeniz için sizinledir.",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/DiziFun.cs3",
+            "name": "DiziFun",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:32.128700Z"
+            },
+            "commonRepoCodes": []
+        },
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=kick.com&sz=%size%",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 25116,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq"
+            ],
+            "tvTypes": [
+                "TvSeries",
+                "Movie"
+            ],
+            "version": 1,
+            "internalName": "KickTR",
+            "description": "Kick'teki Türkçe canlı yayınlar ve popüler yayıncıları canlı izleyin. Arayın, bulun  ve izlemeye devam edin.",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/KickTR.cs3",
+            "name": "KickTR",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:32.222116Z"
+            },
+            "commonRepoCodes": []
+        },
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 18902,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "keyiflerolsun",
+                "GitLatte",
+                "patr0nq",
+                "nikyokki"
+            ],
+            "tvTypes": [
+                "Live"
+            ],
+            "version": 1,
+            "internalName": "mywayTV",
+            "description": "Sinetech.tr Forum myway canlı tv listesi",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/mywayTV.cs3",
+            "name": "mywayTV",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:32.316713Z"
+            },
+            "commonRepoCodes": []
+        },
+        {
+            "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/powerdizi/powerdizi.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 33305,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq",
+                "keyiflerolsun"
+            ],
+            "tvTypes": [
+                "TvSeries"
+            ],
+            "version": 3,
+            "internalName": "powerDizi",
+            "description": "powerboard`un yabancı dizi arşivi",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/powerDizi.cs3",
+            "name": "powerDizi",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:32.407815Z"
+            },
+            "commonRepoCodes": []
+        },
+        {
+            "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/powersinema/powersinema.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 28348,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq",
+                "keyiflerolsun"
+            ],
+            "tvTypes": [
+                "Movie"
+            ],
+            "version": 3,
+            "internalName": "powerSinema",
+            "description": "powerboard`un sinema arşivi",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/powerSinema.cs3",
+            "name": "powerSinema",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:32.507082Z"
+            },
+            "commonRepoCodes": []
+        },
+        {
+            "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 21991,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq"
+            ],
+            "tvTypes": [
+                "Live"
+            ],
+            "version": 2,
+            "internalName": "TOGrup",
+            "description": "TO Grubu spor kanallarını içerir: Vavoo.to, Huhu.to, Kool.to, Oha.to",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/TOGrup.cs3",
+            "name": "TOGrup",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:32.602190Z"
+            },
+            "commonRepoCodes": []
+        },
+        {
+            "iconUrl": "https://raw.githubusercontent.com/GitLatte/Sinetech/master/img/tvbahcesi/bahcesitv.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 19530,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq",
+                "keyiflerolsun"
+            ],
+            "tvTypes": [
+                "Live"
+            ],
+            "version": 1,
+            "internalName": "TvBahcesi",
+            "description": "TvGarden televizyon listesi. @keyiflerolsun Canlı TV eklentisinden yararlanılmıştır.",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/TvBahcesi.cs3",
+            "name": "TvBahcesi",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:32.693674Z"
+            },
+            "commonRepoCodes": []
+        },
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=webdramaturkey.org/&sz=%size%",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 31946,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq"
+            ],
+            "tvTypes": [
+                "Movie",
+                "Podcast",
+                "AsianDrama",
+                "Anime"
+            ],
+            "version": 2,
+            "internalName": "WebDramaTurkey",
+            "description": "Kore, Çin ve Japon yapımı filmleri Web Drama Turkey üzerinden Türkçe altyazılı olarak izleyebilirsiniz. Kore filmi izle, Çin filmi izle, Asya filmleri izle.",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/WebDramaTurkey.cs3",
+            "name": "WebDramaTurkey",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:32.788771Z"
+            },
+            "commonRepoCodes": []
+        },
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=youtube.com&sz=%size%",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 20702,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq"
+            ],
+            "tvTypes": [
+                "Live"
+            ],
+            "version": 1,
+            "internalName": "YTCanliTV",
+            "description": "Youtube üzerinden canlı yayın yapan kanalları izleyebilirsiniz.",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/YTCanliTV.cs3",
+            "name": "YTCanliTV",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:32.875598Z"
+            },
+            "commonRepoCodes": []
+        },
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=youtube.com&sz=%size%",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 29363,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq"
+            ],
+            "tvTypes": [
+                "Others",
+                "Live"
+            ],
+            "version": 1,
+            "internalName": "YTEglence",
+            "description": "Youtube üzerindeki kullanıcı tercihleriyle eklenen eğlence kanallarının içeriklerini izleyebilirsiniz.",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/YTEglence.cs3",
+            "name": "YTEglence",
+            "repoCodes": [
+                "Latte/sinetech"
+            ],
+            "repoTimestamps": {
+                "Latte/sinetech": "2025-05-29T03:27:32.982269Z"
+            },
+            "commonRepoCodes": []
+        }
+    ]
+}

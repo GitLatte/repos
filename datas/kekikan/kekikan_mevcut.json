@@ -18,9 +18,13 @@
             "description": "Film izle, ⚡ En yeni çıkan yabancı vizyon filmleri 4KFilmizleme ile Online 1080p kalite veya Ultra Full HD 4K Film izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/4KFilmIzleme.cs3",
             "name": "4KFilmIzleme",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:45.445801Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.4kfilmizlesene.org&sz=%size%",
@@ -40,9 +44,13 @@
             "description": "En yeni ve sorunsuz ⚡  Full HD Film izle keyfi her yerde sizinle ! 4K ve 1080p online film izleme farkıyla 4KFilmizlesene&amp;#039;nin Tadını Çıkart.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/4KFilmIzlesene.cs3",
             "name": "4KFilmIzlesene",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:45.498581Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=animecix.net&sz=%size%",
@@ -64,9 +72,13 @@
             "description": "AnimeciX, animeleri keşfedebileceğiniz ve animeler hakkında her şeyi öğrenebileceğiniz bir paylaşım platformudur.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/AnimeciX.cs3",
             "name": "AnimeciX",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:45.552616Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.animeizlesene.com/public/assets/img/favicon-32x32.png",
@@ -88,9 +100,13 @@
             "description": "Sade tasarıma sahip, yüksek kaliteli anime izleme sitesi. En sevdiğiniz anime serilerini, kesintisiz bir şekilde izleyebilirsiniz. Geniş arşivimiz sayesinde, her zaman yeni çıkan animeleri ve eski klasikleri keşfedebilirsiniz.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/AnimeIzlesene.cs3",
             "name": "AnimeIzlesene",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:45.606733Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://animeler.me/wp-content/uploads/cropped-animelerpw-48x48.png",
@@ -110,9 +126,13 @@
             "description": "HD kalitesinde ücretsiz anime izle! Animeler.me, en yeni ve popüler anime serilerini Türkçe altyazılı ve dublajlı olarak sunar. Favori animelerini hemen keşfet!",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/Animeler.cs3",
             "name": "Animeler",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:45.661568Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://animex.tr/wp-content/uploads/2024/06/favicon.ico",
@@ -132,9 +152,13 @@
             "description": "Anime izle, Anime türkce altyazılı , birbirinden farklı ve güzel en güncel animeleri keyifle seyredebileceğiniz Animex.com.tr anime severlerin en popüler türkçe anime izleme sitesidir.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/Animex.cs3",
             "name": "Animex",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:45.715916Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://anizm.net/upload/assets/favicon.ico",
@@ -154,9 +178,13 @@
             "description": "Türkçe Altyazılı Anime İzle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/Anizm.cs3",
             "name": "Anizm",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:45.769123Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://asyaanimeleri.top/wp-content/uploads/2021/08/Asya-animeleri-12-e1629130525708.png",
@@ -176,9 +204,13 @@
             "description": "Asya Animeleri – Anime izle | Donghua izle | Animeler | Donghuantr | Türkanime | Donghua Anime, Türkçe Altyazılı Anime izle , Türkçe Anime, animeizle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/AsyaAnimeleri.cs3",
             "name": "AsyaAnimeleri",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:45.822884Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://asyafanatiklerim.com/wp-content/uploads/2018/08/md_5aaeb1de75bea.png",
@@ -198,9 +230,13 @@
             "description": "Asya Fanatikleri, asya dizilerini izleme imkanı sunar. Kore dizileri izle, asyafanatikleri kore dizileri, tayvan dizileri izle, çin dizileri izle, anime izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/AsyaFanatiklerim.cs3",
             "name": "AsyaFanatiklerim",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:45.874851Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=belgeselx.com&sz=%size%",
@@ -222,9 +258,13 @@
             "description": "En yeni belgeseller, türkçe altyazılı yada dublaj olarak 1080p kalitesinde HD belgesel izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/BelgeselX.cs3",
             "name": "BelgeselX",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:45.928139Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -246,9 +286,13 @@
             "description": "Canlı Televiyon Kanallari",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/CanliTelevizyon.cs3",
             "name": "CanliTelevizyon",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:45.981014Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=cizgimax.online&sz=%size%",
@@ -268,9 +312,13 @@
             "description": "ÇizgiMax ile Çizgi Film izlemek artık daha kolay, donmadan full hd ve reklamsız bir sitedir, içerisinde 700 den fazla çizgi film olan, Bu site bu işi profesyonelce yapıyor.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/CizgiMax.cs3",
             "name": "CizgiMax",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.033685Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://cizgivedizi.com/Logo.png",
@@ -290,9 +338,13 @@
             "description": "Ücretsiz bir şekilde çizgi dizi, dizi, anime ve daha fazlasını eski-yeni demeden izleyebilirsiniz.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/CizgiveDizi.cs3",
             "name": "CizgiveDizi",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.086843Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizibox.de&sz=%size%",
@@ -312,9 +364,13 @@
             "description": "Yabancı Dizi izle, Tüm yabancı dizilerin yeni ve eski sezonlarını full hd izleyebileceğiniz elit site.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziBox.cs3",
             "name": "DiziBox",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.140160Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://dizifun2.com/images/data/favicon.png",
@@ -335,9 +391,13 @@
             "description": "Her Dizi Bir Macera, Her An Bir Keşif!",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziFun.cs3",
             "name": "DiziFun",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.193966Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizigom1.co&sz=%size%",
@@ -358,9 +418,13 @@
             "description": "Türkçe altyazılı yabancı dizi izle, Tüm yabancı, kore, netflix dizilerin yeni ve eski sezonlarını orijinal dilinde dizigom1 alt yazılı film izleyebilir, sadece türkçe altyazılı en iyi yabancı diziler ve filmler hakkında yorum yapabilirsiniz.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziGom.cs3",
             "name": "DiziGom",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.248522Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizikorea.vip&sz=%size%",
@@ -380,9 +444,13 @@
             "description": "En Güncel Kore Dizileri izleme Sitesi",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziKorea.cs3",
             "name": "DiziKorea",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.301942Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://dizikral.nl/mofy/img/192x192_.png",
@@ -402,9 +470,13 @@
             "description": "DiziKRAL - ücretsiz yabancı dizi izle, film izle, anime izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziKral.cs3",
             "name": "DiziKral",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.355996Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizilla.club&sz=%size%",
@@ -425,9 +497,13 @@
             "description": "Dizilla tüm yabancı dizileri ücretsiz olarak Türkçe Dublaj ve altyazılı seçenekleri ile 1080P kalite izleyebileceğiniz yeni nesil yabancı dizi izleme siteniz.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/Dizilla.cs3",
             "name": "Dizilla",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.410993Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizimag.net&sz=%size%",
@@ -447,9 +523,13 @@
             "description": "En son çıkan yabancı dizi ve filmleri DiziMag farkıyla full hd 1080p kalitede izle. Dizimag Geniş ve güncel arşiviyle dizi ve filmlerin tadını çıkartın.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziMag.cs3",
             "name": "DiziMag",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.465197Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizimom.tv&sz=%size%",
@@ -469,9 +549,13 @@
             "description": "Binlerce yerli yabancı dizi arşivi, tüm sezonlar, kesintisiz bölümler. Sadece dizi izle, Dizimom heryerde seninle!",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziMom.cs3",
             "name": "DiziMom",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.517523Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "view-source:https://dizimore.com/wp-content/uploads/2024/03/morefav.png",
@@ -491,9 +575,13 @@
             "description": "Sadece Dizi izlemenin Tek Adresin yerli yabancı dizi izlemek için dizimore.com",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziMore.cs3",
             "name": "DiziMore",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.571076Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizipal683.com&sz=%size%",
@@ -515,9 +603,13 @@
             "description": "en yeni dizileri güvenli ve hızlı şekilde sunar.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziPal.cs3",
             "name": "DiziPal",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.626668Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.diziyo.de/wp-content/uploads/2019/11/favicon-150x150.ico",
@@ -539,9 +631,13 @@
             "description": "Diziyo ile Yabancı Dizi, Film, Anime, Çizgi-Film izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziYo.cs3",
             "name": "DiziYo",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.680252Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.diziyou.co&sz=%size%",
@@ -561,9 +657,13 @@
             "description": "Diziyou en kaliteli Türkçe dublaj ve altyazılı yabancı dizi izleme sitesidir. Güncel ve efsanevi dizileri 1080p Full HD kalitede izlemek için hemen tıkla!",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziYou.cs3",
             "name": "DiziYou",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.734667Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://filmekseni.net/favicon.ico",
@@ -583,9 +683,13 @@
             "description": "Film Ekseni ⚡ Vizyonda ki, en güncel ve en yeni filmleri full hd kalitesinde türkçe dublaj ve altyazı seçenekleriyle 1080p olarak izleyebileceğiniz adresiniz.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/FilmEkseni.cs3",
             "name": "FilmEkseni",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.788142Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://filmhane.net/uploads/logo/original/logo-7349.webp",
@@ -606,9 +710,13 @@
             "description": "Son çıkan en yeni filmleri türkçe dublaj ve türkçe altyazılı dil seçenekleriyle Full HD (1080p) kalitelerinde film izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/FilmHane.cs3",
             "name": "FilmHane",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.841239Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://filmizle.cx/favicon.ico",
@@ -628,9 +736,13 @@
             "description": "Filmizle ile Full HD Film izle. Yerli ve yabancı filmleri Türkçe dublaj veya Alt yazılı seçeneğiyle kesintisiz ve sorunsuz en hızlı film sitesi.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/FilmIzleCx.cs3",
             "name": "FilmIzleCx",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.899401Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=filmkovasi.tv&sz=%size%",
@@ -650,9 +762,13 @@
             "description": "Film Kovasi ⚡ ile en güncel ve sorunsuz Full HD Film izle keyfi her yerde seninle! 1080p online film izleme ayrıcalığıyla Film Kovası'nın Tadını Çıkarın.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/FilmKovasi.cs3",
             "name": "FilmKovasi",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:46.952878Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=filmmakinesi.film&sz=%size%",
@@ -674,9 +790,13 @@
             "description": "Film Makinesi, en yeni ve en güncel filmleri sitemizde full HD kalite farkı ile izleyebilirsiniz. HD film izle denildiğinde akla gelen en kaliteli film izleme sitesi.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/FilmMakinesi.cs3",
             "name": "FilmMakinesi",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.005629Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.filmmodu17.com&sz=%size%",
@@ -696,9 +816,13 @@
             "description": "Film modun geldiyse yüksek kalitede en yeni filmleri izle, 1080p izleyebileceğiniz reklamsiz film sitesi.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/FilmModu.cs3",
             "name": "FilmModu",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.058646Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilm.pro&sz=%size%",
@@ -719,9 +843,13 @@
             "description": "Fullhdfilm ile en yeni vizyon filmler Full HD ve kesintisiz film sizlerle. Özgün film arşivimizle en üstün kaliteli film izle keyfini sunuyoruz.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/FullHDFilm.cs3",
             "name": "FullHDFilm",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.112414Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilmizlede.net&sz=%size%",
@@ -741,9 +869,13 @@
             "description": "En güncel ve popüler filmleri Full HD kalitesinde, Türkçe altyazılı veya Türkçe dublaj seçenekleriyle izleyebileceğiniz tek adres! Sinema tutkunları için en özel film deneyimini yaşamak için fullhdfilmizlede.net",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/FullHDFilmİzlede.cs3",
             "name": "FullHDFilmİzlede",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.166560Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.fullhdfilmizlesene.de&sz=%size%",
@@ -763,9 +895,13 @@
             "description": "Sinema zevkini evinize kadar getirdik. Türkiye'nin lider Film sitesinde, en yeni filmleri Full HD izleyin.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/FullHDFilmizlesene.cs3",
             "name": "FullHDFilmizlesene",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.218934Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.giniko.com/images/favicon.ico",
@@ -785,9 +921,13 @@
             "description": "Vpn Gerekli! Dünyanın tüm ülkelerinden ücretsiz çevrimiçi TV.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/GinikoCanli.cs3",
             "name": "GinikoCanli",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.271280Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://hdfilm.cx/apple-touch-icon.png",
@@ -807,9 +947,13 @@
             "description": "Hdfilm.cx ile HD Film izle, Türkiye'nin binlerce filmlik orijinal arşiviyle Full HD 1080p kalite Türkçe Dublaj ve Altyazılı Film izleme keyfini yaşayın.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/HDFilm.cs3",
             "name": "HDFilm",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.325712Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=%size%",
@@ -832,9 +976,13 @@
             "description": "Türkiye'nin en hızlı hd film izleme sitesi",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/HDFilmCehennemi.cs3",
             "name": "HDFilmCehennemi",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.379523Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://hdfilmcehennemi2.rip/wp-content/uploads/2023/07/favi.png",
@@ -854,9 +1002,13 @@
             "description": "Full hd film izleme keyfini hdfilmcehennemi2 ile yaşayın. Türkiye'nin en güncel yüksek hd kalitede film izleme sitesi.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/HdFilmCehennemi2.cs3",
             "name": "HdFilmCehennemi2",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.433072Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmizle.to&sz=%size%",
@@ -877,9 +1029,13 @@
             "description": "HDFilmizle ile Full HD izle, 1080p kalitede Yerli ve Yabancı filmlerle Türkçe dublaj veya Altyazı olarak kesintisiz film izlemenin tadını çıkarın.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/HDFilmIzle.cs3",
             "name": "HDFilmIzle",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.487926Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmsitesi.net&sz=%size%",
@@ -899,9 +1055,13 @@
             "description": "Film izle, Hdfilmsitesi ile Online 1080p ve 4K kalite Full HD Filmlere Türkçe Dublaj ve Altyazılı olarak Reklamsız Kesintisiz HD Film izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/HDFilmSitesi.cs3",
             "name": "HDFilmSitesi",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.542080Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3vCp6N1K4bECoYRQD-cisJF2_6V_Hk01ZhDmoPR2JuM8O5qr4MqrPO1munM9cRlleBBSK6odYhLtDBWv4E3vhPhynlmS5hVVtJZShHoGA5REQ8_3v8SIlccTEqzVQu2UJyNYQdJNrKIfWy66RQeT0D-CcmFCbHPz5023H6p2v5fv4NVloZ5Rqo_yGrIY/s320/iNat-Box-App.png",
@@ -924,9 +1084,13 @@
             "description": "İnatBox cloudstream eklentisidir. Sevdiğiniz yayın platformlarını ve canlı maçları burada bulabilirsiniz.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/InatBox.cs3",
             "name": "InatBox",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.595361Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://iptvplay.stream/favicon.ico",
@@ -946,9 +1110,13 @@
             "description": "Watch free IPTV channels from around the world.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/IpTvPlayStream.cs3",
             "name": "IpTvPlayStream",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.649252Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -968,9 +1136,13 @@
             "description": "iptvSevenler",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/iptvSevenler.cs3",
             "name": "iptvSevenler",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.704278Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://jetfilmizle.de&sz=%size%",
@@ -990,9 +1162,13 @@
             "description": "Binlerce Film İzleme Seçeneğiyle En İyi Film İzleme Sitesi",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/JetFilmizle.cs3",
             "name": "JetFilmizle",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.759574Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.koreanturk.com&sz=%size%",
@@ -1012,9 +1188,13 @@
             "description": "Güney Kore sevdalılarının vazgeçemediği ve Türkiye'nin en çok ziyaret edilen Güney Kore Portalı; Koreantürk'e hoşgeldiniz!",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/KoreanTurk.cs3",
             "name": "KoreanTurk",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.812132Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=kultfilmler.com&sz=%size%",
@@ -1035,9 +1215,13 @@
             "description": "Kült Filmler özenle en iyi filmleri derler ve iyi bir altyazılı film izleme deneyimi sunmayı amaçlar",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/KultFilmler.cs3",
             "name": "KultFilmler",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.865610Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -1057,9 +1241,13 @@
             "description": "powerSinema",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/powerSinema.cs3",
             "name": "powerSinema",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.920033Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=rarefilmm.com&sz=%size%",
@@ -1079,9 +1267,13 @@
             "description": "The Cave of Forgotten Films",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/RareFilmm.cs3",
             "name": "RareFilmm",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:47.974737Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://rectvapk.cc/wp-content/uploads/2023/02/Rec-TV.webp",
@@ -1106,9 +1298,13 @@
             "description": "RecTv APK, Türkiye’deki en popüler Çevrimiçi Medya Akış platformlarından biridir. Filmlerin, Canlı Sporların, Web Dizilerinin ve çok daha fazlasının keyfini ücretsiz çıkarın.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/RecTV.cs3",
             "name": "RecTV",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.029312Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=roketdizi.co&sz=%size%",
@@ -1128,9 +1324,13 @@
             "description": "Türkiye'nin en tatlış yabancı dizi izleme sitesi. Türkçe dublaj, altyazılı, eski ve yeni yabancı dizilerin yanı sıra kore (asya) dizileri izleyebilirsiniz.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/RoketDizi.cs3",
             "name": "RoketDizi",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.084223Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.setfilmizle.de&sz=%size%",
@@ -1151,9 +1351,13 @@
             "description": "Setfilmizle sitemizde, donma yaşamadan Türkçe dublaj ve altyazılı filmleri ile dizileri muhteşem 1080p full HD kalitesinde izleyebilirsiniz.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/SetFilmIzle.cs3",
             "name": "SetFilmIzle",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.138084Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=sezonlukdizi6.com&sz=%size%",
@@ -1174,9 +1378,13 @@
             "description": "Güncel ve eski dizileri en iyi görüntü kalitesiyle bulabileceğiniz yabancı dizi izleme siteniz.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/SezonlukDizi.cs3",
             "name": "SezonlukDizi",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.192217Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://sinefy3.com/assets/img/sinefy/icon-144x144.png",
@@ -1197,9 +1405,13 @@
             "description": "Yabancı film izle olarak vizyondaki en yeni yabancı filmleri türkçe dublaj ve altyazılı olarak en hızlı şekilde full hd olarak sizlere sunuyoruz.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/Sinefy.cs3",
             "name": "Sinefy",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.245781Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.sinema.cx&sz=%size%",
@@ -1219,9 +1431,13 @@
             "description": "Güncel ve en iyi yabancı filmleri yüksek görüntü kalitesinde, Türkçe dublaj ve altyazı seçenekleriyle filmleri full izleyin.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/SinemaCX.cs3",
             "name": "SinemaCX",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.298525Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.superfilmgeldi.biz&sz=%size%",
@@ -1241,9 +1457,13 @@
             "description": "Hd film izliyerek arkadaşlarınızla ve sevdiklerinizle iyi bir vakit geçirmek istiyorsanız açın bir film eğlenmeye bakın. Bilim kurgu filmleri, aşk drama vahşet aşk romantik sıradışı korku filmlerini izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/SuperFilmGeldi.cs3",
             "name": "SuperFilmGeldi",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.353796Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tafdi.info&sz=%size%",
@@ -1263,9 +1483,13 @@
             "description": "Türkçe altyazılı film izle, full hd olarak film izlemenin keyfini çıkarın. Türkiyenin en büyük film izleme platformu tafdi kalitesiyle sizlerle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/Tafdi.cs3",
             "name": "Tafdi",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.406140Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.trdiziizle.vip/fawn.png",
@@ -1285,9 +1509,13 @@
             "description": "Full hd ve tek parça hemde reklamsız yerli dizi izlemek mi istiyorsunuz? O halde bu site sorunsuz dizi izlemeniz için tam size göre",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/TrDiziIzle.cs3",
             "name": "TrDiziIzle",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.460470Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.turkanime.co&sz=%size%",
@@ -1308,9 +1536,13 @@
             "description": "Türk Anime TV - Türkiye'nin Online Anime izleme sitesi.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/TurkAnime.cs3",
             "name": "TurkAnime",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.513897Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=ugurfilm7.com&sz=%size%",
@@ -1330,9 +1562,13 @@
             "description": "Yabancı film izle, Türkçe dublaj ve Türkçe altyazılı film seçenekleriyle 720p ve 1080p HD kalitesinde film izle - Uğur Film full hd film izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/UgurFilm.cs3",
             "name": "UgurFilm",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.567540Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -1352,9 +1588,13 @@
             "description": "vavooSpor",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/vavooSpor.cs3",
             "name": "vavooSpor",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.621332Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=watch2movies.net&sz=%size%",
@@ -1374,9 +1614,13 @@
             "description": "!!! YAPIM AŞAMASINDA !!! Watch2Movies is a Free Movies streaming site with zero ads. We let you watch movies online without having to register or paying, with over 10000 movies and TV-Series. You can also Download full movies from Watch2Movies and watch it later if you want.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/Watch2Movies.cs3",
             "name": "Watch2Movies",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.675251Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://img.watch32.sx/xxrz/400x400/100/a9/5e/a95e15a880a9df3c045f6a5224daf576/a95e15a880a9df3c045f6a5224daf576.png",
@@ -1397,9 +1641,13 @@
             "description": "Watch32 is a Free Movies streaming site with over 10000 movies and TV-Series.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/Watch32.cs3",
             "name": "Watch32",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.730112Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
@@ -1419,9 +1667,13 @@
             "description": "Her türlü filmi ister dublaj ister altyazılı, en kaliteli bir şekilde izleyebileceğiniz arşivi en geniş gerçek film izleme siteniz.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/WebteIzle.cs3",
             "name": "WebteIzle",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.784936Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=wfilmizle.my&sz=%size%",
@@ -1442,9 +1694,13 @@
             "description": "Aile Filmleri izle, Yerli ve yabancı en yeni Aile filmlerini Full HD 1080p görüntü kalitesiyle Türkçe Dublaj ve Türkçe Altyazı seçenekleriyle izleyin.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/WFilmİzle.cs3",
             "name": "WFilmİzle",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.839700Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=yabancidizi.tv&sz=%size%",
@@ -1464,9 +1720,13 @@
             "description": "Son çıkan yabancı dizi ve filmleri yabancidizi' de izle. En yeni yabancı film ve diziler, türkçe altyazılı yada dublaj olarak 1080p kalitesinde hd izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/YabanciDizi.cs3",
             "name": "YabanciDizi",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.893732Z"
+            },
+            "commonRepoCodes": []
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/main/yts.png",
@@ -1489,9 +1749,13 @@
             "description": "YTS Movies 4K Support (Torrent)",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/YTS.cs3",
             "name": "YTS",
-            "isNew": true,
-            "isUpdated": false,
-            "repoTimestamps": {}
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-05-29T03:27:48.946607Z"
+            },
+            "commonRepoCodes": []
         }
     ]
 }
