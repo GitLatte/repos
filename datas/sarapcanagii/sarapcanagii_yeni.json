@@ -1,0 +1,57 @@
+{
+    "plugins": [
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=dizipal953.com&sz=32",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/sarapcanagii/Pitipitii",
+            "fileSize": 20060,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "sarapcanagii"
+            ],
+            "tvTypes": [
+                "TvSeries",
+                "Movie"
+            ],
+            "version": 33,
+            "internalName": "DiziPal",
+            "description": "En yeni dizileri güvenli ve hızlı şekilde sunar.",
+            "url": "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/builds/DiziPal.cs3",
+            "name": "DiziPal",
+            "repoCodes": [
+                "sarapcanagii"
+            ],
+            "repoTimestamps": {
+                "sarapcanagii": "2025-05-29T11:21:55.404595Z"
+            },
+            "addedAt": "2025-05-29T11:21:55.499756Z"
+        },
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=colorhunt.co&sz=%size%",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/sarapcanagii/Pitipitii",
+            "fileSize": 17268,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "sarapcanagii"
+            ],
+            "tvTypes": [
+                "Live"
+            ],
+            "version": 6,
+            "internalName": "NeonSpor",
+            "description": "(BeIN Sport, Tivibu Spor ve Smart Spor için VPN Gerekebilir.) NeonSpor eklentisini de BeIN Sport, Tabii Spor, Tivibu Spor, Smart Spor, S Sport ve Diğer kanallar mevcuttur.",
+            "url": "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/builds/NeonSpor.cs3",
+            "name": "NeonSpor",
+            "repoCodes": [
+                "sarapcanagii"
+            ],
+            "repoTimestamps": {
+                "sarapcanagii": "2025-05-29T11:21:55.481148Z"
+            },
+            "addedAt": "2025-05-29T11:21:55.499775Z"
+        }
+    ]
+}
