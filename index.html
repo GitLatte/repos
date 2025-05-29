@@ -280,24 +280,23 @@ tr:hover {
                 oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
                 
                 pluginList.forEach(plugin => {
-    // --- YENİ EKLENTİ (createdAt alanı varsa ve 48 saatten küçükse) ---
-    plugin.isNew = false;
-    if (plugin.createdAt) {
-        const createdAtDate = new Date(plugin.createdAt);
-        const now = new Date();
-        if ((now - createdAtDate) < 1000 * 60 * 60 * 48) { // 48 saat
-            plugin.isNew = true;
-        }
-    }
-
+    // --- YENİ EKLENTİ (createdAt alanı varsa ve 48 saatten küçükse) --- 
+    // Bu kısım fetch_plugins.py'den gelen isNew bayrağını kullanabilir veya createdAt'a göre yeniden hesaplayabiliriz.
+    // Şimdilik fetch_plugins.py'den gelen isNew'ı kullanmaya devam edelim.
+    // ancak gösterim süresini index.html'de kontrol edelim.
+    
     // --- HER REPO İÇİN GÜNCELLEME BAYRAĞI (repoTimestamps varsa) ---
     // repoUpdated = {repoKodu: true/false, ...}
     plugin.repoUpdated = {};
     if (plugin.repoTimestamps) {
         const now = new Date();
+        // Belirli bir gün sayısı kadar yeni/güncel kabul et
+        const RECENT_THRESHOLD_DAYS = 7; // Örneğin 7 gün
+        const recentThresholdMs = RECENT_THRESHOLD_DAYS * 24 * 60 * 60 * 1000;
+
         for (const repo in plugin.repoTimestamps) {
             const ts = new Date(plugin.repoTimestamps[repo]);
-            plugin.repoUpdated[repo] = ((now - ts) < 1000 * 60 * 60 * 48); // 48 saat
+            plugin.repoUpdated[repo] = ((now - ts) < recentThresholdMs);
         }
     }
 
@@ -633,12 +632,36 @@ tr:hover {
 
             // İsim hücresi - Yeni eklenti badge'i ekle
             nameCell.textContent = plugin.name;
-            if (plugin.isNew) {
+            
+            // Yeni ve Güncellendi ibareleri için zaman tabanlı kontrol
+            const RECENT_THRESHOLD_DAYS_FOR_BADGE = 7; // Badge'in görünür kalacağı gün sayısı
+            const now = new Date();
+
+            let showNewBadge = false;
+            if (plugin.createdAt) {
+                const createdAtDate = new Date(plugin.createdAt);
+                if ((now - createdAtDate) < RECENT_THRESHOLD_DAYS_FOR_BADGE * 24 * 60 * 60 * 1000) {
+                    showNewBadge = true;
+                }
+            }
+
+            let showUpdatedBadge = false;
+            if (plugin.repoTimestamps) {
+                for (const repo in plugin.repoTimestamps) {
+                    const ts = new Date(plugin.repoTimestamps[repo]);
+                    if ((now - ts) < RECENT_THRESHOLD_DAYS_FOR_BADGE * 24 * 60 * 60 * 1000) {
+                        showUpdatedBadge = true;
+                        break; // Bir depo bile güncelse yeterli
+                    }
+                }
+            }
+
+            if (showNewBadge) {
                 const newBadge = document.createElement("span");
                 newBadge.textContent = "Yeni";
                 newBadge.className = "plugin-status-badge new-plugin-badge";
                 nameCell.appendChild(newBadge);
-            } else if (plugin.isUpdated) {
+            } else if (showUpdatedBadge) { // Sadece yeni değilse güncellendi göster
                 const updatedBadge = document.createElement("span");
                 updatedBadge.textContent = "Güncellendi";
                 updatedBadge.className = "plugin-status-badge updated-plugin-badge";
@@ -661,13 +684,13 @@ tr:hover {
 
             // Diğer hücreler
             repoCell.innerHTML = (plugin.repoCodes || []).map(repo => {
-    // Güncellendi simgesi ekle
-    let updatedIcon = "";
-    if (plugin.repoUpdated && plugin.repoUpdated[repo]) {
-        updatedIcon = '<span title="Bu depoda güncellendi" style="margin-left:4px;color:#28a745;font-weight:bold;">&#8635;</span>'; // Güncelleme simgesi
-    }
-    return `<span class="repo-badge repo-${repo.toLowerCase()}">${repo}${updatedIcon}</span>`;
-}).join(" ");
+                // Güncellendi simgesi ekle (repo bazında)
+                let updatedIcon = "";
+                if (plugin.repoUpdated && plugin.repoUpdated[repo]) { // repoUpdated zaten 7 günlük eşiğe göre hesaplanıyor
+                    updatedIcon = '<span title="Bu depoda güncellendi" style="margin-left:4px;color:#28a745;font-weight:bold;">&#8635;</span>'; // Güncelleme simgesi
+                }
+                return `<span class="repo-badge repo-${repo.toLowerCase()}">${repo}${updatedIcon}</span>`;
+            }).join(" ");
 
             typeCell.textContent = (plugin.tvTypes || []).map(type => 
                 mediaTypeTranslations[type.toLowerCase()] || type
