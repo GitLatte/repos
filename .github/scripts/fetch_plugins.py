@@ -60,7 +60,7 @@ def get_last_updated_by_api(api_commit_url_base, file_path, headers):
 
 # Depo linkleri ve kısa kodlar
 repos = {
-    "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/plugins.json": "Latte/sinetech",
+    "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/plugins.json": "Latte",
     "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/plugins.json": "nikstream",
     "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/plugins.json": "feroxxcs3",
     "https://raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/refs/heads/main/plugins.json": "makoto",
