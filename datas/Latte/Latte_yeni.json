@@ -25,7 +25,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:39.088190Z"
+                "Latte": "2025-05-29T10:56:10.854891Z"
             }
         },
         {
@@ -51,7 +51,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:39.281842Z"
+                "Latte": "2025-05-29T10:56:11.031327Z"
             }
         },
         {
@@ -77,7 +77,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:39.476880Z"
+                "Latte": "2025-05-29T10:56:11.225913Z"
             }
         },
         {
@@ -103,7 +103,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:39.653862Z"
+                "Latte": "2025-05-29T10:56:11.402691Z"
             }
         },
         {
@@ -129,7 +129,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:39.850810Z"
+                "Latte": "2025-05-29T10:56:11.584813Z"
             }
         },
         {
@@ -156,7 +156,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:40.027934Z"
+                "Latte": "2025-05-29T10:56:11.776065Z"
             }
         },
         {
@@ -183,33 +183,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:40.211973Z"
-            }
-        },
-        {
-            "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
-            "fileSize": 22117,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "GitLatte",
-                "patr0nq"
-            ],
-            "tvTypes": [
-                "Live"
-            ],
-            "version": 1,
-            "internalName": "MuzikKanallari",
-            "description": "Müzik Kanallarına özel canlı tv eklentisidir.",
-            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/MuzikKanallari.cs3",
-            "name": "MuzikKanallari",
-            "repoCodes": [
-                "Latte"
-            ],
-            "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:40.423684Z"
+                "Latte": "2025-05-29T10:56:11.947324Z"
             }
         },
         {
@@ -237,7 +211,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:40.632753Z"
+                "Latte": "2025-05-29T10:56:12.146754Z"
             }
         },
         {
@@ -264,7 +238,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:40.832754Z"
+                "Latte": "2025-05-29T10:56:12.360269Z"
             }
         },
         {
@@ -291,7 +265,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:41.025413Z"
+                "Latte": "2025-05-29T10:56:12.541281Z"
             }
         },
         {
@@ -317,7 +291,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:41.230900Z"
+                "Latte": "2025-05-29T10:56:12.761999Z"
             }
         },
         {
@@ -344,7 +318,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:41.441449Z"
+                "Latte": "2025-05-29T10:56:13.006609Z"
             }
         },
         {
@@ -373,7 +347,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:41.620256Z"
+                "Latte": "2025-05-29T10:56:13.208758Z"
             }
         },
         {
@@ -399,7 +373,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:41.803588Z"
+                "Latte": "2025-05-29T10:56:13.377290Z"
             }
         },
         {
@@ -426,7 +400,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-05-29T10:24:42.049973Z"
+                "Latte": "2025-05-29T10:56:13.557173Z"
             }
         }
     ]
