@@ -786,16 +786,14 @@ th.sortable.desc::after {
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-        // Her depo kısa koduna karşılık gelen repo.json URL parçası (raw.githubusercontent.com/...)
-        // Bu objeyi manuel olarak doldurmanız gerekecektir.
         const repoJsonUrlParts = {
-             "Latte": "raw.githubusercontent.com/GitLatte/Sinetech/builds/repo.json",
+             "Latte": "raw.githubusercontent.com/GitLatte/Sinetech/main/repo.json",
              "nikstream": "raw.githubusercontent.com/nikyokki/nik-cloudstream/master/repo.json", 
-             "feroxxcs3": "raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/repo.json",
+             "feroxxcs3": "raw.githubusercontent.com/feroxx/Kekik-cloudstream/master/repo.json",
              "makoto": "raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/refs/heads/main/repo.json", 
-             "kekikdevam": "raw.githubusercontent.com/maarrem/cs-Kekik/refs/heads/builds/repo.json",
-             "kekikan": "raw.githubusercontent.com/Kraptor123/cs-kekikanime/refs/heads/builds/repo.json",
-             "sarapcanagii": "raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/builds/repo.json"
+             "kekikdevam": "raw.githubusercontent.com/maarrem/cs-Kekik/master/repo.json",
+             "kekikan": "raw.githubusercontent.com/Kraptor123/cs-kekikanime/master/repo.json",
+             "sarapcanagii": "raw.githubusercontent.com/sarapcanagii/Pitipitii/master/repo.json"
         };
 
         // Bu fonksiyon, DOMContentLoaded içinde tanımlandığı için repoJsonUrlParts objesine erişebilir.
@@ -859,16 +857,12 @@ th.sortable.desc::after {
             if (selectedRepoCode) {
                 const repoJsonUrlPart = getRepoJsonUrlPartByRepoCode(selectedRepoCode);
                 if (repoJsonUrlPart) {
-                    // CloudStream URL'ini oluştur (sadece URL parçası encode ediliyor)
-                    const cloudstreamRepoUrl = `cloudstreamrepo://${encodeURIComponent(repoJsonUrlPart)}`; 
-                    
-                    // redirect linkini oluştur (sadece URL parçası 'r' parametresine ekleniyor)
-                    const githubPagesBaseUrl = "https://GitLatte.github.io/repos/"; // Kendi GitHub Pages URL'niz
-                    const redirectLink = `${githubPagesBaseUrl}redirect/index.html?r=cloudstreamrepo:${encodeURIComponent(repoJsonUrlPart)}`;
+                    const githubPagesBaseUrl = "https://GitLatte.github.io/repos/"; 
+                    const redirectLink = `${githubPagesBaseUrl}redirect/index.html?r=${encodeURIComponent("cloudstreamrepo://" + repoJsonUrlPart)}`; 
+                    console.log("Oluşturulan Redirect Link:", redirectLink);
 
-                    // !!! YÖNLENDİRME SATIRI EKLENDİ !!!
-                    window.location.href = redirectLink; 
-
+                     alert("Redirect Link konsolda yazdırıldı. Devam etmek için OK'e tıklayın.");
+                     window.location.href = redirectLink; 
                 } else {
                      alert(`Hata: '${selectedRepoCode}' deposu için repo.json URL parçası bulunamadı.`);
                 }

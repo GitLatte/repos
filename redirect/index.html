@@ -1,6 +1,72 @@
-<html class=" vnjtnis idc0_343"><head>
-    <title>HTTP protocol redirector</title>
-    <script src="redirect.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+<title>CloudStream uygulamasına depo eklemek için yönlendiriliyorsunuz...</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+  #main-message { color: gray; }
+  #countdown-message { 
+      color: blue; 
+      font-weight: bold;
+      margin-top: 20px;
+      min-height: 1em;
+  }
+</style>
 </head>
 <body>
-</body></html>
+
+<h1>Yönlendiriliyor...</h1>
+<p id="main-message">CloudStream uygulaması açılıyor olabilir.</p> 
+<p id="countdown-message"></p> 
+<p>Eğer otomatik yönlendirme olmazsa veya uygulama açılmazsa, lütfen aşağıdaki linke tıklayın:</p>
+<p><a id="redirectLink" href="#">Link</a></p>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const params = new URLSearchParams(window.location.search);
+  const redirectUrl = params.get('r');
+
+  const mainMessage = document.getElementById('main-message');
+  const countdownMessage = document.getElementById('countdown-message');
+  const redirectLink = document.getElementById('redirectLink');
+
+  if (redirectUrl) {
+    redirectLink.href = redirectUrl;
+    redirectLink.textContent = redirectUrl; 
+
+    window.location.replace(redirectUrl);
+
+    const BACK_DELAY_MS = 3000; 
+    let remainingTime = BACK_DELAY_MS / 1000; 
+
+    mainMessage.textContent = `CloudStream uygulaması açılıyor olabilir. Otomatik olarak ${remainingTime} saniye sonra geri dönülecek.`;
+
+    const countdownInterval = setInterval(() => {
+        remainingTime -= 1;
+        if (remainingTime > 0) {
+            countdownMessage.textContent = `Ana sayfaya geri dönülüyor: ${remainingTime} saniye...`;
+        } else {
+            clearInterval(countdownInterval); 
+            countdownMessage.textContent = "Ana sayfaya geri dönülüyor..."; 
+        }
+    }, 1000);
+
+    setTimeout(() => {
+        window.history.back();
+    }, BACK_DELAY_MS);
+
+     setTimeout(() => {
+        console.log("Otomatik yönlendirme tetiklenmediyse bu mesaj görünür."); 
+     }, BACK_DELAY_MS + 2000); 
+  } else {
+    redirectLink.style.display = 'none';
+    mainMessage.textContent = 'Hata: Yönlendirilecek URL belirtilmedi.';
+    countdownMessage.style.display = 'none'; 
+  }
+});
+</script>
+
+</body>
+</html>
