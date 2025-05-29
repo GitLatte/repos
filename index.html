@@ -490,52 +490,78 @@ th.sortable.desc::after {
 
         function sortPlugins(plugins) {
             return plugins.sort((a, b) => {
-                // En yeni eklentiler (isNew true olanlar) her zaman en üstte olsun
+                // 1. isNew durumu true olanları her zaman en üste taşı
                 if (a.isNew !== b.isNew) {
-                    return b.isNew ? -1 : 1;
+                    return b.isNew ? -1 : 1; // b.isNew true ise b daha önde (-1), a.isNew true ise a daha önde (1)
                 }
 
-                // Eğer belirli bir sütuna tıklanmadıysa varsayılan sıralama (Ada göre, sonra depoya göre)
-                if (!currentSort.column) {
-                     const nameComparison = (a.name || '').localeCompare(b.name || '');
-                     if (nameComparison !== 0) {
-                         return nameComparison;
-                     }
-                     // İsimler aynıysa depo koduna göre sırala (Latte istisnası olmadan gerçek kısa kod)
-                     const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
-                     const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
-                     return aRepo.localeCompare(bRepo);
-                }
+                // 2. Eğer belirli bir sütun seçiliyse, o sütuna göre sırala
+                if (currentSort.column) {
+                    let aVal = a[currentSort.column];
+                    let bVal = b[currentSort.column];
 
-                // Belirli bir sütuna göre sıralama
-                let aVal = a[currentSort.column];
-                let bVal = b[currentSort.column];
-
-                if (currentSort.column === 'repoCodesDisplay') {
-                    aVal = (aVal || []).join(',');
-                    bVal = (bVal || []).join(',');
-                } else if (currentSort.column === 'tvTypes') {
-                    aVal = aVal ? aVal.map(t => mediaTypeTranslations[t.toLowerCase()] || t).join(',') : '';
-                    bVal = bVal ? bVal.map(t => mediaTypeTranslations[t.toLowerCase()] || t).join(',') : '';
-                } else if (currentSort.column === 'version') {
-                    aVal = parseFloat(aVal) || 0;
-                    bVal = parseFloat(bVal) || 0;
-                } else if (currentSort.column === 'name') {
-                     // İsim sıralaması (yukarıdaki varsayılan sıralama ile uyumlu)
-                    const nameComparison = (aVal || '').localeCompare(bVal || '');
-                    if (nameComparison !== 0) {
-                        return currentSort.direction === 'asc' ? nameComparison : -nameComparison;
+                    // repoCodesDisplay sütununda, repoCodesDisplay dizisini stringe çevirerek sırala
+                    if (currentSort.column === 'repoCodesDisplay') {
+                        aVal = (aVal || []).join(',');
+                        bVal = (bVal || []).join(',');
                     }
-                    // İsimler aynıysa depo koduna göre sırala (Latte istisnası olmadan gerçek kısa kod)
-                    const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
-                    const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
-                    return currentSort.direction === 'asc' ? aRepo.localeCompare(bRepo) : -bRepo.localeCompare(aRepo);
+                    // tvTypes sütununda, tvTypes dizisini stringe çevirerek sırala (çevirilerle)
+                    else if (currentSort.column === 'tvTypes') {
+                        const mediaTypeTranslations = { /* ... (çeviriler) ... */ };
+                        aVal = aVal ? aVal.map(t => mediaTypeTranslations[t.toLowerCase()] || t).join(',') : '';
+                        bVal = bVal ? bVal.map(t => mediaTypeTranslations[t.toLowerCase()] || t).join(',') : '';
+                    }
+                    // version sütununda sayısal sıralama yap
+                    else if (currentSort.column === 'version') {
+                        aVal = parseFloat(aVal) || 0;
+                        bVal = parseFloat(bVal) || 0;
+                         // Sayısal karşılaştırma
+                        if (aVal < bVal) return currentSort.direction === 'asc' ? -1 : 1;
+                        if (aVal > bVal) return currentSort.direction === 'asc' ? 1 : -1;
+                        return 0; // Eşitler
+                    }
+                    // name sütununda özel durum: ad aynı ise depoya göre sırala
+                    else if (currentSort.column === 'name') {
+                        const nameComparison = (aVal || '').localeCompare(bVal || '');
+                        if (nameComparison !== 0) {
+                            return currentSort.direction === 'asc' ? nameComparison : -nameComparison;
+                        }
+                        // İsimler aynıysa depo koduna göre sırala (gerçek kısa kod)
+                        const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
+                        const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
+                        return currentSort.direction === 'asc' ? aRepo.localeCompare(bRepo) : -bRepo.localeCompare(aRepo);
+                    }
+                    // Diğer sütunlar için string karşılaştırma
+                    else {
+                         if (aVal === bVal) return 0;
+                         const comparison = String(aVal || '').localeCompare(String(bVal || ''));
+                         return currentSort.direction === 'asc' ? comparison : -comparison;
+                    }
+
+                    // Eğer spesifik sütun mantığı eşit döndürürse (name dışındaki sütunlarda)
+                     if (aVal === bVal) {
+                         // İkincil sıralama: Ada göre alfabetik, sonra depoya göre alfabetik
+                         const nameComparison = (a.name || '').localeCompare(b.name || '');
+                         if (nameComparison !== 0) {
+                             return nameComparison; // İkincil olarak ada göre sırala
+                         }
+                         const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
+                         const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
+                         return aRepo.localeCompare(bRepo); // Üçüncül olarak depoya göre sırala
+                     }
+                      return 0; // Normal string karşılaştırması tamamlandıysa
+
                 }
 
-                if (aVal === bVal) return 0;
-
-                const comparison = String(aVal).localeCompare(String(bVal));
-                return currentSort.direction === 'asc' ? comparison : -comparison;
+                // 3. Eğer hiçbir sütun seçili değilse (currentSort.column null), varsayılan sıralama:
+                // Önce Ada göre alfabetik, sonra Depoya göre alfabetik.
+                const nameComparison = (a.name || '').localeCompare(b.name || '');
+                if (nameComparison !== 0) {
+                    return nameComparison;
+                }
+                const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
+                const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
+                return aRepo.localeCompare(bRepo);
             });
         }
 
