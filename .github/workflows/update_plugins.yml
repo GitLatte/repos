@@ -24,17 +24,19 @@ jobs:
         run: pip install requests
 
       - name: Eklenti verisini güncelle
+        env:
+          ACTIONHELPER: ${{ secrets.ACTIONHELPER }}
         run: python .github/scripts/fetch_plugins.py
 
       - name: Güncellenen JSON dosyasını commitle
         run: |
           git config --global user.name "ActionHelper"
           git config --global user.email "212895703+ActionHelper@users.noreply.github.com"
-          git add data.json
+          git add data.json datas/
           git commit -m "🚀 Eklenti listesi güncellendi [ci skip]" || echo "✅ Değişiklik yok!"
 
-      - name: Gerekirse rebase yap
-        run: git pull --rebase origin main || echo "⚠️ Rebase sırasında hata oluştu, değişiklik yok veya çözülmesi gereken bir çatışma olabilir."
+      # - name: Gerekirse rebase yap
+      #   run: git pull --rebase origin main || echo "⚠️ Rebase sırasında hata oluştu, değişiklik yok veya çözülmesi gereken bir çatışma olabilir."
 
       - name: Pushla
         env:
