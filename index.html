@@ -198,7 +198,7 @@ th.sortable.desc::after {
     </div>
 
     <div id="content">
-        <h2 class="header-title">Cloudstream Türkçe Depo ve Eklentleri</h2>
+        <h2 class="header-title" onclick="location.reload();">Cloudstream Türkçe Depo ve Eklentleri</h2>
 
         <div class="stats-container">
             <div class="stats-card"><span id="totalPlugins">Toplam Eklenti: 0</span></div>
@@ -951,5 +951,21 @@ th.sortable.desc::after {
             });
         }
         </script>
+        <script>
+            let startY = 0;
+            
+            document.addEventListener("touchstart", function(event) {
+                startY = event.touches[0].pageY;
+            });
+            
+            document.addEventListener("touchmove", function(event) {
+                let currentY = event.touches[0].pageY;
+                
+                if (currentY - startY > 100 && window.scrollY === 0) {
+                    location.reload();
+                }
+            });
+            </script>
+            
 </body>
 </html>
