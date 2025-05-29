@@ -1,10 +1,12 @@
 import requests
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 import time
 import re
 import os
 import subprocess
+
+YENI_BEKLEME_SAATI = 72  # 3 gün
 
 def run_command(command):
     try:
@@ -56,7 +58,6 @@ def get_last_updated_by_api(api_commit_url_base, file_path, headers):
      except Exception as e:
          print(f"⚠️ Commit zamanı alınırken hata oluştu: {e}")
      return None
-
 
 repos = {
     "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/plugins.json": "Latte",
@@ -173,7 +174,6 @@ for repo_code in all_unique_repo_codes:
         if plugin.get("repoCodes") and plugin.get("repoCodes")[0] == repo_code:
              current_repo_plugins_for_status.append(plugin)
 
-
     for plugin_data in current_repo_plugins_for_status:
         plugin_id_or_name = plugin_data.get("pluginId") or plugin_data.get("name")
         current_plugin_repo_code = plugin_data.get("repoCodes")[0] if plugin_data.get("repoCodes") else None
@@ -183,22 +183,45 @@ for repo_code in all_unique_repo_codes:
 
         status_key = (plugin_id_or_name, current_plugin_repo_code)
 
-        is_new = False
-        is_updated = False
+        # --- ADDEDAT EKLEME ve KORUMA ---
+        added_at = None
+        if status_key in existing_repo_plugins:
+            added_at = existing_repo_plugins[status_key].get("addedAt")
+        if not added_at:
+            # Eğer eklenti eski dosyada yoksa veya addedAt yoksa, şu anki zamanı ata
+            added_at = datetime.utcnow().isoformat() + "Z"
+        plugin_data["addedAt"] = added_at
+        # --- ADDEDAT BİTTİ ---
 
-        existing_key = (plugin_id_or_name, current_plugin_repo_code)
-        if existing_key not in existing_repo_plugins:
-            is_new = True
+        # --- isNew Hesaplama ---
+        now = datetime.utcnow()
+        try:
+            added_at_dt = datetime.fromisoformat(added_at.replace("Z", ""))
+        except Exception:
+            added_at_dt = now
+        is_new = (now - added_at_dt) < timedelta(hours=YENI_BEKLEME_SAATI)
+        # --- isNew Bitti ---
+
+        # isUpdated (mevcut kodunla aynı)
+        is_updated = False
+        if status_key not in existing_repo_plugins:
+            is_updated = False
         else:
-            existing_plugin_data = existing_repo_plugins[existing_key]
+            existing_plugin_data = existing_repo_plugins[status_key]
             if plugin_data.get("version") != existing_plugin_data.get("version") or \
                plugin_data.get("fileSize") != existing_plugin_data.get("fileSize") or \
                plugin_data.get("url") != existing_plugin_data.get("url"):
                 is_updated = True
 
-        plugin_status_temp[status_key] = {'isNew': is_new, 'isUpdated': is_updated}
+        plugin_status_temp[status_key] = {'isNew': is_new, 'isUpdated': is_updated, 'addedAt': added_at}
 
     plugins_for_this_repo = [p for p in all_plugins_raw if p.get("repoCodes") and p.get("repoCodes")[0] == repo_code]
+
+    # --- addedAt bilgisini json'a mutlaka ekle ---
+    for p in plugins_for_this_repo:
+        key = ((p.get("pluginId") or p.get("name")), p.get("repoCodes")[0] if p.get("repoCodes") else None)
+        if key in plugin_status_temp:
+            p["addedAt"] = plugin_status_temp[key]['addedAt']
 
     if not os.path.exists(existing_file_path):
         with open(existing_file_path, "w", encoding="utf-8") as dest_f:
@@ -222,16 +245,20 @@ for plugin in all_plugins_raw:
 
     overall_is_new = False
     overall_is_updated = False
+    added_at = None
 
     if plugin_id_or_name and plugin_repo_code:
          status_key = (plugin_id_or_name, plugin_repo_code)
          if status_key in plugin_status_temp:
               overall_is_new = plugin_status_temp[status_key]['isNew']
               overall_is_updated = plugin_status_temp[status_key]['isUpdated']
-              if overall_is_new: overall_is_updated = False
+              added_at = plugin_status_temp[status_key]['addedAt']
+              if overall_is_new:
+                  overall_is_updated = False
 
     plugin["isNew"] = overall_is_new
     plugin["isUpdated"] = overall_is_updated
+    plugin["addedAt"] = added_at
 
     plugin["repoUpdated"] = {}
     if plugin_id_or_name and plugin_repo_code:
