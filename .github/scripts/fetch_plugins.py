@@ -100,7 +100,7 @@ for repo_url, repo_code in repos.items():
                          path_match = re.search(r'raw.githubusercontent.com/[^/]+/[^/]+/[^/]+/(.+)', plugin_file_url)
                          if path_match:
                              file_path = path_match.group(1)
-                     except Exception as e:
+                    except Exception as e:
                          print(f"⚠️ Eklenti URL işlenirken hata oluştu: {e}")
 
                 timestamp = None
