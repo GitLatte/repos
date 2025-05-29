@@ -67,7 +67,7 @@ repos = {
     "https://raw.githubusercontent.com/maarrem/cs-Kekik/refs/heads/builds/plugins.json": "kekikdevam",
     "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/refs/heads/builds/plugins.json": "kekikan",
     "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/builds/plugins.json": "sarapcanagii",
-    "https://raw.githubusercontent.com/Sertel392/Makotogecici/refs/heads/main/plugins.json": "MakotoGeçici"
+    "https://raw.githubusercontent.com/Sertel392/Makotogecici/refs/heads/main/plugins.json": "MakotoGecici"
 }
 
 api_headers = get_api_headers()
