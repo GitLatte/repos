@@ -189,35 +189,59 @@ th.sortable.desc::after {
     </style>
 </head>
 <body>
-    <h2 class="header-title">Cloudstream Türkçe Depo ve Eklentleri</h2>
 
-    <div class="stats-container">
-        <div class="stats-card"><span id="totalPlugins">Toplam Eklenti: 0</span></div>
-        <div class="stats-card"><span id="totalRepos">Toplam Depo: 0</span></div>
-        <div class="stats-card"><span id="lastUpdated">Son Güncelleme: Bilinmiyor</span></div>
+    <div id="block-message" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); color: white; font-size: 24px; text-align: center; padding-top: 20%; z-index: 9999;">
+        Bu site yalnızca tarayıcılarda görüntülenebilir.<br>
+        Lütfen siteye bir web tarayıcısı üzerinden erişin.
     </div>
 
-    <div class="filter-container">
-        <label for="filterSelect">İçeriğe Göre Görüntüle:</label>
-        <select id="filterSelect">
-            <option value="all">Tümünü Göster</option>
-        </select>
+    <div id="content">
+        <h2 class="header-title">Cloudstream Türkçe Depo ve Eklentleri</h2>
 
-        <label for="repoFilterSelect">Depo Seç:</label>
-        <select id="repoFilterSelect">
-            <option value="all">Tüm Depolar</option>
-        </select>
+        <div class="stats-container">
+            <div class="stats-card"><span id="totalPlugins">Toplam Eklenti: 0</span></div>
+            <div class="stats-card"><span id="totalRepos">Toplam Depo: 0</span></div>
+            <div class="stats-card"><span id="lastUpdated">Son Güncelleme: Bilinmiyor</span></div>
+        </div>
+
+        <div class="filter-container">
+            <label for="filterSelect">İçeriğe Göre Görüntüle:</label>
+            <select id="filterSelect">
+                <option value="all">Tümünü Göster</option>
+            </select>
+
+            <label for="repoFilterSelect">Depo Seç:</label>
+            <select id="repoFilterSelect">
+                <option value="all">Tüm Depolar</option>
+            </select>
+        </div>
+
+        <div class="filter-container">
+            <input type="text" id="searchInput" placeholder="Eklenti Ara...">
+            <button id="clearSearch">Temizle</button>
+        </div>
+        <div class="filter-container">
+            <button id="addRepoButton">Hemen Depo Yükle</button>
+        </div>
+
+        <table id="pluginTable">
+            <thead>
+                <tr>
+                    <th>İkon</th>
+                    <th class="sortable" data-sort="name">Ad</th>
+                    <th class="sortable" data-sort="repoCodesDisplay">Eklemek için Depo Kodu</th>
+                    <th class="sortable" data-sort="tvTypes">Tür</th>
+                    <th class="sortable" data-sort="description">Eklenti Açıklaması</th>
+                    <th class="sortable" data-sort="language">Dil</th>
+                    <th class="sortable" data-sort="version">Ver.</th>
+                    <th>Bulunduğu Depolar</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
     </div>
 
-    <div class="filter-container">
-        <input type="text" id="searchInput" placeholder="Eklenti Ara...">
-        <button id="clearSearch">Temizle</button>
-    </div>
-    <div class="filter-container">
-        <button id="addRepoButton">Hemen Depo Yükle</button>
-    </div>
-
-    <!-- Depo Seçim Modalı (Basit Taslak) -->
+    <!-- Depo Seçim Modalı -->
     <div id="repoSelectModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7); z-index: 1000;">
         <div style="background-color: white; margin: 10% auto; padding: 20px; width: 80%; max-width: 400px; border-radius: 10px; position: relative;">
             <span id="closeModalButton" style="position: absolute; top: 10px; right: 10px; cursor: pointer; font-size: 20px;">×</span>
@@ -226,29 +250,27 @@ th.sortable.desc::after {
             
             <select id="availableReposSelect" style="width: 100%; padding: 10px; margin-bottom: 15px;">
                 <option value="">Depo Seçiniz</option>
-
             </select>
 
             <button id="confirmAddRepoButton" disabled>Seçilen Depoyu Ekle</button>
         </div>
     </div>
-    <table id="pluginTable">
-        <thead>
-            <tr>
-                <th>İkon</th>
-                <th class="sortable" data-sort="name">Ad</th>
-                <th class="sortable" data-sort="repoCodesDisplay">Eklemek için Depo Kodu</th>
-                <th class="sortable" data-sort="tvTypes">Tür</th>
-                <th class="sortable" data-sort="description">Eklenti Açıklaması</th>
-                <th class="sortable" data-sort="language">Dil</th>
-                <th class="sortable" data-sort="version">Ver.</th>
-                <th>Bulunduğu Depolar</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+
 
     <script>
+        // Her depo kısa koduna karşılık gelen repo.json URL parçası (raw.githubusercontent.com/...)
+        // Bu objeyi manuel olarak doldurmanız gerekecektir.
+        const repoJsonUrlParts = {
+             "Latte": "raw.githubusercontent.com/GitLatte/Sinetech/builds/repo.json",
+             "nikstream": "raw.githubusercontent.com/nikyokki/nik-cloudstream/master/repo.json", 
+             "feroxxcs3": "raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/repo.json",
+             "makoto": "raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/refs/heads/main/repo.json", 
+             "kekikdevam": "raw.githubusercontent.com/maarrem/cs-Kekik/refs/heads/builds/repo.json",
+             "kekikan": "raw.githubusercontent.com/Kraptor123/cs-kekikanime/refs/heads/builds/repo.json",
+             "sarapcanagii": "raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/builds/repo.json"
+        };
+
+
     function fetchPlugins() {
         fetch("https://GitLatte.github.io/repos/data.json")
         .then(response => {
@@ -410,7 +432,7 @@ th.sortable.desc::after {
 
         let options = '<option value="all">Tüm Depolar</option>';
         uniqueRepos.forEach(repo => {
-             const displayRepoName = (repo === "Latte") ? "Latte/sinetech" : repo; // Latte istisnası gösterim
+             const displayRepoName = (repo === "Latte") ? "Latte/sinetech" : repo;
             options += `<option value="${repo}">${displayRepoName} (${repoCounts[repo]})</option>`;
         });
 
@@ -508,71 +530,58 @@ th.sortable.desc::after {
 
         function sortPlugins(plugins) {
             return plugins.sort((a, b) => {
-                // 1. isNew durumu true olanları her zaman en üste taşı
                 if (a.isNew !== b.isNew) {
-                    return b.isNew ? -1 : 1; // b.isNew true ise b daha önde (-1), a.isNew true ise a daha önde (1)
+                    return b.isNew ? -1 : 1;
                 }
 
-                // 2. Eğer belirli bir sütun seçiliyse, o sütuna göre sırala
                 if (currentSort.column) {
                     let aVal = a[currentSort.column];
                     let bVal = b[currentSort.column];
 
-                    // repoCodesDisplay sütununda, repoCodesDisplay dizisini stringe çevirerek sırala
                     if (currentSort.column === 'repoCodesDisplay') {
                         aVal = (aVal || []).join(',');
                         bVal = (bVal || []).join(',');
                     }
-                    // tvTypes sütununda, tvTypes dizisini stringe çevirerek sırala (çevirilerle)
                     else if (currentSort.column === 'tvTypes') {
                         const mediaTypeTranslations = { /* ... (çeviriler) ... */ };
                         aVal = aVal ? aVal.map(t => mediaTypeTranslations[t.toLowerCase()] || t).join(',') : '';
                         bVal = bVal ? bVal.map(t => mediaTypeTranslations[t.toLowerCase()] || t).join(',') : '';
                     }
-                    // version sütununda sayısal sıralama yap
                     else if (currentSort.column === 'version') {
                         aVal = parseFloat(aVal) || 0;
                         bVal = parseFloat(bVal) || 0;
-                         // Sayısal karşılaştırma
                         if (aVal < bVal) return currentSort.direction === 'asc' ? -1 : 1;
                         if (aVal > bVal) return currentSort.direction === 'asc' ? 1 : -1;
-                        return 0; // Eşitler
+                        return 0;
                     }
-                    // name sütununda özel durum: ad aynı ise depoya göre sırala
                     else if (currentSort.column === 'name') {
                         const nameComparison = (aVal || '').localeCompare(bVal || '');
                         if (nameComparison !== 0) {
                             return currentSort.direction === 'asc' ? nameComparison : -nameComparison;
                         }
-                        // İsimler aynıysa depo koduna göre sırala (gerçek kısa kod)
                         const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
                         const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
                         return currentSort.direction === 'asc' ? aRepo.localeCompare(bRepo) : -bRepo.localeCompare(aRepo);
                     }
-                    // Diğer sütunlar için string karşılaştırma
                     else {
                          if (aVal === bVal) return 0;
                          const comparison = String(aVal || '').localeCompare(String(bVal || ''));
                          return currentSort.direction === 'asc' ? comparison : -comparison;
                     }
 
-                    // Eğer spesifik sütun mantığı eşit döndürürse (name dışındaki sütunlarda)
                      if (aVal === bVal) {
-                         // İkincil sıralama: Ada göre alfabetik, sonra depoya göre alfabetik
                          const nameComparison = (a.name || '').localeCompare(b.name || '');
                          if (nameComparison !== 0) {
-                             return nameComparison; // İkincil olarak ada göre sırala
+                             return nameComparison;
                          }
                          const aRepo = (a.repoCodesDisplay && a.repoCodesDisplay.length > 0) ? a.repoCodesDisplay[0] : '';
                          const bRepo = (b.repoCodesDisplay && b.repoCodesDisplay.length > 0) ? b.repoCodesDisplay[0] : '';
-                         return aRepo.localeCompare(bRepo); // Üçüncül olarak depoya göre sırala
+                         return aRepo.localeCompare(bRepo);
                      }
-                      return 0; // Normal string karşılaştırması tamamlandıysa
+                      return 0;
 
                 }
 
-                // 3. Eğer hiçbir sütun seçili değilse (currentSort.column null), varsayılan sıralama:
-                // Önce Ada göre alfabetik, sonra Depoya göre alfabetik.
                 const nameComparison = (a.name || '').localeCompare(b.name || '');
                 if (nameComparison !== 0) {
                     return nameComparison;
@@ -617,12 +626,11 @@ th.sortable.desc::after {
             icon.height = 32;
             iconCell.appendChild(icon);
 
-            // Yetişkin içerik kontrolü ve sansürleme (Metin Değiştirme ve Bulanıklık)
             const isNSFW = plugin.tvTypes && plugin.tvTypes.some(type => type.toLowerCase() === 'nsfw');
 
             if (isNSFW) {
                 nameCell.textContent = '[Sansürlenmiştir!]';
-                descCell.textContent = 'Sadece eklendiği depo üzerinden detaylar görüntülenmelidir.';
+                descCell.textContent = 'Sadece eklendiği depo üzerinden detaylar görüntülenebilir.';
                 icon.style.filter = 'blur(15px)';
                 nameCell.style.filter = 'blur(5px)';
                 descCell.style.filter = 'blur(5px)'; 
@@ -633,10 +641,8 @@ th.sortable.desc::after {
                  });
 
             } else {
-                // Normal gösterim
                 nameCell.textContent = plugin.name;
                 descCell.textContent = plugin.description || "";
-                // Yetişkin olmayan eklentiler için blur efekti yok
                 icon.style.filter = 'none';
                 nameCell.style.filter = 'none';
                 descCell.style.filter = 'none';
@@ -682,9 +688,10 @@ th.sortable.desc::after {
                  }
                  const displayRepoName = (repo === "Latte") ? "Latte/sinetech" : repo;
                 const cssSafeRepo = repo.toLowerCase().replace(/[^a-z0-9]/g, '');
-                return `<span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}">${displayRepoName}${updatedIcon}</span>`;
+                return `<span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}" title="Bu depoyu filtrele">${displayRepoName}${updatedIcon}</span>`;
             }).join(" ");
 
+            // Repo badge'lerine tıklama olayı (filtreleme)
             repoCell.querySelectorAll('.repo-badge').forEach(badge => {
                 badge.addEventListener('click', (event) => {
                     event.stopPropagation();
@@ -702,24 +709,22 @@ th.sortable.desc::after {
                 mediaTypeTranslations[type.toLowerCase()] || type
             ).join(", ");
 
-            // descCell zaten yukarıda ayarlandı (sansürlü veya normal)
+            descCell.textContent = plugin.description || "";
 
             langCell.textContent = plugin.language || "";
             verCell.textContent = plugin.version || "";
 
-            // Ortak eklentileri isme göre bul ve görüntüle
             const pluginsWithSameName = window.pluginData.pluginsByName[plugin.name] || [];
             if (pluginsWithSameName.length > 1) {
                 const commonRepos = pluginsWithSameName
-                    .filter(p => p !== plugin) // Kendisini hariç tut
-                    .flatMap(p => p.repoCodesDisplay || []); // Diğer kopyaların depolarını topla
+                    .filter(p => p !== plugin)
+                    .flatMap(p => p.repoCodesDisplay || []);
 
-                const uniqueCommonRepos = Array.from(new Set(commonRepos)); // Tekrarları kaldır
+                const uniqueCommonRepos = Array.from(new Set(commonRepos));
 
                 if (uniqueCommonRepos.length > 0) {
                      commonReposCell.innerHTML = uniqueCommonRepos.map(repo => {
                          let updatedIcon = "";
-                         // Ortak eklentilerdeki repo için güncelleme simgesi (O repodaki kopyayı bulup updated durumunu kontrol et)
                          const commonPluginInRepo = pluginsWithSameName.find(p => p.repoCodesDisplay && p.repoCodesDisplay.includes(repo));
                          if (commonPluginInRepo && commonPluginInRepo.repoUpdated && commonPluginInRepo.repoUpdated[repo]) {
                              updatedIcon = '<span title="Bu depoda güncellendi" style="margin-left:4px;color:#28a745;font-weight:bold;">↻</span>';
@@ -727,42 +732,66 @@ th.sortable.desc::after {
 
                          const displayRepoName = (repo === "Latte") ? "Latte/sinetech" : repo;
                          const cssSafeRepo = repo.toLowerCase().replace(/[^a-z0-9]/g, '');
-                         return `<span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}" title="Bu eklentinin ${displayRepoName} deposundaki versiyonunu göster">${displayRepoName}${updatedIcon}</span>`;
+                         // Ortak depo badge'lerine click olayı - Yönlendirme yapacak
+                         return `<span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}" title="Bu eklentinin ${displayRepoName} deposunu CloudStream'e ekle">${displayRepoName}${updatedIcon}</span>`;
                      }).join(" ");
 
                      commonReposCell.querySelectorAll('.repo-badge').forEach(badge => {
                          badge.addEventListener('click', (event) => {
                              event.stopPropagation();
                              const selectedRepo = badge.dataset.repo;
-                             document.getElementById('repoFilterSelect').value = selectedRepo;
-                             const filterType = document.getElementById('filterSelect').value;
-                             const searchQuery = document.getElementById('searchInput').value;
-                             updateTable(filterType, selectedRepo, searchQuery);
-                             updateStats();
+
+                             // Depo koduna karşılık gelen repo.json URL parçasını bul
+                             const repoJsonUrlPart = getRepoJsonUrlPartByRepoCode(selectedRepo);
+
+                             if (repoJsonUrlPart) {
+                                 const cloudstreamRepoUrl = `cloudstreamrepo://${encodeURIComponent(repoJsonUrlPart)}`;
+                                 const githubPagesBaseUrl = "https://GitLatte.github.io/repos/"; // Kendi GitHub Pages URL'niz
+                                 const redirectLink = `${githubPagesBaseUrl}redirect/?r=${encodeURIComponent(cloudstreamRepoUrl)}`;
+                                 window.location.href = redirectLink; // Yönlendirme yap
+                             } else {
+                                  // URL bulunamazsa filtrele (veya hata göster)
+                                 document.getElementById('repoFilterSelect').value = selectedRepo;
+                                 const filterType = document.getElementById('filterSelect').value;
+                                 const searchQuery = document.getElementById('searchInput').value;
+                                 updateTable(filterType, selectedRepo, searchQuery);
+                                 updateStats();
+                             }
                          });
                      });
 
                 } else {
-                    // Aynı isimde başka eklenti var ama repo kodu yoksa
                      commonReposCell.textContent = "Ortak değil";
                 }
             } else {
-                 // Aynı isimde başka eklenti yoksa (Tek Depo veya sadece o isimden bir tane var)
                  if (plugin.repoCodesDisplay && plugin.repoCodesDisplay.length === 1 && plugin.repoCodesDisplay[0] !== "Bilinmeyen Depo") {
                       const repo = plugin.repoCodesDisplay[0];
                       const displayRepoName = (repo === "Latte") ? "Latte/sinetech" : repo;
                       const cssSafeRepo = repo.toLowerCase().replace(/[^a-z0-9]/g, '');
-                      commonReposCell.innerHTML = `✨ <span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}">${displayRepoName}</span>`;
+                       // Tek depo badge'ine click olayı - Yönlendirme yapacak
+                      commonReposCell.innerHTML = `✨ <span class="repo-badge repo-${cssSafeRepo}" data-repo="${repo}" title="Bu depoyu CloudStream'e ekle">${displayRepoName}</span>`;
 
                       commonReposCell.querySelectorAll('.repo-badge').forEach(badge => {
                          badge.addEventListener('click', (event) => {
                              event.stopPropagation();
                              const selectedRepo = badge.dataset.repo;
-                             document.getElementById('repoFilterSelect').value = selectedRepo;
-                             const filterType = document.getElementById('filterSelect').value;
-                             const searchQuery = document.getElementById('searchInput').value;
-                             updateTable(filterType, selectedRepo, searchQuery);
-                             updateStats();
+
+                              // Depo koduna karşılık gelen repo.json URL parçasını bul
+                             const repoJsonUrlPart = getRepoJsonUrlPartByRepoCode(selectedRepo);
+
+                             if (repoJsonUrlPart) {
+                                 const cloudstreamRepoUrl = `cloudstreamrepo://${encodeURIComponent(repoJsonUrlPart)}`;
+                                 const githubPagesBaseUrl = "https://GitLatte.github.io/repos/";
+                                 const redirectLink = `${githubPagesBaseUrl}redirect/?r=${encodeURIComponent(cloudstreamRepoUrl)}`;
+                                 window.location.href = redirectLink; // Yönlendirme yap
+                             } else {
+                                  // URL bulunamazsa filtrele (veya hata göster)
+                                 document.getElementById('repoFilterSelect').value = selectedRepo;
+                                 const filterType = document.getElementById('filterSelect').value;
+                                 const searchQuery = document.getElementById('searchInput').value;
+                                 updateTable(filterType, selectedRepo, searchQuery);
+                                 updateStats();
+                             }
                          });
                      });
 
@@ -786,8 +815,122 @@ th.sortable.desc::after {
     }
 
     document.addEventListener('DOMContentLoaded', () => {
+        // Her depo kısa koduna karşılık gelen repo.json URL parçası (raw.githubusercontent.com/...)
+        // Bu objeyi manuel olarak doldurmanız gerekecektir.
+        // Python betiği plugins.json URL'ini çekiyor, bu yüzden manuel olarak repo.json URL'ini yazıyoruz.
+        const repoJsonUrlParts = {
+             "Latte": "raw.githubusercontent.com/GitLatte/Sinetech/builds/repo.json",
+             "nikstream": "raw.githubusercontent.com/nikyokki/nik-cloudstream/master/repo.json", 
+             "feroxxcs3": "raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/repo.json",
+             "makoto": "raw.githubusercontent.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler/refs/heads/main/repo.json", 
+             "kekikdevam": "raw.githubusercontent.com/maarrem/cs-Kekik/refs/heads/builds/repo.json",
+             "kekikan": "raw.githubusercontent.com/Kraptor123/cs-kekikanime/refs/heads/builds/repo.json",
+             "sarapcanagii": "raw.githubusercontent.com/sarapcanagii/Pitipitii/refs/heads/builds/repo.json"
+        };
+
+        // Bu fonksiyon, DOMContentLoaded içinde tanımlandığı için repoJsonUrlParts objesine erişebilir.
+        function getRepoJsonUrlPartByRepoCode(repoCode) {
+             // repoUrlParts objesine bakarak URL parçasını bul
+             return repoJsonUrlParts[repoCode] || null;
+         }
+
+
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        const blockMessage = document.getElementById('block-message');
+        const content = document.getElementById('content');
+
+        const isAndroidWebView = /Android/i.test(userAgent) && /Mobile/i.test(userAgent) && /wv/i.test(userAgent);
+        const isGeneralAndroidApp = /Android/i.test(userAgent) && !/Chrome|Firefox|Safari/i.test(userAgent);
+
+        if (isAndroidWebView || isGeneralAndroidApp) {
+            content.style.display = 'none';
+            blockMessage.style.display = 'flex';
+             return;
+        }
+
         fetchPlugins();
         initSortableTable();
+
+        const addRepoButton = document.getElementById('addRepoButton');
+        const repoSelectModal = document.getElementById('repoSelectModal');
+        const closeModalButton = document.getElementById('closeModalButton');
+        const availableReposSelect = document.getElementById('availableReposSelect');
+        const confirmAddRepoButton = document.getElementById('confirmAddRepoButton');
+
+        addRepoButton.addEventListener('click', () => {
+             populateAvailableRepos();
+             repoSelectModal.style.display = 'block';
+        });
+
+        closeModalButton.addEventListener('click', () => {
+             repoSelectModal.style.display = 'none';
+             availableReposSelect.value = "";
+             confirmAddRepoButton.disabled = true;
+        });
+
+         window.addEventListener('click', (event) => {
+             if (event.target === repoSelectModal) {
+                  repoSelectModal.style.display = 'none';
+                  availableReposSelect.value = "";
+                  confirmAddRepoButton.disabled = true;
+             }
+         });
+
+        availableReposSelect.addEventListener('change', () => {
+             if (availableReposSelect.value) {
+                 confirmAddRepoButton.disabled = false;
+             } else {
+                 confirmAddRepoButton.disabled = true;
+             }
+        });
+
+        confirmAddRepoButton.addEventListener('click', () => {
+            const selectedRepoCode = availableReposSelect.value;
+            if (selectedRepoCode) {
+                const repoJsonUrlPart = getRepoJsonUrlPartByRepoCode(selectedRepoCode);
+
+                if (repoJsonUrlPart) {
+                    const cloudstreamRepoUrl = `cloudstreamrepo://${encodeURIComponent(repoJsonUrlPart)}`;
+                    const githubPagesBaseUrl = "https://GitLatte.github.io/repos/"; // Kendi GitHub Pages URL'niz
+                    const redirectLink = `${githubPagesBaseUrl}redirect/?r=${encodeURIComponent(cloudstreamRepoUrl)}`;
+
+                    repoSelectModal.style.display = 'none';
+                    availableReposSelect.value = "";
+                    confirmAddRepoButton.disabled = true;
+
+                    window.location.href = redirectLink;
+
+                } else {
+                     alert(`Hata: '${selectedRepoCode}' deposu için repo.json URL parçası bulunamadı.`);
+                }
+            }
+        });
+
+        function populateAvailableRepos() {
+            const uniqueRepos = new Set();
+            if (window.pluginData && Array.isArray(window.pluginData.plugins)) {
+                 window.pluginData.plugins.forEach(plugin => {
+                     if (plugin.repoCodesDisplay) {
+                         plugin.repoCodesDisplay.forEach(repo => uniqueRepos.add(repo));
+                     }
+                 });
+            }
+
+            let optionsHtml = '<option value="">Depo Seçiniz</option>';
+             Array.from(uniqueRepos).sort().forEach(repo => {
+                  const displayRepoName = (repo === "Latte") ? "Latte/sinetech" : repo;
+                  optionsHtml += `<option value="${repo}">${displayRepoName}</option>`;
+             });
+
+            availableReposSelect.innerHTML = optionsHtml;
+        }
+
+         // Bu fonksiyon, DOMContentLoaded içinde tanımlandığı için repoJsonUrlParts objesine erişebilir.
+         function getRepoJsonUrlPartByRepoCode(repoCode) {
+             // repoUrlParts objesine bakarak URL parçasını bul
+             return repoJsonUrlParts[repoCode] || null;
+         }
+
 
         document.getElementById('filterSelect').addEventListener('change', () => {
             const filterType = document.getElementById('filterSelect').value;
@@ -817,111 +960,6 @@ th.sortable.desc::after {
             const repoFilter = document.getElementById("repoFilterSelect").value;
             updateTable(filterType, repoFilter, "");
         });
-
-        const addRepoButton = document.getElementById('addRepoButton');
-            const repoSelectModal = document.getElementById('repoSelectModal');
-            const closeModalButton = document.getElementById('closeModalButton');
-            const availableReposSelect = document.getElementById('availableReposSelect');
-            const confirmAddRepoButton = document.getElementById('confirmAddRepoButton');
-
-            // Depo Yükle butonuna tıklama olayı
-            addRepoButton.addEventListener('click', () => {
-                 populateAvailableRepos();
-                 repoSelectModal.style.display = 'block';
-            });
-
-            // Modalı kapatma olayı
-            closeModalButton.addEventListener('click', () => {
-                 repoSelectModal.style.display = 'none';
-                 availableReposSelect.value = "";
-                 confirmAddRepoButton.disabled = true;
-            });
-
-            // Modal dışına tıklayınca kapatma (isteğe bağlı)
-             window.addEventListener('click', (event) => {
-                 if (event.target === repoSelectModal) {
-                      repoSelectModal.style.display = 'none';
-                      availableReposSelect.value = "";
-                      confirmAddRepoButton.disabled = true;
-                 }
-             });
-
-
-            // Select değeri değişince butonun durumunu ayarla
-            availableReposSelect.addEventListener('change', () => {
-                 if (availableReposSelect.value) {
-                     confirmAddRepoButton.disabled = false;
-                 } else {
-                     confirmAddRepoButton.disabled = true;
-                 }
-            });
-
-            // Seçilen depoyu ekleme butonuna tıklama olayı
-            confirmAddRepoButton.addEventListener('click', () => {
-                const selectedRepoCode = availableReposSelect.value;
-                if (selectedRepoCode) {
-                    // Seçilen kısa koda karşılık gelen repo.json URL kısmını bul
-                    const repoJsonUrlPart = getRepoJsonUrlPartByRepoCode(selectedRepoCode); // Adı değişti
-
-                    if (repoJsonUrlPart) {
-                        // CloudStream URL'ini oluştur (raw.githubusercontent.com/...)
-                        const cloudstreamRepoUrl = `cloudstreamrepo://${encodeURIComponent(repoJsonUrlPart)}`;
-
-                        // Yönlendirme linkini oluştur (redirect/index.html'e)
-                        const githubPagesBaseUrl = "https://GitLatte.github.io/repos/"; // Kendi GitHub Pages URL'niz
-                        const redirectLink = `${githubPagesBaseUrl}redirect/?r=${encodeURIComponent(cloudstreamRepoUrl)}`;
-
-                        // Modalı kapat
-                        repoSelectModal.style.display = 'none';
-                        availableReposSelect.value = "";
-                        confirmAddRepoButton.disabled = true;
-
-                        // Yönlendirme yap
-                        window.location.href = redirectLink;
-
-                    } else {
-                         alert(`Hata: '${selectedRepoCode}' deposu için repo.json URL parçası bulunamadı.`);
-                    }
-                }
-            });
-
-            // Mevcut depo kısa kodlarını select elementine dolduran fonksiyon
-            function populateAvailableRepos() {
-                const uniqueRepos = new Set();
-                if (window.pluginData && Array.isArray(window.pluginData.plugins)) {
-                     window.pluginData.plugins.forEach(plugin => {
-                         if (plugin.repoCodesDisplay) {
-                             plugin.repoCodesDisplay.forEach(repo => uniqueRepos.add(repo));
-                         }
-                     });
-                }
-
-                let optionsHtml = '<option value="">Depo Seçiniz</option>';
-                 Array.from(uniqueRepos).sort().forEach(repo => {
-                      const displayRepoName = (repo === "Latte") ? "Latte/sinetech" : repo;
-                      optionsHtml += `<option value="${repo}">${displayRepoName}</option>`;
-                 });
-
-                availableReposSelect.innerHTML = optionsHtml;
-            }
-
-             // Depo kısa koduna karşılık gelen repo.json URL parçasını bulan fonksiyon (Adı değişti)
-             function getRepoJsonUrlPartByRepoCode(repoCode) {
-                 if (!window.pluginData || !Array.isArray(window.pluginData.plugins)) {
-                     return null;
-                 }
-
-                 // data.json'daki eklentileri gezerek bu repo koduna sahip BİR eklenti bul
-                 // ve o eklentinin repo_json_url_part alanını döndür.
-                 // Aynı repo koduna sahip tüm eklentilerin aynı repo_json_url_part'a sahip olması beklenir.
-                 const foundPlugin = window.pluginData.plugins.find(plugin => 
-                     plugin.repoCodesDisplay && plugin.repoCodesDisplay.includes(repoCode) && plugin.repo_json_url_part // repo_json_url_part alanı kullanılıyor
-                 );
-
-                 return foundPlugin ? foundPlugin.repo_json_url_part : null;
-             }
-
-    // ... (Geri kalan JavaScript fonksiyonları ve DOMContentLoaded kapanışı) ...
     });
     </script>
 </body>
