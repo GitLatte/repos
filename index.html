@@ -231,12 +231,12 @@ th.sortable.desc::after {
                 <tr>
                     <th>İkon</th>
                     <th class="sortable" data-sort="name">Ad</th>
-                    <th class="sortable" data-sort="repoCodesDisplay">Eklemek için Depo Kodu</th>
-                    <th class="sortable" data-sort="tvTypes">Tür</th>
+                    <th class="sortable" data-sort="repoCodesDisplay">Depo Adı</th>
+                    <th>Eklentiye Sahip Diğer Depolar</th>
+                    <th class="sortable" data-sort="tvTypes">İçerik Türü</th>
                     <th class="sortable" data-sort="description">Eklenti Açıklaması</th>
                     <th class="sortable" data-sort="language">Dil</th>
                     <th class="sortable" data-sort="version">Ver.</th>
-                    <th>Bulunduğu Depolar</th>
                 </tr>
             </thead>
             <tbody></tbody>
@@ -791,11 +791,12 @@ th.sortable.desc::after {
             row.appendChild(iconCell);
             row.appendChild(nameCell);
             row.appendChild(repoCell);
+            row.appendChild(commonReposCell);
             row.appendChild(typeCell);
             row.appendChild(descCell);
             row.appendChild(langCell);
             row.appendChild(verCell);
-            row.appendChild(commonReposCell);
+            
 
             tableBody.appendChild(row);
         });
