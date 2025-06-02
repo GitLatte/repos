@@ -25,7 +25,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:39.381735Z"
+                "Latte": "2025-06-02T04:50:32.052960Z"
             },
             "addedAt": "2025-05-23T11:21:55.481511Z"
         },
@@ -52,7 +52,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:39.518702Z"
+                "Latte": "2025-06-02T04:50:32.150142Z"
             },
             "addedAt": "2025-05-23T11:21:55.481559Z"
         },
@@ -79,7 +79,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:39.639738Z"
+                "Latte": "2025-06-02T04:50:32.230674Z"
             },
             "addedAt": "2025-05-23T11:21:55.481581Z"
         },
@@ -106,7 +106,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:39.763769Z"
+                "Latte": "2025-06-02T04:50:32.320245Z"
             },
             "addedAt": "2025-05-23T11:21:55.481611Z"
         },
@@ -133,7 +133,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:39.907241Z"
+                "Latte": "2025-06-02T04:50:32.417994Z"
             },
             "addedAt": "2025-05-23T11:21:55.481632Z"
         },
@@ -161,7 +161,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:40.036655Z"
+                "Latte": "2025-06-02T04:50:32.509690Z"
             },
             "addedAt": "2025-05-23T11:21:55.481651Z"
         },
@@ -189,7 +189,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:40.160379Z"
+                "Latte": "2025-06-02T04:50:32.591326Z"
             },
             "addedAt": "2025-05-23T11:21:55.481667Z"
         },
@@ -216,7 +216,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:40.285686Z"
+                "Latte": "2025-06-02T04:50:32.681141Z"
             },
             "addedAt": "2025-05-29T11:21:55.481682Z"
         },
@@ -245,7 +245,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:40.406141Z"
+                "Latte": "2025-06-02T04:50:32.770319Z"
             },
             "addedAt": "2025-05-23T11:21:55.481698Z"
         },
@@ -273,7 +273,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:40.527364Z"
+                "Latte": "2025-06-02T04:50:32.842214Z"
             },
             "addedAt": "2025-05-23T11:21:55.481713Z"
         },
@@ -301,15 +301,15 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:40.659092Z"
+                "Latte": "2025-06-02T04:50:32.932918Z"
             },
             "addedAt": "2025-05-23T11:21:55.481729Z"
         },
         {
-            "iconUrl": "https://raw.githubusercontent.com/GitLatte/temporarylists/refs/heads/main/img/daddylive.png",
+            "iconUrl": "https://raw.githubusercontent.com/patr0nq/link/refs/heads/main/tv-logo/vavoo.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/GitLatte/Sinetech",
-            "fileSize": 21991,
+            "fileSize": 21993,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -321,14 +321,14 @@
             ],
             "version": 2,
             "internalName": "TOGrup",
-            "description": "TO Grubu spor kanallarını içerir: Vavoo.to, Huhu.to, Kool.to, Oha.to",
+            "description": "TO Grubu spor kanallarını içerir: Vavoo.to, Huhu.to, Kool.to, Oha.to - VPN gerektirir",
             "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/TOGrup.cs3",
             "name": "TOGrup",
             "repoCodes": [
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:40.787368Z"
+                "Latte": "2025-06-02T04:50:33.016388Z"
             },
             "addedAt": "2025-05-23T11:21:55.481745Z"
         },
@@ -356,9 +356,36 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:40.907195Z"
+                "Latte": "2025-06-02T04:50:33.113670Z"
             },
             "addedAt": "2025-05-23T11:21:55.481761Z"
+        },
+        {
+            "iconUrl": "https://raw.githubusercontent.com/patr0nq/link/refs/heads/main/tv-logo/vavoo.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 22046,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte",
+                "patr0nq"
+            ],
+            "tvTypes": [
+                "Live"
+            ],
+            "version": 1,
+            "internalName": "VavooTR",
+            "description": "Vavoo Türkiye kanallarını izyelebilirsiniz. Kanalların açılması bir kaç saniye sürebilir. Lütfen liste adresini veya kanalların bağlantı adreslerini bireysel kullanmayın ki eklentiyi kullanan herkes faydalanabilsin. Kötüye kullanımda listeler tamamen iptal edilecektir.",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/VavooTR.cs3",
+            "name": "VavooTR",
+            "repoCodes": [
+                "Latte"
+            ],
+            "repoTimestamps": {
+                "Latte": "2025-06-02T04:50:33.210388Z"
+            },
+            "addedAt": "2025-06-02T04:51:00.037639Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=webdramaturkey.org/&sz=%size%",
@@ -386,7 +413,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:41.028512Z"
+                "Latte": "2025-06-02T04:50:33.313742Z"
             },
             "addedAt": "2025-05-23T11:21:55.481776Z"
         },
@@ -413,7 +440,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:41.149514Z"
+                "Latte": "2025-06-02T04:50:33.422876Z"
             },
             "addedAt": "2025-05-23T11:21:55.481791Z"
         },
@@ -441,7 +468,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-02T04:31:41.267357Z"
+                "Latte": "2025-06-02T04:50:33.571556Z"
             },
             "addedAt": "2025-05-23T11:21:55.481807Z"
         }
