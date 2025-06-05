@@ -183,7 +183,7 @@
                 "makoto2"
             ],
             "repoTimestamps": {
-                "makoto2": "2025-06-05T11:19:29.395832Z"
+                "makoto2": "2025-06-05T12:46:08.017267Z"
             },
             "addedAt": "2025-05-29T14:20:53.146932Z"
         },
@@ -344,29 +344,31 @@
             "addedAt": "2025-05-29T14:20:53.147018Z"
         },
         {
-            "iconUrl": "https://www.turksatkablo.com.tr/images/icerik/ssportplus.png",
+            "iconUrl": "https://www.google.com/s2/favicons?domain=belgeselx.com&sz=%size%",
             "apiVersion": 1,
-            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
+            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
             "status": 1,
             "language": "tr",
             "authors": [
-                "Makoto Tokioki"
+                "keyiflerolsun",
+                "JustRelaxable",
+                "nikyokki"
             ],
             "tvTypes": [
                 "Live"
             ],
             "version": 8,
-            "internalName": "SSportPlus",
-            "description": "SSport+ canlı yayınları ve arşiv içerikleri",
-            "url": "https://raw.githubusercontent.com/Sertel392/Makotogecici/main/SSportPlus.cs3",
-            "name": "SSportPlus",
+            "internalName": "BelgeselX",
+            "description": "En yeni belgeseller, türkçe altyazılı yada dublaj olarak 1080p kalitesinde HD belgesel izle.",
+            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/BelgeselX.cs3",
+            "name": "BelgeselX",
             "repoCodes": [
                 "makoto2"
             ],
             "repoTimestamps": {
-                "makoto2": "2025-05-29T08:40:09Z"
+                "makoto2": "2025-06-05T12:46:09.187886Z"
             },
-            "addedAt": "2025-05-29T14:20:53.147034Z"
+            "addedAt": "2025-06-05T12:46:10.282904Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=asyawatch.com&sz=%size%",
@@ -466,7 +468,7 @@
                 "makoto2"
             ],
             "repoTimestamps": {
-                "makoto2": "2025-06-05T11:19:30.687463Z"
+                "makoto2": "2025-06-05T12:46:09.812023Z"
             },
             "addedAt": "2025-05-29T14:20:53.147091Z"
         },
@@ -535,13 +537,13 @@
             "version": 1,
             "internalName": "JetFilmizle",
             "description": "JetFilmizle içerikleri",
-            "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/JetFilmizle.cs3",
+            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/JetFilmizle.cs3",
             "name": "JetFilmizle",
             "repoCodes": [
                 "makoto2"
             ],
             "repoTimestamps": {
-                "makoto2": "2025-06-05T11:19:31.033197Z"
+                "makoto2": "2025-06-05T12:46:10.268463Z"
             },
             "addedAt": "2025-05-29T14:20:53.147117Z"
         }
