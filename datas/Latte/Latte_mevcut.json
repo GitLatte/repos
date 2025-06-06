@@ -25,7 +25,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:44.394344Z"
+                "Latte": "2025-06-06T00:13:02.153726Z"
             },
             "addedAt": "2025-05-23T11:21:55.481511Z"
         },
@@ -52,7 +52,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:44.506311Z"
+                "Latte": "2025-06-06T00:13:02.248862Z"
             },
             "addedAt": "2025-05-23T11:21:55.481559Z"
         },
@@ -79,7 +79,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:44.598667Z"
+                "Latte": "2025-06-06T00:13:02.344375Z"
             },
             "addedAt": "2025-05-23T11:21:55.481581Z"
         },
@@ -106,7 +106,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:44.695057Z"
+                "Latte": "2025-06-06T00:13:02.429927Z"
             },
             "addedAt": "2025-05-23T11:21:55.481611Z"
         },
@@ -133,7 +133,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:44.779016Z"
+                "Latte": "2025-06-06T00:13:02.530207Z"
             },
             "addedAt": "2025-05-23T11:21:55.481632Z"
         },
@@ -141,7 +141,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizifun3.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/GitLatte/Sinetech",
-            "fileSize": 23100,
+            "fileSize": 23104,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -161,9 +161,35 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:44.878689Z"
+                "Latte": "2025-06-06T00:13:02.634174Z"
             },
             "addedAt": "2025-05-23T11:21:55.481651Z"
+        },
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=gofilmizle.com&sz=%size%",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/GitLatte/Sinetech",
+            "fileSize": 27154,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "GitLatte"
+            ],
+            "tvTypes": [
+                "Movie"
+            ],
+            "version": 1,
+            "internalName": "GoFilmIzle",
+            "description": "GoFilmizle | Yerli ve Yabancı Full HD Film izleme Sitesi - Diziler çalışmaz.",
+            "url": "https://raw.githubusercontent.com/GitLatte/Sinetech/builds/GoFilmIzle.cs3",
+            "name": "GoFilmIzle",
+            "repoCodes": [
+                "Latte"
+            ],
+            "repoTimestamps": {
+                "Latte": "2025-06-06T00:13:02.734101Z"
+            },
+            "addedAt": "2025-06-06T00:13:33.252850Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=kick.com&sz=%size%",
@@ -189,7 +215,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:44.961347Z"
+                "Latte": "2025-06-06T00:13:02.846325Z"
             },
             "addedAt": "2025-05-23T11:21:55.481667Z"
         },
@@ -216,7 +242,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:45.061455Z"
+                "Latte": "2025-06-06T00:13:02.945954Z"
             },
             "addedAt": "2025-05-29T11:21:55.481682Z"
         },
@@ -245,7 +271,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:45.148599Z"
+                "Latte": "2025-06-06T00:13:03.037654Z"
             },
             "addedAt": "2025-05-23T11:21:55.481698Z"
         },
@@ -273,7 +299,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:45.250060Z"
+                "Latte": "2025-06-06T00:13:03.150163Z"
             },
             "addedAt": "2025-05-23T11:21:55.481713Z"
         },
@@ -301,7 +327,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:45.345256Z"
+                "Latte": "2025-06-06T00:13:03.271389Z"
             },
             "addedAt": "2025-05-23T11:21:55.481729Z"
         },
@@ -328,7 +354,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:45.420343Z"
+                "Latte": "2025-06-06T00:13:03.376794Z"
             },
             "addedAt": "2025-05-23T11:21:55.481745Z"
         },
@@ -356,7 +382,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:45.510508Z"
+                "Latte": "2025-06-06T00:13:03.476516Z"
             },
             "addedAt": "2025-05-23T11:21:55.481761Z"
         },
@@ -383,7 +409,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:45.601826Z"
+                "Latte": "2025-06-06T00:13:03.571105Z"
             },
             "addedAt": "2025-06-02T04:51:00.037639Z"
         },
@@ -391,7 +417,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=webdramaturkey.org/&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/GitLatte/Sinetech",
-            "fileSize": 31946,
+            "fileSize": 31945,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -413,7 +439,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:45.688517Z"
+                "Latte": "2025-06-06T00:13:03.671449Z"
             },
             "addedAt": "2025-05-23T11:21:55.481776Z"
         },
@@ -440,7 +466,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:45.802575Z"
+                "Latte": "2025-06-06T00:13:03.754394Z"
             },
             "addedAt": "2025-05-23T11:21:55.481791Z"
         },
@@ -468,7 +494,7 @@
                 "Latte"
             ],
             "repoTimestamps": {
-                "Latte": "2025-06-05T23:22:45.888858Z"
+                "Latte": "2025-06-06T00:13:03.838113Z"
             },
             "addedAt": "2025-05-23T11:21:55.481807Z"
         }
