@@ -22,7 +22,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:35.336579Z"
+                "kekikan": "2025-06-11T10:24:36.860599Z"
             },
             "addedAt": "2025-05-23T11:21:55.495613Z"
         },
@@ -48,7 +48,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:35.433531Z"
+                "kekikan": "2025-06-11T10:24:37.031041Z"
             },
             "addedAt": "2025-05-23T11:21:55.495632Z"
         },
@@ -77,7 +77,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:35.537439Z"
+                "kekikan": "2025-06-11T10:24:37.213200Z"
             },
             "addedAt": "2025-05-23T11:21:55.495642Z"
         },
@@ -105,7 +105,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:35.635698Z"
+                "kekikan": "2025-06-11T10:24:37.409204Z"
             },
             "addedAt": "2025-05-23T11:21:55.495654Z"
         },
@@ -131,7 +131,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:35.738681Z"
+                "kekikan": "2025-06-11T10:24:37.618589Z"
             },
             "addedAt": "2025-05-23T11:21:55.495663Z"
         },
@@ -157,7 +157,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:35.833341Z"
+                "kekikan": "2025-06-11T10:24:37.848610Z"
             },
             "addedAt": "2025-05-23T11:21:55.495671Z"
         },
@@ -183,7 +183,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:35.932275Z"
+                "kekikan": "2025-06-11T10:24:38.097168Z"
             },
             "addedAt": "2025-05-23T11:21:55.495680Z"
         },
@@ -209,7 +209,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:36.027655Z"
+                "kekikan": "2025-06-11T10:24:38.402276Z"
             },
             "addedAt": "2025-05-23T11:21:55.495688Z"
         },
@@ -235,7 +235,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:36.132545Z"
+                "kekikan": "2025-06-11T10:24:38.613851Z"
             },
             "addedAt": "2025-05-23T11:21:55.495697Z"
         },
@@ -263,7 +263,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:36.238343Z"
+                "kekikan": "2025-06-11T10:24:38.826528Z"
             },
             "addedAt": "2025-05-23T11:21:55.495705Z"
         },
@@ -289,7 +289,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:36.335685Z"
+                "kekikan": "2025-06-11T10:24:39.015417Z"
             },
             "addedAt": "2025-05-23T11:21:55.495722Z"
         },
@@ -315,7 +315,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:36.415424Z"
+                "kekikan": "2025-06-11T10:24:39.217247Z"
             },
             "addedAt": "2025-05-23T11:21:55.495730Z"
         },
@@ -341,7 +341,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:36.485525Z"
+                "kekikan": "2025-06-11T10:24:39.432294Z"
             },
             "addedAt": "2025-05-23T11:21:55.495738Z"
         },
@@ -368,7 +368,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:36.566524Z"
+                "kekikan": "2025-06-11T10:24:39.628485Z"
             },
             "addedAt": "2025-05-23T11:21:55.495747Z"
         },
@@ -395,7 +395,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:36.632375Z"
+                "kekikan": "2025-06-11T10:24:39.827801Z"
             },
             "addedAt": "2025-05-23T11:21:55.495755Z"
         },
@@ -403,7 +403,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizikorea.vip&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 18664,
+            "fileSize": 18662,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -412,7 +412,7 @@
             "tvTypes": [
                 "AsianDrama"
             ],
-            "version": 7,
+            "version": 8,
             "internalName": "DiziKorea",
             "description": "En Güncel Kore Dizileri izleme Sitesi",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziKorea.cs3",
@@ -421,7 +421,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:36.739967Z"
+                "kekikan": "2025-06-11T10:24:40.021261Z"
             },
             "addedAt": "2025-05-23T11:21:55.495764Z"
         },
@@ -447,7 +447,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:36.841163Z"
+                "kekikan": "2025-06-11T10:24:40.193573Z"
             },
             "addedAt": "2025-05-23T11:21:55.495772Z"
         },
@@ -474,7 +474,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:36.934832Z"
+                "kekikan": "2025-06-11T10:24:40.426232Z"
             },
             "addedAt": "2025-05-23T11:21:55.495780Z"
         },
@@ -500,7 +500,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:37.034867Z"
+                "kekikan": "2025-06-11T10:24:40.639922Z"
             },
             "addedAt": "2025-05-23T11:21:55.495788Z"
         },
@@ -526,7 +526,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:37.120605Z"
+                "kekikan": "2025-06-11T10:24:40.868649Z"
             },
             "addedAt": "2025-05-23T11:21:55.495797Z"
         },
@@ -552,7 +552,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:37.232472Z"
+                "kekikan": "2025-06-11T10:24:41.060261Z"
             },
             "addedAt": "2025-05-23T11:21:55.495805Z"
         },
@@ -580,7 +580,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:37.326991Z"
+                "kekikan": "2025-06-11T10:24:41.249039Z"
             },
             "addedAt": "2025-05-23T11:21:55.495813Z"
         },
@@ -608,7 +608,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:37.424262Z"
+                "kekikan": "2025-06-11T10:24:41.429028Z"
             },
             "addedAt": "2025-05-23T11:21:55.495822Z"
         },
@@ -634,7 +634,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:37.536991Z"
+                "kekikan": "2025-06-11T10:24:41.611090Z"
             },
             "addedAt": "2025-05-23T11:21:55.495830Z"
         },
@@ -660,7 +660,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:37.650346Z"
+                "kekikan": "2025-06-11T10:24:41.788575Z"
             },
             "addedAt": "2025-05-23T11:21:55.495838Z"
         },
@@ -687,7 +687,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:37.742886Z"
+                "kekikan": "2025-06-11T10:24:41.977771Z"
             },
             "addedAt": "2025-05-23T11:21:55.495847Z"
         },
@@ -713,7 +713,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:37.833065Z"
+                "kekikan": "2025-06-11T10:24:42.192794Z"
             },
             "addedAt": "2025-05-23T11:21:55.495855Z"
         },
@@ -739,7 +739,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:37.923124Z"
+                "kekikan": "2025-06-11T10:24:42.384796Z"
             },
             "addedAt": "2025-05-23T11:21:55.495863Z"
         },
@@ -767,7 +767,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:38.015000Z"
+                "kekikan": "2025-06-11T10:24:42.571744Z"
             },
             "addedAt": "2025-05-23T11:21:55.495872Z"
         },
@@ -793,7 +793,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:38.122154Z"
+                "kekikan": "2025-06-11T10:24:42.751739Z"
             },
             "addedAt": "2025-05-23T11:21:55.495880Z"
         },
@@ -820,7 +820,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:38.208526Z"
+                "kekikan": "2025-06-11T10:24:42.932720Z"
             },
             "addedAt": "2025-05-23T11:21:55.495889Z"
         },
@@ -846,7 +846,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:38.302011Z"
+                "kekikan": "2025-06-11T10:24:43.131216Z"
             },
             "addedAt": "2025-05-23T11:21:55.495897Z"
         },
@@ -872,7 +872,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:38.398853Z"
+                "kekikan": "2025-06-11T10:24:43.317718Z"
             },
             "addedAt": "2025-05-23T11:21:55.495905Z"
         },
@@ -898,7 +898,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:38.496533Z"
+                "kekikan": "2025-06-11T10:24:43.511501Z"
             },
             "addedAt": "2025-05-23T11:21:55.495914Z"
         },
@@ -924,7 +924,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:38.589264Z"
+                "kekikan": "2025-06-11T10:24:43.718741Z"
             },
             "addedAt": "2025-05-23T11:21:55.495922Z"
         },
@@ -953,7 +953,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:38.679720Z"
+                "kekikan": "2025-06-11T10:24:43.948553Z"
             },
             "addedAt": "2025-05-23T11:21:55.495931Z"
         },
@@ -979,7 +979,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:38.780346Z"
+                "kekikan": "2025-06-11T10:24:44.169012Z"
             },
             "addedAt": "2025-05-23T11:21:55.495939Z"
         },
@@ -1006,7 +1006,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:38.870829Z"
+                "kekikan": "2025-06-11T10:24:44.389022Z"
             },
             "addedAt": "2025-05-23T11:21:55.495947Z"
         },
@@ -1032,7 +1032,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:38.982543Z"
+                "kekikan": "2025-06-11T10:24:44.598412Z"
             },
             "addedAt": "2025-05-23T11:21:55.495956Z"
         },
@@ -1061,7 +1061,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:39.074367Z"
+                "kekikan": "2025-06-11T10:24:44.817232Z"
             },
             "addedAt": "2025-05-23T11:21:55.495964Z"
         },
@@ -1087,7 +1087,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:39.166890Z"
+                "kekikan": "2025-06-11T10:24:45.023768Z"
             },
             "addedAt": "2025-05-23T11:21:55.495973Z"
         },
@@ -1113,7 +1113,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:39.253393Z"
+                "kekikan": "2025-06-11T10:24:45.197847Z"
             },
             "addedAt": "2025-05-23T11:21:55.495981Z"
         },
@@ -1139,7 +1139,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:39.356464Z"
+                "kekikan": "2025-06-11T10:24:45.384738Z"
             },
             "addedAt": "2025-05-23T11:21:55.495989Z"
         },
@@ -1165,7 +1165,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:39.451403Z"
+                "kekikan": "2025-06-11T10:24:45.582684Z"
             },
             "addedAt": "2025-05-23T11:21:55.495998Z"
         },
@@ -1192,7 +1192,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:39.553599Z"
+                "kekikan": "2025-06-11T10:24:45.812241Z"
             },
             "addedAt": "2025-05-23T11:21:55.496006Z"
         },
@@ -1218,7 +1218,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:39.657702Z"
+                "kekikan": "2025-06-11T10:24:46.012005Z"
             },
             "addedAt": "2025-05-23T11:21:55.496014Z"
         },
@@ -1244,7 +1244,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:39.754604Z"
+                "kekikan": "2025-06-11T10:24:46.193212Z"
             },
             "addedAt": "2025-05-23T11:21:55.496022Z"
         },
@@ -1275,7 +1275,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:39.853004Z"
+                "kekikan": "2025-06-11T10:24:46.398976Z"
             },
             "addedAt": "2025-05-23T11:21:55.496031Z"
         },
@@ -1302,7 +1302,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:39.965107Z"
+                "kekikan": "2025-06-11T10:24:46.599726Z"
             },
             "addedAt": "2025-05-23T11:21:55.496039Z"
         },
@@ -1329,7 +1329,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:40.055180Z"
+                "kekikan": "2025-06-11T10:24:46.807059Z"
             },
             "addedAt": "2025-05-23T11:21:55.496048Z"
         },
@@ -1356,7 +1356,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:40.146142Z"
+                "kekikan": "2025-06-11T10:24:47.012101Z"
             },
             "addedAt": "2025-05-23T11:21:55.496056Z"
         },
@@ -1383,7 +1383,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:40.229218Z"
+                "kekikan": "2025-06-11T10:24:47.204386Z"
             },
             "addedAt": "2025-05-23T11:21:55.496065Z"
         },
@@ -1409,7 +1409,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:40.325499Z"
+                "kekikan": "2025-06-11T10:24:47.390225Z"
             },
             "addedAt": "2025-05-23T11:21:55.496073Z"
         },
@@ -1435,7 +1435,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:40.435088Z"
+                "kekikan": "2025-06-11T10:24:47.569210Z"
             },
             "addedAt": "2025-05-23T11:21:55.496082Z"
         },
@@ -1461,7 +1461,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:40.523100Z"
+                "kekikan": "2025-06-11T10:24:47.763650Z"
             },
             "addedAt": "2025-05-23T11:21:55.496090Z"
         },
@@ -1487,7 +1487,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:40.639490Z"
+                "kekikan": "2025-06-11T10:24:47.942915Z"
             },
             "addedAt": "2025-05-23T11:21:55.496098Z"
         },
@@ -1514,7 +1514,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:40.759365Z"
+                "kekikan": "2025-06-11T10:24:48.138046Z"
             },
             "addedAt": "2025-05-23T11:21:55.496107Z"
         },
@@ -1540,7 +1540,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:40.860694Z"
+                "kekikan": "2025-06-11T10:24:48.320517Z"
             },
             "addedAt": "2025-05-23T11:21:55.496115Z"
         },
@@ -1566,7 +1566,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:40.939309Z"
+                "kekikan": "2025-06-11T10:24:48.526643Z"
             },
             "addedAt": "2025-05-23T11:21:55.496123Z"
         },
@@ -1592,7 +1592,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:41.034604Z"
+                "kekikan": "2025-06-11T10:24:48.707442Z"
             },
             "addedAt": "2025-05-23T11:21:55.496132Z"
         },
@@ -1619,7 +1619,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:41.113361Z"
+                "kekikan": "2025-06-11T10:24:48.898238Z"
             },
             "addedAt": "2025-05-23T11:21:55.496140Z"
         },
@@ -1645,7 +1645,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:41.206663Z"
+                "kekikan": "2025-06-11T10:24:49.074349Z"
             },
             "addedAt": "2025-05-23T11:21:55.496149Z"
         },
@@ -1672,7 +1672,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:41.295170Z"
+                "kekikan": "2025-06-11T10:24:49.298857Z"
             },
             "addedAt": "2025-05-23T11:21:55.496157Z"
         },
@@ -1698,7 +1698,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:41.515112Z"
+                "kekikan": "2025-06-11T10:24:49.510638Z"
             },
             "addedAt": "2025-05-23T11:21:55.496165Z"
         },
@@ -1727,7 +1727,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-06-11T09:24:41.604682Z"
+                "kekikan": "2025-06-11T10:24:49.735200Z"
             },
             "addedAt": "2025-05-23T11:21:55.496174Z"
         }
