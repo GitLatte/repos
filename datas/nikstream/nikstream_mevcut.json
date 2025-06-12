@@ -22,7 +22,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:38.670150Z"
+                "nikstream": "2025-06-12T12:44:56.994829Z"
             },
             "addedAt": "2025-05-23T11:21:55.483495Z"
         },
@@ -78,7 +78,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:38.975445Z"
+                "nikstream": "2025-06-12T12:44:57.518351Z"
             },
             "addedAt": "2025-05-23T11:21:55.483526Z"
         },
@@ -106,7 +106,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:39.099243Z"
+                "nikstream": "2025-06-12T12:44:57.757812Z"
             },
             "addedAt": "2025-05-23T11:21:55.483535Z"
         },
@@ -134,7 +134,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:39.210673Z"
+                "nikstream": "2025-06-12T12:44:57.953595Z"
             },
             "addedAt": "2025-05-23T11:21:55.483546Z"
         },
@@ -161,7 +161,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:39.318756Z"
+                "nikstream": "2025-06-12T12:44:58.180471Z"
             },
             "addedAt": "2025-05-23T11:21:55.483555Z"
         },
@@ -189,7 +189,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:39.414532Z"
+                "nikstream": "2025-06-12T12:44:58.374730Z"
             },
             "addedAt": "2025-05-23T11:21:55.483565Z"
         },
@@ -216,7 +216,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:39.510742Z"
+                "nikstream": "2025-06-12T12:44:58.626245Z"
             },
             "addedAt": "2025-05-23T11:21:55.483573Z"
         },
@@ -242,7 +242,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:39.619011Z"
+                "nikstream": "2025-06-12T12:44:58.846274Z"
             },
             "addedAt": "2025-05-23T11:21:55.483582Z"
         },
@@ -269,7 +269,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:39.710751Z"
+                "nikstream": "2025-06-12T12:44:59.111631Z"
             },
             "addedAt": "2025-05-23T11:21:55.483590Z"
         },
@@ -304,7 +304,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizimag.net&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 26256,
+            "fileSize": 26254,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -313,7 +313,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 8,
+            "version": 9,
             "internalName": "DiziMag",
             "description": "En son çıkan yabancı dizi ve filmleri DiziMag farkıyla full hd 1080p kalitede izle. Dizimag Geniş ve güncel arşiviyle dizi ve filmlerin tadını çıkartın.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziMag.cs3",
@@ -322,7 +322,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:39.984993Z"
+                "nikstream": "2025-06-12T12:44:59.586969Z"
             },
             "addedAt": "2025-05-23T11:21:55.483607Z"
         },
@@ -349,7 +349,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:40.073805Z"
+                "nikstream": "2025-06-12T12:44:59.812023Z"
             },
             "addedAt": "2025-05-23T11:21:55.483616Z"
         },
@@ -404,7 +404,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:40.401845Z"
+                "nikstream": "2025-06-12T12:45:00.308368Z"
             },
             "addedAt": "2025-05-23T11:21:55.483633Z"
         },
@@ -430,7 +430,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:40.492927Z"
+                "nikstream": "2025-06-12T12:45:00.506068Z"
             },
             "addedAt": "2025-05-23T11:21:55.483641Z"
         },
@@ -456,7 +456,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:40.590435Z"
+                "nikstream": "2025-06-12T12:45:00.729944Z"
             },
             "addedAt": "2025-05-23T11:21:55.483650Z"
         },
@@ -482,7 +482,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:40.692458Z"
+                "nikstream": "2025-06-12T12:45:00.922420Z"
             },
             "addedAt": "2025-05-23T11:21:55.483658Z"
         },
@@ -510,7 +510,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:40.780514Z"
+                "nikstream": "2025-06-12T12:45:01.125476Z"
             },
             "addedAt": "2025-05-23T11:21:55.483667Z"
         },
@@ -537,7 +537,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:40.879253Z"
+                "nikstream": "2025-06-12T12:45:01.337090Z"
             },
             "addedAt": "2025-05-23T11:21:55.483676Z"
         },
@@ -564,7 +564,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:40.992075Z"
+                "nikstream": "2025-06-12T12:45:01.544566Z"
             },
             "addedAt": "2025-05-23T11:21:55.483684Z"
         },
@@ -590,7 +590,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:41.088297Z"
+                "nikstream": "2025-06-12T12:45:01.753154Z"
             },
             "addedAt": "2025-05-23T11:21:55.483693Z"
         },
@@ -617,7 +617,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:41.216339Z"
+                "nikstream": "2025-06-12T12:45:01.994779Z"
             },
             "addedAt": "2025-05-23T11:21:55.483701Z"
         },
@@ -644,7 +644,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:41.330933Z"
+                "nikstream": "2025-06-12T12:45:02.227625Z"
             },
             "addedAt": "2025-05-23T11:21:55.483710Z"
         },
@@ -673,7 +673,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:41.449870Z"
+                "nikstream": "2025-06-12T12:45:02.465626Z"
             },
             "addedAt": "2025-05-23T11:21:55.483718Z"
         },
@@ -699,7 +699,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:41.539904Z"
+                "nikstream": "2025-06-12T12:45:02.685044Z"
             },
             "addedAt": "2025-05-23T11:21:55.483727Z"
         },
@@ -726,7 +726,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:41.640926Z"
+                "nikstream": "2025-06-12T12:45:02.910195Z"
             },
             "addedAt": "2025-05-23T11:21:55.483735Z"
         },
@@ -779,7 +779,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:41.900216Z"
+                "nikstream": "2025-06-12T12:45:03.341730Z"
             },
             "addedAt": "2025-05-23T11:21:55.483753Z"
         },
@@ -808,7 +808,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:41.990054Z"
+                "nikstream": "2025-06-12T12:45:03.571162Z"
             },
             "addedAt": "2025-05-23T11:21:55.483761Z"
         },
@@ -816,7 +816,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://jetfilmizle.de&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 20370,
+            "fileSize": 21805,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -826,7 +826,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 26,
+            "version": 27,
             "internalName": "JetFilmizle",
             "description": "Binlerce Film İzleme Seçeneğiyle En İyi Film İzleme Sitesi",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/JetFilmizle.cs3",
@@ -835,7 +835,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:42.084770Z"
+                "nikstream": "2025-06-12T12:45:03.795990Z"
             },
             "addedAt": "2025-05-23T11:21:55.483770Z"
         },
@@ -861,7 +861,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:42.197368Z"
+                "nikstream": "2025-06-12T12:45:04.036068Z"
             },
             "addedAt": "2025-05-23T11:21:55.483778Z"
         },
@@ -889,7 +889,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:42.300728Z"
+                "nikstream": "2025-06-12T12:45:04.250067Z"
             },
             "addedAt": "2025-05-23T11:21:55.483786Z"
         },
@@ -897,19 +897,18 @@
             "iconUrl": "https://netfree2.cc/mobile/img/nf2/icon_x192.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 36950,
+            "fileSize": 38297,
             "status": 1,
             "language": "hi",
             "authors": [
                 "Horis, megix",
-                "keyiflerolsun",
-                "nikyokki"
+                "keyiflerolsun"
             ],
             "tvTypes": [
                 "Movie",
                 "TvSeries"
             ],
-            "version": 10,
+            "version": 11,
             "internalName": "NetflixMirror",
             "description": "Netflix, PrimeVideo Content in Multiple Languages",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/NetflixMirror.cs3",
@@ -918,7 +917,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:42.413030Z"
+                "nikstream": "2025-06-12T12:45:04.451792Z"
             },
             "addedAt": "2025-05-23T11:21:55.483795Z"
         },
@@ -946,7 +945,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:42.501530Z"
+                "nikstream": "2025-06-12T12:45:04.664546Z"
             },
             "addedAt": "2025-05-23T11:21:55.483804Z"
         },
@@ -973,7 +972,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:42.599290Z"
+                "nikstream": "2025-06-12T12:45:04.857918Z"
             },
             "addedAt": "2025-05-23T11:21:55.483812Z"
         },
@@ -999,7 +998,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:42.715739Z"
+                "nikstream": "2025-06-12T12:45:05.055212Z"
             },
             "addedAt": "2025-05-23T11:21:55.483821Z"
         },
@@ -1025,7 +1024,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:42.819447Z"
+                "nikstream": "2025-06-12T12:45:05.252441Z"
             },
             "addedAt": "2025-05-23T11:21:55.483829Z"
         },
@@ -1052,7 +1051,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:42.919132Z"
+                "nikstream": "2025-06-12T12:45:05.457748Z"
             },
             "addedAt": "2025-05-23T11:21:55.483838Z"
         },
@@ -1084,7 +1083,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:43.011589Z"
+                "nikstream": "2025-06-12T12:45:05.661052Z"
             },
             "addedAt": "2025-05-23T11:21:55.483846Z"
         },
@@ -1110,7 +1109,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:43.247969Z"
+                "nikstream": "2025-06-12T12:45:05.873753Z"
             },
             "addedAt": "2025-05-23T11:21:55.483855Z"
         },
@@ -1137,7 +1136,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:43.344010Z"
+                "nikstream": "2025-06-12T12:45:06.074536Z"
             },
             "addedAt": "2025-05-23T11:21:55.483864Z"
         },
@@ -1164,7 +1163,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:43.444908Z"
+                "nikstream": "2025-06-12T12:45:06.265824Z"
             },
             "addedAt": "2025-05-23T11:21:55.484051Z"
         },
@@ -1192,7 +1191,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:43.540864Z"
+                "nikstream": "2025-06-12T12:45:06.454933Z"
             },
             "addedAt": "2025-05-23T11:21:55.484061Z"
         },
@@ -1219,7 +1218,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:43.630176Z"
+                "nikstream": "2025-06-12T12:45:06.679035Z"
             },
             "addedAt": "2025-05-23T11:21:55.484069Z"
         },
@@ -1247,7 +1246,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:43.732219Z"
+                "nikstream": "2025-06-12T12:45:06.900942Z"
             },
             "addedAt": "2025-06-02T11:19:39.555379Z"
         },
@@ -1275,7 +1274,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:43.836879Z"
+                "nikstream": "2025-06-12T12:45:07.131226Z"
             },
             "addedAt": "2025-05-23T11:21:55.484078Z"
         },
@@ -1302,7 +1301,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:43.925151Z"
+                "nikstream": "2025-06-12T12:45:07.328395Z"
             },
             "addedAt": "2025-05-23T11:21:55.484086Z"
         },
@@ -1328,7 +1327,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:44.013067Z"
+                "nikstream": "2025-06-12T12:45:07.530801Z"
             },
             "addedAt": "2025-05-23T11:21:55.484095Z"
         },
@@ -1354,7 +1353,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:44.100073Z"
+                "nikstream": "2025-06-12T12:45:07.797185Z"
             },
             "addedAt": "2025-05-23T11:21:55.484103Z"
         },
@@ -1380,7 +1379,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:44.212518Z"
+                "nikstream": "2025-06-12T12:45:08.065203Z"
             },
             "addedAt": "2025-05-23T11:21:55.484111Z"
         },
@@ -1406,7 +1405,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:44.315256Z"
+                "nikstream": "2025-06-12T12:45:08.275811Z"
             },
             "addedAt": "2025-05-23T11:21:55.484120Z"
         },
@@ -1432,7 +1431,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:44.392217Z"
+                "nikstream": "2025-06-12T12:45:08.485106Z"
             },
             "addedAt": "2025-05-23T11:21:55.484128Z"
         },
@@ -1459,7 +1458,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:44.558715Z"
+                "nikstream": "2025-06-12T12:45:08.695396Z"
             },
             "addedAt": "2025-05-23T11:21:55.484136Z"
         },
@@ -1485,7 +1484,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:44.662209Z"
+                "nikstream": "2025-06-12T12:45:08.924526Z"
             },
             "addedAt": "2025-05-23T11:21:55.484145Z"
         },
@@ -1511,7 +1510,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:44.747378Z"
+                "nikstream": "2025-06-12T12:45:09.144702Z"
             },
             "addedAt": "2025-05-23T11:21:55.484153Z"
         },
@@ -1537,7 +1536,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:44.842798Z"
+                "nikstream": "2025-06-12T12:45:09.343917Z"
             },
             "addedAt": "2025-05-23T11:21:55.484161Z"
         },
@@ -1563,7 +1562,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:44.962401Z"
+                "nikstream": "2025-06-12T12:45:09.577401Z"
             },
             "addedAt": "2025-05-23T11:21:55.484170Z"
         },
@@ -1571,7 +1570,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 22420,
+            "fileSize": 22421,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1581,7 +1580,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 32,
+            "version": 33,
             "internalName": "WebteIzle",
             "description": "Her türlü filmi ister dublaj ister altyazılı, en kaliteli bir şekilde izleyebileceğiniz arşivi en geniş gerçek film izleme siteniz.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WebteIzle.cs3",
@@ -1590,7 +1589,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:45.060089Z"
+                "nikstream": "2025-06-12T12:45:09.813307Z"
             },
             "addedAt": "2025-05-23T11:21:55.484178Z"
         },
@@ -1616,7 +1615,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:45.170450Z"
+                "nikstream": "2025-06-12T12:45:10.000949Z"
             },
             "addedAt": "2025-05-23T11:21:55.484187Z"
         },
@@ -1642,7 +1641,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:45.279354Z"
+                "nikstream": "2025-06-12T12:45:10.209975Z"
             },
             "addedAt": "2025-05-23T11:21:55.484195Z"
         },
@@ -1668,7 +1667,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:45.383895Z"
+                "nikstream": "2025-06-12T12:45:10.402264Z"
             },
             "addedAt": "2025-05-23T11:21:55.484204Z"
         },
@@ -1694,7 +1693,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-06-12T11:18:45.474472Z"
+                "nikstream": "2025-06-12T12:45:10.650346Z"
             },
             "addedAt": "2025-05-23T11:21:55.484217Z"
         }
