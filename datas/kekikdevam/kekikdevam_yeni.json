@@ -22,7 +22,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:51.792207Z"
+                "kekikdevam": "2025-06-27T19:16:18.260069Z"
             },
             "addedAt": "2025-05-23T11:21:55.490466Z"
         },
@@ -50,7 +50,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:51.951418Z"
+                "kekikdevam": "2025-06-27T19:16:18.376896Z"
             },
             "addedAt": "2025-05-23T11:21:55.490486Z"
         },
@@ -78,7 +78,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:52.140044Z"
+                "kekikdevam": "2025-06-27T19:16:18.470098Z"
             },
             "addedAt": "2025-05-23T11:21:55.490498Z"
         },
@@ -104,7 +104,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:52.276352Z"
+                "kekikdevam": "2025-06-27T19:16:18.641454Z"
             },
             "addedAt": "2025-05-23T11:21:55.490508Z"
         },
@@ -130,7 +130,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:52.399832Z"
+                "kekikdevam": "2025-06-27T19:16:18.751823Z"
             },
             "addedAt": "2025-05-23T11:21:55.490516Z"
         },
@@ -156,7 +156,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:52.554362Z"
+                "kekikdevam": "2025-06-27T19:16:18.845671Z"
             },
             "addedAt": "2025-05-23T11:21:55.490525Z"
         },
@@ -182,7 +182,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:52.690067Z"
+                "kekikdevam": "2025-06-27T19:16:18.931124Z"
             },
             "addedAt": "2025-05-23T11:21:55.490534Z"
         },
@@ -208,7 +208,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:52.831364Z"
+                "kekikdevam": "2025-06-27T19:16:19.043765Z"
             },
             "addedAt": "2025-05-23T11:21:55.490543Z"
         },
@@ -235,7 +235,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:52.957265Z"
+                "kekikdevam": "2025-06-27T19:16:19.136883Z"
             },
             "addedAt": "2025-05-23T11:21:55.490551Z"
         },
@@ -263,7 +263,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:53.091972Z"
+                "kekikdevam": "2025-06-27T19:16:19.245253Z"
             },
             "addedAt": "2025-05-23T11:21:55.490560Z"
         },
@@ -290,7 +290,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:53.221529Z"
+                "kekikdevam": "2025-06-27T19:16:19.341404Z"
             },
             "addedAt": "2025-05-23T11:21:55.490568Z"
         },
@@ -316,7 +316,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:53.349049Z"
+                "kekikdevam": "2025-06-27T19:16:19.468843Z"
             },
             "addedAt": "2025-05-23T11:21:55.490577Z"
         },
@@ -342,7 +342,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:53.481556Z"
+                "kekikdevam": "2025-06-27T19:16:19.559583Z"
             },
             "addedAt": "2025-05-23T11:21:55.490586Z"
         },
@@ -368,7 +368,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:53.714786Z"
+                "kekikdevam": "2025-06-27T19:16:19.650587Z"
             },
             "addedAt": "2025-05-23T11:21:55.490594Z"
         },
@@ -376,7 +376,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizibox.live&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 21383,
+            "fileSize": 21377,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -385,7 +385,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 20,
+            "version": 21,
             "internalName": "DiziBox",
             "description": "Yabancı Dizi izle, Tüm yabancı dizilerin yeni ve eski sezonlarını full hd izleyebileceğiniz elit site.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DiziBox.cs3",
@@ -394,7 +394,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:53.838708Z"
+                "kekikdevam": "2025-06-27T19:16:19.726544Z"
             },
             "addedAt": "2025-05-23T11:21:55.490603Z"
         },
@@ -402,7 +402,7 @@
             "iconUrl": "https://dizifun2.com/images/data/favicon.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 30888,
+            "fileSize": 30890,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -411,7 +411,7 @@
             "tvTypes": [
                 "TvSeries, Movie"
             ],
-            "version": 4,
+            "version": 5,
             "internalName": "DiziFun",
             "description": "Her Dizi Bir Macera, Her An Bir Keşif!",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DiziFun.cs3",
@@ -420,7 +420,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:53.983769Z"
+                "kekikdevam": "2025-06-27T19:16:19.819015Z"
             },
             "addedAt": "2025-05-23T11:21:55.490611Z"
         },
@@ -446,7 +446,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:54.121086Z"
+                "kekikdevam": "2025-06-27T19:16:19.907990Z"
             },
             "addedAt": "2025-05-23T11:21:55.490620Z"
         },
@@ -472,7 +472,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:54.239022Z"
+                "kekikdevam": "2025-06-27T19:16:20.000494Z"
             },
             "addedAt": "2025-05-23T11:21:55.490628Z"
         },
@@ -498,7 +498,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:54.358199Z"
+                "kekikdevam": "2025-06-27T19:16:20.097113Z"
             },
             "addedAt": "2025-05-23T11:21:55.490637Z"
         },
@@ -524,7 +524,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:54.530299Z"
+                "kekikdevam": "2025-06-27T19:16:20.184447Z"
             },
             "addedAt": "2025-05-23T11:21:55.490646Z"
         },
@@ -532,7 +532,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizimom.plus&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 29370,
+            "fileSize": 29376,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -541,7 +541,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 13,
+            "version": 14,
             "internalName": "DiziMom",
             "description": "Binlerce yerli yabancı dizi arşivi, tüm sezonlar, kesintisiz bölümler. Sadece dizi izle, Dizimom heryerde seninle!",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DiziMom.cs3",
@@ -550,7 +550,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:54.651950Z"
+                "kekikdevam": "2025-06-27T19:16:20.332970Z"
             },
             "addedAt": "2025-05-23T11:21:55.490654Z"
         },
@@ -558,7 +558,7 @@
             "iconUrl": "view-source:https://dizimore.com/wp-content/uploads/2024/03/morefav.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 17239,
+            "fileSize": 17243,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -567,7 +567,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 1,
+            "version": 2,
             "internalName": "DiziMore",
             "description": "Sadece Dizi izlemenin Tek Adresin yerli yabancı dizi izlemek için dizimore.com",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DiziMore.cs3",
@@ -576,7 +576,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:54.773014Z"
+                "kekikdevam": "2025-06-27T19:16:20.421663Z"
             },
             "addedAt": "2025-05-23T11:21:55.490662Z"
         },
@@ -604,7 +604,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:54.914156Z"
+                "kekikdevam": "2025-06-27T19:16:20.534879Z"
             },
             "addedAt": "2025-05-23T11:21:55.490671Z"
         },
@@ -612,7 +612,7 @@
             "iconUrl": "https://www.diziyo.de/wp-content/uploads/2019/11/favicon-150x150.ico",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 17639,
+            "fileSize": 17638,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -623,7 +623,7 @@
                 "Movie",
                 "Anime"
             ],
-            "version": 1,
+            "version": 2,
             "internalName": "DiziYo",
             "description": "Diziyo ile Yabancı Dizi, Film, Anime, Çizgi-Film izle.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DiziYo.cs3",
@@ -632,7 +632,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:55.050211Z"
+                "kekikdevam": "2025-06-27T19:16:20.643599Z"
             },
             "addedAt": "2025-05-23T11:21:55.490679Z"
         },
@@ -658,7 +658,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:55.196154Z"
+                "kekikdevam": "2025-06-27T19:16:20.726629Z"
             },
             "addedAt": "2025-05-23T11:21:55.490688Z"
         },
@@ -684,7 +684,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:55.333345Z"
+                "kekikdevam": "2025-06-27T19:16:20.869515Z"
             },
             "addedAt": "2025-05-23T11:21:55.490696Z"
         },
@@ -710,7 +710,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:55.470535Z"
+                "kekikdevam": "2025-06-27T19:16:20.953233Z"
             },
             "addedAt": "2025-05-23T11:21:55.490705Z"
         },
@@ -736,7 +736,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:55.603478Z"
+                "kekikdevam": "2025-06-27T19:16:21.043952Z"
             },
             "addedAt": "2025-05-23T11:21:55.490717Z"
         },
@@ -762,7 +762,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:55.755302Z"
+                "kekikdevam": "2025-06-27T19:16:21.128008Z"
             },
             "addedAt": "2025-05-23T11:21:55.490726Z"
         },
@@ -788,7 +788,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:55.904542Z"
+                "kekikdevam": "2025-06-27T19:16:21.236915Z"
             },
             "addedAt": "2025-05-23T11:21:55.490734Z"
         },
@@ -814,7 +814,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:56.023141Z"
+                "kekikdevam": "2025-06-27T19:16:21.334568Z"
             },
             "addedAt": "2025-05-23T11:21:55.490743Z"
         },
@@ -841,7 +841,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:56.186094Z"
+                "kekikdevam": "2025-06-27T19:16:21.450365Z"
             },
             "addedAt": "2025-05-23T11:21:55.490752Z"
         },
@@ -867,7 +867,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:56.321343Z"
+                "kekikdevam": "2025-06-27T19:16:21.530765Z"
             },
             "addedAt": "2025-05-23T11:21:55.490760Z"
         },
@@ -894,7 +894,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:56.453042Z"
+                "kekikdevam": "2025-06-27T19:16:21.621756Z"
             },
             "addedAt": "2025-05-23T11:21:55.490769Z"
         },
@@ -920,7 +920,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:56.570181Z"
+                "kekikdevam": "2025-06-27T19:16:21.745623Z"
             },
             "addedAt": "2025-05-23T11:21:55.490777Z"
         },
@@ -946,7 +946,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:56.721158Z"
+                "kekikdevam": "2025-06-27T19:16:21.837671Z"
             },
             "addedAt": "2025-05-23T11:21:55.490786Z"
         },
@@ -973,7 +973,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:56.862302Z"
+                "kekikdevam": "2025-06-27T19:16:21.945966Z"
             },
             "addedAt": "2025-05-23T11:21:55.490794Z"
         },
@@ -999,7 +999,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:57.002924Z"
+                "kekikdevam": "2025-06-27T19:16:22.046832Z"
             },
             "addedAt": "2025-05-23T11:21:55.490803Z"
         },
@@ -1027,7 +1027,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:57.144050Z"
+                "kekikdevam": "2025-06-27T19:16:22.181825Z"
             },
             "addedAt": "2025-05-23T11:21:55.490811Z"
         },
@@ -1053,7 +1053,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:57.292199Z"
+                "kekikdevam": "2025-06-27T19:16:22.297939Z"
             },
             "addedAt": "2025-05-23T11:21:55.490820Z"
         },
@@ -1061,7 +1061,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmizle.to&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 27427,
+            "fileSize": 27426,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1071,7 +1071,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 2,
+            "version": 3,
             "internalName": "HDFilmIzle",
             "description": "HDFilmizle ile Full HD izle, 1080p kalitede Yerli ve Yabancı filmlerle Türkçe dublaj veya Altyazı olarak kesintisiz film izlemenin tadını çıkarın.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/HDFilmIzle.cs3",
@@ -1080,7 +1080,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:57.429688Z"
+                "kekikdevam": "2025-06-27T19:16:22.400727Z"
             },
             "addedAt": "2025-05-23T11:21:55.490828Z"
         },
@@ -1106,7 +1106,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:57.569608Z"
+                "kekikdevam": "2025-06-27T19:16:22.505597Z"
             },
             "addedAt": "2025-05-23T11:21:55.490837Z"
         },
@@ -1133,7 +1133,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:57.692299Z"
+                "kekikdevam": "2025-06-27T19:16:22.619968Z"
             },
             "addedAt": "2025-05-23T11:21:55.490845Z"
         },
@@ -1162,7 +1162,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:57.816735Z"
+                "kekikdevam": "2025-06-27T19:16:22.738793Z"
             },
             "addedAt": "2025-05-23T11:21:55.490854Z"
         },
@@ -1188,7 +1188,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:57.945125Z"
+                "kekikdevam": "2025-06-27T19:16:22.851003Z"
             },
             "addedAt": "2025-05-23T11:21:55.490862Z"
         },
@@ -1214,7 +1214,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:58.079233Z"
+                "kekikdevam": "2025-06-27T19:16:22.947845Z"
             },
             "addedAt": "2025-05-23T11:21:55.490871Z"
         },
@@ -1222,7 +1222,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://jetfilmizle.de&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 13754,
+            "fileSize": 13748,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1231,7 +1231,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 33,
+            "version": 34,
             "internalName": "JetFilmizle",
             "description": "Binlerce Film İzleme Seçeneğiyle En İyi Film İzleme Sitesi",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/JetFilmizle.cs3",
@@ -1240,7 +1240,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:58.202107Z"
+                "kekikdevam": "2025-06-27T19:16:23.072936Z"
             },
             "addedAt": "2025-05-23T11:21:55.490879Z"
         },
@@ -1266,7 +1266,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:58.354818Z"
+                "kekikdevam": "2025-06-27T19:16:23.158215Z"
             },
             "addedAt": "2025-05-23T11:21:55.490888Z"
         },
@@ -1293,7 +1293,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:58.486807Z"
+                "kekikdevam": "2025-06-27T19:16:23.245279Z"
             },
             "addedAt": "2025-05-23T11:21:55.490896Z"
         },
@@ -1321,7 +1321,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:58.603686Z"
+                "kekikdevam": "2025-06-27T19:16:23.346434Z"
             },
             "addedAt": "2025-05-23T11:21:55.490907Z"
         },
@@ -1349,7 +1349,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:58.719535Z"
+                "kekikdevam": "2025-06-27T19:16:23.444454Z"
             },
             "addedAt": "2025-05-23T11:21:55.490915Z"
         },
@@ -1376,7 +1376,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:58.865100Z"
+                "kekikdevam": "2025-06-27T19:16:23.545663Z"
             },
             "addedAt": "2025-05-23T11:21:55.490924Z"
         },
@@ -1402,7 +1402,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:58.996281Z"
+                "kekikdevam": "2025-06-27T19:16:23.626674Z"
             },
             "addedAt": "2025-05-23T11:21:55.490932Z"
         },
@@ -1428,7 +1428,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:59.143507Z"
+                "kekikdevam": "2025-06-27T19:16:23.716019Z"
             },
             "addedAt": "2025-05-23T11:21:55.490941Z"
         },
@@ -1454,7 +1454,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:59.284319Z"
+                "kekikdevam": "2025-06-27T19:16:23.812384Z"
             },
             "addedAt": "2025-05-23T11:21:55.490949Z"
         },
@@ -1485,7 +1485,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:59.426212Z"
+                "kekikdevam": "2025-06-27T19:16:23.906305Z"
             },
             "addedAt": "2025-05-23T11:21:55.490958Z"
         },
@@ -1511,7 +1511,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:59.559825Z"
+                "kekikdevam": "2025-06-27T19:16:24.022091Z"
             },
             "addedAt": "2025-05-23T11:21:55.490966Z"
         },
@@ -1537,7 +1537,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:59.683744Z"
+                "kekikdevam": "2025-06-27T19:16:24.170798Z"
             },
             "addedAt": "2025-05-23T11:21:55.490976Z"
         },
@@ -1545,7 +1545,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.setfilmizle.nl&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 21767,
+            "fileSize": 21770,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1555,7 +1555,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 19,
+            "version": 20,
             "internalName": "SetFilmIzle",
             "description": "Setfilmizle sitemizde, donma yaşamadan Türkçe dublaj ve altyazılı filmleri ile dizileri muhteşem 1080p full HD kalitesinde izleyebilirsiniz.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/SetFilmIzle.cs3",
@@ -1564,7 +1564,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:59.829901Z"
+                "kekikdevam": "2025-06-27T19:16:24.278094Z"
             },
             "addedAt": "2025-05-23T11:21:55.490985Z"
         },
@@ -1591,7 +1591,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:30:59.974696Z"
+                "kekikdevam": "2025-06-27T19:16:24.408766Z"
             },
             "addedAt": "2025-05-23T11:21:55.490995Z"
         },
@@ -1617,7 +1617,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:00.099274Z"
+                "kekikdevam": "2025-06-27T19:16:24.483121Z"
             },
             "addedAt": "2025-05-23T11:21:55.491004Z"
         },
@@ -1643,7 +1643,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:00.224065Z"
+                "kekikdevam": "2025-06-27T19:16:24.577152Z"
             },
             "addedAt": "2025-05-23T11:21:55.491014Z"
         },
@@ -1673,7 +1673,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:00.356885Z"
+                "kekikdevam": "2025-06-27T19:16:24.662546Z"
             },
             "addedAt": "2025-05-23T11:21:55.491023Z"
         },
@@ -1701,7 +1701,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:00.489416Z"
+                "kekikdevam": "2025-06-27T19:16:24.775371Z"
             },
             "addedAt": "2025-05-23T11:21:55.491031Z"
         },
@@ -1727,7 +1727,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:00.617331Z"
+                "kekikdevam": "2025-06-27T19:16:24.871785Z"
             },
             "addedAt": "2025-05-23T11:21:55.491040Z"
         },
@@ -1753,7 +1753,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:00.745041Z"
+                "kekikdevam": "2025-06-27T19:16:24.960877Z"
             },
             "addedAt": "2025-05-23T11:21:55.491048Z"
         },
@@ -1779,7 +1779,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:00.862760Z"
+                "kekikdevam": "2025-06-27T19:16:25.072667Z"
             },
             "addedAt": "2025-05-23T11:21:55.491056Z"
         },
@@ -1805,7 +1805,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:00.995377Z"
+                "kekikdevam": "2025-06-27T19:16:25.177963Z"
             },
             "addedAt": "2025-05-23T11:21:55.491065Z"
         },
@@ -1831,7 +1831,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:01.130382Z"
+                "kekikdevam": "2025-06-27T19:16:25.259344Z"
             },
             "addedAt": "2025-05-23T11:21:55.491073Z"
         },
@@ -1857,7 +1857,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:01.269122Z"
+                "kekikdevam": "2025-06-27T19:16:25.358969Z"
             },
             "addedAt": "2025-05-23T11:21:55.491082Z"
         },
@@ -1883,7 +1883,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:01.447945Z"
+                "kekikdevam": "2025-06-27T19:16:25.463991Z"
             },
             "addedAt": "2025-05-23T11:21:55.491090Z"
         },
@@ -1909,7 +1909,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:01.589515Z"
+                "kekikdevam": "2025-06-27T19:16:25.571058Z"
             },
             "addedAt": "2025-05-23T11:21:55.491098Z"
         },
@@ -1935,7 +1935,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:01.757042Z"
+                "kekikdevam": "2025-06-27T19:16:25.696331Z"
             },
             "addedAt": "2025-05-23T11:21:55.491107Z"
         },
@@ -1961,7 +1961,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:01.878798Z"
+                "kekikdevam": "2025-06-27T19:16:25.817111Z"
             },
             "addedAt": "2025-05-23T11:21:55.491115Z"
         },
@@ -1987,7 +1987,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:02.020910Z"
+                "kekikdevam": "2025-06-27T19:16:25.895648Z"
             },
             "addedAt": "2025-05-23T11:21:55.491123Z"
         },
@@ -2013,7 +2013,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:02.142882Z"
+                "kekikdevam": "2025-06-27T19:16:25.982012Z"
             },
             "addedAt": "2025-05-23T11:21:55.491132Z"
         },
@@ -2039,7 +2039,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:02.277693Z"
+                "kekikdevam": "2025-06-27T19:16:26.071586Z"
             },
             "addedAt": "2025-05-23T11:21:55.491140Z"
         },
@@ -2066,7 +2066,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:02.417191Z"
+                "kekikdevam": "2025-06-27T19:16:26.162492Z"
             },
             "addedAt": "2025-05-23T11:21:55.491149Z"
         },
@@ -2092,7 +2092,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:02.564813Z"
+                "kekikdevam": "2025-06-27T19:16:26.258628Z"
             },
             "addedAt": "2025-05-23T11:21:55.491157Z"
         },
@@ -2118,7 +2118,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:02.699955Z"
+                "kekikdevam": "2025-06-27T19:16:26.356211Z"
             },
             "addedAt": "2025-05-23T11:21:55.491166Z"
         },
@@ -2144,7 +2144,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:02.838193Z"
+                "kekikdevam": "2025-06-27T19:16:26.447320Z"
             },
             "addedAt": "2025-05-23T11:21:55.491174Z"
         },
@@ -2170,7 +2170,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:02.991724Z"
+                "kekikdevam": "2025-06-27T19:16:26.538540Z"
             },
             "addedAt": "2025-05-23T11:21:55.491185Z"
         },
@@ -2197,7 +2197,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:03.146530Z"
+                "kekikdevam": "2025-06-27T19:16:26.636773Z"
             },
             "addedAt": "2025-05-23T11:21:55.491193Z"
         },
@@ -2226,7 +2226,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-06-27T18:31:03.302620Z"
+                "kekikdevam": "2025-06-27T19:16:26.746949Z"
             },
             "addedAt": "2025-05-23T11:21:55.491202Z"
         }
