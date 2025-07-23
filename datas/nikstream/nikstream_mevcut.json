@@ -4,7 +4,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.4kfilmizlesene.org&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 11537,
+            "fileSize": 11824,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -13,7 +13,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 4,
+            "version": 5,
             "internalName": "4KFilmIzlesene",
             "description": "En yeni ve sorunsuz ⚡  Full HD Film izle keyfi her yerde sizinle ! 4K ve 1080p online film izleme farkıyla 4KFilmizlesene&amp;#039;nin Tadını Çıkart.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/4KFilmIzlesene.cs3",
@@ -22,7 +22,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:15.240112Z"
+                "nikstream": "2025-07-23T08:33:11.949566Z"
             },
             "addedAt": "2025-05-23T11:21:55.483495Z"
         },
@@ -30,7 +30,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=animecix.net&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 23158,
+            "fileSize": 23212,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -42,7 +42,7 @@
             "tvTypes": [
                 "Anime"
             ],
-            "version": 10,
+            "version": 11,
             "internalName": "AnimeciX",
             "description": "AnimeciX, animeleri keşfedebileceğiniz ve animeler hakkında her şeyi öğrenebileceğiniz bir paylaşım platformudur.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/AnimeciX.cs3",
@@ -59,7 +59,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=asyawatch.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 28875,
+            "fileSize": 29976,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -69,7 +69,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 3,
+            "version": 4,
             "internalName": "AsyaWatch",
             "description": "Asyawatch",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/AsyaWatch.cs3",
@@ -78,7 +78,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:15.559956Z"
+                "nikstream": "2025-07-23T08:33:12.316491Z"
             },
             "addedAt": "2025-05-23T11:21:55.483526Z"
         },
@@ -106,7 +106,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:15.653779Z"
+                "nikstream": "2025-07-23T08:33:12.459784Z"
             },
             "addedAt": "2025-05-23T11:21:55.483535Z"
         },
@@ -114,7 +114,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 18019,
+            "fileSize": 18451,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -134,7 +134,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:15.772705Z"
+                "nikstream": "2025-07-23T08:33:12.577620Z"
             },
             "addedAt": "2025-05-23T11:21:55.483546Z"
         },
@@ -142,7 +142,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=cizgimax.online&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 18337,
+            "fileSize": 18411,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -152,7 +152,7 @@
             "tvTypes": [
                 "Cartoon"
             ],
-            "version": 5,
+            "version": 6,
             "internalName": "CizgiMax",
             "description": "ÇizgiMax ile Çizgi Film izlemek artık daha kolay, donmadan full hd ve reklamsız bir sitedir, içerisinde 700 den fazla çizgi film olan, Bu site bu işi profesyonelce yapıyor.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/CizgiMax.cs3",
@@ -161,7 +161,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:15.879814Z"
+                "nikstream": "2025-07-23T08:33:12.723900Z"
             },
             "addedAt": "2025-05-23T11:21:55.483555Z"
         },
@@ -189,7 +189,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:15.985176Z"
+                "nikstream": "2025-07-23T08:33:12.879203Z"
             },
             "addedAt": "2025-05-23T11:21:55.483565Z"
         },
@@ -197,7 +197,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizibox.de&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 22720,
+            "fileSize": 22753,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -207,7 +207,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 7,
+            "version": 8,
             "internalName": "DiziBox",
             "description": "Yabancı Dizi izle, Tüm yabancı dizilerin yeni ve eski sezonlarını full hd izleyebileceğiniz elit site.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziBox.cs3",
@@ -216,7 +216,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:16.079073Z"
+                "nikstream": "2025-07-23T08:33:12.995692Z"
             },
             "addedAt": "2025-05-23T11:21:55.483573Z"
         },
@@ -224,7 +224,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizigom1.co&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 17460,
+            "fileSize": 18446,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -233,7 +233,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 4,
+            "version": 5,
             "internalName": "DiziGom",
             "description": "Türkçe altyazılı yabancı dizi izle, Tüm yabancı, kore, netflix dizilerin yeni ve eski sezonlarını orijinal dilinde dizigom1 alt yazılı film izleyebilir, sadece türkçe altyazılı en iyi yabancı diziler ve filmler hakkında yorum yapabilirsiniz.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziGom.cs3",
@@ -242,7 +242,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:16.200302Z"
+                "nikstream": "2025-07-23T08:33:13.162003Z"
             },
             "addedAt": "2025-05-23T11:21:55.483582Z"
         },
@@ -250,7 +250,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizikorea.vip&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 18649,
+            "fileSize": 19040,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -260,7 +260,7 @@
             "tvTypes": [
                 "AsianDrama"
             ],
-            "version": 9,
+            "version": 10,
             "internalName": "DiziKorea",
             "description": "En Güncel Kore Dizileri izleme Sitesi",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziKorea.cs3",
@@ -269,7 +269,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:16.359861Z"
+                "nikstream": "2025-07-23T08:33:13.272382Z"
             },
             "addedAt": "2025-05-23T11:21:55.483590Z"
         },
@@ -277,7 +277,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizilla.club&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 28798,
+            "fileSize": 29341,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -287,7 +287,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 22,
+            "version": 23,
             "internalName": "Dizilla",
             "description": "Dizilla tüm yabancı dizileri ücretsiz olarak Türkçe Dublaj ve altyazılı seçenekleri ile 1080P kalite izleyebileceğiniz yeni nesil yabancı dizi izleme siteniz.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/Dizilla.cs3",
@@ -304,7 +304,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizimag.net&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 26254,
+            "fileSize": 26285,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -313,7 +313,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 9,
+            "version": 10,
             "internalName": "DiziMag",
             "description": "En son çıkan yabancı dizi ve filmleri DiziMag farkıyla full hd 1080p kalitede izle. Dizimag Geniş ve güncel arşiviyle dizi ve filmlerin tadını çıkartın.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziMag.cs3",
@@ -322,7 +322,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:16.619734Z"
+                "nikstream": "2025-07-23T08:33:13.593812Z"
             },
             "addedAt": "2025-05-23T11:21:55.483607Z"
         },
@@ -330,7 +330,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizimom.tv&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 29836,
+            "fileSize": 30353,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -340,7 +340,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 15,
+            "version": 16,
             "internalName": "DiziMom",
             "description": "Binlerce yerli yabancı dizi arşivi, tüm sezonlar, kesintisiz bölümler. Sadece dizi izle, Dizimom heryerde seninle!",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziMom.cs3",
@@ -349,7 +349,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:16.712625Z"
+                "nikstream": "2025-07-23T08:33:13.746816Z"
             },
             "addedAt": "2025-05-23T11:21:55.483616Z"
         },
@@ -357,7 +357,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizipal683.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 18746,
+            "fileSize": 19205,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -368,7 +368,7 @@
                 "TvSeries",
                 "Movie"
             ],
-            "version": 34,
+            "version": 35,
             "internalName": "DiziPal",
             "description": "en yeni dizileri güvenli ve hızlı şekilde sunar.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziPal.cs3",
@@ -385,7 +385,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.diziyou.co&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 14243,
+            "fileSize": 14320,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -395,7 +395,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 11,
+            "version": 12,
             "internalName": "DiziYou",
             "description": "Diziyou en kaliteli Türkçe dublaj ve altyazılı yabancı dizi izleme sitesidir. Güncel ve efsanevi dizileri 1080p Full HD kalitede izlemek için hemen tıkla!",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziYou.cs3",
@@ -404,7 +404,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:17.018203Z"
+                "nikstream": "2025-07-23T08:33:14.032040Z"
             },
             "addedAt": "2025-05-23T11:21:55.483633Z"
         },
@@ -430,41 +430,15 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:17.126952Z"
+                "nikstream": "2025-07-23T08:33:14.149950Z"
             },
             "addedAt": "2025-05-23T11:21:55.483641Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=filmizlesene.plus&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 17149,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 2,
-            "internalName": "Filmİzlesene",
-            "description": "Filmizlesene ile hızlı film izleme fırsatını yakala, en yeni ve iyi filmleri Full HD 1080p kalitesiyle online ve bedava izle",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/Filmİzlesene.cs3",
-            "name": "Filmİzlesene",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:17.244169Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.483650Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=filmkovasi.tv&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 17758,
+            "fileSize": 18426,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -473,7 +447,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 2,
+            "version": 3,
             "internalName": "FilmKovasi",
             "description": "Film Kovasi ⚡ ile en güncel ve sorunsuz Full HD Film izle keyfi her yerde seninle! 1080p online film izleme ayrıcalığıyla Film Kovası'nın Tadını Çıkarın.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FilmKovasi.cs3",
@@ -482,7 +456,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:17.388868Z"
+                "nikstream": "2025-07-23T08:33:14.268029Z"
             },
             "addedAt": "2025-05-23T11:21:55.483658Z"
         },
@@ -490,7 +464,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=filmmakinesi.film&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 22178,
+            "fileSize": 22593,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -501,7 +475,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 14,
+            "version": 15,
             "internalName": "FilmMakinesi",
             "description": "Film Makinesi, en yeni ve en güncel filmleri sitemizde full HD kalite farkı ile izleyebilirsiniz. HD film izle denildiğinde akla gelen en kaliteli film izleme sitesi.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FilmMakinesi.cs3",
@@ -510,7 +484,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:17.527389Z"
+                "nikstream": "2025-07-23T08:33:14.416007Z"
             },
             "addedAt": "2025-05-23T11:21:55.483667Z"
         },
@@ -518,7 +492,87 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.filmmodu17.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 14787,
+            "fileSize": 14831,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "keyiflerolsun",
+                "nikyokki"
+            ],
+            "tvTypes": [
+                "Movie"
+            ],
+            "version": 11,
+            "internalName": "FilmModu",
+            "description": "Film modun geldiyse yüksek kalitede en yeni filmleri izle, 1080p izleyebileceğiniz reklamsiz film sitesi.",
+            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FilmModu.cs3",
+            "name": "FilmModu",
+            "repoCodes": [
+                "nikstream"
+            ],
+            "repoTimestamps": {
+                "nikstream": "2025-07-23T08:33:14.545449Z"
+            },
+            "addedAt": "2025-05-23T11:21:55.483676Z"
+        },
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilm.pro&sz=%size%",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
+            "fileSize": 18345,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "keyiflerolsun"
+            ],
+            "tvTypes": [
+                "Movie",
+                "TvSeries"
+            ],
+            "version": 15,
+            "internalName": "FullHDFilm",
+            "description": "Fullhdfilm ile en yeni vizyon filmler Full HD ve kesintisiz film sizlerle. Özgün film arşivimizle en üstün kaliteli film izle keyfini sunuyoruz.",
+            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FullHDFilm.cs3",
+            "name": "FullHDFilm",
+            "repoCodes": [
+                "nikstream"
+            ],
+            "repoTimestamps": {
+                "nikstream": "2025-07-23T08:33:14.659173Z"
+            },
+            "addedAt": "2025-05-23T11:21:55.483684Z"
+        },
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilmizlede.net&sz=%size%",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
+            "fileSize": 15262,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "nikyokki"
+            ],
+            "tvTypes": [
+                "Movie"
+            ],
+            "version": 3,
+            "internalName": "FullHDFilmİzlede",
+            "description": "En güncel ve popüler filmleri Full HD kalitesinde, Türkçe altyazılı veya Türkçe dublaj seçenekleriyle izleyebileceğiniz tek adres! Sinema tutkunları için en özel film deneyimini yaşamak için fullhdfilmizlede.net",
+            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FullHDFilmİzlede.cs3",
+            "name": "FullHDFilmİzlede",
+            "repoCodes": [
+                "nikstream"
+            ],
+            "repoTimestamps": {
+                "nikstream": "2025-07-23T08:33:14.798002Z"
+            },
+            "addedAt": "2025-05-23T11:21:55.483693Z"
+        },
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=www.fullhdfilmizlesene.de&sz=%size%",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
+            "fileSize": 34312,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -529,86 +583,6 @@
                 "Movie"
             ],
             "version": 10,
-            "internalName": "FilmModu",
-            "description": "Film modun geldiyse yüksek kalitede en yeni filmleri izle, 1080p izleyebileceğiniz reklamsiz film sitesi.",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FilmModu.cs3",
-            "name": "FilmModu",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:17.654503Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.483676Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilm.pro&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 18266,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "keyiflerolsun"
-            ],
-            "tvTypes": [
-                "Movie",
-                "TvSeries"
-            ],
-            "version": 14,
-            "internalName": "FullHDFilm",
-            "description": "Fullhdfilm ile en yeni vizyon filmler Full HD ve kesintisiz film sizlerle. Özgün film arşivimizle en üstün kaliteli film izle keyfini sunuyoruz.",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FullHDFilm.cs3",
-            "name": "FullHDFilm",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:17.739801Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.483684Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilmizlede.net&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 15199,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 2,
-            "internalName": "FullHDFilmİzlede",
-            "description": "En güncel ve popüler filmleri Full HD kalitesinde, Türkçe altyazılı veya Türkçe dublaj seçenekleriyle izleyebileceğiniz tek adres! Sinema tutkunları için en özel film deneyimini yaşamak için fullhdfilmizlede.net",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FullHDFilmİzlede.cs3",
-            "name": "FullHDFilmİzlede",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:17.860250Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.483693Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=www.fullhdfilmizlesene.de&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 33617,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "keyiflerolsun",
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 9,
             "internalName": "FullHDFilmizlesene",
             "description": "Sinema zevkini evinize kadar getirdik. Türkiye'nin lider Film sitesinde, en yeni filmleri Full HD izleyin.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FullHDFilmizlesene.cs3",
@@ -617,42 +591,15 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:17.967617Z"
+                "nikstream": "2025-07-23T08:33:14.910342Z"
             },
             "addedAt": "2025-05-23T11:21:55.483701Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=fullporner.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 12287,
-            "status": 1,
-            "language": "en",
-            "authors": [
-                "coxju",
-                "SaurabhKaperwan"
-            ],
-            "tvTypes": [
-                "NSFW"
-            ],
-            "version": 4,
-            "internalName": "FullPorner",
-            "description": "(VPN) FullPorner is the best free full length porn video site. Choose from millions of hardcore videos that stream quickly and in high quality and only full length",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FullPorner.cs3",
-            "name": "FullPorner",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:18.085374Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.483710Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 26454,
+            "fileSize": 26816,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -664,7 +611,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 26,
+            "version": 27,
             "internalName": "HDFilmCehennemi",
             "description": "Türkiye'nin en hızlı hd film izleme sitesi",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmCehennemi.cs3",
@@ -673,7 +620,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:18.171385Z"
+                "nikstream": "2025-07-23T08:33:15.048135Z"
             },
             "addedAt": "2025-05-23T11:21:55.483718Z"
         },
@@ -681,7 +628,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.hdfilmcehennemi2.nl&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 24073,
+            "fileSize": 24406,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -690,7 +637,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 5,
+            "version": 6,
             "internalName": "HDFilmCehennemi2",
             "description": "Full hd film izleme keyfini hdfilmcehennemi2 ile yaşayın. Türkiyenin en güncel yüksek hd kalitede film izleme sitesi.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmCehennemi2.cs3",
@@ -699,7 +646,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:18.287405Z"
+                "nikstream": "2025-07-23T08:33:15.168605Z"
             },
             "addedAt": "2025-05-23T11:21:55.483727Z"
         },
@@ -707,7 +654,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmizle.to&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 27426,
+            "fileSize": 28091,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -717,7 +664,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 3,
+            "version": 4,
             "internalName": "HDFilmIzle",
             "description": "HDFilmizle ile Full HD izle, 1080p kalitede Yerli ve Yabancı filmlerle Türkçe dublaj veya Altyazı olarak kesintisiz film izlemenin tadını çıkarın.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmIzle.cs3",
@@ -726,7 +673,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:18.373457Z"
+                "nikstream": "2025-07-23T08:33:15.299238Z"
             },
             "addedAt": "2025-05-23T11:21:55.483735Z"
         },
@@ -734,7 +681,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmsitesi.net&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 22395,
+            "fileSize": 22822,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -743,7 +690,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 9,
+            "version": 10,
             "internalName": "HDFilmSitesi",
             "description": "Film izle, Hdfilmsitesi ile Online 1080p ve 4K kalite Full HD Filmlere Türkçe Dublaj ve Altyazılı olarak Reklamsız Kesintisiz HD Film izle.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmSitesi.cs3",
@@ -755,33 +702,6 @@
                 "nikstream": "2025-03-18T11:17:18Z"
             },
             "addedAt": "2025-05-23T11:21:55.483744Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=hqporner.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 17213,
-            "status": 1,
-            "language": "en",
-            "authors": [
-                "keyiflerolsun",
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "NSFW"
-            ],
-            "version": 4,
-            "internalName": "HQPorner",
-            "description": "Truly high definition porn videos and truly for free! We're sure you'll like our best collection containing thousands of 4K, 60FPS and 1080p free HD porn videos with the hottest girls ever!",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HQPorner.cs3",
-            "name": "HQPorner",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:18.562897Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.483753Z"
         },
         {
             "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3vCp6N1K4bECoYRQD-cisJF2_6V_Hk01ZhDmoPR2JuM8O5qr4MqrPO1munM9cRlleBBSK6odYhLtDBWv4E3vhPhynlmS5hVVtJZShHoGA5REQ8_3v8SIlccTEqzVQu2UJyNYQdJNrKIfWy66RQeT0D-CcmFCbHPz5023H6p2v5fv4NVloZ5Rqo_yGrIY/s320/iNat-Box-App.png",
@@ -808,7 +728,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:18.658799Z"
+                "nikstream": "2025-07-23T08:33:15.592006Z"
             },
             "addedAt": "2025-05-23T11:21:55.483761Z"
         },
@@ -816,7 +736,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://jetfilmizle.de&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 21804,
+            "fileSize": 23231,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -826,7 +746,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 28,
+            "version": 29,
             "internalName": "JetFilmizle",
             "description": "Binlerce Film İzleme Seçeneğiyle En İyi Film İzleme Sitesi",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/JetFilmizle.cs3",
@@ -835,7 +755,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:18.749486Z"
+                "nikstream": "2025-07-23T08:33:15.711727Z"
             },
             "addedAt": "2025-05-23T11:21:55.483770Z"
         },
@@ -861,7 +781,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:18.878070Z"
+                "nikstream": "2025-07-23T08:33:15.837617Z"
             },
             "addedAt": "2025-05-23T11:21:55.483778Z"
         },
@@ -869,7 +789,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=kultfilmler.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 19496,
+            "fileSize": 19554,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -880,7 +800,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 9,
+            "version": 10,
             "internalName": "KultFilmler",
             "description": "Kült Filmler özenle en iyi filmleri derler ve iyi bir altyazılı film izleme deneyimi sunmayı amaçlar",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/KultFilmler.cs3",
@@ -889,92 +809,9 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:18.964801Z"
+                "nikstream": "2025-07-23T08:33:15.952394Z"
             },
             "addedAt": "2025-05-23T11:21:55.483786Z"
-        },
-        {
-            "iconUrl": "https://netfree2.cc/mobile/img/nf2/icon_x192.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 47466,
-            "status": 1,
-            "language": "en",
-            "authors": [
-                "Horis, megix",
-                "keyiflerolsun"
-            ],
-            "tvTypes": [
-                "Movie",
-                "TvSeries"
-            ],
-            "version": 15,
-            "internalName": "NetflixMirror",
-            "description": "Netflix, PrimeVideo Content in Multiple Languages",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/NetflixMirror.cs3",
-            "name": "NetflixMirror",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:19.075714Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.483795Z"
-        },
-        {
-            "iconUrl": "https://cdn1.iconfinder.com/data/icons/nsfw-1/64/tv-adult-content-porn-512.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 14005,
-            "status": 1,
-            "language": "ru",
-            "authors": [
-                "keyiflerolsun",
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "NSFW",
-                "Live"
-            ],
-            "version": 2,
-            "internalName": "OxAx",
-            "description": "(VPN) ОХ-АХ.ТВ - сайт для просмотра взрослых ТВ онлайн без каких либо регистраций. Смотрите бесплатно на мобильных устройствах iPad, iPhone и Android.",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/OxAx.cs3",
-            "name": "OxAx",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:19.172582Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.483804Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=pornhub.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 11465,
-            "status": 1,
-            "language": "en",
-            "authors": [
-                "keyiflerolsun",
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "NSFW"
-            ],
-            "version": 2,
-            "internalName": "PornHub",
-            "description": "(VPN) Pornhub is the world’s leading free porn site. Choose from millions of hardcore videos that stream quickly and in high quality, including amazing VR Porn. The largest adult site on the Internet just keeps getting better. We have more pornstars and real amateurs than anyone else. It’s fast, it’s free, it’s Pornhub!",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/PornHub.cs3",
-            "name": "PornHub",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:19.268399Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.483812Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -998,7 +835,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:19.359796Z"
+                "nikstream": "2025-07-23T08:33:16.077755Z"
             },
             "addedAt": "2025-05-23T11:21:55.483821Z"
         },
@@ -1024,36 +861,9 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:19.460571Z"
+                "nikstream": "2025-07-23T08:33:16.220663Z"
             },
             "addedAt": "2025-05-23T11:21:55.483829Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=rarefilmm.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 14702,
-            "status": 1,
-            "language": "en",
-            "authors": [
-                "keyiflerolsun",
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 2,
-            "internalName": "RareFilmm",
-            "description": "The Cave of Forgotten Films",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/RareFilmm.cs3",
-            "name": "RareFilmm",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:19.614403Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.483838Z"
         },
         {
             "iconUrl": "https://rectvapk.cc/wp-content/uploads/2023/02/Rec-TV.webp",
@@ -1083,7 +893,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:19.708985Z"
+                "nikstream": "2025-07-23T08:33:16.323675Z"
             },
             "addedAt": "2025-05-23T11:21:55.483846Z"
         },
@@ -1091,7 +901,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=roketdizi.co&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 36041,
+            "fileSize": 37200,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1100,7 +910,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 12,
+            "version": 13,
             "internalName": "RoketDizi",
             "description": "Türkiye'nin en tatlış yabancı dizi izleme sitesi. Türkçe dublaj, altyazılı, eski ve yeni yabancı dizilerin yanı sıra kore (asya) dizileri izleyebilirsiniz.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/RoketDizi.cs3",
@@ -1109,7 +919,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:19.815659Z"
+                "nikstream": "2025-07-23T08:33:16.451526Z"
             },
             "addedAt": "2025-05-23T11:21:55.483855Z"
         },
@@ -1117,7 +927,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=selcukflix.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 28865,
+            "fileSize": 29965,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1127,7 +937,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 3,
+            "version": 4,
             "internalName": "SelcukFlix",
             "description": "Selcukflix'te her türden en yeni ve en popüler dizi ve filmleri izlemenin keyfini çıkarın. Aksiyondan romantiğe, bilim kurgudan dramaya, geniş kütüphanemizde herkes için bir şey var.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SelcukFlix.cs3",
@@ -1136,7 +946,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:19.981792Z"
+                "nikstream": "2025-07-23T08:33:16.572326Z"
             },
             "addedAt": "2025-05-23T11:21:55.483864Z"
         },
@@ -1144,7 +954,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.setfilmizle.de&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 22654,
+            "fileSize": 22711,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1154,7 +964,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 12,
+            "version": 13,
             "internalName": "SetFilmIzle",
             "description": "Setfilmizle sitemizde, donma yaşamadan Türkçe dublaj ve altyazılı filmleri ile dizileri muhteşem 1080p full HD kalitesinde izleyebilirsiniz.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SetFilmIzle.cs3",
@@ -1163,7 +973,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:20.078502Z"
+                "nikstream": "2025-07-23T08:33:16.697255Z"
             },
             "addedAt": "2025-05-23T11:21:55.484051Z"
         },
@@ -1171,7 +981,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=sezonlukdizi6.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 22170,
+            "fileSize": 22499,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1182,7 +992,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 4,
+            "version": 5,
             "internalName": "SezonlukDizi",
             "description": "Güncel ve eski dizileri en iyi görüntü kalitesiyle bulabileceğiniz yabancı dizi izleme siteniz.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SezonlukDizi.cs3",
@@ -1191,7 +1001,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:20.190547Z"
+                "nikstream": "2025-07-23T08:33:16.788663Z"
             },
             "addedAt": "2025-05-23T11:21:55.484061Z"
         },
@@ -1199,7 +1009,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.sinema.cx&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 14359,
+            "fileSize": 14400,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1209,7 +1019,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 8,
+            "version": 9,
             "internalName": "SinemaCX",
             "description": "Güncel ve en iyi yabancı filmleri yüksek görüntü kalitesinde, Türkçe dublaj ve altyazı seçenekleriyle filmleri full izleyin.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SinemaCX.cs3",
@@ -1218,7 +1028,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:20.282183Z"
+                "nikstream": "2025-07-23T08:33:16.927206Z"
             },
             "addedAt": "2025-05-23T11:21:55.484069Z"
         },
@@ -1226,7 +1036,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://www.sinewix.com/&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 27853,
+            "fileSize": 28369,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1237,7 +1047,7 @@
                 "TvSeries",
                 "Anime"
             ],
-            "version": 1,
+            "version": 2,
             "internalName": "SineWix",
             "description": "SineWix | Film - Dizi - Anime İzleme Uygulaması",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SineWix.cs3",
@@ -1246,43 +1056,15 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:20.409867Z"
+                "nikstream": "2025-07-23T08:33:17.054746Z"
             },
             "addedAt": "2025-06-02T11:19:39.555379Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=spankbang.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 12167,
-            "status": 1,
-            "language": "en",
-            "authors": [
-                "coxju",
-                "keyiflerolsun",
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "NSFW"
-            ],
-            "version": 2,
-            "internalName": "SpankBang",
-            "description": "(VPN) SpankBang is the hottest free porn site in the world! Cum like never before and explore millions of fresh and free porn videos! Get lit on SpankBang!",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SpankBang.cs3",
-            "name": "SpankBang",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:20.500586Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.484078Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.superfilmgeldi.biz&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 18231,
+            "fileSize": 18260,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1292,7 +1074,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 10,
+            "version": 11,
             "internalName": "SuperFilmGeldi",
             "description": "Hd film izliyerek arkadaşlarınızla ve sevdiklerinizle iyi bir vakit geçirmek istiyorsanız açın bir film eğlenmeye bakın. Bilim kurgu filmleri, aşk drama vahşet aşk romantik sıradışı korku filmlerini izle.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SuperFilmGeldi.cs3",
@@ -1301,35 +1083,9 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:20.608856Z"
+                "nikstream": "2025-07-23T08:33:17.166339Z"
             },
             "addedAt": "2025-05-23T11:21:55.484086Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=tafdi.info&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 11848,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 2,
-            "internalName": "Tafdi",
-            "description": "Türkçe altyazılı film izle, full hd olarak film izlemenin keyfini çıkarın. Türkiyenin en büyük film izleme platformu tafdi kalitesiyle sizlerle.",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/Tafdi.cs3",
-            "name": "Tafdi",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:20.732860Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.484095Z"
         },
         {
             "iconUrl": "https://www.tlctv.com.tr/favicon.ico",
@@ -1353,7 +1109,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:20.817449Z"
+                "nikstream": "2025-07-23T08:33:17.285302Z"
             },
             "addedAt": "2025-05-23T11:21:55.484103Z"
         },
@@ -1379,7 +1135,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:20.926691Z"
+                "nikstream": "2025-07-23T08:33:17.410734Z"
             },
             "addedAt": "2025-05-23T11:21:55.484111Z"
         },
@@ -1387,7 +1143,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.turkanime.co&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 15070,
+            "fileSize": 15085,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1396,7 +1152,7 @@
             "tvTypes": [
                 "Anime"
             ],
-            "version": 1,
+            "version": 2,
             "internalName": "TurkAnime",
             "description": "Türk Anime TV - Türkiye'nin Online Anime izleme sitesi.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/TurkAnime.cs3",
@@ -1405,7 +1161,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:21.035821Z"
+                "nikstream": "2025-07-23T08:33:17.508211Z"
             },
             "addedAt": "2025-05-23T11:21:55.484120Z"
         },
@@ -1413,7 +1169,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=tvdiziler.cc&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 26718,
+            "fileSize": 26740,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1422,7 +1178,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 2,
+            "version": 3,
             "internalName": "TvDiziler",
             "description": "Ücretsiz yerli dizi izleme sitesi en popüler dizileri tek parça hd kalitesiyle ve reklamsız bedava olarak buradan tv dizileri izleyin.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/TvDiziler.cs3",
@@ -1431,7 +1187,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:21.159652Z"
+                "nikstream": "2025-07-23T08:33:17.613980Z"
             },
             "addedAt": "2025-05-23T11:21:55.484128Z"
         },
@@ -1439,7 +1195,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=ugurfilm7.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 21155,
+            "fileSize": 21206,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1449,7 +1205,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 4,
+            "version": 5,
             "internalName": "UgurFilm",
             "description": "Yabancı film izle, Türkçe dublaj ve Türkçe altyazılı film seçenekleriyle 720p ve 1080p HD kalitesinde film izle - Uğur Film full hd film izle.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/UgurFilm.cs3",
@@ -1458,61 +1214,9 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:21.252910Z"
+                "nikstream": "2025-07-23T08:33:17.734397Z"
             },
             "addedAt": "2025-05-23T11:21:55.484136Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=uncutmaza.cc&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 9804,
-            "status": 1,
-            "language": "hi",
-            "authors": [
-                "coxju"
-            ],
-            "tvTypes": [
-                "NSFW"
-            ],
-            "version": 4,
-            "internalName": "UncutMaza",
-            "description": "(VPN) We Provide Huge Colocation of Hindi Porn (Uncut) Web Series",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/UncutMaza.cs3",
-            "name": "UncutMaza",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:21.345639Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.484145Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=vavoo.to&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 12287,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Live"
-            ],
-            "version": 2,
-            "internalName": "Vavoo",
-            "description": "Vavoo Kanalları",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/Vavoo.cs3",
-            "name": "Vavoo",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:21.428555Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.484153Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
@@ -1536,41 +1240,15 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:21.526600Z"
+                "nikstream": "2025-07-23T08:33:17.839894Z"
             },
             "addedAt": "2025-05-23T11:21:55.484161Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=watch2movies.net&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 18386,
-            "status": 3,
-            "language": "en",
-            "authors": [
-                "keyiflerolsun"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 0,
-            "internalName": "Watch2Movies",
-            "description": "!!! YAPIM AŞAMASINDA !!! Watch2Movies is a Free Movies streaming site with zero ads. We let you watch movies online without having to register or paying, with over 10000 movies and TV-Series. You can also Download full movies from Watch2Movies and watch it later if you want.",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/Watch2Movies.cs3",
-            "name": "Watch2Movies",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:21.626310Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.484170Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 22420,
+            "fileSize": 26974,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1580,7 +1258,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 39,
+            "version": 40,
             "internalName": "WebteIzle",
             "description": "Her türlü filmi ister dublaj ister altyazılı, en kaliteli bir şekilde izleyebileceğiniz arşivi en geniş gerçek film izleme siteniz.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WebteIzle.cs3",
@@ -1589,7 +1267,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:21.751718Z"
+                "nikstream": "2025-07-23T08:33:17.955256Z"
             },
             "addedAt": "2025-05-23T11:21:55.484178Z"
         },
@@ -1597,7 +1275,33 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=wfilmizle.my&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 15328,
+            "fileSize": 15649,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "nikyokki"
+            ],
+            "tvTypes": [
+                "Movie"
+            ],
+            "version": 6,
+            "internalName": "WFilmİzle",
+            "description": "Aile Filmleri izle, Yerli ve yabancı en yeni Aile filmlerini Full HD 1080p görüntü kalitesiyle Türkçe Dublaj ve Türkçe Altyazı seçenekleriyle izleyin.",
+            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WFilmİzle.cs3",
+            "name": "WFilmİzle",
+            "repoCodes": [
+                "nikstream"
+            ],
+            "repoTimestamps": {
+                "nikstream": "2025-07-23T08:33:18.068391Z"
+            },
+            "addedAt": "2025-05-23T11:21:55.484187Z"
+        },
+        {
+            "iconUrl": "https://www.google.com/s2/favicons?domain=xprime.tv&sz=%size%",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
+            "fileSize": 28175,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1607,58 +1311,6 @@
                 "Movie"
             ],
             "version": 5,
-            "internalName": "WFilmİzle",
-            "description": "Aile Filmleri izle, Yerli ve yabancı en yeni Aile filmlerini Full HD 1080p görüntü kalitesiyle Türkçe Dublaj ve Türkçe Altyazı seçenekleriyle izleyin.",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WFilmİzle.cs3",
-            "name": "WFilmİzle",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:21.865230Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.484187Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=xhamster.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 10197,
-            "status": 1,
-            "language": "en",
-            "authors": [
-                "coxju"
-            ],
-            "tvTypes": [
-                "NSFW"
-            ],
-            "version": 2,
-            "internalName": "xHamster",
-            "description": "(VPN) 5 milyondan fazla Porno Videosunu ücretsiz izleyin.",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/xHamster.cs3",
-            "name": "xHamster",
-            "repoCodes": [
-                "nikstream"
-            ],
-            "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:21.971654Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.484195Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=xprime.tv&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 27026,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 4,
             "internalName": "XPrime",
             "description": "XPrime.Tv",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/XPrime.cs3",
@@ -1667,7 +1319,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:22.060732Z"
+                "nikstream": "2025-07-23T08:33:18.198572Z"
             },
             "addedAt": "2025-05-23T11:21:55.484204Z"
         },
@@ -1675,7 +1327,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=yabancidizi.tv&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 42409,
+            "fileSize": 42492,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1684,7 +1336,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 4,
+            "version": 5,
             "internalName": "YabanciDizi",
             "description": "Son çıkan yabancı dizi ve filmleri yabancidizi' de izle. En yeni yabancı film ve diziler, türkçe altyazılı yada dublaj olarak 1080p kalitesinde hd izle.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/YabanciDizi.cs3",
@@ -1693,7 +1345,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-23T07:26:22.185468Z"
+                "nikstream": "2025-07-23T08:33:18.329297Z"
             },
             "addedAt": "2025-05-23T11:21:55.484217Z"
         }
