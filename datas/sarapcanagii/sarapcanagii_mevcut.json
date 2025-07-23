@@ -4,7 +4,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizipal954.com&sz=32",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/sarapcanagii/Pitipitii",
-            "fileSize": 20061,
+            "fileSize": 20395,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -14,7 +14,7 @@
                 "TvSeries",
                 "Movie"
             ],
-            "version": 34,
+            "version": 35,
             "internalName": "DiziPal",
             "description": "En yeni dizileri güvenli ve hızlı şekilde sunar.",
             "url": "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/builds/DiziPal.cs3",
@@ -23,7 +23,7 @@
                 "sarapcanagii"
             ],
             "repoTimestamps": {
-                "sarapcanagii": "2025-07-23T14:26:13.271883Z"
+                "sarapcanagii": "2025-07-23T15:27:34.822902Z"
             },
             "addedAt": "2025-05-23T11:21:55.499756Z"
         },
@@ -31,7 +31,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=colorhunt.co&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/sarapcanagii/Pitipitii",
-            "fileSize": 17268,
+            "fileSize": 18700,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -40,7 +40,7 @@
             "tvTypes": [
                 "Live"
             ],
-            "version": 6,
+            "version": 7,
             "internalName": "NeonSpor",
             "description": "(BeIN Sport, Tivibu Spor ve Smart Spor için VPN Gerekebilir.) NeonSpor eklentisini de BeIN Sport, Tabii Spor, Tivibu Spor, Smart Spor, S Sport ve Diğer kanallar mevcuttur.",
             "url": "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/builds/NeonSpor.cs3",
@@ -49,7 +49,7 @@
                 "sarapcanagii"
             ],
             "repoTimestamps": {
-                "sarapcanagii": "2025-07-23T14:26:13.530744Z"
+                "sarapcanagii": "2025-07-23T15:27:34.942753Z"
             },
             "addedAt": "2025-05-23T11:21:55.499775Z"
         }
