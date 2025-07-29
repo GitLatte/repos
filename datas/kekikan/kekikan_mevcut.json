@@ -4,7 +4,7 @@
             "iconUrl": "https://www.4kfilmizleme.net/wp-content/uploads/2022/09/4kfilmizlemefavicon-1.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 36057,
+            "fileSize": 36777,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -13,7 +13,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 23,
+            "version": 24,
             "internalName": "4KFilmIzleme",
             "description": "Film izle, ⚡ En yeni çıkan yabancı vizyon filmleri 4KFilmizleme ile Online 1080p kalite veya Ultra Full HD 4K Film izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/4KFilmIzleme.cs3",
@@ -22,7 +22,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:02.463429Z"
+                "kekikan": "2025-07-29T14:27:39.207431Z"
             },
             "addedAt": "2025-05-23T11:21:55.495613Z"
         },
@@ -48,7 +48,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:02.683489Z"
+                "kekikan": "2025-07-29T14:27:39.304052Z"
             },
             "addedAt": "2025-05-23T11:21:55.495632Z"
         },
@@ -77,7 +77,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:02.910828Z"
+                "kekikan": "2025-07-29T14:27:39.455801Z"
             },
             "addedAt": "2025-05-23T11:21:55.495642Z"
         },
@@ -105,7 +105,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:03.118579Z"
+                "kekikan": "2025-07-29T14:27:39.583657Z"
             },
             "addedAt": "2025-05-23T11:21:55.495654Z"
         },
@@ -131,7 +131,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:03.357951Z"
+                "kekikan": "2025-07-29T14:27:39.758679Z"
             },
             "addedAt": "2025-05-23T11:21:55.495663Z"
         },
@@ -157,7 +157,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:03.583398Z"
+                "kekikan": "2025-07-29T14:27:39.876077Z"
             },
             "addedAt": "2025-05-23T11:21:55.495671Z"
         },
@@ -183,7 +183,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:03.809784Z"
+                "kekikan": "2025-07-29T14:27:40.004101Z"
             },
             "addedAt": "2025-05-23T11:21:55.495680Z"
         },
@@ -209,7 +209,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:04.063036Z"
+                "kekikan": "2025-07-29T14:27:40.120075Z"
             },
             "addedAt": "2025-05-23T11:21:55.495688Z"
         },
@@ -235,7 +235,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:04.282789Z"
+                "kekikan": "2025-07-29T14:27:40.251313Z"
             },
             "addedAt": "2025-05-23T11:21:55.495697Z"
         },
@@ -243,7 +243,7 @@
             "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://asyafilmizlesene.org&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 12449,
+            "fileSize": 12480,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -252,7 +252,7 @@
             "tvTypes": [
                 "AsianDrama"
             ],
-            "version": 1,
+            "version": 2,
             "internalName": "AsyaFilmIzlesene",
             "description": "Hint filmleri, Hint filmleri izle, Asya filmleri izle, Kore filmleri izle, HD izle, Full izle, 1080p izle, online izle, Tek parça izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/AsyaFilmIzlesene.cs3",
@@ -261,7 +261,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:04.514850Z"
+                "kekikan": "2025-07-29T14:27:40.364108Z"
             },
             "addedAt": "2025-07-29T12:52:31.261412Z"
         },
@@ -287,7 +287,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:04.757115Z"
+                "kekikan": "2025-07-29T14:27:40.499948Z"
             },
             "addedAt": "2025-07-15T15:25:05.982852Z"
         },
@@ -313,7 +313,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:04.992183Z"
+                "kekikan": "2025-07-29T14:27:40.627550Z"
             },
             "addedAt": "2025-07-15T14:22:26.590804Z"
         },
@@ -341,7 +341,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:05.230255Z"
+                "kekikan": "2025-07-29T14:27:40.732244Z"
             },
             "addedAt": "2025-05-23T11:21:55.495705Z"
         },
@@ -367,7 +367,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:05.451158Z"
+                "kekikan": "2025-07-29T14:27:40.906931Z"
             },
             "addedAt": "2025-06-21T12:40:51.162603Z"
         },
@@ -393,7 +393,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:05.704197Z"
+                "kekikan": "2025-07-29T14:27:41.016039Z"
             },
             "addedAt": "2025-05-23T11:21:55.495730Z"
         },
@@ -420,7 +420,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:05.901102Z"
+                "kekikan": "2025-07-29T14:27:41.167140Z"
             },
             "addedAt": "2025-07-15T15:25:05.982903Z"
         },
@@ -448,7 +448,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:06.182188Z"
+                "kekikan": "2025-07-29T14:27:41.287387Z"
             },
             "addedAt": "2025-07-15T15:25:05.982920Z"
         },
@@ -475,7 +475,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:06.399833Z"
+                "kekikan": "2025-07-29T14:27:41.394907Z"
             },
             "addedAt": "2025-05-23T11:21:55.495738Z"
         },
@@ -502,7 +502,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:06.620189Z"
+                "kekikan": "2025-07-29T14:27:41.497856Z"
             },
             "addedAt": "2025-07-15T15:25:05.982946Z"
         },
@@ -529,7 +529,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:06.910093Z"
+                "kekikan": "2025-07-29T14:27:41.635624Z"
             },
             "addedAt": "2025-05-23T11:21:55.495747Z"
         },
@@ -556,7 +556,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:07.127940Z"
+                "kekikan": "2025-07-29T14:27:41.747379Z"
             },
             "addedAt": "2025-05-23T11:21:55.495755Z"
         },
@@ -564,7 +564,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizikorea.pw&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 29339,
+            "fileSize": 29674,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -574,7 +574,7 @@
                 "AsianDrama",
                 "Movie"
             ],
-            "version": 10,
+            "version": 11,
             "internalName": "DiziKorea",
             "description": "Kore Dizileri izle, Dizikorea size en yeni ve güncel romantik komedi, okul tarzında ki Kore Asya Dizilerini Full HD Türkçe Altyazılı izleme şansı verir.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziKorea.cs3",
@@ -583,7 +583,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:07.337197Z"
+                "kekikan": "2025-07-29T14:27:41.946679Z"
             },
             "addedAt": "2025-05-23T11:21:55.495764Z"
         },
@@ -591,7 +591,7 @@
             "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://dizikral.nl/mofy/img/192x192_.png&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 19063,
+            "fileSize": 19488,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -600,7 +600,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 10,
+            "version": 11,
             "internalName": "DiziKral",
             "description": "DiziKRAL - ücretsiz yabancı dizi izle, film izle, anime izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziKral.cs3",
@@ -609,7 +609,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:07.555191Z"
+                "kekikan": "2025-07-29T14:27:42.065287Z"
             },
             "addedAt": "2025-05-23T11:21:55.495772Z"
         },
@@ -617,7 +617,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizilla.club&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 43851,
+            "fileSize": 44481,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -627,7 +627,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 43,
+            "version": 44,
             "internalName": "Dizilla",
             "description": "Dizilla tüm yabancı dizileri ücretsiz olarak Türkçe Dublaj ve altyazılı seçenekleri ile 1080P kalite izleyebileceğiniz yeni nesil yabancı dizi izleme siteniz.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/Dizilla.cs3",
@@ -636,7 +636,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:07.762269Z"
+                "kekikan": "2025-07-29T14:27:42.169145Z"
             },
             "addedAt": "2025-07-02T19:18:36.598883Z"
         },
@@ -662,7 +662,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:08.006496Z"
+                "kekikan": "2025-07-29T14:27:42.284128Z"
             },
             "addedAt": "2025-05-23T11:21:55.495788Z"
         },
@@ -688,7 +688,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:08.292027Z"
+                "kekikan": "2025-07-29T14:27:42.402539Z"
             },
             "addedAt": "2025-05-23T11:21:55.495797Z"
         },
@@ -714,7 +714,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:08.525354Z"
+                "kekikan": "2025-07-29T14:27:42.528963Z"
             },
             "addedAt": "2025-05-23T11:21:55.495805Z"
         },
@@ -742,7 +742,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:08.759411Z"
+                "kekikan": "2025-07-29T14:27:42.663178Z"
             },
             "addedAt": "2025-05-23T11:21:55.495813Z"
         },
@@ -750,7 +750,7 @@
             "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://dizipal932.com&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 41398,
+            "fileSize": 42055,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -759,7 +759,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 24,
+            "version": 25,
             "internalName": "DiziPalOrijinal",
             "description": "DiziPal Orijinal.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziPalOrijinal.cs3",
@@ -768,7 +768,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:08.990201Z"
+                "kekikan": "2025-07-29T14:27:42.776267Z"
             },
             "addedAt": "2025-06-25T03:21:47.334319Z"
         },
@@ -794,7 +794,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:09.212567Z"
+                "kekikan": "2025-07-29T14:27:42.912024Z"
             },
             "addedAt": "2025-06-22T23:20:45.258953Z"
         },
@@ -802,7 +802,7 @@
             "iconUrl": "https://icons.iconarchive.com/icons/yohproject/crayon-cute/256/movies-icon.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 37429,
+            "fileSize": 38154,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -813,7 +813,7 @@
                 "Movie",
                 "Anime"
             ],
-            "version": 19,
+            "version": 20,
             "internalName": "DiziYo",
             "description": "Diziyo ile Yabancı Dizi, Film, Anime, Çizgi-Film izle.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziYo.cs3",
@@ -822,7 +822,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:09.445139Z"
+                "kekikan": "2025-07-29T14:27:43.031774Z"
             },
             "addedAt": "2025-05-23T11:21:55.495822Z"
         },
@@ -848,7 +848,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:09.708109Z"
+                "kekikan": "2025-07-29T14:27:43.191017Z"
             },
             "addedAt": "2025-05-23T11:21:55.495830Z"
         },
@@ -874,7 +874,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:10.027537Z"
+                "kekikan": "2025-07-29T14:27:43.318282Z"
             },
             "addedAt": "2025-05-23T11:21:55.495838Z"
         },
@@ -901,7 +901,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:10.276446Z"
+                "kekikan": "2025-07-29T14:27:43.443298Z"
             },
             "addedAt": "2025-05-23T11:21:55.495847Z"
         },
@@ -927,7 +927,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:10.509426Z"
+                "kekikan": "2025-07-29T14:27:43.551041Z"
             },
             "addedAt": "2025-06-16T16:29:35.180497Z"
         },
@@ -953,7 +953,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:10.726293Z"
+                "kekikan": "2025-07-29T14:27:43.673809Z"
             },
             "addedAt": "2025-06-13T13:33:54.879025Z"
         },
@@ -982,7 +982,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:10.939363Z"
+                "kekikan": "2025-07-29T14:27:43.790087Z"
             },
             "addedAt": "2025-05-23T11:21:55.495872Z"
         },
@@ -1008,7 +1008,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:11.136896Z"
+                "kekikan": "2025-07-29T14:27:43.914648Z"
             },
             "addedAt": "2025-05-23T11:21:55.495880Z"
         },
@@ -1035,7 +1035,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:11.359123Z"
+                "kekikan": "2025-07-29T14:27:44.038969Z"
             },
             "addedAt": "2025-05-23T11:21:55.495889Z"
         },
@@ -1061,7 +1061,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:11.592817Z"
+                "kekikan": "2025-07-29T14:27:44.166072Z"
             },
             "addedAt": "2025-05-23T11:21:55.495905Z"
         },
@@ -1087,7 +1087,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:11.823014Z"
+                "kekikan": "2025-07-29T14:27:44.283675Z"
             },
             "addedAt": "2025-06-20T23:22:13.496092Z"
         },
@@ -1113,7 +1113,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:12.013397Z"
+                "kekikan": "2025-07-29T14:27:44.402170Z"
             },
             "addedAt": "2025-05-23T11:21:55.495914Z"
         },
@@ -1142,7 +1142,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:12.248797Z"
+                "kekikan": "2025-07-29T14:27:44.581994Z"
             },
             "addedAt": "2025-05-23T11:21:55.495931Z"
         },
@@ -1168,7 +1168,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:12.487677Z"
+                "kekikan": "2025-07-29T14:27:44.697678Z"
             },
             "addedAt": "2025-05-23T11:21:55.495939Z"
         },
@@ -1194,7 +1194,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:12.702943Z"
+                "kekikan": "2025-07-29T14:27:44.805963Z"
             },
             "addedAt": "2025-07-27T18:31:43.376198Z"
         },
@@ -1223,7 +1223,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:12.905791Z"
+                "kekikan": "2025-07-29T14:27:44.922385Z"
             },
             "addedAt": "2025-05-23T11:21:55.495964Z"
         },
@@ -1249,7 +1249,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:13.132782Z"
+                "kekikan": "2025-07-29T14:27:45.032875Z"
             },
             "addedAt": "2025-05-23T11:21:55.495973Z"
         },
@@ -1276,7 +1276,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:13.358908Z"
+                "kekikan": "2025-07-29T14:27:45.147831Z"
             },
             "addedAt": "2025-05-23T11:21:55.495989Z"
         },
@@ -1302,7 +1302,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:13.596402Z"
+                "kekikan": "2025-07-29T14:27:45.264357Z"
             },
             "addedAt": "2025-05-23T11:21:55.495998Z"
         },
@@ -1329,7 +1329,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:13.858158Z"
+                "kekikan": "2025-07-29T14:27:45.380232Z"
             },
             "addedAt": "2025-05-23T11:21:55.496006Z"
         },
@@ -1355,7 +1355,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:14.060159Z"
+                "kekikan": "2025-07-29T14:27:45.486814Z"
             },
             "addedAt": "2025-05-23T11:21:55.496022Z"
         },
@@ -1386,7 +1386,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:14.303701Z"
+                "kekikan": "2025-07-29T14:27:45.611790Z"
             },
             "addedAt": "2025-05-23T11:21:55.496031Z"
         },
@@ -1394,7 +1394,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=roketdizi.co&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 37714,
+            "fileSize": 38367,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1404,7 +1404,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 23,
+            "version": 24,
             "internalName": "RoketDizi",
             "description": "Türkiye'nin en tatlış yabancı dizi izleme sitesi. Türkçe dublaj, altyazılı, eski ve yeni yabancı dizilerin yanı sıra kore (asya) dizileri izleyebilirsiniz.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/RoketDizi.cs3",
@@ -1413,7 +1413,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:14.532025Z"
+                "kekikan": "2025-07-29T14:27:45.730388Z"
             },
             "addedAt": "2025-05-23T11:21:55.496039Z"
         },
@@ -1441,7 +1441,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:14.766087Z"
+                "kekikan": "2025-07-29T14:27:45.869542Z"
             },
             "addedAt": "2025-07-16T22:23:30.879093Z"
         },
@@ -1468,7 +1468,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:14.969509Z"
+                "kekikan": "2025-07-29T14:27:46.023403Z"
             },
             "addedAt": "2025-05-23T11:21:55.496048Z"
         },
@@ -1495,7 +1495,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:15.208469Z"
+                "kekikan": "2025-07-29T14:27:46.125277Z"
             },
             "addedAt": "2025-05-23T11:21:55.496056Z"
         },
@@ -1522,7 +1522,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:15.415938Z"
+                "kekikan": "2025-07-29T14:27:46.244051Z"
             },
             "addedAt": "2025-05-23T11:21:55.496065Z"
         },
@@ -1548,7 +1548,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:15.637464Z"
+                "kekikan": "2025-07-29T14:27:46.375527Z"
             },
             "addedAt": "2025-05-23T11:21:55.496073Z"
         },
@@ -1574,7 +1574,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:15.874867Z"
+                "kekikan": "2025-07-29T14:27:46.489645Z"
             },
             "addedAt": "2025-06-15T02:01:04.549918Z"
         },
@@ -1601,7 +1601,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:16.094829Z"
+                "kekikan": "2025-07-29T14:27:46.604918Z"
             },
             "addedAt": "2025-05-23T11:21:55.496082Z"
         },
@@ -1627,7 +1627,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:16.337434Z"
+                "kekikan": "2025-07-29T14:27:46.756804Z"
             },
             "addedAt": "2025-05-23T11:21:55.496098Z"
         },
@@ -1654,7 +1654,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:16.549413Z"
+                "kekikan": "2025-07-29T14:27:46.884136Z"
             },
             "addedAt": "2025-05-23T11:21:55.496107Z"
         },
@@ -1681,7 +1681,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:16.803624Z"
+                "kekikan": "2025-07-29T14:27:47.020917Z"
             },
             "addedAt": "2025-05-23T11:21:55.496115Z"
         },
@@ -1689,7 +1689,7 @@
             "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://unutulmazfilmler4.com/&size=64",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 39247,
+            "fileSize": 39937,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1699,7 +1699,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 9,
+            "version": 10,
             "internalName": "UnutulmazFilmler",
             "description": "Yıllar geçse bile izledikten sonraki etkisi hala süren o unutulmaz filmleri sizler için derliyoruz. Altyazılı film izle. Sadece En iyi filmler.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/UnutulmazFilmler.cs3",
@@ -1708,7 +1708,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:17.025269Z"
+                "kekikan": "2025-07-29T14:27:47.167062Z"
             },
             "addedAt": "2025-07-17T15:26:28.620318Z"
         },
@@ -1736,7 +1736,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:17.265875Z"
+                "kekikan": "2025-07-29T14:27:47.290291Z"
             },
             "addedAt": "2025-07-02T17:20:37.219704Z"
         },
@@ -1762,7 +1762,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:17.490275Z"
+                "kekikan": "2025-07-29T14:27:47.406659Z"
             },
             "addedAt": "2025-05-23T11:21:55.496149Z"
         },
@@ -1788,7 +1788,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:17.724748Z"
+                "kekikan": "2025-07-29T14:27:47.536187Z"
             },
             "addedAt": "2025-05-23T11:21:55.496165Z"
         },
@@ -1814,7 +1814,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:17.987169Z"
+                "kekikan": "2025-07-29T14:27:47.654096Z"
             },
             "addedAt": "2025-07-17T11:21:31.106066Z"
         },
@@ -1843,7 +1843,7 @@
                 "kekikan"
             ],
             "repoTimestamps": {
-                "kekikan": "2025-07-29T13:43:18.195701Z"
+                "kekikan": "2025-07-29T14:27:47.754571Z"
             },
             "addedAt": "2025-05-23T11:21:55.496174Z"
         }
