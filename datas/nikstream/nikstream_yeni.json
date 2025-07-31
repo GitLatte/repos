@@ -22,7 +22,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:40.293288Z"
+                "nikstream": "2025-07-31T21:22:56.298037Z"
             },
             "addedAt": "2025-05-23T11:21:55.483495Z"
         },
@@ -78,7 +78,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:40.625682Z"
+                "nikstream": "2025-07-31T21:22:56.874100Z"
             },
             "addedAt": "2025-05-23T11:21:55.483526Z"
         },
@@ -106,7 +106,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:40.747487Z"
+                "nikstream": "2025-07-31T21:22:57.114662Z"
             },
             "addedAt": "2025-05-23T11:21:55.483535Z"
         },
@@ -134,7 +134,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:40.844279Z"
+                "nikstream": "2025-07-31T21:22:57.451762Z"
             },
             "addedAt": "2025-05-23T11:21:55.483546Z"
         },
@@ -161,7 +161,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:40.947100Z"
+                "nikstream": "2025-07-31T21:22:57.673542Z"
             },
             "addedAt": "2025-05-23T11:21:55.483555Z"
         },
@@ -189,7 +189,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:41.037605Z"
+                "nikstream": "2025-07-31T21:22:57.929448Z"
             },
             "addedAt": "2025-05-23T11:21:55.483565Z"
         },
@@ -216,7 +216,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:41.124816Z"
+                "nikstream": "2025-07-31T21:22:58.130888Z"
             },
             "addedAt": "2025-05-23T11:21:55.483573Z"
         },
@@ -242,7 +242,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:41.201354Z"
+                "nikstream": "2025-07-31T21:22:58.394176Z"
             },
             "addedAt": "2025-05-23T11:21:55.483582Z"
         },
@@ -269,7 +269,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:41.307086Z"
+                "nikstream": "2025-07-31T21:22:58.605170Z"
             },
             "addedAt": "2025-05-23T11:21:55.483590Z"
         },
@@ -322,7 +322,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:41.617444Z"
+                "nikstream": "2025-07-31T21:22:59.135724Z"
             },
             "addedAt": "2025-05-23T11:21:55.483607Z"
         },
@@ -349,7 +349,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:41.703028Z"
+                "nikstream": "2025-07-31T21:22:59.365154Z"
             },
             "addedAt": "2025-05-23T11:21:55.483616Z"
         },
@@ -404,7 +404,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:41.955501Z"
+                "nikstream": "2025-07-31T21:22:59.920293Z"
             },
             "addedAt": "2025-05-23T11:21:55.483633Z"
         },
@@ -430,7 +430,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:42.042137Z"
+                "nikstream": "2025-07-31T21:23:00.137334Z"
             },
             "addedAt": "2025-05-23T11:21:55.483641Z"
         },
@@ -438,7 +438,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.filmizleilk.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 19944,
+            "fileSize": 19951,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -448,7 +448,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 1,
+            "version": 2,
             "internalName": "FilmIzleIlk",
             "description": "Filmizleilk.com Yerli ve Yabancı en son Film ve Dizileri Full HD 1080p Bluray Tek Part Full izle",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FilmIzleIlk.cs3",
@@ -457,7 +457,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:42.135108Z"
+                "nikstream": "2025-07-31T21:23:00.351930Z"
             },
             "addedAt": "2025-07-31T13:40:37.658825Z"
         },
@@ -483,7 +483,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:42.212060Z"
+                "nikstream": "2025-07-31T21:23:00.559502Z"
             },
             "addedAt": "2025-05-23T11:21:55.483658Z"
         },
@@ -511,7 +511,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:42.312788Z"
+                "nikstream": "2025-07-31T21:23:00.779280Z"
             },
             "addedAt": "2025-05-23T11:21:55.483667Z"
         },
@@ -538,7 +538,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:42.418340Z"
+                "nikstream": "2025-07-31T21:23:00.979371Z"
             },
             "addedAt": "2025-05-23T11:21:55.483676Z"
         },
@@ -565,7 +565,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:42.491876Z"
+                "nikstream": "2025-07-31T21:23:01.244438Z"
             },
             "addedAt": "2025-05-23T11:21:55.483684Z"
         },
@@ -591,7 +591,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:42.577871Z"
+                "nikstream": "2025-07-31T21:23:01.464455Z"
             },
             "addedAt": "2025-05-23T11:21:55.483693Z"
         },
@@ -618,7 +618,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:42.682724Z"
+                "nikstream": "2025-07-31T21:23:01.691814Z"
             },
             "addedAt": "2025-05-23T11:21:55.483701Z"
         },
@@ -647,7 +647,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:42.799630Z"
+                "nikstream": "2025-07-31T21:23:01.966207Z"
             },
             "addedAt": "2025-05-23T11:21:55.483718Z"
         },
@@ -673,7 +673,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:42.921027Z"
+                "nikstream": "2025-07-31T21:23:02.220095Z"
             },
             "addedAt": "2025-05-23T11:21:55.483727Z"
         },
@@ -681,7 +681,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmizle.to&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 28268,
+            "fileSize": 28274,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -691,7 +691,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 5,
+            "version": 6,
             "internalName": "HDFilmIzle",
             "description": "HDFilmizle ile Full HD izle, 1080p kalitede Yerli ve Yabancı filmlerle Türkçe dublaj veya Altyazı olarak kesintisiz film izlemenin tadını çıkarın.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmIzle.cs3",
@@ -700,7 +700,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:43.027978Z"
+                "nikstream": "2025-07-31T21:23:02.423960Z"
             },
             "addedAt": "2025-05-23T11:21:55.483735Z"
         },
@@ -708,7 +708,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmsitesi.net&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 22844,
+            "fileSize": 22851,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -717,7 +717,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 11,
+            "version": 12,
             "internalName": "HDFilmSitesi",
             "description": "Film izle, Hdfilmsitesi ile Online 1080p ve 4K kalite Full HD Filmlere Türkçe Dublaj ve Altyazılı olarak Reklamsız Kesintisiz HD Film izle.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmSitesi.cs3",
@@ -755,7 +755,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:43.254879Z"
+                "nikstream": "2025-07-31T21:23:02.922616Z"
             },
             "addedAt": "2025-05-23T11:21:55.483761Z"
         },
@@ -782,7 +782,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:43.329735Z"
+                "nikstream": "2025-07-31T21:23:03.174362Z"
             },
             "addedAt": "2025-05-23T11:21:55.483770Z"
         },
@@ -808,7 +808,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:43.442104Z"
+                "nikstream": "2025-07-31T21:23:03.425673Z"
             },
             "addedAt": "2025-05-23T11:21:55.483778Z"
         },
@@ -836,7 +836,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:43.556369Z"
+                "nikstream": "2025-07-31T21:23:03.647408Z"
             },
             "addedAt": "2025-05-23T11:21:55.483786Z"
         },
@@ -862,7 +862,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:43.640289Z"
+                "nikstream": "2025-07-31T21:23:03.876460Z"
             },
             "addedAt": "2025-05-23T11:21:55.483821Z"
         },
@@ -888,7 +888,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:43.742969Z"
+                "nikstream": "2025-07-31T21:23:04.099227Z"
             },
             "addedAt": "2025-05-23T11:21:55.483829Z"
         },
@@ -920,7 +920,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:43.843149Z"
+                "nikstream": "2025-07-31T21:23:04.307449Z"
             },
             "addedAt": "2025-05-23T11:21:55.483846Z"
         },
@@ -946,7 +946,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:43.947597Z"
+                "nikstream": "2025-07-31T21:23:04.503615Z"
             },
             "addedAt": "2025-05-23T11:21:55.483855Z"
         },
@@ -973,7 +973,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:44.039379Z"
+                "nikstream": "2025-07-31T21:23:04.705089Z"
             },
             "addedAt": "2025-05-23T11:21:55.483864Z"
         },
@@ -1000,7 +1000,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:44.114866Z"
+                "nikstream": "2025-07-31T21:23:04.934771Z"
             },
             "addedAt": "2025-05-23T11:21:55.484051Z"
         },
@@ -1028,7 +1028,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:44.198797Z"
+                "nikstream": "2025-07-31T21:23:05.160398Z"
             },
             "addedAt": "2025-05-23T11:21:55.484061Z"
         },
@@ -1055,7 +1055,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:44.279355Z"
+                "nikstream": "2025-07-31T21:23:05.393242Z"
             },
             "addedAt": "2025-05-23T11:21:55.484069Z"
         },
@@ -1083,7 +1083,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:44.369455Z"
+                "nikstream": "2025-07-31T21:23:05.601644Z"
             },
             "addedAt": "2025-06-02T11:19:39.555379Z"
         },
@@ -1091,7 +1091,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.superfilmgeldi.biz&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 18455,
+            "fileSize": 18454,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1101,7 +1101,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 12,
+            "version": 13,
             "internalName": "SuperFilmGeldi",
             "description": "Hd film izliyerek arkadaşlarınızla ve sevdiklerinizle iyi bir vakit geçirmek istiyorsanız açın bir film eğlenmeye bakın. Bilim kurgu filmleri, aşk drama vahşet aşk romantik sıradışı korku filmlerini izle.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SuperFilmGeldi.cs3",
@@ -1110,7 +1110,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:44.465346Z"
+                "nikstream": "2025-07-31T21:23:05.853106Z"
             },
             "addedAt": "2025-05-23T11:21:55.484086Z"
         },
@@ -1136,7 +1136,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:44.565401Z"
+                "nikstream": "2025-07-31T21:23:06.060506Z"
             },
             "addedAt": "2025-05-23T11:21:55.484103Z"
         },
@@ -1162,7 +1162,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:44.705764Z"
+                "nikstream": "2025-07-31T21:23:06.267029Z"
             },
             "addedAt": "2025-05-23T11:21:55.484111Z"
         },
@@ -1188,7 +1188,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:44.824154Z"
+                "nikstream": "2025-07-31T21:23:06.477950Z"
             },
             "addedAt": "2025-05-23T11:21:55.484120Z"
         },
@@ -1214,7 +1214,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:44.922109Z"
+                "nikstream": "2025-07-31T21:23:06.686983Z"
             },
             "addedAt": "2025-05-23T11:21:55.484128Z"
         },
@@ -1241,7 +1241,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:45.096317Z"
+                "nikstream": "2025-07-31T21:23:06.909208Z"
             },
             "addedAt": "2025-05-23T11:21:55.484136Z"
         },
@@ -1267,7 +1267,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:45.194274Z"
+                "nikstream": "2025-07-31T21:23:07.115140Z"
             },
             "addedAt": "2025-05-23T11:21:55.484161Z"
         },
@@ -1275,7 +1275,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "fileSize": 27052,
+            "fileSize": 27051,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1285,7 +1285,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 44,
+            "version": 45,
             "internalName": "WebteIzle",
             "description": "Her türlü filmi ister dublaj ister altyazılı, en kaliteli bir şekilde izleyebileceğiniz arşivi en geniş gerçek film izleme siteniz.",
             "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WebteIzle.cs3",
@@ -1294,7 +1294,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:45.311500Z"
+                "nikstream": "2025-07-31T21:23:07.342744Z"
             },
             "addedAt": "2025-05-23T11:21:55.484178Z"
         },
@@ -1320,7 +1320,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:45.405143Z"
+                "nikstream": "2025-07-31T21:23:07.540084Z"
             },
             "addedAt": "2025-05-23T11:21:55.484187Z"
         },
@@ -1346,7 +1346,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:45.484492Z"
+                "nikstream": "2025-07-31T21:23:07.762584Z"
             },
             "addedAt": "2025-05-23T11:21:55.484204Z"
         },
@@ -1372,7 +1372,7 @@
                 "nikstream"
             ],
             "repoTimestamps": {
-                "nikstream": "2025-07-31T20:26:45.576820Z"
+                "nikstream": "2025-07-31T21:23:08.064297Z"
             },
             "addedAt": "2025-05-23T11:21:55.484217Z"
         }
