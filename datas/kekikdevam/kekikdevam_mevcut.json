@@ -1,36 +1,10 @@
 {
     "plugins": [
         {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=www.4kfilmizlesene.org&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 11030,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 3,
-            "internalName": "4KFilmIzlesene",
-            "description": "En yeni ve sorunsuz ⚡  Full HD Film izle keyfi her yerde sizinle ! 4K ve 1080p online film izleme farkıyla 4KFilmizlesene&amp;#039;nin Tadını Çıkart.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/4KFilmIzlesene.cs3",
-            "name": "4KFilmIzlesene",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:29.892269Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490466Z"
-        },
-        {
             "iconUrl": "https://anm.cx/favicon.ico",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 25910,
+            "fileSize": 24543,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -50,173 +24,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:30.120354Z"
+                "kekikdevam": "2025-08-11T18:34:58.613549Z"
             },
             "addedAt": "2025-05-23T11:21:55.490486Z"
-        },
-        {
-            "iconUrl": "https://www.animeizlesene.com/public/assets/img/favicon-32x32.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 23575,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kraptor"
-            ],
-            "tvTypes": [
-                "AnimeMovie",
-                "Anime",
-                "Ova"
-            ],
-            "version": 5,
-            "internalName": "AnimeIzlesene",
-            "description": "Sade tasarıma sahip, yüksek kaliteli anime izleme sitesi. En sevdiğiniz anime serilerini, kesintisiz bir şekilde izleyebilirsiniz. Geniş arşivimiz sayesinde, her zaman yeni çıkan animeleri ve eski klasikleri keşfedebilirsiniz.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/AnimeIzlesene.cs3",
-            "name": "AnimeIzlesene",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:30.295732Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490498Z"
-        },
-        {
-            "iconUrl": "https://animeler.me/wp-content/uploads/cropped-animelerpw-48x48.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 24103,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kraptor"
-            ],
-            "tvTypes": [
-                "Anime"
-            ],
-            "version": 4,
-            "internalName": "Animeler",
-            "description": "HD kalitesinde ücretsiz anime izle! Animeler.me, en yeni ve popüler anime serilerini Türkçe altyazılı ve dublajlı olarak sunar. Favori animelerini hemen keşfet!",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/Animeler.cs3",
-            "name": "Animeler",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:30.473184Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490508Z"
-        },
-        {
-            "iconUrl": "https://animex.tr/wp-content/uploads/2024/06/favicon.ico",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 19427,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kraptor"
-            ],
-            "tvTypes": [
-                "Anime"
-            ],
-            "version": 2,
-            "internalName": "Animex",
-            "description": "Anime izle, Anime türkce altyazılı , birbirinden farklı ve güzel en güncel animeleri keyifle seyredebileceğiniz Animex.com.tr anime severlerin en popüler türkçe anime izleme sitesidir.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/Animex.cs3",
-            "name": "Animex",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:30.698678Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490516Z"
-        },
-        {
-            "iconUrl": "https://anizm.net/upload/assets/favicon.ico",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 22588,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kraptor"
-            ],
-            "tvTypes": [
-                "Anime"
-            ],
-            "version": 5,
-            "internalName": "Anizm",
-            "description": "Türkçe Altyazılı Anime İzle.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/Anizm.cs3",
-            "name": "Anizm",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:30.880476Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490525Z"
-        },
-        {
-            "iconUrl": "https://asyaanimeleri.top/wp-content/uploads/2021/08/Asya-animeleri-12-e1629130525708.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 14347,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kraptor"
-            ],
-            "tvTypes": [
-                "Anime"
-            ],
-            "version": 1,
-            "internalName": "AsyaAnimeleri",
-            "description": "Asya Animeleri – Anime izle | Donghua izle | Animeler | Donghuantr | Türkanime | Donghua Anime, Türkçe Altyazılı Anime izle , Türkçe Anime, animeizle.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/AsyaAnimeleri.cs3",
-            "name": "AsyaAnimeleri",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:31.088464Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490534Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=asyawatch.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 28875,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie, TvSeries"
-            ],
-            "version": 2,
-            "internalName": "AsyaWatch",
-            "description": "Asyawatch",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/AsyaWatch.cs3",
-            "name": "AsyaWatch",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:31.254490Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490543Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=belgeselx.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 19401,
+            "fileSize": 19230,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -226,7 +42,7 @@
             "tvTypes": [
                 "Documentary"
             ],
-            "version": 10,
+            "version": 12,
             "internalName": "BelgeselX",
             "description": "En yeni belgeseller, türkçe altyazılı yada dublaj olarak 1080p kalitesinde HD belgesel izle.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/BelgeselX.cs3",
@@ -235,7 +51,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:31.434237Z"
+                "kekikdevam": "2025-08-11T18:34:58.730942Z"
             },
             "addedAt": "2025-05-23T11:21:55.490551Z"
         },
@@ -243,35 +59,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 18366,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "Kraptor123",
-                "Adippe",
-                "keyiflerolsun"
-            ],
-            "tvTypes": [
-                "Live"
-            ],
-            "version": 2,
-            "internalName": "CanliTelevizyon",
-            "description": "Canlı Televiyon Kanallari",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/CanliTelevizyon.cs3",
-            "name": "CanliTelevizyon",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:31.591542Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490560Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 21828,
+            "fileSize": 18683,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -281,7 +69,7 @@
             "tvTypes": [
                 "Live"
             ],
-            "version": 7,
+            "version": 10,
             "internalName": "CanliTV",
             "description": "Canlı TV",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/CanliTV.cs3",
@@ -290,7 +78,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:31.767315Z"
+                "kekikdevam": "2025-08-11T18:34:58.852299Z"
             },
             "addedAt": "2025-05-23T11:21:55.490568Z"
         },
@@ -298,7 +86,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=cizgimax.online&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 18485,
+            "fileSize": 18489,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -316,41 +104,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:31.951924Z"
+                "kekikdevam": "2025-08-11T18:34:58.973454Z"
             },
             "addedAt": "2025-05-23T11:21:55.490577Z"
-        },
-        {
-            "iconUrl": "https://cizgivedizi.com/Logo.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 23940,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kraptor"
-            ],
-            "tvTypes": [
-                "Cartoon"
-            ],
-            "version": 7,
-            "internalName": "CizgiveDizi",
-            "description": "Ücretsiz bir şekilde çizgi dizi, dizi, anime ve daha fazlasını eski-yeni demeden izleyebilirsiniz.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/CizgiveDizi.cs3",
-            "name": "CizgiveDizi",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:32.164912Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490586Z"
         },
         {
             "iconUrl": "https://www.ddizi.im/favicon.ico",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 17487,
+            "fileSize": 17960,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -359,7 +121,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 37,
+            "version": 10,
             "internalName": "Ddizi",
             "description": "DDizi.im için Cloudstream eklentisi",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/Ddizi.cs3",
@@ -368,7 +130,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:32.349111Z"
+                "kekikdevam": "2025-08-11T18:34:59.099406Z"
             },
             "addedAt": "2025-05-23T11:21:55.490594Z"
         },
@@ -394,67 +156,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:32.516212Z"
+                "kekikdevam": "2025-08-11T18:34:59.226899Z"
             },
             "addedAt": "2025-05-23T11:21:55.490603Z"
-        },
-        {
-            "iconUrl": "https://dizifun2.com/images/data/favicon.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 30890,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kraptor"
-            ],
-            "tvTypes": [
-                "TvSeries, Movie"
-            ],
-            "version": 5,
-            "internalName": "DiziFun",
-            "description": "Her Dizi Bir Macera, Her An Bir Keşif!",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DiziFun.cs3",
-            "name": "DiziFun",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:32.705253Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490611Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=dizigom1.co&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 17460,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 4,
-            "internalName": "DiziGom",
-            "description": "Türkçe altyazılı yabancı dizi izle, Tüm yabancı, kore, netflix dizilerin yeni ve eski sezonlarını orijinal dilinde dizigom1 alt yazılı film izleyebilir, sadece türkçe altyazılı en iyi yabancı diziler ve filmler hakkında yorum yapabilirsiniz.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DiziGom.cs3",
-            "name": "DiziGom",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:32.868050Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490620Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizikorea.vip&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 18658,
+            "fileSize": 22836,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -463,7 +173,7 @@
             "tvTypes": [
                 "AsianDrama"
             ],
-            "version": 14,
+            "version": 27,
             "internalName": "DiziKorea",
             "description": "En Güncel Kore Dizileri izleme Sitesi",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DiziKorea.cs3",
@@ -472,7 +182,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:33.033378Z"
+                "kekikdevam": "2025-08-11T18:34:59.349026Z"
             },
             "addedAt": "2025-05-23T11:21:55.490628Z"
         },
@@ -480,7 +190,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizilla.club&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 24347,
+            "fileSize": 27121,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -489,7 +199,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 26,
+            "version": 37,
             "internalName": "Dizilla",
             "description": "Dizilla tüm yabancı dizileri ücretsiz olarak Türkçe Dublaj ve altyazılı seçenekleri ile 1080P kalite izleyebileceğiniz yeni nesil yabancı dizi izleme siteniz.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/Dizilla.cs3",
@@ -498,41 +208,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:33.230608Z"
+                "kekikdevam": "2025-08-11T18:34:59.486295Z"
             },
             "addedAt": "2025-05-23T11:21:55.490637Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=dizimag.net&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 26254,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "TvSeries"
-            ],
-            "version": 9,
-            "internalName": "DiziMag",
-            "description": "En son çıkan yabancı dizi ve filmleri DiziMag farkıyla full hd 1080p kalitede izle. Dizimag Geniş ve güncel arşiviyle dizi ve filmlerin tadını çıkartın.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DiziMag.cs3",
-            "name": "DiziMag",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:33.450040Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490646Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizimom.plus&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 29376,
+            "fileSize": 30861,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -541,7 +225,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 14,
+            "version": 19,
             "internalName": "DiziMom",
             "description": "Binlerce yerli yabancı dizi arşivi, tüm sezonlar, kesintisiz bölümler. Sadece dizi izle, Dizimom heryerde seninle!",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DiziMom.cs3",
@@ -550,41 +234,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:33.628793Z"
+                "kekikdevam": "2025-08-11T18:34:59.600496Z"
             },
             "addedAt": "2025-05-23T11:21:55.490654Z"
-        },
-        {
-            "iconUrl": "view-source:https://dizimore.com/wp-content/uploads/2024/03/morefav.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 17243,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kraptor"
-            ],
-            "tvTypes": [
-                "TvSeries"
-            ],
-            "version": 2,
-            "internalName": "DiziMore",
-            "description": "Sadece Dizi izlemenin Tek Adresin yerli yabancı dizi izlemek için dizimore.com",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DiziMore.cs3",
-            "name": "DiziMore",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:33.834765Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490662Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizipal952.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 17274,
+            "fileSize": 19432,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -595,7 +253,7 @@
                 "TvSeries",
                 "Movie"
             ],
-            "version": 33,
+            "version": 19,
             "internalName": "DiziPal",
             "description": "en yeni dizileri güvenli ve hızlı şekilde sunar.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DiziPal.cs3",
@@ -604,43 +262,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:34.000193Z"
+                "kekikdevam": "2025-08-11T18:34:59.720546Z"
             },
             "addedAt": "2025-05-23T11:21:55.490671Z"
-        },
-        {
-            "iconUrl": "https://www.diziyo.de/wp-content/uploads/2019/11/favicon-150x150.ico",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 17638,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kraptor"
-            ],
-            "tvTypes": [
-                "TvSeries",
-                "Movie",
-                "Anime"
-            ],
-            "version": 2,
-            "internalName": "DiziYo",
-            "description": "Diziyo ile Yabancı Dizi, Film, Anime, Çizgi-Film izle.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DiziYo.cs3",
-            "name": "DiziYo",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:34.185989Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490679Z"
         },
         {
             "iconUrl": "https://cdn.diziyou6.com/wp-content/uploads/2020/04/diziyou-favicon.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 15484,
+            "fileSize": 15805,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -649,7 +279,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 12,
+            "version": 17,
             "internalName": "DiziYou",
             "description": "Diziyou en kaliteli Türkçe dublaj ve altyazılı yabancı dizi izleme sitesidir. Güncel ve efsanevi dizileri 1080p Full HD kalitede izlemek için hemen tıkla!",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DiziYou.cs3",
@@ -658,41 +288,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:34.400217Z"
+                "kekikdevam": "2025-08-11T18:34:59.848429Z"
             },
             "addedAt": "2025-05-23T11:21:55.490688Z"
-        },
-        {
-            "iconUrl": "https://www.dmax.com.tr/favicon.ico",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 13243,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "TvSeries"
-            ],
-            "version": 2,
-            "internalName": "DMax",
-            "description": "DMAX dizi ve programlarını takip etmek için ziyaret edin. DMAX dizi ve programlarını tek parça ve hd kalitesiyle izleyin.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DMax.cs3",
-            "name": "DMax",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:34.564672Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490696Z"
         },
         {
             "iconUrl": "https://raw.githubusercontent.com/Kohi-den/extensions-source/927f9c68fd64ce52f6212ae633d0f0585eca3545/src/en/donghuastream/res/mipmap-xxxhdpi/ic_launcher.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 25819,
+            "fileSize": 25818,
             "status": 1,
             "language": "zh",
             "authors": [
@@ -710,35 +314,9 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:34.723819Z"
+                "kekikdevam": "2025-08-11T18:34:59.995181Z"
             },
             "addedAt": "2025-05-23T11:21:55.490705Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 18683,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "patr0n"
-            ],
-            "tvTypes": [
-                "Live"
-            ],
-            "version": 1,
-            "internalName": "DragonTV",
-            "description": "Canlı TV",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/DragonTV.cs3",
-            "name": "DragonTV",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:34.899661Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490717Z"
         },
         {
             "iconUrl": "https://filmbip.com/uploads/favicon/original/favicon.webp",
@@ -762,67 +340,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:35.071010Z"
+                "kekikdevam": "2025-08-11T18:35:00.116287Z"
             },
             "addedAt": "2025-05-23T11:21:55.490726Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=filmizlesene.plus&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 17149,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 2,
-            "internalName": "Filmİzlesene",
-            "description": "Filmizlesene ile hızlı film izleme fırsatını yakala, en yeni ve iyi filmleri Full HD 1080p kalitesiyle online ve bedava izle",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/Filmİzlesene.cs3",
-            "name": "Filmİzlesene",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:35.319265Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490734Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=filmkovasi.tv&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 17758,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 2,
-            "internalName": "FilmKovasi",
-            "description": "Film Kovasi ⚡ ile en güncel ve sorunsuz Full HD Film izle keyfi her yerde seninle! 1080p online film izleme ayrıcalığıyla Film Kovası'nın Tadını Çıkarın.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/FilmKovasi.cs3",
-            "name": "FilmKovasi",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:35.499397Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490743Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=filmmakinesi.film&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 19586,
+            "fileSize": 17580,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -832,7 +358,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 29,
+            "version": 24,
             "internalName": "FilmMakinesi",
             "description": "Film Makinesi, en yeni ve en güncel filmleri sitemizde full HD kalite farkı ile izleyebilirsiniz. HD film izle denildiğinde akla gelen en kaliteli film izleme sitesi.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/FilmMakinesi.cs3",
@@ -841,7 +367,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:35.692114Z"
+                "kekikdevam": "2025-08-11T18:35:00.238202Z"
             },
             "addedAt": "2025-05-23T11:21:55.490752Z"
         },
@@ -849,7 +375,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.filmmodu17.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 14842,
+            "fileSize": 14835,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -858,7 +384,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 9,
+            "version": 12,
             "internalName": "FilmModu",
             "description": "Film modun geldiyse yüksek kalitede en yeni filmleri izle, 1080p izleyebileceğiniz reklamsiz film sitesi.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/FilmModu.cs3",
@@ -867,7 +393,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:35.857191Z"
+                "kekikdevam": "2025-08-11T18:35:00.368529Z"
             },
             "addedAt": "2025-05-23T11:21:55.490760Z"
         },
@@ -875,7 +401,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilm.us&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 18151,
+            "fileSize": 18210,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -885,7 +411,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 29,
+            "version": 31,
             "internalName": "FullHDFilm",
             "description": "Fullhdfilm ile en yeni vizyon filmler Full HD ve kesintisiz film sizlerle. Özgün film arşivimizle en üstün kaliteli film izle keyfini sunuyoruz.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/FullHDFilm.cs3",
@@ -894,41 +420,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:36.040023Z"
+                "kekikdevam": "2025-08-11T18:35:00.533671Z"
             },
             "addedAt": "2025-05-23T11:21:55.490769Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilmizlede.net&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 15199,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 2,
-            "internalName": "FullHDFilmİzlede",
-            "description": "En güncel ve popüler filmleri Full HD kalitesinde, Türkçe altyazılı veya Türkçe dublaj seçenekleriyle izleyebileceğiniz tek adres! Sinema tutkunları için en özel film deneyimini yaşamak için fullhdfilmizlede.net",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/FullHDFilmİzlede.cs3",
-            "name": "FullHDFilmİzlede",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:36.246725Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490777Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.fullhdfilmizlesene.de&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 31426,
+            "fileSize": 33301,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -937,7 +437,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 17,
+            "version": 23,
             "internalName": "FullHDFilmizlesene",
             "description": "Sinema zevkini evinize kadar getirdik. Türkiye'nin lider Film sitesinde, en yeni filmleri Full HD izleyin.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/FullHDFilmizlesene.cs3",
@@ -946,68 +446,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:36.441309Z"
+                "kekikdevam": "2025-08-11T18:35:00.656449Z"
             },
             "addedAt": "2025-05-23T11:21:55.490786Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=fullporner.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 12287,
-            "status": 1,
-            "language": "en",
-            "authors": [
-                "coxju",
-                "SaurabhKaperwan"
-            ],
-            "tvTypes": [
-                "NSFW"
-            ],
-            "version": 4,
-            "internalName": "FullPorner",
-            "description": "(VPN) FullPorner is the best free full length porn video site. Choose from millions of hardcore videos that stream quickly and in high quality and only full length",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/FullPorner.cs3",
-            "name": "FullPorner",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:36.607007Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490794Z"
-        },
-        {
-            "iconUrl": "https://www.giniko.com/images/favicon.ico",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 11018,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kraptor"
-            ],
-            "tvTypes": [
-                "Live"
-            ],
-            "version": 1,
-            "internalName": "GinikoCanli",
-            "description": "Vpn Gerekli! Dünyanın tüm ülkelerinden ücretsiz çevrimiçi TV.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/GinikoCanli.cs3",
-            "name": "GinikoCanli",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:36.794463Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490803Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 20237,
+            "fileSize": 25523,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1018,7 +465,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 13,
+            "version": 21,
             "internalName": "HDFilmCehennemi",
             "description": "Türkiye'nin en hızlı hd film izleme sitesi",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/HDFilmCehennemi.cs3",
@@ -1027,115 +474,9 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:36.982009Z"
+                "kekikdevam": "2025-08-11T18:35:00.779792Z"
             },
             "addedAt": "2025-05-23T11:21:55.490811Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=www.hdfilmcehennemi2.nl&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 23797,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 4,
-            "internalName": "HDFilmCehennemi2",
-            "description": "Full hd film izleme keyfini hdfilmcehennemi2 ile yaşayın. Türkiyenin en güncel yüksek hd kalitede film izleme sitesi.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/HDFilmCehennemi2.cs3",
-            "name": "HDFilmCehennemi2",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:37.175673Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490820Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmizle.to&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 27426,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie",
-                "TvSeries"
-            ],
-            "version": 3,
-            "internalName": "HDFilmIzle",
-            "description": "HDFilmizle ile Full HD izle, 1080p kalitede Yerli ve Yabancı filmlerle Türkçe dublaj veya Altyazı olarak kesintisiz film izlemenin tadını çıkarın.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/HDFilmIzle.cs3",
-            "name": "HDFilmIzle",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:37.345647Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490828Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmsitesi.net&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 22395,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 9,
-            "internalName": "HDFilmSitesi",
-            "description": "Film izle, Hdfilmsitesi ile Online 1080p ve 4K kalite Full HD Filmlere Türkçe Dublaj ve Altyazılı olarak Reklamsız Kesintisiz HD Film izle.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/HDFilmSitesi.cs3",
-            "name": "HDFilmSitesi",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:37.538717Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490837Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=hqporner.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 17213,
-            "status": 1,
-            "language": "en",
-            "authors": [
-                "keyiflerolsun",
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "NSFW"
-            ],
-            "version": 4,
-            "internalName": "HQPorner",
-            "description": "Truly high definition porn videos and truly for free! We're sure you'll like our best collection containing thousands of 4K, 60FPS and 1080p free HD porn videos with the hottest girls ever!",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/HQPorner.cs3",
-            "name": "HQPorner",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:37.734698Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490845Z"
         },
         {
             "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3vCp6N1K4bECoYRQD-cisJF2_6V_Hk01ZhDmoPR2JuM8O5qr4MqrPO1munM9cRlleBBSK6odYhLtDBWv4E3vhPhynlmS5hVVtJZShHoGA5REQ8_3v8SIlccTEqzVQu2UJyNYQdJNrKIfWy66RQeT0D-CcmFCbHPz5023H6p2v5fv4NVloZ5Rqo_yGrIY/s320/iNat-Box-App.png",
@@ -1162,67 +503,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:37.958979Z"
+                "kekikdevam": "2025-08-11T18:35:00.926545Z"
             },
             "addedAt": "2025-05-23T11:21:55.490854Z"
-        },
-        {
-            "iconUrl": "https://iptvplay.stream/favicon.ico",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 11703,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kraptor"
-            ],
-            "tvTypes": [
-                "Live"
-            ],
-            "version": 1,
-            "internalName": "IpTvPlayStream",
-            "description": "Watch free IPTV channels from around the world.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/IpTvPlayStream.cs3",
-            "name": "IpTvPlayStream",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:38.134344Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490862Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 18677,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "patr0n"
-            ],
-            "tvTypes": [
-                "Live"
-            ],
-            "version": 3,
-            "internalName": "iptvSevenler",
-            "description": "iptvSevenler",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/iptvSevenler.cs3",
-            "name": "iptvSevenler",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:38.324217Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490871Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://jetfilmizle.de&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 13748,
+            "fileSize": 16498,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1231,7 +520,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 34,
+            "version": 38,
             "internalName": "JetFilmizle",
             "description": "Binlerce Film İzleme Seçeneğiyle En İyi Film İzleme Sitesi",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/JetFilmizle.cs3",
@@ -1240,7 +529,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:38.496383Z"
+                "kekikdevam": "2025-08-11T18:35:01.036402Z"
             },
             "addedAt": "2025-05-23T11:21:55.490879Z"
         },
@@ -1266,7 +555,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:38.661309Z"
+                "kekikdevam": "2025-08-11T18:35:01.192082Z"
             },
             "addedAt": "2025-05-23T11:21:55.490888Z"
         },
@@ -1274,7 +563,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=kultfilmler.net&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 21785,
+            "fileSize": 21868,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1293,15 +582,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:38.840543Z"
+                "kekikdevam": "2025-08-11T18:35:01.307621Z"
             },
             "addedAt": "2025-05-23T11:21:55.490896Z"
         },
         {
-            "iconUrl": "https://iosmirror.cc/img/nf2/icon_x192.png",
+            "iconUrl": "https://netfree2.cc/mobile/img/nf2/icon_x192.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 38595,
+            "fileSize": 42912,
             "status": 1,
             "language": "hi",
             "authors": [
@@ -1312,7 +601,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 19,
+            "version": 31,
             "internalName": "NetflixMirror",
             "description": "Netflix, PrimeVideo Content in Multiple Languages",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/NetflixMirror.cs3",
@@ -1321,116 +610,9 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:39.040322Z"
+                "kekikdevam": "2025-08-11T18:35:01.433559Z"
             },
             "addedAt": "2025-05-23T11:21:55.490907Z"
-        },
-        {
-            "iconUrl": "https://cdn1.iconfinder.com/data/icons/nsfw-1/64/tv-adult-content-porn-512.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 14005,
-            "status": 1,
-            "language": "ru",
-            "authors": [
-                "keyiflerolsun",
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "NSFW",
-                "Live"
-            ],
-            "version": 2,
-            "internalName": "OxAx",
-            "description": "(VPN) ОХ-АХ.ТВ - сайт для просмотра взрослых ТВ онлайн без каких либо регистраций. Смотрите бесплатно на мобильных устройствах iPad, iPhone и Android.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/OxAx.cs3",
-            "name": "OxAx",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:39.206779Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490915Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=pornhub.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 11465,
-            "status": 1,
-            "language": "en",
-            "authors": [
-                "keyiflerolsun",
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "NSFW"
-            ],
-            "version": 2,
-            "internalName": "PornHub",
-            "description": "(VPN) Pornhub is the world’s leading free porn site. Choose from millions of hardcore videos that stream quickly and in high quality, including amazing VR Porn. The largest adult site on the Internet just keeps getting better. We have more pornstars and real amateurs than anyone else. It’s fast, it’s free, it’s Pornhub!",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/PornHub.cs3",
-            "name": "PornHub",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:39.403618Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490924Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 18684,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "patr0n"
-            ],
-            "tvTypes": [
-                "TvSeries"
-            ],
-            "version": 3,
-            "internalName": "powerDizi",
-            "description": "powerDizi",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/powerDizi.cs3",
-            "name": "powerDizi",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:39.609221Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490932Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 18673,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "patr0n"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 3,
-            "internalName": "powerSinema",
-            "description": "powerSinema",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/powerSinema.cs3",
-            "name": "powerSinema",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:39.807201Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490941Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=rarefilmm.com&sz=%size%",
@@ -1454,7 +636,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:39.962770Z"
+                "kekikdevam": "2025-08-11T18:35:01.594316Z"
             },
             "addedAt": "2025-05-23T11:21:55.490949Z"
         },
@@ -1485,67 +667,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:40.178691Z"
+                "kekikdevam": "2025-08-11T18:35:01.708506Z"
             },
             "addedAt": "2025-05-23T11:21:55.490958Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=roketdizi.co&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 20738,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "TvSeries"
-            ],
-            "version": 8,
-            "internalName": "RoketDizi",
-            "description": "Türkiye'nin en tatlış yabancı dizi izleme sitesi. Türkçe dublaj, altyazılı, eski ve yeni yabancı dizilerin yanı sıra kore (asya) dizileri izleyebilirsiniz.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/RoketDizi.cs3",
-            "name": "RoketDizi",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:40.349535Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490966Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=selcukflix.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 28865,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie, TvSeries"
-            ],
-            "version": 2,
-            "internalName": "SelcukFlix",
-            "description": "Selcukflix'te her türden en yeni ve en popüler dizi ve filmleri izlemenin keyfini çıkarın. Aksiyondan romantiğe, bilim kurgudan dramaya, geniş kütüphanemizde herkes için bir şey var.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/SelcukFlix.cs3",
-            "name": "SelcukFlix",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:40.553956Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.490976Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.setfilmizle.nl&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 21770,
+            "fileSize": 19210,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1555,7 +685,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 20,
+            "version": 23,
             "internalName": "SetFilmIzle",
             "description": "Setfilmizle sitemizde, donma yaşamadan Türkçe dublaj ve altyazılı filmleri ile dizileri muhteşem 1080p full HD kalitesinde izleyebilirsiniz.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/SetFilmIzle.cs3",
@@ -1564,7 +694,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:40.735233Z"
+                "kekikdevam": "2025-08-11T18:35:01.827862Z"
             },
             "addedAt": "2025-05-23T11:21:55.490985Z"
         },
@@ -1572,7 +702,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=sezonlukdizi6.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 18745,
+            "fileSize": 18746,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1591,35 +721,9 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:40.926655Z"
+                "kekikdevam": "2025-08-11T18:35:01.953521Z"
             },
             "addedAt": "2025-05-23T11:21:55.490995Z"
-        },
-        {
-            "iconUrl": "https://sinefy3.com/assets/img/sinefy/icon-144x144.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 19509,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kraptor"
-            ],
-            "tvTypes": [
-                "Movie, TvSeries"
-            ],
-            "version": 1,
-            "internalName": "Sinefy",
-            "description": "Yabancı film izle olarak vizyondaki en yeni yabancı filmleri türkçe dublaj ve altyazılı olarak en hızlı şekilde full hd olarak sizlere sunuyoruz.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/Sinefy.cs3",
-            "name": "Sinefy",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:41.182893Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491004Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.sinema.cx&sz=%size%",
@@ -1643,73 +747,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:41.350062Z"
+                "kekikdevam": "2025-08-11T18:35:02.057215Z"
             },
             "addedAt": "2025-05-23T11:21:55.491014Z"
-        },
-        {
-            "iconUrl": "https://play-lh.googleusercontent.com/brwGNmr7IjA_MKk_TTPs0va10hdKE_bD_a1lnKoiMuCayW98EHpRv55edA6aEoJlmwfX",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 25307,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "keyiflerolsun",
-                "yusiqo",
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie",
-                "TvSeries",
-                "Anime"
-            ],
-            "version": 12,
-            "internalName": "SineWix",
-            "description": "Sinewix | Ücretsiz Film - Dizi - Anime İzleme Uygulaması.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/SineWix.cs3",
-            "name": "SineWix",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:41.553770Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491023Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=spankbang.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 12167,
-            "status": 1,
-            "language": "en",
-            "authors": [
-                "coxju",
-                "keyiflerolsun",
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "NSFW"
-            ],
-            "version": 2,
-            "internalName": "SpankBang",
-            "description": "(VPN) SpankBang is the hottest free porn site in the world! Cum like never before and explore millions of fresh and free porn videos! Get lit on SpankBang!",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/SpankBang.cs3",
-            "name": "SpankBang",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:41.714004Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491031Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.superfilmgeldi.info&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 18277,
+            "fileSize": 18281,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1718,7 +764,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 9,
+            "version": 12,
             "internalName": "SuperFilmGeldi",
             "description": "Hd film izliyerek arkadaşlarınızla ve sevdiklerinizle iyi bir vakit geçirmek istiyorsanız açın bir film eğlenmeye bakın. Bilim kurgu filmleri, aşk drama vahşet aşk romantik sıradışı korku filmlerini izle.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/SuperFilmGeldi.cs3",
@@ -1727,35 +773,9 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:41.890968Z"
+                "kekikdevam": "2025-08-11T18:35:02.193298Z"
             },
             "addedAt": "2025-05-23T11:21:55.491040Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=tafdi.info&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 11848,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 2,
-            "internalName": "Tafdi",
-            "description": "Türkçe altyazılı film izle, full hd olarak film izlemenin keyfini çıkarın. Türkiyenin en büyük film izleme platformu tafdi kalitesiyle sizlerle.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/Tafdi.cs3",
-            "name": "Tafdi",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:42.064545Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491048Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.tlctv.com.tr&sz=%size%",
@@ -1779,7 +799,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:42.225709Z"
+                "kekikdevam": "2025-08-11T18:35:02.358735Z"
             },
             "addedAt": "2025-05-23T11:21:55.491056Z"
         },
@@ -1787,7 +807,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=tranimaci.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 12637,
+            "fileSize": 12674,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1796,7 +816,7 @@
             "tvTypes": [
                 "Anime"
             ],
-            "version": 16,
+            "version": 17,
             "internalName": "TRanimaci",
             "description": "TRanimeci - Türkiye'nin Online Anime izleme sitesi.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/TRanimaci.cs3",
@@ -1805,7 +825,7 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:42.387823Z"
+                "kekikdevam": "2025-08-11T18:35:02.510809Z"
             },
             "addedAt": "2025-05-23T11:21:55.491065Z"
         },
@@ -1831,35 +851,9 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:42.559032Z"
+                "kekikdevam": "2025-08-11T18:35:02.637363Z"
             },
             "addedAt": "2025-05-23T11:21:55.491073Z"
-        },
-        {
-            "iconUrl": "https://www.trdiziizle.vip/fawn.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 19067,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kraptor"
-            ],
-            "tvTypes": [
-                "TvSeries"
-            ],
-            "version": 2,
-            "internalName": "TrDiziIzle",
-            "description": "Full hd ve tek parça hemde reklamsız yerli dizi izlemek mi istiyorsunuz? O halde bu site sorunsuz dizi izlemeniz için tam size göre",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/TrDiziIzle.cs3",
-            "name": "TrDiziIzle",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:42.769973Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491082Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.turkanime.co&sz=%size%",
@@ -1883,41 +877,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:42.917430Z"
+                "kekikdevam": "2025-08-11T18:35:02.763515Z"
             },
             "addedAt": "2025-05-23T11:21:55.491090Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=tvdiziler.cc&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 26718,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "TvSeries"
-            ],
-            "version": 2,
-            "internalName": "TvDiziler",
-            "description": "Ücretsiz yerli dizi izleme sitesi en popüler dizileri tek parça hd kalitesiyle ve reklamsız bedava olarak buradan tv dizileri izleyin.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/TvDiziler.cs3",
-            "name": "TvDiziler",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:43.216710Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491098Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=ugurfilm7.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 20970,
+            "fileSize": 20980,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1926,7 +894,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 5,
+            "version": 8,
             "internalName": "UgurFilm",
             "description": "Yabancı film izle, Türkçe dublaj ve Türkçe altyazılı film seçenekleriyle 720p ve 1080p HD kalitesinde film izle - Uğur Film full hd film izle.",
             "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/UgurFilm.cs3",
@@ -1935,87 +903,9 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:43.407187Z"
+                "kekikdevam": "2025-08-11T18:35:02.865088Z"
             },
             "addedAt": "2025-05-23T11:21:55.491107Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=uncutmaza.cc&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 9804,
-            "status": 1,
-            "language": "hi",
-            "authors": [
-                "coxju"
-            ],
-            "tvTypes": [
-                "NSFW"
-            ],
-            "version": 4,
-            "internalName": "UncutMaza",
-            "description": "(VPN) We Provide Huge Colocation of Hindi Porn (Uncut) Web Series",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/UncutMaza.cs3",
-            "name": "UncutMaza",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:43.549964Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491115Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=vavoo.to&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 12287,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Live"
-            ],
-            "version": 2,
-            "internalName": "Vavoo",
-            "description": "Vavoo Kanalları",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/Vavoo.cs3",
-            "name": "Vavoo",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:43.709481Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491123Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 18680,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "patr0n"
-            ],
-            "tvTypes": [
-                "Live"
-            ],
-            "version": 2,
-            "internalName": "vavooSpor",
-            "description": "vavooSpor",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/vavooSpor.cs3",
-            "name": "vavooSpor",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:43.913971Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491132Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=watch2movies.net&sz=%size%",
@@ -2039,42 +929,15 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:44.092683Z"
+                "kekikdevam": "2025-08-11T18:35:02.981822Z"
             },
             "addedAt": "2025-05-23T11:21:55.491140Z"
-        },
-        {
-            "iconUrl": "https://img.watch32.sx/xxrz/400x400/100/a9/5e/a95e15a880a9df3c045f6a5224daf576/a95e15a880a9df3c045f6a5224daf576.png",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 15279,
-            "status": 1,
-            "language": "en",
-            "authors": [
-                "kerimmkirac"
-            ],
-            "tvTypes": [
-                "Movie",
-                "TvSeries"
-            ],
-            "version": 3,
-            "internalName": "Watch32",
-            "description": "Watch32 is a Free Movies streaming site with over 10000 movies and TV-Series.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/Watch32.cs3",
-            "name": "Watch32",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:44.265840Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491149Z"
         },
         {
             "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 20852,
+            "fileSize": 20856,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -2092,143 +955,9 @@
                 "kekikdevam"
             ],
             "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:44.430923Z"
+                "kekikdevam": "2025-08-11T18:35:03.117370Z"
             },
             "addedAt": "2025-05-23T11:21:55.491157Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=wfilmizle.my&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 15334,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "Movie"
-            ],
-            "version": 3,
-            "internalName": "WFilmİzle",
-            "description": "Aile Filmleri izle, Yerli ve yabancı en yeni Aile filmlerini Full HD 1080p görüntü kalitesiyle Türkçe Dublaj ve Türkçe Altyazı seçenekleriyle izleyin.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/WFilmİzle.cs3",
-            "name": "WFilmİzle",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:44.621303Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491166Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=xhamster.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 10197,
-            "status": 1,
-            "language": "en",
-            "authors": [
-                "coxju"
-            ],
-            "tvTypes": [
-                "NSFW"
-            ],
-            "version": 2,
-            "internalName": "xHamster",
-            "description": "(VPN) 5 milyondan fazla Porno Videosunu ücretsiz izleyin.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/xHamster.cs3",
-            "name": "xHamster",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:44.830161Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491174Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=yabancidizi.tv&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 42409,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "nikyokki"
-            ],
-            "tvTypes": [
-                "TvSeries"
-            ],
-            "version": 4,
-            "internalName": "YabanciDizi",
-            "description": "Son çıkan yabancı dizi ve filmleri yabancidizi' de izle. En yeni yabancı film ve diziler, türkçe altyazılı yada dublaj olarak 1080p kalitesinde hd izle.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/YabanciDizi.cs3",
-            "name": "YabanciDizi",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:45.063649Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491185Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=youtube.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 14032,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "Cloudburst",
-                "keyiflerolsun"
-            ],
-            "tvTypes": [
-                "Others"
-            ],
-            "version": 5,
-            "internalName": "YouTube",
-            "description": "YouTube, izlediğiniz videolarla önerilerini iyileştirir. İlginizi çekebilecek içeriklerle dolu bir akış oluşturmak için video izlemeye başlayın.",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/YouTube.cs3",
-            "name": "YouTube",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:45.248547Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491193Z"
-        },
-        {
-            "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/yts.png",
-            "jarFileSize": 76378,
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/maarrem/cs-Kekik",
-            "fileSize": 15875,
-            "status": 1,
-            "language": "en",
-            "authors": [
-                "Phisher98"
-            ],
-            "tvTypes": [
-                "Movie",
-                "Torrent"
-            ],
-            "version": 4,
-            "internalName": "YTS",
-            "jarUrl": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/YTS.jar",
-            "description": "YTS Movies 4K Support (Torrent)",
-            "url": "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/YTS.cs3",
-            "name": "YTS",
-            "repoCodes": [
-                "kekikdevam"
-            ],
-            "repoTimestamps": {
-                "kekikdevam": "2025-08-11T17:22:45.414000Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.491202Z"
         }
     ]
 }
