@@ -4,7 +4,6 @@
             "iconUrl": "https://www.4kfilmizleme.net/wp-content/uploads/2022/09/4kfilmizlemefavicon-1.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 38988,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -30,7 +29,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.4kfilmizlesene.org&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 11215,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -56,7 +54,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=animecix.net&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 36815,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -85,7 +82,6 @@
             "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.animeizlesene.com&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 23974,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -113,7 +109,6 @@
             "iconUrl": "https://animeler.me/wp-content/uploads/cropped-animelerpw-48x48.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 21677,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -140,7 +135,6 @@
             "iconUrl": "https://animex.tr/wp-content/uploads/2024/06/favicon.ico",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 19783,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -163,10 +157,36 @@
             "addedAt": "2025-05-23T11:21:55.495671Z"
         },
         {
+            "iconUrl": "https://anizium.co/assets/images/logo.png",
+            "apiVersion": 1,
+            "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
+            "fileSize": 31774,
+            "status": 1,
+            "language": "tr",
+            "authors": [
+                "kerimmkirac"
+            ],
+            "tvTypes": [
+                "AnimeMovie",
+                "Anime"
+            ],
+            "version": 1,
+            "internalName": "Anizium",
+            "description": "Anizium ile dünyada ilk ve tek 4K Türkçe dublaj platformunda anime keyfini yaşa. En yeni animeleri İngilizce altyazı ve dublaj seçenekleriyle 1080p ve 4K kalitesinde HD izle.",
+            "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/Anizium.cs3",
+            "name": "Anizium",
+            "repoCodes": [
+                "kekikan"
+            ],
+            "repoTimestamps": {
+                "kekikan": "2025-08-14T21:01:40Z"
+            },
+            "addedAt": "2025-08-11T14:25:31.313297Z"
+        },
+        {
             "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQLGJxL_3l-lZofrxkC-vpKFzHzyKW-Z0lYg&s",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 31961,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -192,7 +212,6 @@
             "iconUrl": "https://asyaanimeleri.top/wp-content/uploads/2021/08/Asya-animeleri-12-e1629130525708.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 14894,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -218,7 +237,6 @@
             "iconUrl": "https://asyafanatiklerim.com/wp-content/uploads/2018/08/md_5aaeb1de75bea.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 14363,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -245,7 +263,6 @@
             "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://asyafilmizlesene.org&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 12456,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -271,7 +288,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.asyaking.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 15629,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -297,7 +313,6 @@
             "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://asyaminik.com/&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 13827,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -323,7 +338,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=belgeselx.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 21761,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -351,7 +365,6 @@
             "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.birasyadizi.com/&size=16",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 13087,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -377,7 +390,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=cizgimax.online&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 24668,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -404,7 +416,6 @@
             "iconUrl": "https://cizgivedizi.com/Logo.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 33708,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -430,7 +441,6 @@
             "iconUrl": "https://www.ddizi.im/images/logo.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 16380,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -456,7 +466,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=diziasia.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 16097,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -483,7 +492,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://www.diziasya.com/&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 27495,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -511,7 +519,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizibox.de&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 24350,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -538,7 +545,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizican.tv&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 15263,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -565,7 +571,6 @@
             "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://dizifun4.com&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 28246,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -592,7 +597,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizigom1.co&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 21914,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -620,7 +624,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizikorea.pw&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 29684,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -647,7 +650,6 @@
             "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://dizikral.nl/mofy/img/192x192_.png&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 19487,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -673,7 +675,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=dizilla.club&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 49281,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -701,7 +702,6 @@
             "iconUrl": "https://dizimag.me/uploads/logo/original/logo-5063.webp",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 29552,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -727,7 +727,6 @@
             "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.dizimom.mom&size=32",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 30394,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -753,7 +752,6 @@
             "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://dizimore.com&size=64",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 17715,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -780,7 +778,6 @@
             "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://dizipal953.com&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 18118,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -808,7 +805,6 @@
             "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://dizipal932.com&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 45031,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -835,7 +831,6 @@
             "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://dizist.club/&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 16884,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -861,7 +856,6 @@
             "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://diziwatch.tv&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 23255,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -888,7 +882,6 @@
             "iconUrl": "https://icons.iconarchive.com/icons/yohproject/crayon-cute/256/movies-icon.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 41038,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -916,7 +909,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.diziyou.co&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 14451,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -925,7 +917,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 27,
+            "version": 26,
             "internalName": "DiziYou",
             "description": "Diziyou en kaliteli Türkçe dublaj ve altyazılı yabancı dizi izleme sitesidir. Güncel ve efsanevi dizileri 1080p Full HD kalitede izlemek için hemen tıkla!",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/DiziYou.cs3",
@@ -942,7 +934,6 @@
             "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://filmekseni.net/&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 18912,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -968,7 +959,6 @@
             "iconUrl": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbK_Pe3vpG-yUVt1NvckDpaD6COLDitImrBUnHfAVA4fawhijE",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 17226,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -995,7 +985,6 @@
             "iconUrl": "https://filmizle.cx/favicon.ico",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 22094,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1004,7 +993,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 14,
+            "version": 13,
             "internalName": "FilmIzle",
             "description": "Filmizle ile Full HD Film izle. Yerli ve yabancı filmleri Türkçe dublaj veya Alt yazılı seçeneğiyle kesintisiz ve sorunsuz en hızlı film sitesi.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/FilmIzle.cs3",
@@ -1021,7 +1010,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=filmmakinesi.film&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 25298,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1051,7 +1039,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.filmmodu17.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 14944,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1077,7 +1064,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilm.pro&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 21303,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1105,7 +1091,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.fullhdfilmizlesene.de&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 18299,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1114,7 +1099,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 14,
+            "version": 15,
             "internalName": "FullHDFilmizlesene",
             "description": "Sinema zevkini evinize kadar getirdik. Türkiye'nin lider Film sitesinde, en yeni filmleri Full HD izleyin.",
             "url": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/FullHDFilmizlesene.cs3",
@@ -1131,7 +1116,6 @@
             "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://fullhdizle.one/&size=48",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 11584,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1157,7 +1141,6 @@
             "iconUrl": "https://www.giniko.com/images/favicon.ico",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 10986,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1183,7 +1166,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 33049,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1212,7 +1194,6 @@
             "iconUrl": "https://hdfilmcehennemi2.rip/wp-content/uploads/2023/07/favi.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 16293,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1238,7 +1219,6 @@
             "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://hintdizi.com&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 15048,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1264,7 +1244,6 @@
             "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3vCp6N1K4bECoYRQD-cisJF2_6V_Hk01ZhDmoPR2JuM8O5qr4MqrPO1munM9cRlleBBSK6odYhLtDBWv4E3vhPhynlmS5hVVtJZShHoGA5REQ8_3v8SIlccTEqzVQu2UJyNYQdJNrKIfWy66RQeT0D-CcmFCbHPz5023H6p2v5fv4NVloZ5Rqo_yGrIY/s320/iNat-Box-App.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 29016,
             "status": 3,
             "language": "tr",
             "authors": [
@@ -1294,7 +1273,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://jetfilmizle.de&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 22708,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1321,7 +1299,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.koreanturk.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 12178,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1347,7 +1324,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=kultfilmler.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 20156,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1374,7 +1350,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=rarefilmm.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 14855,
             "status": 1,
             "language": "en",
             "authors": [
@@ -1400,7 +1375,6 @@
             "iconUrl": "https://rectvapk.cc/wp-content/uploads/2023/02/Rec-TV.webp",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 20788,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1431,7 +1405,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=roketdizi.co&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 40593,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1458,7 +1431,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=seicode.net&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 20383,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1486,7 +1458,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.setfilmizle.de&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 26867,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1514,7 +1485,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=sezonlukdizi6.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 22757,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1541,7 +1511,6 @@
             "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sinefy3.com/&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 20301,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1568,7 +1537,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.sinema.cx&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 13909,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1594,7 +1562,6 @@
             "iconUrl": "https://play-lh.googleusercontent.com/brwGNmr7IjA_MKk_TTPs0va10hdKE_bD_a1lnKoiMuCayW98EHpRv55edA6aEoJlmwfX=w240-h480",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 37262,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1624,7 +1591,6 @@
             "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sinezy.org/&size=48",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 14152,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1650,7 +1616,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.superfilmgeldi.biz&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 18615,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1677,7 +1642,6 @@
             "iconUrl": "https://www.trdiziizle.vip/fawn.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 19123,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1703,7 +1667,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.turkanime.co&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 19292,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1730,7 +1693,6 @@
             "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ugurfilm9.com&size=128",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 21074,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1757,7 +1719,6 @@
             "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://unutulmazfilmler4.com/&size=64",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 42155,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1784,7 +1745,6 @@
             "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://webdramaturkey.org/&size=40",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 29551,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1813,7 +1773,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 21856,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1839,7 +1798,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=yabancidizi.tv&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 39034,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1865,7 +1823,6 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=yeniwatch.net.tr&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 15285,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -1889,10 +1846,9 @@
         },
         {
             "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://en.yts-official.mx&size=128",
-            "jarFileSize": 76378,
+            "jarFileSize": 76663,
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "fileSize": 15876,
             "status": 1,
             "language": "en",
             "authors": [
@@ -1902,7 +1858,7 @@
                 "Movie",
                 "Torrent"
             ],
-            "version": 10,
+            "version": 11,
             "internalName": "YTS",
             "jarUrl": "https://raw.githubusercontent.com/Kraptor123/cs-kekikanime/builds/YTS.jar",
             "description": "YTS Movies 4K Support (Torrent)",
@@ -1915,32 +1871,6 @@
                 "kekikan": "2025-08-14T21:01:40Z"
             },
             "addedAt": "2025-05-23T11:21:55.496174Z"
-        },
-        {
-            "repositoryUrl": "https://github.com/Kraptor123/cs-kekikanime",
-            "apiVersion": 1,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "kerimmkirac"
-            ],
-            "tvTypes": [
-                "AnimeMovie",
-                "Anime"
-            ],
-            "version": 1,
-            "internalName": "Anizium",
-            "description": "Anizium ile dünyada ilk ve tek 4K Türkçe dublaj platformunda anime keyfini yaşa. En yeni animeleri İngilizce altyazı ve dublaj seçenekleriyle 1080p ve 4K kalitesinde HD izle.",
-            "url": "https://github.com/Kraptor123/cs-kekikanime/raw/refs/heads/builds/Anizium.cs3",
-            "name": "Anizium",
-            "iconUrl": "https://anizium.co/assets/images/logo.png",
-            "repoCodes": [
-                "kekikan"
-            ],
-            "repoTimestamps": {
-                "kekikan": "2025-08-14T23:21:26.066560Z"
-            },
-            "addedAt": "2025-08-11T14:25:31.313297Z"
         }
     ]
 }
