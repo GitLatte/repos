@@ -23,7 +23,7 @@
                 "sarapcanagii"
             ],
             "repoTimestamps": {
-                "sarapcanagii": "2025-08-15T17:20:01.206280Z"
+                "sarapcanagii": "2025-08-15T18:33:05.741244Z"
             },
             "addedAt": "2025-05-23T11:21:55.499756Z"
         },
@@ -40,16 +40,16 @@
             "tvTypes": [
                 "Live"
             ],
-            "version": 7,
+            "version": 8,
             "internalName": "NeonSpor",
-            "description": "(BeIN Sport, Tivibu Spor ve Smart Spor için VPN Gerekebilir.) NeonSpor eklentisini de BeIN Sport, Tabii Spor, Tivibu Spor, Smart Spor, S Sport ve Diğer kanallar mevcuttur.",
+            "description": "(Açılmayan Spor Kanallar İçin VPN Gerekebilir.) NeonSpor eklentisinde BeIN Sports, Tabii Spor, S Sports, Exxen Spor, Smart Spor, Tivibu Spor ve Diğer kanallar mevcuttur.",
             "url": "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/builds/NeonSpor.cs3",
             "name": "NeonSpor",
             "repoCodes": [
                 "sarapcanagii"
             ],
             "repoTimestamps": {
-                "sarapcanagii": "2025-08-15T17:20:01.303585Z"
+                "sarapcanagii": "2025-08-15T18:33:05.918432Z"
             },
             "addedAt": "2025-05-23T11:21:55.499775Z"
         }
