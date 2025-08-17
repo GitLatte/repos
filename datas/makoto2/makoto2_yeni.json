@@ -58,31 +58,6 @@
             "addedAt": "2025-05-29T14:20:53.146851Z"
         },
         {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizipal683.com&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "Makoto Tokioki"
-            ],
-            "tvTypes": [
-                "Live"
-            ],
-            "version": 14,
-            "internalName": "DiziPal",
-            "description": "en yeni dizileri güvenli ve hızlı şekilde sunar.",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziPal.cs3",
-            "name": "DiziPal",
-            "repoCodes": [
-                "makoto2"
-            ],
-            "repoTimestamps": {
-                "makoto2": "2025-04-18T05:28:44Z"
-            },
-            "addedAt": "2025-05-29T14:20:53.146870Z"
-        },
-        {
             "iconUrl": "https://www.google.com/s2/favicons?domain=animecix.net&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
@@ -160,32 +135,6 @@
                 "makoto2": "2025-05-29T08:40:09Z"
             },
             "addedAt": "2025-05-29T14:20:53.146917Z"
-        },
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=ddizi.im&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "Makoto Tokioki"
-            ],
-            "tvTypes": [
-                "Movie",
-                "TvSeries"
-            ],
-            "version": 9,
-            "internalName": "DDizi",
-            "description": "DDizi içeriklerine bu eklenti sayesinde erişebilirsiniz",
-            "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DDizi.cs3",
-            "name": "DDizi",
-            "repoCodes": [
-                "makoto2"
-            ],
-            "repoTimestamps": {
-                "makoto2": "2025-08-17T11:18:05.201346Z"
-            },
-            "addedAt": "2025-05-29T14:20:53.146932Z"
         },
         {
             "iconUrl": "https://cizgivedizi.com/Logo.png",
@@ -292,33 +241,6 @@
             "addedAt": "2025-05-29T14:20:53.146992Z"
         },
         {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=dizilla.club&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "keyiflerolsun",
-                "Makoto Tokioki"
-            ],
-            "tvTypes": [
-                "TvSeries",
-                "Anime"
-            ],
-            "version": 8,
-            "internalName": "Dizilla",
-            "description": "Dizilla tüm yabancı dizileri ücretsiz olarak Türkçe Dublaj ve altyazılı seçenekleri ile 1080P kalite izleyebileceğiniz yeni nesil yabancı dizi izleme siteniz.",
-            "url": "https://raw.githubusercontent.com/Sertel392/Makotogecici/main/Dizilla.cs3",
-            "name": "Dizilla",
-            "repoCodes": [
-                "makoto2"
-            ],
-            "repoTimestamps": {
-                "makoto2": "2025-05-29T08:40:09Z"
-            },
-            "addedAt": "2025-05-29T14:20:53.147003Z"
-        },
-        {
             "iconUrl": "https://png.pngtree.com/png-clipart/20220823/ourmid/pngtree-turkey-country-flag-pin-icon-png-image_6120061.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/MakotoTokioki/Cloudstream-Turkce-Eklentiler",
@@ -366,7 +288,7 @@
                 "makoto2"
             ],
             "repoTimestamps": {
-                "makoto2": "2025-08-17T11:18:06.525923Z"
+                "makoto2": "2025-08-17T12:43:05.189734Z"
             },
             "addedAt": "2025-06-05T12:46:10.282904Z"
         },
@@ -468,7 +390,7 @@
                 "makoto2"
             ],
             "repoTimestamps": {
-                "makoto2": "2025-08-17T11:18:07.260153Z"
+                "makoto2": "2025-08-17T12:43:05.798789Z"
             },
             "addedAt": "2025-05-29T14:20:53.147091Z"
         },
@@ -543,7 +465,7 @@
                 "makoto2"
             ],
             "repoTimestamps": {
-                "makoto2": "2025-08-17T11:18:07.847613Z"
+                "makoto2": "2025-08-17T12:43:06.367726Z"
             },
             "addedAt": "2025-05-29T14:20:53.147117Z"
         }
