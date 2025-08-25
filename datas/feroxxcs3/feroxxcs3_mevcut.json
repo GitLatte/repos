@@ -24,7 +24,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:34.286656Z"
+                "feroxxcs3": "2025-08-25T21:19:47.312947Z"
             },
             "addedAt": "2025-05-23T11:21:55.487685Z"
         },
@@ -51,7 +51,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:34.552866Z"
+                "feroxxcs3": "2025-08-25T21:19:47.593083Z"
             },
             "addedAt": "2025-05-23T11:21:55.487706Z"
         },
@@ -78,7 +78,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:34.813511Z"
+                "feroxxcs3": "2025-08-25T21:19:47.888577Z"
             },
             "addedAt": "2025-08-05T18:37:57.162326Z"
         },
@@ -104,7 +104,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:35.049408Z"
+                "feroxxcs3": "2025-08-25T21:19:48.164448Z"
             },
             "addedAt": "2025-05-23T11:21:55.487725Z"
         },
@@ -130,7 +130,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:35.309457Z"
+                "feroxxcs3": "2025-08-25T21:19:48.475205Z"
             },
             "addedAt": "2025-05-23T11:21:55.487734Z"
         },
@@ -138,7 +138,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizibox.live&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/feroxx/Kekik-cloudstream",
-            "fileSize": 21298,
+            "fileSize": 21301,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -147,7 +147,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 21,
+            "version": 22,
             "internalName": "DiziBox",
             "description": "Yabancı Dizi izle, Tüm yabancı dizilerin yeni ve eski sezonlarını full hd izleyebileceğiniz elit site.",
             "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/DiziBox.cs3",
@@ -156,7 +156,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:35.526373Z"
+                "feroxxcs3": "2025-08-25T21:19:48.806468Z"
             },
             "addedAt": "2025-05-23T11:21:55.487742Z"
         },
@@ -182,7 +182,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:35.772204Z"
+                "feroxxcs3": "2025-08-25T21:19:49.100442Z"
             },
             "addedAt": "2025-05-23T11:21:55.487751Z"
         },
@@ -208,7 +208,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:36.019470Z"
+                "feroxxcs3": "2025-08-25T21:19:49.376662Z"
             },
             "addedAt": "2025-05-23T11:21:55.487759Z"
         },
@@ -216,7 +216,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizimom.plus&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/feroxx/Kekik-cloudstream",
-            "fileSize": 30904,
+            "fileSize": 30903,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -225,7 +225,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 19,
+            "version": 20,
             "internalName": "DiziMom",
             "description": "Binlerce yerli yabancı dizi arşivi, tüm sezonlar, kesintisiz bölümler. Sadece dizi izle, Dizimom heryerde seninle!",
             "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/DiziMom.cs3",
@@ -234,7 +234,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:36.294249Z"
+                "feroxxcs3": "2025-08-25T21:19:49.681119Z"
             },
             "addedAt": "2025-05-23T11:21:55.487769Z"
         },
@@ -262,7 +262,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:36.548922Z"
+                "feroxxcs3": "2025-08-25T21:19:49.981466Z"
             },
             "addedAt": "2025-05-23T11:21:55.487778Z"
         },
@@ -270,7 +270,7 @@
             "iconUrl": "https://cdn.diziyou6.com/wp-content/uploads/2020/04/diziyou-favicon.png",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/feroxx/Kekik-cloudstream",
-            "fileSize": 15797,
+            "fileSize": 15796,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -279,7 +279,7 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "version": 18,
+            "version": 19,
             "internalName": "DiziYou",
             "description": "Diziyou en kaliteli Türkçe dublaj ve altyazılı yabancı dizi izleme sitesidir. Güncel ve efsanevi dizileri 1080p Full HD kalitede izlemek için hemen tıkla!",
             "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/DiziYou.cs3",
@@ -288,7 +288,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:36.825278Z"
+                "feroxxcs3": "2025-08-25T21:19:50.255187Z"
             },
             "addedAt": "2025-05-23T11:21:55.487786Z"
         },
@@ -314,7 +314,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:37.070160Z"
+                "feroxxcs3": "2025-08-25T21:19:50.528540Z"
             },
             "addedAt": "2025-05-23T11:21:55.487795Z"
         },
@@ -340,7 +340,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:37.333106Z"
+                "feroxxcs3": "2025-08-25T21:19:50.858607Z"
             },
             "addedAt": "2025-05-23T11:21:55.487803Z"
         },
@@ -367,7 +367,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:37.573295Z"
+                "feroxxcs3": "2025-08-25T21:19:51.165037Z"
             },
             "addedAt": "2025-05-23T11:21:55.487812Z"
         },
@@ -393,7 +393,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:37.835688Z"
+                "feroxxcs3": "2025-08-25T21:19:51.500979Z"
             },
             "addedAt": "2025-05-23T11:21:55.487820Z"
         },
@@ -401,7 +401,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilm.us&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/feroxx/Kekik-cloudstream",
-            "fileSize": 18181,
+            "fileSize": 18179,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -411,7 +411,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 31,
+            "version": 32,
             "internalName": "FullHDFilm",
             "description": "Fullhdfilm ile en yeni vizyon filmler Full HD ve kesintisiz film sizlerle. Özgün film arşivimizle en üstün kaliteli film izle keyfini sunuyoruz.",
             "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/FullHDFilm.cs3",
@@ -420,7 +420,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:38.083757Z"
+                "feroxxcs3": "2025-08-25T21:19:51.840281Z"
             },
             "addedAt": "2025-05-23T11:21:55.487829Z"
         },
@@ -446,7 +446,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:38.342512Z"
+                "feroxxcs3": "2025-08-25T21:19:52.135548Z"
             },
             "addedAt": "2025-05-23T11:21:55.487837Z"
         },
@@ -474,7 +474,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:38.607856Z"
+                "feroxxcs3": "2025-08-25T21:19:52.468558Z"
             },
             "addedAt": "2025-05-23T11:21:55.487845Z"
         },
@@ -503,7 +503,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:38.838952Z"
+                "feroxxcs3": "2025-08-25T21:19:52.778119Z"
             },
             "addedAt": "2025-05-23T11:21:55.487854Z"
         },
@@ -529,7 +529,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:39.074026Z"
+                "feroxxcs3": "2025-08-25T21:19:53.084809Z"
             },
             "addedAt": "2025-05-23T11:21:55.487862Z"
         },
@@ -555,7 +555,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:39.284233Z"
+                "feroxxcs3": "2025-08-25T21:19:53.404775Z"
             },
             "addedAt": "2025-05-23T11:21:55.487870Z"
         },
@@ -563,7 +563,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=kultfilmler.net&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/feroxx/Kekik-cloudstream",
-            "fileSize": 21932,
+            "fileSize": 21934,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -573,7 +573,7 @@
                 "Movie",
                 "TvSeries"
             ],
-            "version": 11,
+            "version": 12,
             "internalName": "KultFilmler",
             "description": "Kült Filmler özenle en iyi filmleri derler ve iyi bir altyazılı film izleme deneyimi sunmayı amaçlar",
             "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/KultFilmler.cs3",
@@ -582,7 +582,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:39.543177Z"
+                "feroxxcs3": "2025-08-25T21:19:53.686224Z"
             },
             "addedAt": "2025-05-23T11:21:55.487879Z"
         },
@@ -610,7 +610,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:39.815433Z"
+                "feroxxcs3": "2025-08-25T21:19:53.996528Z"
             },
             "addedAt": "2025-05-23T11:21:55.487887Z"
         },
@@ -636,7 +636,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:40.071270Z"
+                "feroxxcs3": "2025-08-25T21:19:54.318680Z"
             },
             "addedAt": "2025-05-23T11:21:55.487896Z"
         },
@@ -644,7 +644,7 @@
             "iconUrl": "https://rectvapp.com.tr/wp-content/uploads/2024/08/cropped-cropped-Screenshot_2023-08-31_at_11.02.55_PM-removebg-preview-32x32.webp",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/feroxx/Kekik-cloudstream",
-            "fileSize": 20717,
+            "fileSize": 20719,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -658,7 +658,7 @@
                 "Live",
                 "TvSeries"
             ],
-            "version": 84,
+            "version": 85,
             "internalName": "RecTV",
             "description": "RecTv APK, Türkiye’deki en popüler Çevrimiçi Medya Akış platformlarından biridir. Filmlerin, Canlı Sporların, Web Dizilerinin ve çok daha fazlasının keyfini ücretsiz çıkarın.",
             "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/RecTV.cs3",
@@ -667,7 +667,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:40.298924Z"
+                "feroxxcs3": "2025-08-25T21:19:54.609488Z"
             },
             "addedAt": "2025-05-23T11:21:55.487904Z"
         },
@@ -694,7 +694,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:40.558710Z"
+                "feroxxcs3": "2025-08-25T21:19:54.894219Z"
             },
             "addedAt": "2025-05-23T11:21:55.487912Z"
         },
@@ -721,7 +721,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:40.809592Z"
+                "feroxxcs3": "2025-08-25T21:19:55.174723Z"
             },
             "addedAt": "2025-05-23T11:21:55.487921Z"
         },
@@ -729,7 +729,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.sinema.cx&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/feroxx/Kekik-cloudstream",
-            "fileSize": 14689,
+            "fileSize": 14694,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -738,7 +738,7 @@
             "tvTypes": [
                 "Movie"
             ],
-            "version": 11,
+            "version": 12,
             "internalName": "SinemaCX",
             "description": "Güncel ve en iyi yabancı filmleri yüksek görüntü kalitesinde, Türkçe dublaj ve altyazı seçenekleriyle filmleri full izleyin.",
             "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/SinemaCX.cs3",
@@ -747,7 +747,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:41.131020Z"
+                "feroxxcs3": "2025-08-25T21:19:55.459085Z"
             },
             "addedAt": "2025-05-23T11:21:55.487929Z"
         },
@@ -773,7 +773,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:41.384971Z"
+                "feroxxcs3": "2025-08-25T21:19:55.750040Z"
             },
             "addedAt": "2025-05-23T11:21:55.487938Z"
         },
@@ -799,7 +799,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:41.651494Z"
+                "feroxxcs3": "2025-08-25T21:19:56.047177Z"
             },
             "addedAt": "2025-05-23T11:21:55.487946Z"
         },
@@ -825,7 +825,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:41.912500Z"
+                "feroxxcs3": "2025-08-25T21:19:56.365604Z"
             },
             "addedAt": "2025-05-23T11:21:55.487954Z"
         },
@@ -851,7 +851,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:42.158269Z"
+                "feroxxcs3": "2025-08-25T21:19:56.656302Z"
             },
             "addedAt": "2025-05-23T11:21:55.487966Z"
         },
@@ -877,7 +877,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:42.419884Z"
+                "feroxxcs3": "2025-08-25T21:19:56.964021Z"
             },
             "addedAt": "2025-05-23T11:21:55.487975Z"
         },
@@ -903,7 +903,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:42.653446Z"
+                "feroxxcs3": "2025-08-25T21:19:57.286170Z"
             },
             "addedAt": "2025-05-23T11:21:55.487983Z"
         },
@@ -929,7 +929,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:42.895465Z"
+                "feroxxcs3": "2025-08-25T21:19:57.596416Z"
             },
             "addedAt": "2025-05-23T11:21:55.487991Z"
         },
@@ -955,7 +955,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2025-08-25T20:23:43.126887Z"
+                "feroxxcs3": "2025-08-25T21:19:57.894876Z"
             },
             "addedAt": "2025-05-23T11:21:55.488000Z"
         }
