@@ -1,10 +1,10 @@
 {
     "plugins": [
         {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=dizipal1219.com&sz=32",
+            "iconUrl": "https://www.google.com/s2/favicons?domain=dizipal1220.com&sz=32",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/sarapcanagii/Pitipitii",
-            "fileSize": 20395,
+            "fileSize": 20394,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -14,7 +14,7 @@
                 "TvSeries",
                 "Movie"
             ],
-            "version": 54,
+            "version": 55,
             "internalName": "DiziPal",
             "description": "En yeni dizileri güvenli ve hızlı şekilde sunar.",
             "url": "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/builds/DiziPal.cs3",
@@ -23,7 +23,7 @@
                 "sarapcanagii"
             ],
             "repoTimestamps": {
-                "sarapcanagii": "2025-11-26T17:20:46.499375Z"
+                "sarapcanagii": "2025-11-26T18:29:47.993569Z"
             },
             "addedAt": "2025-05-23T11:21:55.499756Z"
         },
@@ -49,7 +49,7 @@
                 "sarapcanagii"
             ],
             "repoTimestamps": {
-                "sarapcanagii": "2025-11-26T17:20:46.634552Z"
+                "sarapcanagii": "2025-11-26T18:29:48.163308Z"
             },
             "addedAt": "2025-05-23T11:21:55.499775Z"
         }
