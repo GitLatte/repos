@@ -23,7 +23,7 @@
                 "sarapcanagii"
             ],
             "repoTimestamps": {
-                "sarapcanagii": "2026-01-06T14:26:58.533458Z"
+                "sarapcanagii": "2026-01-06T15:27:41.186397Z"
             },
             "addedAt": "2025-05-23T11:21:55.499756Z"
         },
@@ -31,7 +31,7 @@
             "iconUrl": "https://www.google.com/s2/favicons?domain=colorhunt.co&sz=%size%",
             "apiVersion": 1,
             "repositoryUrl": "https://github.com/sarapcanagii/Pitipitii",
-            "fileSize": 18712,
+            "fileSize": 18814,
             "status": 1,
             "language": "tr",
             "authors": [
@@ -40,16 +40,16 @@
             "tvTypes": [
                 "Live"
             ],
-            "version": 9,
+            "version": 12,
             "internalName": "NeonSpor",
-            "description": "(Açılmayan Spor Kanallar İçin VPN Gerekebilir.) NeonSpor eklentisinde BeIN Sports, Tabii Spor, S Sports, Exxen Spor, Smart Spor, Tivibu Spor ve Diğer kanallar mevcuttur.",
+            "description": "(Açılmayan Spor Kanallar İçin VPN Gerekebilir.) NeonSpor eklentisi.",
             "url": "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/builds/NeonSpor.cs3",
             "name": "NeonSpor",
             "repoCodes": [
                 "sarapcanagii"
             ],
             "repoTimestamps": {
-                "sarapcanagii": "2026-01-06T14:26:58.721844Z"
+                "sarapcanagii": "2026-01-06T15:27:41.435509Z"
             },
             "addedAt": "2025-05-23T11:21:55.499775Z"
         }
