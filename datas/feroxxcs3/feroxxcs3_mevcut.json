@@ -23,7 +23,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:41.347772Z"
+                "feroxxcs3": "2026-07-09T15:57:34.607179Z"
             },
             "addedAt": "2026-03-26T15:07:57.170076Z"
         },
@@ -52,7 +52,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:41.690744Z"
+                "feroxxcs3": "2026-07-09T15:57:34.793280Z"
             },
             "addedAt": "2026-03-26T15:07:57.170103Z"
         },
@@ -79,7 +79,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:42.036772Z"
+                "feroxxcs3": "2026-07-09T15:57:34.970931Z"
             },
             "addedAt": "2026-03-26T15:07:57.170123Z"
         },
@@ -107,7 +107,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:42.350557Z"
+                "feroxxcs3": "2026-07-09T15:57:35.192350Z"
             },
             "addedAt": "2026-03-26T15:07:57.170140Z"
         },
@@ -135,7 +135,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:42.658342Z"
+                "feroxxcs3": "2026-07-09T15:57:35.381708Z"
             },
             "addedAt": "2026-03-26T15:07:57.170158Z"
         },
@@ -162,7 +162,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:43.002551Z"
+                "feroxxcs3": "2026-07-09T15:57:35.564630Z"
             },
             "addedAt": "2026-03-26T15:07:57.170173Z"
         },
@@ -189,7 +189,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:43.324613Z"
+                "feroxxcs3": "2026-07-09T15:57:35.730250Z"
             },
             "addedAt": "2026-03-26T15:07:57.170188Z"
         },
@@ -216,7 +216,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:43.700394Z"
+                "feroxxcs3": "2026-07-09T15:57:35.933666Z"
             },
             "addedAt": "2026-03-26T15:07:57.170202Z"
         },
@@ -243,7 +243,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:44.014918Z"
+                "feroxxcs3": "2026-07-09T15:57:36.107742Z"
             },
             "addedAt": "2026-03-26T15:07:57.170216Z"
         },
@@ -270,7 +270,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:44.321647Z"
+                "feroxxcs3": "2026-07-09T15:57:36.294509Z"
             },
             "addedAt": "2026-03-26T15:07:57.170230Z"
         },
@@ -297,7 +297,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:44.675905Z"
+                "feroxxcs3": "2026-07-09T15:57:36.475909Z"
             },
             "addedAt": "2026-03-26T15:07:57.170244Z"
         },
@@ -326,14 +326,14 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:45.038409Z"
+                "feroxxcs3": "2026-07-09T15:57:36.650559Z"
             },
             "addedAt": "2026-03-26T15:07:57.170258Z"
         },
         {
             "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/DiziPalOriginal.cs3",
             "status": 1,
-            "version": 72,
+            "version": 73,
             "name": "DiziPalOriginal",
             "internalName": "DiziPalOriginal",
             "authors": [
@@ -341,7 +341,7 @@
                 "muratcesmecioglu"
             ],
             "description": "en yeni dizileri güvenli ve hızlı şekilde sunar.",
-            "fileSize": 24554,
+            "fileSize": 24552,
             "repositoryUrl": "https://github.com/feroxx/Kekik-cloudstream",
             "language": "tr",
             "tvTypes": [
@@ -350,12 +350,12 @@
             ],
             "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizipal2036.com&sz=%size%",
             "apiVersion": 1,
-            "fileHash": "sha256-94a4f05e8ab0d930c99f1f7f31e6df87cc614e1c3806f528f24394e0bef39096",
+            "fileHash": "sha256-c16f857aeb20ca0d5a4fb07ccceb81c2f73dc41ae972ff00cde53e186b3f88cd",
             "repoCodes": [
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:45.382812Z"
+                "feroxxcs3": "2026-07-09T15:57:36.816804Z"
             },
             "addedAt": "2026-03-26T15:07:57.170272Z"
         },
@@ -382,7 +382,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:45.717260Z"
+                "feroxxcs3": "2026-07-09T15:57:36.976048Z"
             },
             "addedAt": "2026-03-26T15:07:57.170286Z"
         },
@@ -409,7 +409,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:46.070331Z"
+                "feroxxcs3": "2026-07-09T15:57:37.156723Z"
             },
             "addedAt": "2026-03-26T15:07:57.170300Z"
         },
@@ -437,7 +437,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:46.417311Z"
+                "feroxxcs3": "2026-07-09T15:57:37.356828Z"
             },
             "addedAt": "2026-03-26T15:07:57.170315Z"
         },
@@ -464,7 +464,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:46.745234Z"
+                "feroxxcs3": "2026-07-09T15:57:37.526270Z"
             },
             "addedAt": "2026-03-26T15:07:57.170350Z"
         },
@@ -492,7 +492,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:47.079636Z"
+                "feroxxcs3": "2026-07-09T15:57:37.685386Z"
             },
             "addedAt": "2026-03-26T15:07:57.170366Z"
         },
@@ -519,7 +519,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:47.453836Z"
+                "feroxxcs3": "2026-07-09T15:57:37.845378Z"
             },
             "addedAt": "2026-03-26T15:07:57.170381Z"
         },
@@ -548,7 +548,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:47.806429Z"
+                "feroxxcs3": "2026-07-09T15:57:38.027522Z"
             },
             "addedAt": "2026-03-26T15:07:57.170395Z"
         },
@@ -578,7 +578,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:48.152098Z"
+                "feroxxcs3": "2026-07-09T15:57:38.186753Z"
             },
             "addedAt": "2026-03-26T15:07:57.170409Z"
         },
@@ -605,7 +605,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:48.483514Z"
+                "feroxxcs3": "2026-07-09T15:57:38.349231Z"
             },
             "addedAt": "2026-03-26T15:07:57.170423Z"
         },
@@ -632,7 +632,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:48.822217Z"
+                "feroxxcs3": "2026-07-09T15:57:38.516862Z"
             },
             "addedAt": "2026-03-26T15:07:57.170436Z"
         },
@@ -660,7 +660,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:49.134855Z"
+                "feroxxcs3": "2026-07-09T15:57:38.681719Z"
             },
             "addedAt": "2026-03-26T15:07:57.170450Z"
         },
@@ -687,7 +687,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:49.470102Z"
+                "feroxxcs3": "2026-07-09T15:57:38.860225Z"
             },
             "addedAt": "2026-03-26T15:07:57.170480Z"
         },
@@ -719,7 +719,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:49.794233Z"
+                "feroxxcs3": "2026-07-09T15:57:39.029073Z"
             },
             "addedAt": "2026-03-26T15:07:57.170495Z"
         },
@@ -747,7 +747,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:50.141440Z"
+                "feroxxcs3": "2026-07-09T15:57:39.211014Z"
             },
             "addedAt": "2026-03-26T15:07:57.170509Z"
         },
@@ -775,7 +775,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:50.468903Z"
+                "feroxxcs3": "2026-07-09T15:57:39.407943Z"
             },
             "addedAt": "2026-03-26T15:07:57.170523Z"
         },
@@ -802,7 +802,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:50.802999Z"
+                "feroxxcs3": "2026-07-09T15:57:39.569708Z"
             },
             "addedAt": "2026-03-26T15:07:57.170538Z"
         },
@@ -832,7 +832,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:51.126425Z"
+                "feroxxcs3": "2026-07-09T15:57:39.746691Z"
             },
             "addedAt": "2026-03-29T21:36:19.071407Z"
         },
@@ -859,7 +859,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:51.477401Z"
+                "feroxxcs3": "2026-07-09T15:57:39.916644Z"
             },
             "addedAt": "2026-03-26T15:07:57.170566Z"
         },
@@ -886,7 +886,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:51.790411Z"
+                "feroxxcs3": "2026-07-09T15:57:40.086181Z"
             },
             "addedAt": "2026-03-26T15:07:57.170581Z"
         },
@@ -913,7 +913,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:52.102378Z"
+                "feroxxcs3": "2026-07-09T15:57:40.257004Z"
             },
             "addedAt": "2026-03-26T15:07:57.170596Z"
         },
@@ -940,7 +940,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:52.401503Z"
+                "feroxxcs3": "2026-07-09T15:57:40.417574Z"
             },
             "addedAt": "2026-03-26T15:07:57.170610Z"
         },
@@ -967,7 +967,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:52.765640Z"
+                "feroxxcs3": "2026-07-09T15:57:40.590404Z"
             },
             "addedAt": "2026-03-26T15:07:57.170624Z"
         },
@@ -994,7 +994,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:53.080657Z"
+                "feroxxcs3": "2026-07-09T15:57:40.773899Z"
             },
             "addedAt": "2026-03-26T15:07:57.170638Z"
         },
@@ -1021,7 +1021,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-09T12:06:53.388430Z"
+                "feroxxcs3": "2026-07-09T15:57:40.978138Z"
             },
             "addedAt": "2026-03-26T15:07:57.170652Z"
         }
