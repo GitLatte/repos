@@ -23,7 +23,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:15.047896Z"
+                "feroxxcs3": "2026-07-20T20:22:27.585077Z"
             },
             "addedAt": "2026-03-26T15:07:57.170076Z"
         },
@@ -45,14 +45,14 @@
             "tvTypes": [
                 "Anime"
             ],
-            "iconUrl": "https://anm.cx/favicon.ico",
+            "iconUrl": "https://animecix.tv/favicon.ico",
             "apiVersion": 1,
             "fileHash": "sha256-63a0b89a612fb5820898dcf02e73d8b8d9b558f5f0d8ccd7ab15fce2217cd89f",
             "repoCodes": [
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:15.340467Z"
+                "feroxxcs3": "2026-07-20T20:22:27.829344Z"
             },
             "addedAt": "2026-03-26T15:07:57.170103Z"
         },
@@ -79,7 +79,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:15.561914Z"
+                "feroxxcs3": "2026-07-20T20:22:28.068009Z"
             },
             "addedAt": "2026-03-26T15:07:57.170123Z"
         },
@@ -107,7 +107,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:15.834161Z"
+                "feroxxcs3": "2026-07-20T20:22:28.292711Z"
             },
             "addedAt": "2026-03-26T15:07:57.170140Z"
         },
@@ -135,7 +135,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:16.102069Z"
+                "feroxxcs3": "2026-07-20T20:22:28.508858Z"
             },
             "addedAt": "2026-03-26T15:07:57.170158Z"
         },
@@ -164,7 +164,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:16.420030Z"
+                "feroxxcs3": "2026-07-20T20:22:28.722437Z"
             },
             "addedAt": "2026-03-26T15:07:57.170173Z"
         },
@@ -191,7 +191,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:16.660271Z"
+                "feroxxcs3": "2026-07-20T20:22:28.925642Z"
             },
             "addedAt": "2026-03-26T15:07:57.170188Z"
         },
@@ -218,7 +218,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:16.902980Z"
+                "feroxxcs3": "2026-07-20T20:22:29.139897Z"
             },
             "addedAt": "2026-03-26T15:07:57.170202Z"
         },
@@ -245,7 +245,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:17.169717Z"
+                "feroxxcs3": "2026-07-20T20:22:29.376041Z"
             },
             "addedAt": "2026-03-26T15:07:57.170216Z"
         },
@@ -272,7 +272,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:17.398339Z"
+                "feroxxcs3": "2026-07-20T20:22:29.576283Z"
             },
             "addedAt": "2026-03-26T15:07:57.170230Z"
         },
@@ -299,14 +299,14 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:17.625329Z"
+                "feroxxcs3": "2026-07-20T20:22:29.782123Z"
             },
             "addedAt": "2026-03-26T15:07:57.170244Z"
         },
         {
             "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/DiziPal.cs3",
             "status": 1,
-            "version": 100,
+            "version": 101,
             "name": "DiziPal",
             "internalName": "DiziPal",
             "authors": [
@@ -314,21 +314,21 @@
                 "muratcesmecioglu"
             ],
             "description": "en yeni dizileri güvenli ve hızlı şekilde sunar.",
-            "fileSize": 29471,
+            "fileSize": 29473,
             "repositoryUrl": "https://github.com/feroxx/Kekik-cloudstream",
             "language": "tr",
             "tvTypes": [
                 "TvSeries",
                 "Movie"
             ],
-            "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizipal952.com&sz=%size%",
+            "iconUrl": "https://dizipal1563.com/assets/favicon/favicon-32x32.png?v=3",
             "apiVersion": 1,
-            "fileHash": "sha256-1516f7ac2aeaac4830cbd9707464cf4330ccc63be6ab8fb46cf7436f4b23d9d2",
+            "fileHash": "sha256-31cf1209c2bd718d0ea7339489b83642d2f386e250723bcb1859c34a2968873d",
             "repoCodes": [
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:17.876359Z"
+                "feroxxcs3": "2026-07-20T20:22:29.985140Z"
             },
             "addedAt": "2026-03-26T15:07:57.170258Z"
         },
@@ -350,14 +350,14 @@
                 "TvSeries",
                 "Movie"
             ],
-            "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizipal2036.com&sz=%size%",
+            "iconUrl": "https://chessplyimages.cfd/uploads/site/favicon-32x32.png",
             "apiVersion": 1,
             "fileHash": "sha256-716cd8a77498758c3e8cc294f93439cd58aee820080161a502aae0956a26940e",
             "repoCodes": [
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:18.106927Z"
+                "feroxxcs3": "2026-07-20T20:22:30.186810Z"
             },
             "addedAt": "2026-03-26T15:07:57.170272Z"
         },
@@ -377,14 +377,14 @@
             "tvTypes": [
                 "TvSeries"
             ],
-            "iconUrl": "https://cdn.diziyou6.com/wp-content/uploads/2020/04/diziyou-favicon.png",
+            "iconUrl": "https://cdn.diziyou.one/wp-content/uploads/2020/04/diziyou-favicon.png",
             "apiVersion": 1,
             "fileHash": "sha256-6261d0bb203f1870dec0f0e3eab2e6dba9404b36b2e83cef5e653f7bc112e72b",
             "repoCodes": [
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:18.398520Z"
+                "feroxxcs3": "2026-07-20T20:22:30.451925Z"
             },
             "addedAt": "2026-03-26T15:07:57.170286Z"
         },
@@ -412,7 +412,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:18.636474Z"
+                "feroxxcs3": "2026-07-20T20:22:30.725019Z"
             },
             "addedAt": "2026-03-26T15:07:57.170315Z"
         },
@@ -432,14 +432,14 @@
             "tvTypes": [
                 "Movie"
             ],
-            "iconUrl": "https://www.google.com/s2/favicons?domain=www.filmmodu17.com&sz=%size%",
+            "iconUrl": "https://www.filmmodu.one/icon/favicon.ico",
             "apiVersion": 1,
             "fileHash": "sha256-3150a6212f052ad843a8b9e67d65c82b35078f502bb9f5032b1af808d87b862e",
             "repoCodes": [
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:18.911440Z"
+                "feroxxcs3": "2026-07-20T20:22:30.967691Z"
             },
             "addedAt": "2026-03-26T15:07:57.170350Z"
         },
@@ -460,14 +460,14 @@
                 "Movie",
                 "TvSeries"
             ],
-            "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilm.us&sz=%size%",
+            "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilm.us&sz=%size%",
             "apiVersion": 1,
             "fileHash": "sha256-83de6f5e436bc671aef7925683ffa870a8f8264513d032e23e64b2d0d59515a4",
             "repoCodes": [
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:19.254921Z"
+                "feroxxcs3": "2026-07-20T20:22:31.187817Z"
             },
             "addedAt": "2026-03-26T15:07:57.170366Z"
         },
@@ -494,7 +494,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:19.487893Z"
+                "feroxxcs3": "2026-07-20T20:22:31.396765Z"
             },
             "addedAt": "2026-03-26T15:07:57.170381Z"
         },
@@ -523,7 +523,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:19.747189Z"
+                "feroxxcs3": "2026-07-20T20:22:31.616492Z"
             },
             "addedAt": "2026-03-26T15:07:57.170395Z"
         },
@@ -553,7 +553,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:19.991504Z"
+                "feroxxcs3": "2026-07-20T20:22:31.847318Z"
             },
             "addedAt": "2026-03-26T15:07:57.170409Z"
         },
@@ -580,7 +580,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:20.242546Z"
+                "feroxxcs3": "2026-07-20T20:22:32.101803Z"
             },
             "addedAt": "2026-03-26T15:07:57.170423Z"
         },
@@ -608,7 +608,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:20.525507Z"
+                "feroxxcs3": "2026-07-20T20:22:32.314440Z"
             },
             "addedAt": "2026-03-26T15:07:57.170450Z"
         },
@@ -635,7 +635,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:20.797774Z"
+                "feroxxcs3": "2026-07-20T20:22:32.535118Z"
             },
             "addedAt": "2026-03-26T15:07:57.170480Z"
         },
@@ -660,14 +660,14 @@
                 "Live",
                 "TvSeries"
             ],
-            "iconUrl": "https://rectvapp.com.tr/wp-content/uploads/2024/08/cropped-cropped-Screenshot_2023-08-31_at_11.02.55_PM-removebg-preview-32x32.webp",
+            "iconUrl": "https://rectv.org.tr/wp-content/uploads/2024/11/rectv-modified.webp",
             "apiVersion": 1,
             "fileHash": "sha256-d766dc69e3eda7c2c4170546c7dd31371d820cfcb9b055fe2298e41e57349aa1",
             "repoCodes": [
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:21.028773Z"
+                "feroxxcs3": "2026-07-20T20:22:32.755122Z"
             },
             "addedAt": "2026-03-26T15:07:57.170495Z"
         },
@@ -695,7 +695,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:21.267705Z"
+                "feroxxcs3": "2026-07-20T20:22:32.966425Z"
             },
             "addedAt": "2026-03-26T15:07:57.170509Z"
         },
@@ -723,7 +723,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:21.510804Z"
+                "feroxxcs3": "2026-07-20T20:22:33.206088Z"
             },
             "addedAt": "2026-03-26T15:07:57.170523Z"
         },
@@ -750,7 +750,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:21.748637Z"
+                "feroxxcs3": "2026-07-20T20:22:33.407626Z"
             },
             "addedAt": "2026-03-26T15:07:57.170538Z"
         },
@@ -780,7 +780,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:21.975438Z"
+                "feroxxcs3": "2026-07-20T20:22:33.637178Z"
             },
             "addedAt": "2026-03-29T21:36:19.071407Z"
         },
@@ -807,7 +807,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:22.236300Z"
+                "feroxxcs3": "2026-07-20T20:22:33.849056Z"
             },
             "addedAt": "2026-03-26T15:07:57.170566Z"
         },
@@ -834,7 +834,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:22.488987Z"
+                "feroxxcs3": "2026-07-20T20:22:34.085552Z"
             },
             "addedAt": "2026-03-26T15:07:57.170581Z"
         },
@@ -861,7 +861,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:22.716418Z"
+                "feroxxcs3": "2026-07-20T20:22:34.287357Z"
             },
             "addedAt": "2026-03-26T15:07:57.170596Z"
         },
@@ -888,7 +888,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:22.944121Z"
+                "feroxxcs3": "2026-07-20T20:22:34.508179Z"
             },
             "addedAt": "2026-03-26T15:07:57.170610Z"
         },
@@ -916,7 +916,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:23.198516Z"
+                "feroxxcs3": "2026-07-20T20:22:34.742276Z"
             },
             "addedAt": "2026-03-26T15:07:57.170638Z"
         },
@@ -936,14 +936,14 @@
             "tvTypes": [
                 "Movie"
             ],
-            "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
+            "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle3.xyz&sz=%size%",
             "apiVersion": 1,
             "fileHash": "sha256-7e41c527a4edbb278b793e948f155847b5795c99508a86d1b81aba5bc6a026fd",
             "repoCodes": [
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-07-20T18:06:23.503864Z"
+                "feroxxcs3": "2026-07-20T20:22:34.968520Z"
             },
             "addedAt": "2026-03-26T15:07:57.170652Z"
         }
