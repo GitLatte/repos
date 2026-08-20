@@ -1,30 +1,3 @@
 {
-    "plugins": [
-        {
-            "iconUrl": "https://www.google.com/s2/favicons?domain=colorhunt.co&sz=%size%",
-            "apiVersion": 1,
-            "repositoryUrl": "https://github.com/sarapcanagii/Pitipitii",
-            "fileSize": 19651,
-            "status": 1,
-            "language": "tr",
-            "authors": [
-                "sarapcanagii"
-            ],
-            "tvTypes": [
-                "Live"
-            ],
-            "version": 12,
-            "internalName": "NeonSpor",
-            "description": "(Açılmayan Spor Kanallar İçin VPN Gerekebilir.) NeonSpor eklentisi.",
-            "url": "https://raw.githubusercontent.com/sarapcanagii/Pitipitii/builds/NeonSpor.cs3",
-            "name": "NeonSpor",
-            "repoCodes": [
-                "sarapcanagii"
-            ],
-            "repoTimestamps": {
-                "sarapcanagii": "2026-08-20T15:35:52.535935Z"
-            },
-            "addedAt": "2025-05-23T11:21:55.499775Z"
-        }
-    ]
+    "plugins": []
 }
