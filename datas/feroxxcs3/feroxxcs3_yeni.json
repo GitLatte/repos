@@ -25,7 +25,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:23.842373Z"
+                "feroxxcs3": "2026-09-08T14:58:58.768030Z"
             },
             "addedAt": "2026-03-26T15:07:57.170103Z"
         },
@@ -52,7 +52,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:24.079208Z"
+                "feroxxcs3": "2026-09-08T14:58:59.124821Z"
             },
             "addedAt": "2026-03-26T15:07:57.170123Z"
         },
@@ -80,7 +80,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:24.344263Z"
+                "feroxxcs3": "2026-09-08T14:58:59.466597Z"
             },
             "addedAt": "2026-03-26T15:07:57.170140Z"
         },
@@ -108,7 +108,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:24.571751Z"
+                "feroxxcs3": "2026-09-08T14:58:59.797845Z"
             },
             "addedAt": "2026-03-26T15:07:57.170158Z"
         },
@@ -137,7 +137,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:24.837497Z"
+                "feroxxcs3": "2026-09-08T14:59:00.137040Z"
             },
             "addedAt": "2026-03-26T15:07:57.170173Z"
         },
@@ -164,7 +164,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:25.071438Z"
+                "feroxxcs3": "2026-09-08T14:59:00.470945Z"
             },
             "addedAt": "2026-03-26T15:07:57.170188Z"
         },
@@ -178,7 +178,7 @@
                 "keyiflerolsun"
             ],
             "description": "Yabancı Dizi izle, Tüm yabancı dizilerin yeni ve eski sezonlarını full hd izleyebileceğiniz elit site.",
-            "fileSize": 22623,
+            "fileSize": 30085,
             "repositoryUrl": "https://github.com/feroxx/Kekik-cloudstream",
             "language": "tr",
             "tvTypes": [
@@ -186,12 +186,12 @@
             ],
             "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizibox.live&sz=%size%",
             "apiVersion": 1,
-            "fileHash": "sha256-a64febe1430e7d417f57244e311b38a0a87d580114e3ea2d70bf4b2d2622197e",
+            "fileHash": "sha256-8ab5957d93c8fd9545179085605a9398d96d10209606aab5808e9efbcadb774f",
             "repoCodes": [
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:25.292632Z"
+                "feroxxcs3": "2026-09-08T14:59:00.794520Z"
             },
             "addedAt": "2026-03-26T15:07:57.170202Z"
         },
@@ -218,7 +218,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:25.560180Z"
+                "feroxxcs3": "2026-09-08T14:59:01.150767Z"
             },
             "addedAt": "2026-03-26T15:07:57.170216Z"
         },
@@ -245,7 +245,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:25.788749Z"
+                "feroxxcs3": "2026-09-08T14:59:01.570116Z"
             },
             "addedAt": "2026-03-26T15:07:57.170230Z"
         },
@@ -272,7 +272,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:26.031102Z"
+                "feroxxcs3": "2026-09-08T14:59:01.899171Z"
             },
             "addedAt": "2026-03-26T15:07:57.170244Z"
         },
@@ -301,14 +301,14 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:26.253286Z"
+                "feroxxcs3": "2026-09-08T14:59:02.245113Z"
             },
             "addedAt": "2026-03-26T15:07:57.170258Z"
         },
         {
             "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/DiziPalOriginal.cs3",
             "status": 1,
-            "version": 86,
+            "version": 88,
             "name": "DiziPalOriginal",
             "internalName": "DiziPalOriginal",
             "authors": [
@@ -316,7 +316,7 @@
                 "muratcesmecioglu"
             ],
             "description": "en yeni dizileri güvenli ve hızlı şekilde sunar.",
-            "fileSize": 25014,
+            "fileSize": 25008,
             "repositoryUrl": "https://github.com/feroxx/Kekik-cloudstream",
             "language": "tr",
             "tvTypes": [
@@ -325,12 +325,12 @@
             ],
             "iconUrl": "https://chessplyimages.cfd/uploads/site/favicon-32x32.png",
             "apiVersion": 1,
-            "fileHash": "sha256-c12d0f05dbda11d93e89796adcec655e4e282d9161ec1394e567c44c15c64240",
+            "fileHash": "sha256-5e1ea3eaea2f5eda9ac2a1242cec186bd680aaabb3273c89d84e68462886345a",
             "repoCodes": [
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:26.491991Z"
+                "feroxxcs3": "2026-09-08T14:59:02.628851Z"
             },
             "addedAt": "2026-03-26T15:07:57.170272Z"
         },
@@ -357,7 +357,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:26.712692Z"
+                "feroxxcs3": "2026-09-08T14:59:02.990969Z"
             },
             "addedAt": "2026-03-26T15:07:57.170286Z"
         },
@@ -385,7 +385,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:26.958839Z"
+                "feroxxcs3": "2026-09-08T14:59:03.345454Z"
             },
             "addedAt": "2026-03-26T15:07:57.170315Z"
         },
@@ -412,7 +412,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:27.206987Z"
+                "feroxxcs3": "2026-09-08T14:59:03.673854Z"
             },
             "addedAt": "2026-03-26T15:07:57.170350Z"
         },
@@ -440,7 +440,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:27.444815Z"
+                "feroxxcs3": "2026-09-08T14:59:03.998920Z"
             },
             "addedAt": "2026-03-26T15:07:57.170366Z"
         },
@@ -467,7 +467,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:27.678797Z"
+                "feroxxcs3": "2026-09-08T14:59:04.338308Z"
             },
             "addedAt": "2026-03-26T15:07:57.170381Z"
         },
@@ -496,7 +496,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:27.958615Z"
+                "feroxxcs3": "2026-09-08T14:59:04.698102Z"
             },
             "addedAt": "2026-03-26T15:07:57.170395Z"
         },
@@ -524,7 +524,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:28.188960Z"
+                "feroxxcs3": "2026-09-08T14:59:05.025553Z"
             },
             "addedAt": "2026-08-27T16:13:07.682607Z"
         },
@@ -554,7 +554,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:28.440977Z"
+                "feroxxcs3": "2026-09-08T14:59:05.393706Z"
             },
             "addedAt": "2026-03-26T15:07:57.170409Z"
         },
@@ -581,7 +581,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:28.672927Z"
+                "feroxxcs3": "2026-09-08T14:59:05.770052Z"
             },
             "addedAt": "2026-03-26T15:07:57.170423Z"
         },
@@ -609,7 +609,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:28.897466Z"
+                "feroxxcs3": "2026-09-08T14:59:06.111022Z"
             },
             "addedAt": "2026-03-26T15:07:57.170450Z"
         },
@@ -636,14 +636,14 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:29.147022Z"
+                "feroxxcs3": "2026-09-08T14:59:06.450099Z"
             },
             "addedAt": "2026-03-26T15:07:57.170480Z"
         },
         {
             "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/RecTV.cs3",
             "status": 1,
-            "version": 112,
+            "version": 113,
             "name": "RecTV",
             "internalName": "RecTV",
             "authors": [
@@ -663,14 +663,42 @@
             ],
             "iconUrl": "https://rectv.org.tr/wp-content/uploads/2024/11/rectv-modified.webp",
             "apiVersion": 1,
-            "fileHash": "sha256-75523577d2c6f1d5f899fa8b3574490c6c4bcac2c00cd222c9fa61b611082226",
+            "fileHash": "sha256-677234252676dd4e313a56c8092f8b736ba1733b201f6734ddf379addb9fd536",
             "repoCodes": [
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:29.382991Z"
+                "feroxxcs3": "2026-09-08T14:59:06.821620Z"
             },
             "addedAt": "2026-03-26T15:07:57.170495Z"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/SelcukFlix.cs3",
+            "status": 1,
+            "version": 1,
+            "name": "SelcukFlix",
+            "internalName": "SelcukFlix",
+            "authors": [
+                "patr0n"
+            ],
+            "description": "SelcukFlix eklentisi.",
+            "fileSize": 34047,
+            "repositoryUrl": "https://github.com/feroxx/Kekik-cloudstream",
+            "language": "tr",
+            "tvTypes": [
+                "Movie",
+                "TvSeries"
+            ],
+            "iconUrl": "https://selcukflix.co/assets/favicon/favicon-32x32.png",
+            "apiVersion": 1,
+            "fileHash": "sha256-0079ad57d0d5da64bd428e60ff496222db0693651e49e24da233b36dd2dbbf4d",
+            "repoCodes": [
+                "feroxxcs3"
+            ],
+            "repoTimestamps": {
+                "feroxxcs3": "2026-09-08T14:59:07.212164Z"
+            },
+            "addedAt": "2026-09-08T14:59:34.569305Z"
         },
         {
             "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/SetFilmIzle.cs3",
@@ -696,7 +724,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:29.628446Z"
+                "feroxxcs3": "2026-09-08T14:59:07.842179Z"
             },
             "addedAt": "2026-03-26T15:07:57.170509Z"
         },
@@ -724,7 +752,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:29.867376Z"
+                "feroxxcs3": "2026-09-08T14:59:08.172503Z"
             },
             "addedAt": "2026-03-26T15:07:57.170523Z"
         },
@@ -751,7 +779,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:30.101567Z"
+                "feroxxcs3": "2026-09-08T14:59:08.490155Z"
             },
             "addedAt": "2026-03-26T15:07:57.170538Z"
         },
@@ -781,7 +809,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:30.367721Z"
+                "feroxxcs3": "2026-09-08T14:59:08.855539Z"
             },
             "addedAt": "2026-03-29T21:36:19.071407Z"
         },
@@ -808,7 +836,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:30.606887Z"
+                "feroxxcs3": "2026-09-08T14:59:09.218546Z"
             },
             "addedAt": "2026-03-26T15:07:57.170566Z"
         },
@@ -835,7 +863,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:30.836531Z"
+                "feroxxcs3": "2026-09-08T14:59:09.546647Z"
             },
             "addedAt": "2026-03-26T15:07:57.170581Z"
         },
@@ -862,7 +890,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:31.067883Z"
+                "feroxxcs3": "2026-09-08T14:59:09.875802Z"
             },
             "addedAt": "2026-03-26T15:07:57.170596Z"
         },
@@ -889,7 +917,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:31.295664Z"
+                "feroxxcs3": "2026-09-08T14:59:10.204994Z"
             },
             "addedAt": "2026-03-26T15:07:57.170610Z"
         },
@@ -917,7 +945,7 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:31.526823Z"
+                "feroxxcs3": "2026-09-08T14:59:10.599478Z"
             },
             "addedAt": "2026-03-26T15:07:57.170638Z"
         },
@@ -947,21 +975,21 @@
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:31.803455Z"
+                "feroxxcs3": "2026-09-08T14:59:10.927229Z"
             },
             "addedAt": "2026-08-27T16:13:07.682772Z"
         },
         {
             "url": "https://raw.githubusercontent.com/feroxx/Kekik-cloudstream/builds/WebteIzle.cs3",
             "status": 1,
-            "version": 20,
+            "version": 21,
             "name": "WebteIzle",
             "internalName": "WebteIzle",
             "authors": [
                 "keyiflerolsun"
             ],
             "description": "Her türlü filmi ister dublaj ister altyazılı, en kaliteli bir şekilde izleyebileceğiniz arşivi en geniş gerçek film izleme siteniz.",
-            "fileSize": 24121,
+            "fileSize": 24117,
             "repositoryUrl": "https://github.com/feroxx/Kekik-cloudstream",
             "language": "tr",
             "tvTypes": [
@@ -969,12 +997,12 @@
             ],
             "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle3.xyz&sz=%size%",
             "apiVersion": 1,
-            "fileHash": "sha256-f7a8d287c87279a07a74ca627f62a12169a073bd1ff20870915bdd8fb7fb181f",
+            "fileHash": "sha256-c014c951be6263c0eea12449fa1ebf5b0cbd309bf7359afff7dc4f9720540d63",
             "repoCodes": [
                 "feroxxcs3"
             ],
             "repoTimestamps": {
-                "feroxxcs3": "2026-09-08T10:51:32.031756Z"
+                "feroxxcs3": "2026-09-08T14:59:11.248366Z"
             },
             "addedAt": "2026-03-26T15:07:57.170652Z"
         }
